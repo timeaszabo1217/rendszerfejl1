@@ -44,7 +44,7 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található  öbbé és kevésbé tapasztalt webprogramozó is.`
  - `Urbán Judit (<1 év tapasztalat)`
  - `ide kell irni azokat a neveket akik a kisebb részfeladatokért felelnek:`
- - `Lev Elek (<1 év tapasztalatő)`
+ - `Szabó Tímea (<1 év tapasztalatő)`
 
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
@@ -57,7 +57,7 @@ A projekt a következő emberekből áll:
 | Név          | Pozíció          |   E-mail cím (stud-os)        |
 |--------------|------------------|-------------------------------|
 | `Urbán Judit` | Projektmenedzser | `h165835@stud.u-szeged.hu`    |
-| `Remek Elek` | Projekt tag      | `h654321@stud.u-szeged.hu`    |
+| `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
@@ -70,6 +70,8 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
  - `Munkaállomások: 8 db, Windows 10-es operációs rendszerrel`
 
  - `Acer laptop (CPU:  i3-1115G4 , RAM: 4GB, GPU: )`
+
+ - `HP EliteBook (CPU: i7-3740QM, RAM: 14 GB, GPU: NVIDIA Quadro)`
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
