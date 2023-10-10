@@ -36,4 +36,14 @@ Vállalásaim a mérföldkőben:
 
 A feladathoz tartozó issue(k):
 
+#8
+
+#10
+
 A feladat elvégzését alátámasztó commit(ok):
+
+fada722eed051894f56da8cb282a42c0bcae0d2b
+e86842d146d83f5918dbef57c745a9845dd64f2c
+fca7a3d4624f62bce52dc28124b55a126df3f150
+
+fdd6d343d18398aaa5fd7d68f72aeba8832bd2bb
