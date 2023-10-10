@@ -45,7 +45,7 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Urbán Judit (<1 év tapasztalat)`
  - `Szabó Tímea (<1 év tapasztalat)`
  - `Nagy Péter  (<1 év tapasztalat)`
-
+ - `Durucz Ádám  (<1 év tapasztalat)`
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
@@ -75,6 +75,8 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
  - `HP EliteBook (CPU: i7-3740QM, RAM: 14 GB, GPU: NVIDIA Quadro)`
 
  - `Asus Zenbook 14x OLED (CPU: AMD Ryzen 5 5600H, RAM: 16 GB, GPU: AMD Radeon Graphics)`
+
+ - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
