@@ -13,6 +13,8 @@ A feladathoz tartozó issue(k):
 
 #8
 
+#9
+
 
 A feladat elvégzését alátámasztó commit(ok):
 
