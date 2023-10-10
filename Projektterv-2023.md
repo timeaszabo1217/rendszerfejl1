@@ -59,7 +59,7 @@ A projekt a következő emberekből áll:
 | `Urbán Judit` | Projektmenedzser | `h165835@stud.u-szeged.hu`    |
 | `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
-
+| `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
