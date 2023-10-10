@@ -222,11 +222,11 @@ Részfeladatai a következők:
 
 #### 8.2.1. Use Case diagram
 
-Felelős: `Teszt Elek`
+Felelős: `Nagy Péter`
 
-Tartam:  `3 nap`
+Tartam:  `8 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### 8.2.2. Class diagram
 
@@ -360,11 +360,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.10. Email-es kiértesítés új időpontfoglalás esetén `
 
-Felelős: `Lev Elek`
+Felelős: `Nagy Péter`
 
-Tartam:  `5 nap`
+Tartam:  `11 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `5 személynap`
 
 #### `8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt`
 
@@ -376,11 +376,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.12. Biztonsági mentés automatikus létrehozása`
 
-Felelős: `Lev Elek`
+Felelős: `Nagy Péter`
 
-Tartam:  `3 nap`
+Tartam:  `11 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `5 személynap`
 
 #### 8.3.13. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
 
@@ -448,11 +448,11 @@ Erőforrásigény:  `1 személynap`
 
 #### `8.4.5. Cikkek kezelésének tesztelése (TR)`
 
-Felelős: `Remek Elek`
+Felelős: `Nagy Péter`
 
-Tartam:  `1 nap`
+Tartam:  `7 nap`
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### `8.4.6. Tesztek elérése és kezelésének tesztelése (TR)`
 
