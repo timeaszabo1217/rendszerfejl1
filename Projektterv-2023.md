@@ -43,7 +43,7 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 
 A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található  öbbé és kevésbé tapasztalt webprogramozó is.`
  - `Urbán Judit (<1 év tapasztalat)`
- - `Szabó Tímea (<1 év tapasztalatő)`
+ - `Szabó Tímea (<1 év tapasztalat)`
 
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
