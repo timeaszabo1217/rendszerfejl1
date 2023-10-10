@@ -12,10 +12,13 @@ Vállalásaim a mérföldkőben:
 A feladathoz tartozó issue(k):
 
 #8
+#9
 
 
 A feladat elvégzését alátámasztó commit(ok):
 
 c0f90fc7a623907fba237abeb605235ab7cecf16
-467ac464409caae30b53bd3ac8bb894fafed424a
 a1d89960f7678e6d211252fd43e3124d21453d39
+
+fbe34d305c9fe60427a615457df913ca40baa896
+83f8825a5f04b5ae7abe3f003e23c5d53710dbda
