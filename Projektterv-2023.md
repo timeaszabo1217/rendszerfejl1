@@ -404,19 +404,11 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `1 személynap/fő`
 
-#### 8.3.14. Bemutató elkészítése
-
-Felelős: `Lev Elek`
-
-Tartam:  `1 nap`
-
-Erőforrásigény:  `0.5 személynap`
-
 ```
 Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként, azonban ezt a feladatot is részfeladatokra kell bontani.
 ```
 
-#### `8.3.15. A prototípus kitelepítése éles környezetbe` 
+#### `8.3.14. A prototípus kitelepítése éles környezetbe` 
 
 Felelős: `Teszt Elek`
 
