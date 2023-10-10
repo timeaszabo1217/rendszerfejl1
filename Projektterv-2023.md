@@ -529,7 +529,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név          |   M1  |   M2  |   M3 |   M4 | Összesen |
 |--------------|-------|-------|------|------|----------|
-| `Teszt Elek` | `2`   | `2`   | `7`  | `4`  | `15`     |
+| `Nagy Péter` | `2`   | `2`   | `7`  | `4`  | `15`     |
 | `Szabó Tímea` | `2`   | `1`   | `2`  | `1`  | `6`     |
 | `Lev Elek`   | `1`   | `2`   | `7`  | `4`  | `14`     |
 
@@ -538,7 +538,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név                                 | M1      | M2       | M3       | M4       | Összesen  |
 |-------------------------------------|---------|----------|----------|----------|-----------|
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
-| `Teszt Elek`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
+| `Nagy Péter`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `16`    | 70        |
 | `Lev Elek`                          | `4`     | `12`     | `30`     |  `24`    | 70        |
 
