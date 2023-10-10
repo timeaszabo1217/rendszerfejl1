@@ -74,13 +74,13 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
- - `Heroku platformszolgáltatás a webalkalmazás hosztolásához`
- - `Heroku által biztosított PostgreSQL adatbázisszerver`
- - `Spring Boot keretrendszer`
- - `Thymeleaf dinamikus tartalom megjelenítés a felhasználói felületen`
- - `Maven szoftverprojekt menedzselő szoftver`
- - `Eclipse IDE fejlesztőkörnyezet`
- - `Git verziókövető (GitLab)`
+ - `Node.js szerverkörnyezet a webalkalmazás futtatásához`
+ - `MongoDB adatbázis adataink tárolásáho`
+ - `Express.js webes alkalmazáskeret a szerver oldali fejlesztéshez`
+ - `React JavaScript könyvtár a felhasználói felület készítéséhez`
+ - `npm szoftvercsomag menedzser a projekt függőségeinek kezeléséhez`
+ - `Visual Studio Code IDE fejlesztőkörnyezet`
+ - `Git verziókövető rendszer (GitLab)`
  
 ```
 Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejlesztenek, milyen szoftverkörnyezetben, stb.
