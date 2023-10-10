@@ -25,3 +25,15 @@ c14bcbb41a6b7d0c9b167f84a389d61492585a64
 
 83f8825a5f04b5ae7abe3f003e23c5d53710dbda
 
+Projekt tag: Nagy Péter
+
+
+
+Vállalásaim a mérföldkőben:
+
+
+8.1.1. Projektterv kitöltése
+
+A feladathoz tartozó issue(k):
+
+A feladat elvégzését alátámasztó commit(ok):
