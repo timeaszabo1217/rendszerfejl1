@@ -121,31 +121,15 @@ A munkát `Teszt Elek` koordinálja. `Fő feladata, hogy folyamatosan egyeztesse
 
 ### 6.2. Csoportgyűlések
 
-`A projekt hetente ülésezik, hogy megvitassák az azt megelőző hét problémáit, illetve hogy megbeszéljék a következő hét feladatait. A megbeszélésről minden esetben memó készül.`
+`A csapat rendszeresen összeül, hogy elősegítse a projekt haladását és biztosítsa a gördülékeny kommunikációt. Az üléseken áttekintik az elmúlt hét kihívásait és megtervezik a következő heti feladatokat, melyről minden alkalommal készül egy rövid memó.`
 
 `1. megbeszélés:`
- - `Időpont: 2021.09.15.`
- - `Hely: SZTE Irinyi épület - Szeged, Tisza Lajos krt. 103`
- - `Résztvevők: Teszt Elek, Remek Elek, Lev Elek`
- - `Érintett témák: Ismerkedés, projekttéma kiválasztása`
+ - `Időpont: 2021.10.05.`
+ - `Hely: Nyugi Kert - Szeged, Vitéz u. 28.`
+ - `Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland`
+ - `Érintett témák: Ismerkedés, projekttéma kiválasztása, főbb feladatok meghatározása`
+ - `Tartalma: A megbeszélés elején lehetőséget biztosítottunk minden résztvevő számára, hogy bemutatkozzon és ismertesse saját háttértudását, mely a projekt során hasznosítható. Ezt követően konszenzus alapján meghatároztuk a megvalósítandó programot, valamint nagyvonalakban körvonalaztuk annak specifikációját és a követelményeket. Ezenfelül rögzítettük a projekt során elvégzendő főbb feladatokat, és tisztáztuk, kik vesznek részt az egyes fázisokban.`
 
-`2. megbeszélés:`
- - `Időpont: 2021.09.22.`
- - `Hely: Pivovár - Szeged, Vitéz utca 26.`
- - `Résztvevők: Teszt Elek, Remek Elek, Lev Elek`
- - `Érintett témák: A projektben használt technológiák rögzítése, a projektterv áttekintése, szerepkörök és vállalások kiosztása`
-
-`3. Megbeszélés:`
- - `Időpont: 2021.09.29.`
- - `Hely: TIK – Szeged, Ady tér 10.`
- - `Résztvevők: Teszt Elek, Remek Elek`
- - `Érintett témák: Egyeztetés az UML diagramokról, illetve az adatbázis táblák és kapcsolatok meghatározása`
-
-```
-A memókat a teljes projekt során vezetni kell, amely tartalmazza a következőket: 
-jelenlévők listája, megbeszélés helye és ideje, megbeszélt tevékenységek, felmerült kérdések és igények. 
-Lényege, hogy betekintést kapjunk hogyan szerveződnek, zajlanak a csoportgyűlések, milyen problémák, kérdések merültek fel.
-```
 
 ### 6.3. Minőségbiztosítás
 
