@@ -276,11 +276,11 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.6. Képernyőtervek
 
-Felelős: `Teszt Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `3 nap`
+Tartam:  `8 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.7. Bemutató elkészítése
 
@@ -358,11 +358,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.8. Bemutatkozó oldal`
 
-Felelős: `Lev Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `3 nap`
+Tartam:  `10 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### `8.3.9. Páciensek lecke oldala`
 
@@ -382,9 +382,9 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt`
 
-Felelős: `Lev Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `3 nap`
+Tartam:  `10 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -486,9 +486,9 @@ Erőforrásigény:  `0.5 személynap`
 
 #### `8.4.8. Email-es funkciók tesztelése (TR)`
 
-Felelős: `Lev Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `1 nap`
+Tartam:  `7 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
