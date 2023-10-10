@@ -520,7 +520,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
-| `Teszt Elek` | `1.5` | `1.5` | `11` | `5`   | `19`     |
+| `Nagy Péter` | `2` | `3` | `11` | `3`   | `19`     |
 | `Szabó Tímea` | `1.5`   | `4`   | `40` | `3.5`   | `49`     |
 | `Lev Elek`   | `1`   | `2.5` | `10` | `3.5` | `17`     |
 
