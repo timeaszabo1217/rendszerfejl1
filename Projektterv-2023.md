@@ -17,7 +17,7 @@
 
 ### 2.2. Funkcionális követelmények
 
- - `Felhasználók kezelése (admin, raktáros, sofőr) (CRUD)`
+ - `Felhasználók kezelése (admin, felhasználó) (CRUD)`
  - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
  - `Időpont foglalások kezelése (CRUD)`
  - `Cikkek kezelése (CRUD)`
@@ -34,7 +34,7 @@
 
 ## 3. Költség- és erőforrás-szükségletek
 
-Az erőforrásigényünk összesen `57` személynap, átlagosan `19` személynap/fő.
+Az erőforrásigényünk összesen `160` személynap, átlagosan `20` személynap/fő.
 
 A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 
@@ -43,7 +43,6 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 
 A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található  öbbé és kevésbé tapasztalt webprogramozó is.`
  - `Urbán Judit (<1 év tapasztalat)`
- - `ide kell irni azokat a neveket akik a kisebb részfeladatokért felelnek:`
  - `Szabó Tímea (<1 év tapasztalatő)`
 
 ```
