@@ -276,11 +276,11 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.6. Képernyőtervek
 
-Felelős: `Teszt Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `3 nap`
+Tartam:  `8 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.7. Bemutató elkészítése
 
@@ -358,11 +358,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.8. Bemutatkozó oldal`
 
-Felelős: `Lev Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `3 nap`
+Tartam:  `10 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### `8.3.9. Páciensek lecke oldala`
 
@@ -382,9 +382,9 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt`
 
-Felelős: `Lev Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `3 nap`
+Tartam:  `10 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -486,9 +486,9 @@ Erőforrásigény:  `0.5 személynap`
 
 #### `8.4.8. Email-es funkciók tesztelése (TR)`
 
-Felelős: `Lev Elek`
+Felelős: `Szabó Tímea`
 
-Tartam:  `1 nap`
+Tartam:  `7 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
@@ -535,7 +535,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
 | `Teszt Elek` | `1.5` | `1.5` | `11` | `5`   | `19`     |
-| `Remek Elek` | `1`   | `4`   | `13` | `3`   | `21`     |
+| `Szabó Tímea` | `1.5`   | `4`   | `40` | `3.5`   | `49`     |
 | `Lev Elek`   | `1`   | `2.5` | `10` | `3.5` | `17`     |
 
 
@@ -544,7 +544,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név          |   M1  |   M2  |   M3 |   M4 | Összesen |
 |--------------|-------|-------|------|------|----------|
 | `Teszt Elek` | `2`   | `2`   | `7`  | `4`  | `15`     |
-| `Remek Elek` | `1`   | `2`   | `7`  | `4`  | `14`     |
+| `Szabó Tímea` | `2`   | `1`   | `2`  | `1`  | `6`     |
 | `Lev Elek`   | `1`   | `2`   | `7`  | `4`  | `14`     |
 
 ### 10.3. Részletes költségvetés
@@ -553,7 +553,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 |-------------------------------------|---------|----------|----------|----------|-----------|
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
 | `Teszt Elek`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
-| `Remek Elek`                        | `4`     | `15`     | `35`     |  `16`    | 70        |
+| `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `16`    | 70        |
 | `Lev Elek`                          | `4`     | `12`     | `30`     |  `24`    | 70        |
 
 Szeged, `2023-10-09`.
