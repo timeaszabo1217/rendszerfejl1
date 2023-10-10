@@ -211,14 +211,14 @@ Részfeladatai a következők:
 
 Felelős: `Mindenki`
 
-Tartam:  `4 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `1 személynap/fő`
+Erőforrásigény:  `2 személynap/fő`
 
 
 #### 8.1.2. Bemutató elkészítése
 
-Felelős: `Teszt Elek`
+Felelős: `Urbán Judit`
 
 Tartam:  `2 nap`
 
@@ -300,7 +300,7 @@ Ennek a feladatnak az a célja, hogy `egy működő prototípust hozzunk létre,
 
 Részfeladatai a következők:
 
-#### `8.3.1. Felhasználók kezelése (admin, raktáros, sofőr) (CR)`
+#### `8.3.1. Felhasználók kezelése (admin, felhasználó) (CR)`
 
 Felelős: `Teszt Elek`
 
@@ -308,7 +308,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.2. Felhasználók kezelése (admin, raktáros, sofőr) (UD)`
+#### `8.3.2. Felhasználók kezelése (admin, felhasználó) (UD)`
 
 Felelős: `Remek Elek`
 
@@ -332,7 +332,7 @@ Tartam:  `10 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.5. Raktárak kezelése (CRUD)`
+#### `8.3.5. Cikkek kezelése (CRUD)`
 
 Felelős: `Teszt Elek`
 
@@ -340,7 +340,7 @@ Tartam:  `3 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### `8.3.6. Raktárkezeléshez szükséges adatok létrehozása az adatbázisban`
+#### `8.3.6. Cikk kezeléshez szükséges adatok létrehozása az adatbázisban`
 
 Felelős: `Remek Elek`
 
@@ -348,7 +348,7 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.7. Árukészletek kezelése (C)`
+#### `8.3.7. Teszt oldal kivitelezése`
 
 Felelős: `Remek Elek `
 
@@ -356,7 +356,7 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.8. Árukészletek kezelése (R)`
+#### `8.3.8. Bemutatkozó oldal`
 
 Felelős: `Lev Elek`
 
@@ -364,7 +364,7 @@ Tartam:  `3 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### `8.3.9. Árukészletek kezelése (UD)`
+#### `8.3.9. Páciensek lecke oldala`
 
 Felelős: `Lev Elek`
 
@@ -372,7 +372,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.10. Árukészletek kezeléséhez szükséges adatok létrehozása az adatbázisban`
+#### `8.3.10. Email-es kiértesítés új időpontfoglalás esetén `
 
 Felelős: `Lev Elek`
 
@@ -380,7 +380,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.11. Járművek kezelése (CRUD) és a szükséges adatok létrehozása az adatbázisban`
+#### `8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt`
 
 Felelős: `Lev Elek`
 
@@ -388,47 +388,7 @@ Tartam:  `3 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.12. Fuvarok/szállítmányok kezelése (CR)`
-
-Felelős: `Teszt Elek`
-
-Tartam:  `4 nap`
-
-Erőforrásigény:  `2 személynap`
-
-#### `8.3.13. Fuvarok/szállítmányok kezelése (UD)`
-
-Felelős: `Teszt Elek `
-
-Tartam:  `5 nap`
-
-Erőforrásigény:  `2 személynap`
-
-#### `8.3.14. Fuvarok/szállítmányok szükséges adatok létrehozása az adatbázisban`
-
-Felelős: `Remek Elek `
-
-Tartam:  `3 nap`
-
-Erőforrásigény:  `1 személynap`
-
-#### `8.3.15. Email-es kiértesítés új szállítmány esetén az adott raktárosnak és sofőrnek`
-
-Felelős: `Remek Elek`
-
-Tartam:  `4 nap`
-
-Erőforrásigény:  `2 személynap`
-
-#### `8.3.16. Fuvar útvonalának megjelenítése térképen a kezdő és a végponttal együtt`
-
-Felelős: `Remek Elek`
-
-Tartam:  `5 nap`
-
-Erőforrásigény:  `3 személynap`
-
-#### `8.3.17. Biztonsági mentés automatikus létrehozása`
+#### `8.3.12. Biztonsági mentés automatikus létrehozása`
 
 Felelős: `Lev Elek`
 
@@ -436,7 +396,7 @@ Tartam:  `3 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.3.18. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
+#### 8.3.13. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
 
 Felelős: `Mindenki`
 
@@ -444,11 +404,19 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `1 személynap/fő`
 
+#### 8.3.14. Bemutató elkészítése
+
+Felelős: `Lev Elek`
+
+Tartam:  `1 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 ```
 Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként, azonban ezt a feladatot is részfeladatokra kell bontani.
 ```
 
-#### `8.3.19. A prototípus kitelepítése éles környezetbe` 
+#### `8.3.15. A prototípus kitelepítése éles környezetbe` 
 
 Felelős: `Teszt Elek`
 
@@ -500,7 +468,7 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### `8.4.5. Raktárak kezelésének tesztelése (TR)`
+#### `8.4.5. Cikkek kezelésének tesztelése (TR)`
 
 Felelős: `Remek Elek`
 
@@ -508,7 +476,7 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.6. Árukészletek kezelésének tesztelése (TR)`
+#### `8.4.6. Tesztek elérése és kezelésének tesztelése (TR)`
 
 Felelős: `Teszt Elek`
 
@@ -516,7 +484,7 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### `8.4.7. Járművek kezelésének tesztelése (TR)`
+#### `8.4.7. Leckék kezelésének tesztelése (TR)`
 
 Felelős: `Remek Elek`
 
@@ -524,7 +492,7 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.8. Fuvarok kezelésének tesztelése (TR)`
+#### `8.4.8. Email-es funkciók tesztelése (TR)`
 
 Felelős: `Lev Elek`
 
@@ -532,15 +500,7 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.9. Email-es funkciók tesztelése (TR)`
-
-Felelős: `Remek Elek`
-
-Tartam:  `1 nap`
-
-Erőforrásigény:  `0.5 személynap`
-
-#### `8.4.10. Térképes funkciók tesztelése (TR)`
+#### `8.4.9. Biztonsági mentés tesztelése (TR)`
 
 Felelős: `Lev Elek`
 
@@ -548,15 +508,7 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.11. Biztonsági mentés tesztelése (TR)`
-
-Felelős: `Lev Elek`
-
-Tartam:  `1 nap`
-
-Erőforrásigény:  `0.5 személynap`
-
-#### `8.4.12. A prototípus kitelepítésének frissítése`
+#### `8.4.10. A prototípus kitelepítésének frissítése`
 
 Felelős: `Teszt Elek`
 
