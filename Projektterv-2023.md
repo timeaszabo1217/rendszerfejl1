@@ -49,6 +49,8 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Veszeli Karina  (<1 év tapasztalat)`
  - `Kiss Csaba  (<1 év tapasztalat)`
  - `Masa Roland  (<1 év tapasztalat)`
+ - `Juhász Ferenc  (3 év tapasztalat)`
+
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
@@ -66,6 +68,8 @@ A projekt a következő emberekből áll:
 |`Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 |`Kiss Csaba` | Projekt tag      | `h264781@stud.u-szeged.hu`    |
 |`Masa Roland` | Projekt tag      | `h267480@stud.u-szeged.hu`    |
+|`Juhász Ferenc` | Projekt tag      | `h983413@stud.u-szeged.hu`    |
+
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
@@ -89,6 +93,9 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
  - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
 
  - `Asztali gép (CPU: Ryzen 5 5600, RAM: 16 GB, GPU: GTX 1650 Super)`
+ 
+ - `Asus TUF Gaming FX505 (CPU: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx 2.30 GHz , RAM: 8 GB, GPU: GTX 1660 TI)`
+ 
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
@@ -320,11 +327,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban`
 
-Felelős: `Lev Elek`
+Felelős: `Juhász Ferenc`
 
-Tartam:  `3 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `2.5 személynap`
 
 #### `8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel`
 
@@ -344,7 +351,7 @@ Erőforrásigény:  `3 személynap`
 
 #### `8.3.6. Cikk kezeléshez szükséges adatok létrehozása az adatbázisban`
 
-Felelős: `Remek Elek`
+Felelős: `Juhász Ferenc`
 
 Tartam:  `4 nap`
 
@@ -440,19 +447,19 @@ Részfeladatai a következők:
 
 #### 8.4.1. Javított minőségű prototípus új funkciókkal
 
-Felelős: `Teszt Elek`
+Felelős: `Juhász Ferenc`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `2 személynap`
+
+#### 8.4.2. Javított minőségű prototípus javított funkciókkal
+
+Felelős: `Juhász Ferenc`
 
 Tartam:  `5 nap`
 
 Erőforrásigény:  `2.5 személynap`
-
-#### 8.4.2. Javított minőségű prototípus javított funkciókkal
-
-Felelős: `Lev Elek`
-
-Tartam:  `5 nap`
-
-Erőforrásigény:  `2 személynap`
 
 #### 8.4.3. Javított minőségű prototípus a korábbi hiányzó funkciókkal
 
