@@ -545,7 +545,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
 | `Nagy Péter` | `3`   | `5` | `20` | `4`   | `32`     |
-| `Szabó Tímea`| `2`   | `4`   | `20` | `3.5`   | `29.5`     |
+| `Szabó Tímea`| `4`   | `4`   | `20` | `3.5`   | `31.5`     |
 | `Durucz Ádám`| `2`   | `10` | `10` | `10` | `32`     |
 | `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
 | `Veszeli Karina`| `2`   | `5` | `20` | `4` | `31`     |
