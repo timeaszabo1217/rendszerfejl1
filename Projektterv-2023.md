@@ -459,7 +459,7 @@ Felelős: `Juhász Ferenc`
 
 Tartam:  `5 nap`
 
-Erőforrásigény:  `2.5 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### 8.4.3. Javított minőségű prototípus a korábbi hiányzó funkciókkal
 
@@ -564,6 +564,8 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Durucz Ádám`| `2`   | `10` | `10` | `10` | `32`     |
 | `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
 | `Veszeli Karina`| `2`   | `5` | `20` | `4` | `31`     |
+| `Juhász Ferenc`| `2`   | `3` | `16` | `9` | `30`     |
+
 
 
 ### 10.2. Részletes feladatszámok
@@ -575,6 +577,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Durucz Ádám`   | `2`   | `2`   | `2`  | `2`  | `8`     |
 | `Urbán Judit` | `2`   | `2`   | `1`  | `1`  | `6`     |
 | `Veszeli Karina`   | `2`   | `1`   | `2`  | `1`  | `6`   |
+| `Juhász Ferenc`   | `1`   | `1`   | `2`  | `2`  | `6`   |
 
 ### 10.3. Részletes költségvetés
 
@@ -583,8 +586,9 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
 | `Nagy Péter`                        | `6`     | `16`     | `30`     |  `18`    | 70        |
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
-| `Durucz Ádám`                          | `6`     | `20`     | `25`     |  `19`    | 70        |
+| `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
 | `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
 | `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
+| `Juhász Ferenc`                        | `5`     | `10`     | `20`     |  `35`    | 70        |
 
 Szeged, `2023-10-09`.
