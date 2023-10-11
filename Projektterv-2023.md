@@ -46,6 +46,7 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Szabó Tímea (<1 év tapasztalat)`
  - `Nagy Péter  (<1 év tapasztalat)`
  - `Durucz Ádám  (<1 év tapasztalat)`
+ -`Veszeli Karina  (<1 év tapasztalat)`
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
