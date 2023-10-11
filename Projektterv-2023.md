@@ -47,6 +47,7 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Nagy Péter  (<1 év tapasztalat)`
  - `Durucz Ádám  (<1 év tapasztalat)`
  - `Veszeli Karina  (<1 év tapasztalat)`
+ - `Kiss Csaba  (<1 év tapasztalat)`
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
@@ -62,6 +63,7 @@ A projekt a következő emberekből áll:
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
 |`Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
+|`Kiss Csaba` | Projekt tag      | `h264781@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
@@ -81,6 +83,8 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
  - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
 
  - `Asus ViVoBook 15 (CPU: Intel(R) Core(TM) i7-1165G7 , RAM: 8 GB, GPU:Intel Iris Xe Graphics)`
+ 
+ - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
@@ -328,11 +332,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.5. Cikkek kezelése (CRUD)`
 
-Felelős: `Teszt Elek`
+Felelős: `Kiss Csaba`
 
-Tartam:  `3 nap`
+Tartam:  `7 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### `8.3.6. Cikk kezeléshez szükséges adatok létrehozása az adatbázisban`
 
@@ -404,11 +408,11 @@ Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként,
 
 #### `8.3.14. A prototípus kitelepítése éles környezetbe` 
 
-Felelős: `Teszt Elek`
+Felelős: `Kiss Csaba`
 
-Tartam:  `1 nap`
+Tartam:  `7 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### 8.3.15. Bemutató elkészítése
 
@@ -448,11 +452,11 @@ Erőforrásigény:  `2 személynap`
 
 #### 8.4.3. Javított minőségű prototípus a korábbi hiányzó funkciókkal
 
-Felelős: `Remek Elek`
+Felelős: `Kiss Csaba`
 
-Tartam:  `5 nap`
+Tartam:  `7 nap`
 
-Erőforrásigény:  `1.5 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### `8.4.4. Felhasználói munkamenet tesztelése (TR)`
 
@@ -504,11 +508,11 @@ Erőforrásigény:  `0.5 személynap`
 
 #### `8.4.10. A prototípus kitelepítésének frissítése`
 
-Felelős: `Teszt Elek`
+Felelős: `Kiss Csaba`
 
-Tartam:  `1 nap`
+Tartam:  `6 nap`
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  `1.5 személynap`
 
 #### 8.4.11. Bemutató elkészítése
 
