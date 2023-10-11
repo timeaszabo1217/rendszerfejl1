@@ -84,3 +84,25 @@
     264b5c006ed08a5a1de18dda5ee39b4245930444
     fbb859bbc0374570cc2c4d8e16b50134f6a751ba
     389d12026c3f6e4523917d4d0bd069e2fe7ee48f
+
+
+- Projektmanager:Urbán Judit
+
+    Vállalásaim a mérföldkőben:
+    - 8.1.1. Projektterv kitöltése
+    - 8.1.2. Bemutató elkészitése
+    A feladathoz tartozó issue(k):
+
+    #8
+
+    #10
+
+    #11
+
+    A feladat elvégzését alátámasztó commit(ok):
+
+    0210b9d779f7b6daa2677df569d2af83eff3487b
+    9c58b8f229b918ed16106efa7025559654bfd212
+    9d2ef55cf71aa4871862d14104b0d87ecc28016f
+    412c3ad7c9a5170ce741db9ec78e35b22d293ff4
+    ab76a605a474318262d3460ccfc586b1868bc7fd
