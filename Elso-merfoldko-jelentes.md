@@ -109,3 +109,34 @@
     9d2ef55cf71aa4871862d14104b0d87ecc28016f
     412c3ad7c9a5170ce741db9ec78e35b22d293ff4
     ab76a605a474318262d3460ccfc586b1868bc7fd
+
+
+
+- Projekt tag: Veszeli Karina
+
+    Vállalásaim a mérföldkőben:
+
+
+    - 8.1.1. Projektterv kitöltése
+
+    A feladathoz tartozó issue(k):
+
+    #8
+
+    #10
+
+    #11
+
+    #15
+
+
+    A feladat elvégzését alátámasztó commit(ok):
+
+   cc5af093fd233e2c09c8228f044ab3ef4d1591ff
+   190889bfbf3dc2ff8942cf862ae0c356d0486940
+   9885bed2e0be4195cf28b5f12b525661ebad1a2f
+   91dac760207cf671a8ca20d2713eba5c52b40b91
+   a35c8dccf736eab0bc06eff8d350512e032a3365
+   0e1385781af83bbe441b14bf876977587988b70f
+   5a69b6784c7bc6fd6fb1be298ed252c603f17a61
+   b1cd3e405194c9aa2887ee390dcc8cf62bfeb284
