@@ -3,8 +3,6 @@
 
 ### Projekt tag: `Szabó Tímea`
 
-___
-
     Vállalásaim a mérföldkőben:
 
 
@@ -37,12 +35,8 @@ ___
 - 
 -     83f8825a5f04b5ae7abe3f003e23c5d53710dbda
 
-___
-
 
 ### Projekt tag: `Veszeli Karina`
-
-___
 
     Vállalásaim a mérföldkőben:
 
@@ -72,12 +66,8 @@ ___
 -     5a69b6784c7bc6fd6fb1be298ed252c603f17a61
 -     b1cd3e405194c9aa2887ee390dcc8cf62bfeb284
 
-___
-   
 
    ### Projekt tag: `Nagy Péter`
-
-   ___
 
     Vállalásaim a mérföldkőben:
 
@@ -103,12 +93,8 @@ ___
 
 -     fdd6d343d18398aaa5fd7d68f72aeba8832bd2bb
 
-___
-
 
 ### Projekt tag: `Durucz Ádám`
-
-___
 
     Vállalásaim a mérföldkőben:
 
@@ -131,12 +117,8 @@ ___
 -     fbb859bbc0374570cc2c4d8e16b50134f6a751ba
 -     389d12026c3f6e4523917d4d0bd069e2fe7ee48f
 
-___
-
 
 ### Projektmenedzser: `Urbán Judit`
-
-___
 
     Vállalásaim a mérföldkőben:
 
@@ -159,8 +141,6 @@ ___
 -     9d2ef55cf71aa4871862d14104b0d87ecc28016f
 -     412c3ad7c9a5170ce741db9ec78e35b22d293ff4
 -     ab76a605a474318262d3460ccfc586b1868bc7fd
-
-___
 
     - 8.1.2. Bemutató elkészitése
 
