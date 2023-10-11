@@ -589,6 +589,6 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
 | `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
 | `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
-| `Juhász Ferenc`                        | `5`     | `10`     | `20`     |  `35`    | 70        |
+| `Juhász Ferenc`                        | `5`     | `10`     | `27`     |  `28`    | 70        |
 
 Szeged, `2023-10-09`.
