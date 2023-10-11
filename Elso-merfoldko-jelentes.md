@@ -13,15 +13,10 @@ Vállalásaim a mérföldkőben:
 ##### A feladathoz tartozó issue(k):
 
 - #8
--  
 - #10
--  
 - #11
--  
 - #12
--  
 - #13
--  
 - #14
 
 
@@ -52,11 +47,8 @@ Vállalásaim a mérföldkőben:
 ##### A feladathoz tartozó issue(k):
 
 - #8
--  
 - #10
--  
 - #11
--  
 - #15
 
 
@@ -87,11 +79,8 @@ Vállalásaim a mérföldkőben:
 ##### A feladathoz tartozó issue(k):
 
 - #8
-- 
 - #10
-- 
 - #11
-- 
 - #12
 
 
@@ -118,9 +107,7 @@ Vállalásaim a mérföldkőben:
 ##### A feladathoz tartozó issue(k):
 
 - #8
-- 
 - #10
-- 
 - #11
 
 
@@ -146,9 +133,7 @@ Vállalásaim a mérföldkőben:
 ##### A feladathoz tartozó issue(k):
 
 - #8
-- 
 - #10
-- 
 - #11
 
 
