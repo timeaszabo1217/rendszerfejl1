@@ -5,7 +5,7 @@
     Vállalásaim a mérföldkőben:
 
 
-    8.1.1. Projektterv kitöltése
+    1. 8.1.1. Projektterv kitöltése
 
     A feladathoz tartozó issue(k):
 
@@ -31,7 +31,7 @@
     Vállalásaim a mérföldkőben:
 
 
-    8.1.1. Projektterv kitöltése
+    1. 8.1.1. Projektterv kitöltése
 
     A feladathoz tartozó issue(k):
 
@@ -54,7 +54,7 @@
     Vállalásaim a mérföldkőben:
 
 
-    8.1.1. Projektterv kitöltése
+    1. 8.1.1. Projektterv kitöltése
 
     A feladathoz tartozó issue(k):
 
