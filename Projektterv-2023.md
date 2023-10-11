@@ -521,7 +521,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
 | `Nagy Péter` | `2` | `3` | `11` | `3`   | `19`     |
-| `Szabó Tímea` | `1.5`   | `4`   | `40` | `3.5`   | `49`     |
+| `Szabó Tímea` | `2`   | `4`   | `20` | `3.5`   | `29.5`     |
 | `Durucz Ádám`   | `2`   | `10` | `10` | `10` | `32`     |
 
 
@@ -539,7 +539,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 |-------------------------------------|---------|----------|----------|----------|-----------|
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
 | `Nagy Péter`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
-| `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `16`    | 70        |
+| `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
 | `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
 
 Szeged, `2023-10-09`.
