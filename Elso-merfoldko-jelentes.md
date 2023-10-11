@@ -47,3 +47,27 @@ e86842d146d83f5918dbef57c745a9845dd64f2c
 fca7a3d4624f62bce52dc28124b55a126df3f150
 
 fdd6d343d18398aaa5fd7d68f72aeba8832bd2bb
+
+Projekt tag: Durucz Ádám
+
+
+
+Vállalásaim a mérföldkőben:
+
+
+8.1.1. Projektterv kitöltése
+
+A feladathoz tartozó issue(k):
+
+#8
+
+#10
+
+#11
+
+A feladat elvégzését alátámasztó commit(ok):
+
+b6a11f522e3d5d3d9d3ce8b39de8145433c18bee
+cfc6dbcafb8212e35919f5c191729e17c04f9884
+264b5c006ed08a5a1de18dda5ee39b4245930444
+fbb859bbc0374570cc2c4d8e16b50134f6a751ba
