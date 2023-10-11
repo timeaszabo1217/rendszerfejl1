@@ -402,6 +402,14 @@ Tartam:  `1 nap`
 
 Erőforrásigény:  `1 személynap`
 
+#### 8.3.15. Bemutató elkészítése
+
+Felelős: `Urbán Judit`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 ```
 A feladatokat a 2.2-es és a 2.3-as pont alapján kell meghatározni és lehető legrészletesebben definiálni.
 Lehetőség szerint az összetett feladatokat bontsuk fel részfeladatokra. 
@@ -489,6 +497,14 @@ Erőforrásigény:  `0.5 személynap`
 #### `8.4.10. A prototípus kitelepítésének frissítése`
 
 Felelős: `Teszt Elek`
+
+Tartam:  `1 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
+#### 8.4.11. Bemutató elkészítése
+
+Felelős: `Lev Elek`
 
 Tartam:  `1 nap`
 
