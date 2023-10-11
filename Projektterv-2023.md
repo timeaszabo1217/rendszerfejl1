@@ -565,6 +565,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
 | `Veszeli Karina`| `2`   | `5` | `20` | `4` | `31`     |
 | `Juhász Ferenc`| `2`   | `3` | `16` | `9` | `30`     |
+| `Kiss Csaba`| `2`   | `3` | `17` | `9` | `31`     |
 
 
 
@@ -578,6 +579,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Urbán Judit` | `2`   | `2`   | `1`  | `1`  | `6`     |
 | `Veszeli Karina`   | `1`   | `1`   | `2`  | `1`  | `5`   |
 | `Juhász Ferenc`   | `1`   | `1`   | `2`  | `2`  | `6`   |
+| `Kiss Csaba`   | `1`   | `1`   | `2`  | `2`  | `6`   |
 
 ### 10.3. Részletes költségvetés
 
@@ -590,5 +592,6 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
 | `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
 | `Juhász Ferenc`                        | `5`     | `10`     | `27`     |  `28`    | 70        |
+| `Kiss Csaba`                        | `5`     | `10`     | `31`     |  `24`    | 70        |
 
 Szeged, `2023-10-09`.
