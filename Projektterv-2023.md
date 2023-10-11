@@ -48,6 +48,7 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Durucz Ádám  (<1 év tapasztalat)`
  - `Veszeli Karina  (<1 év tapasztalat)`
  - `Kiss Csaba  (<1 év tapasztalat)`
+ - `Masa Roland  (<1 év tapasztalat)`
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
@@ -64,6 +65,7 @@ A projekt a következő emberekből áll:
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
 |`Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 |`Kiss Csaba` | Projekt tag      | `h264781@stud.u-szeged.hu`    |
+|`Masa Roland` | Projekt tag      | `h267480@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
@@ -85,6 +87,8 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
  - `Asus ViVoBook 15 (CPU: Intel(R) Core(TM) i7-1165G7 , RAM: 8 GB, GPU:Intel Iris Xe Graphics)`
  
  - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
+
+ - `Asztali gép (CPU: Ryzen 5 5600, RAM: 16 GB, GPU: GTX 1650 Super)`
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
@@ -300,9 +304,9 @@ Részfeladatai a következők:
 
 #### `8.3.1. Felhasználók kezelése (admin, felhasználó) (CR)`
 
-Felelős: `Teszt Elek`
+Felelős: `Masa Roland`
 
-Tartam:  `5 nap`
+Tartam:  `6 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -324,11 +328,11 @@ Erőforrásigény:  `1 személynap`
 
 #### `8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel`
 
-Felelős: `Teszt Elek `
+Felelős: `Masa Roland `
 
 Tartam:  `10 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### `8.3.5. Cikkek kezelése (CRUD)`
 
@@ -476,11 +480,11 @@ Erőforrásigény:  `3 személynap`
 
 #### `8.4.6. Tesztek elérése és kezelésének tesztelése (TR)`
 
-Felelős: `Teszt Elek`
+Felelős: `Masa Roland`
 
-Tartam:  `1 nap`
+Tartam:  `7 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### `8.4.7. Leckék kezelésének tesztelése (TR)`
 
