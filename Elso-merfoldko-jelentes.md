@@ -30,7 +30,6 @@ Vállalásaim a mérföldkőben:
 - c14bcbb41a6b7d0c9b167f84a389d61492585a64
 - 1ddcfb01043d9b17d677be6bf48e6b1749bffe55
 - c2458c1d3875cc58d0d4267ccab1fe2c2d243e32
-
 - 83f8825a5f04b5ae7abe3f003e23c5d53710dbda
 
 
@@ -90,7 +89,6 @@ Vállalásaim a mérföldkőben:
 - e86842d146d83f5918dbef57c745a9845dd64f2c
 - fca7a3d4624f62bce52dc28124b55a126df3f150
 - 951db06b08a07bd71cfd00ae9f5f29c4d2e073a3
-
 - fdd6d343d18398aaa5fd7d68f72aeba8832bd2bb
 
 
