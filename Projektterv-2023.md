@@ -583,7 +583,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
 | `Nagy Péter`                        | `6`     | `16`     | `30`     |  `18`    | 70        |
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
-| `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
+| `Durucz Ádám`                          | `6`     | `20`     | `25`     |  `19`    | 70        |
 | `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
 | `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
 
