@@ -60,6 +60,7 @@ A projekt a következő emberekből áll:
 | `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
+|`Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
@@ -250,11 +251,11 @@ Erőforrásigény:  `2 személynap`
 
 #### 8.2.4. Egyed-kapcsolat diagram adatbázishoz
 
-Felelős: `Remek Elek`
+Felelős: `Veszeli Karina`
 
-Tartam:  `4 nap`
+Tartam:  `6 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### 8.2.5. Package diagram
 
@@ -340,11 +341,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.7. Teszt oldal kivitelezése`
 
-Felelős: `Remek Elek `
+Felelős: `Veszeli Karina `
 
-Tartam:  `4 nap`
+Tartam:  `6 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### `8.3.8. Bemutatkozó oldal`
 
@@ -356,11 +357,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.9. Páciensek lecke oldala`
 
-Felelős: `Lev Elek`
+Felelős: `Veszeli Karina`
 
-Tartam:  `5 nap`
+Tartam:  `11 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `5 személynap`
 
 #### `8.3.10. Email-es kiértesítés új időpontfoglalás esetén `
 
@@ -452,11 +453,11 @@ Erőforrásigény:  `1.5 személynap`
 
 #### `8.4.4. Felhasználói munkamenet tesztelése (TR)`
 
-Felelős: `Teszt Elek`
+Felelős: `Veszeli Karina`
 
-Tartam:  `1 nap`
+Tartam:  `7 nap`
 
-Erőforrásigény:  `1 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### `8.4.5. Cikkek kezelésének tesztelése (TR)`
 
