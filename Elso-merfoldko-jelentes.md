@@ -193,3 +193,24 @@ Vállalásaim a mérföldkőben:
      - 9b736a21a9be3128ad8bfde96acc9cfeae195b36
 
 
+### Projekt tag: `Masa Roland`
+
+___
+    
+
+Vállalásaim a mérföldkőben:
+
+
+- 8.1.1. Projektterv kitöltése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #16
+
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 31f07d5f3ee39279eceb3c24629ba1749cc92a95
+     - 17a66d7a5f678b7a9f26d12e27635a62464a618d
+     - 51dbce4250c08d2260c8c5195414fe56f249267c
+
