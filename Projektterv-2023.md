@@ -61,7 +61,7 @@ A projekt a következő emberekből áll:
 | `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
-| `VeszeliKarina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
+| `Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
