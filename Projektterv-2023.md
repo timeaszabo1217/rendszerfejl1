@@ -41,7 +41,7 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 
 ## 4. Szervezeti felépítés és felelősségmegosztás
 
-A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található  öbbé és kevésbé tapasztalt webprogramozó is.`
+A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található többé és kevésbé tapasztalt webprogramozó is.`
  - `Urbán Judit (<1 év tapasztalat)`
  - `Szabó Tímea (<1 év tapasztalat)`
  - `Nagy Péter  (<1 év tapasztalat)`
@@ -113,7 +113,7 @@ Pl.: betegség, szoftver-hardver probléma, tag kiesése, extrém ZH időszak, p
 ## 6. Jelentések
 
 ### 6.1. Munka menedzsment
-A munkát `Teszt Elek` koordinálja. `Fő feladata, hogy folyamatosan egyeztessen a csapattagokkal az előrehaladásról és a fellépő problémákról, esetlegesen a megoldásban is segítséget nyújhat a projekt csúszásának elkerülése végett. További feladata a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről email-ben tájékoztatja a projektcsapatot.`
+A munkát `Urbán Judit` koordinálja. `Fő feladata, hogy folyamatosan egyeztessen a csapattagokkal az előrehaladásról és a fellépő problémákról. További feladata a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről messenger csoportban diskurál a projektcsapat.`
 
 ```
 Írd le, hogy ki menedzseli a munkát (tipikusan a projekt menedzser), mik a feladatai, és azokat hogyan hajtja végre.
@@ -142,7 +142,7 @@ Az alábbi lehetőségek vannak a szoftver megfelelő minőségének biztosítá
 
 ### 6.4. Átadás, eredmények elfogadása
 
-A projekt eredményeit a megrendelő, `Dr. Márkus András` fogja elfogadni. A projektterven változásokat csak a megrendelő írásos engedélyével lehet tenni. A projekt eredményesnek bizonyul, ha specifikáció helyes és határidőn belül készül el. Az esetleges késések pontlevonást eredményeznek. 
+A projekt eredményeit a gyakorlatvezető, `Dr. Márkus András` fogja elfogadni. A projektterven változásokat csak a gyakorlatvezető írásos engedélyével lehet tenni. A projekt eredményesnek bizonyul, ha specifikáció helyes és határidőn belül készül el. Az esetleges késések pontlevonást eredményeznek. 
 Az elfogadás feltételeire és beadás formájára vonatkozó részletes leírás a következő honlapon olvasható: https://okt.inf.szte.hu/rf1/
 
 ### 6.5. Státuszjelentés
@@ -153,9 +153,13 @@ Minden mérföldkő leadásnál a projekten dolgozók jelentést tesznek a mérf
 
 ### 7.1. Tervezett szoftverfolyamat modell és architektúra
 
-`A szoftver fejlesztése során az agilis fejlesztési modellt alkalmazzuk, mivel a fejlesztés során nagy hangsúlyt fektetünk a folyamatos kommunikcióra. A fejlesztés során a szoftver specifikációi rugalmasan vátozhatnak, és ezzel a módszertannal tudunk a leggyorsabban alkalmazkodni az új elvárásokhoz.`
+`A pszichológus weboldal fejlesztése során az "agilis fejlesztési modellt" választottuk, mivel ennek a módszertannak előnyei segítenek a folyamatos fejlesztésben és az ügyfél igényeinek való megfelelésben. Az agilis megközelítés lehetővé teszi a projekt rugalmas módosítását és a gyors reagálást az új elvárásokra. Az agilis módszerrel rendszeresen kommunikálunk az ügyféllel, hogy biztosítsuk az igényeik megértését és a folyamatos visszajelzések beépítését a fejlesztésbe.`
 
-`A webalkalmazás az MVC (modell-view-controller) felépítést követi, a szerver és a kliens függetlenek, csupán API végpontok segítségével kommunikálnak.`
+`A webalkalmazás elkészítéséhez a "Model-View-Controller (MVC)" architektúrát alkalmazzuk. Ebben az architektúrában a szerver- és kliensoldal függetlenek egymástól, és csak API végpontok segítségével kommunikálnak egymással. Ez a megközelítés lehetővé teszi a funkcionalitás jól elkülönített és moduláris felépítését, amely segít a fejlesztőknek hatékonyan dolgozni a projekt különböző részein.`
+
+`Az MVC struktúrában a "Model" rész tartalmazza az alkalmazás üzleti logikáját és az adatkezelést. A "View" rész felelős a felhasználói felület megjelenítéséért, míg a "Controller" rész irányítja a kérések feldolgozását és az adatok továbbítását a megfelelő helyre.`
+
+`Ezenkívül a rugalmas specifikációk és az agilis fejlesztési megközelítés segít abban, hogy könnyen alkalmazkodjunk az új elvárásokhoz és a vevői visszajelzésekhez a pszichológus weboldal projektjének keretében.`
 
 ```
 Milyen szoftverfolyamat modellt követve állítja elő a csapat a specifikációnak megfelelő prototípusokat? Miért ezt választja? 
@@ -169,10 +173,10 @@ A főbb átadandók és határidők a projekt időtartama alatt a következők:
 
 | Szállítandó |                 Neve                                                        |   Határideje  |
 |:-----------:|:---------------------------------------------------------------------------:|:-------------:|
-|      D1     |      Projektterv és Gantt chart, prezentáció, egyéni jelentés               | `2021-10-04`  |
-|    P1+D2    |      UML, adatbázis- és képernyőtervek, prezentáció, egyéni jelentés        | `2021-10-18`  |
-|    P1+D3    |      Prototípus I. és tesztelési dokumentáció, egyéni jelentés              | `2021-11-08`  |
-|    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | `2021-11-27`  |
+|      D1     |      Projektterv és Gantt diagram, prezentáció, egyéni jelentés               | `2023-10-11`  |
+|    P1+D2    |      UML, adatbázis- és képernyőtervek, prezentáció, egyéni jelentés        | `2023-10-25`  |
+|    P1+D3    |      Prototípus I. és tesztelési dokumentáció, egyéni jelentés              | `2023-11-15`  |
+|    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | `2023-12-06`  |
 
 ```
 D - dokumentáció, P - prototípus
