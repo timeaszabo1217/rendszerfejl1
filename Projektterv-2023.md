@@ -242,7 +242,7 @@ Erőforrásigény:  `2 személynap`
 
 #### 8.2.3. Sequence diagram
 
-Felelős: `Remek Elek`
+Felelős: `Durucz Ádám`
 
 Tartam:  `3 nap`
 
@@ -258,7 +258,7 @@ Erőforrásigény:  `2 személynap`
 
 #### 8.2.5. Package diagram
 
-Felelős: `Teszt Elek`
+Felelős: `Durucz Ádám`
 
 Tartam:  `3 nap`
 
