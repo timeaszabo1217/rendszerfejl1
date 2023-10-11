@@ -168,4 +168,27 @@ Vállalásaim a mérföldkőben:
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
+___
+
+Vállalásaim a mérföldkőben:
+
+
+- 8.1.1. Projektterv kitöltése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #8
+     - #10
+     - #11
+
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 1d558f4cc118e01650a22e0a5eb4a9bde5fd5d03
+     - 303f4fab55c296455eec625d59f1327b4c549ca7
+     - 9b736a21a9be3128ad8bfde96acc9cfeae195b36
+
+### Projekt tag: `Kiss Csaba`
+
+___
     
