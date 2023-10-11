@@ -17,8 +17,6 @@
 
     #12
 
-    #13
-
 
     A feladat elvégzését alátámasztó commit(ok):
 
@@ -44,6 +42,10 @@
     #8
 
     #10
+
+    #11
+
+    #12
 
     A feladat elvégzését alátámasztó commit(ok):
 
