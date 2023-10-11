@@ -34,7 +34,7 @@
 
 ## 3. Költség- és erőforrás-szükségletek
 
-Az erőforrásigényünk összesen `160` személynap, átlagosan `20` személynap/fő.
+Az erőforrásigényünk összesen `1260` személynap, átlagosan `20` személynap/fő.
 
 A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 
