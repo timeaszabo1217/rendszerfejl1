@@ -79,6 +79,8 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 
  - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
 
+ - `Asus ViVoBook 15 (CPU: Intel(R) Core(TM) i7-1165G7 , RAM: 8 GB, GPU:Intel Iris Xe Graphics)`
+
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
  - `Node.js szerverkörnyezet a webalkalmazás futtatásához`
@@ -545,6 +547,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Szabó Tímea`| `2`   | `4`   | `20` | `3.5`   | `29.5`     |
 | `Durucz Ádám`| `2`   | `10` | `10` | `10` | `32`     |
 | `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
+| `Veszeli Karina`| `2`   | `5` | `20` | `4` | `31`     |
 
 
 ### 10.2. Részletes feladatszámok
@@ -555,6 +558,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Szabó Tímea` | `2`   | `1`   | `2`  | `1`  | `6`     |
 | `Durucz Ádám`   | `2`   | `2`   | `2`  | `2`  | `8`     |
 | `Urbán Judit` | `2`   | `2`   | `1`  | `1`  | `6`     |
+| `Veszeli Karina`   | `2`   | `1`   | `2`  | `1`  | `6`   |
 
 ### 10.3. Részletes költségvetés
 
@@ -565,5 +569,6 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
 | `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
 | `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
+| `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
 
 Szeged, `2023-10-09`.
