@@ -61,7 +61,7 @@ A projekt a következő emberekből áll:
 | `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
-| `VeszeliKarina| Projekt tag      | `h166120@stud.u-szeged.hu`    |
+| `VeszeliKarina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
@@ -144,7 +144,7 @@ Az alábbi lehetőségek vannak a szoftver megfelelő minőségének biztosítá
 
 ### 6.4. Átadás, eredmények elfogadása
 
-A projekt eredményeit a gyakorlatvezető, `Dr. Márkus András` fogja elfogadni. A projektterven változásokat csak a gyakorlatvezető írásos engedélyével lehet tenni. A projekt eredményesnek bizonyul, ha specifikáció helyes és határidőn belül készül el. Az esetleges késések pontlevonást eredményeznek. 
+A projekt eredményeit a gyakorlatvezető, `Dr. Pflanzner Tamás` fogja elfogadni. A projektterven változásokat csak a gyakorlatvezető írásos engedélyével lehet tenni. A projekt eredményesnek bizonyul, ha specifikáció helyes és határidőn belül készül el. Az esetleges késések pontlevonást eredményeznek. 
 Az elfogadás feltételeire és beadás formájára vonatkozó részletes leírás a következő honlapon olvasható: https://okt.inf.szte.hu/rf1/
 
 ### 6.5. Státuszjelentés
