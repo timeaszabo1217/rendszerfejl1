@@ -522,7 +522,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 |--------------|-------|-------|------|-------|----------|
 | `Nagy Péter` | `2` | `3` | `11` | `3`   | `19`     |
 | `Szabó Tímea` | `1.5`   | `4`   | `40` | `3.5`   | `49`     |
-| `Lev Elek`   | `1`   | `2.5` | `10` | `3.5` | `17`     |
+| `Durucz Ádám`   | `2`   | `10` | `10` | `10` | `32`     |
 
 
 ### 10.2. Részletes feladatszámok
@@ -531,7 +531,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 |--------------|-------|-------|------|------|----------|
 | `Nagy Péter` | `2`   | `2`   | `7`  | `4`  | `15`     |
 | `Szabó Tímea` | `2`   | `1`   | `2`  | `1`  | `6`     |
-| `Lev Elek`   | `1`   | `2`   | `7`  | `4`  | `14`     |
+| `Durucz Ádám`   | `2`   | `2`   | `2`  | `2`  | `8`     |
 
 ### 10.3. Részletes költségvetés
 
@@ -540,6 +540,6 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
 | `Nagy Péter`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `16`    | 70        |
-| `Lev Elek`                          | `4`     | `12`     | `30`     |  `24`    | 70        |
+| `Durucz Ádám`                          | `7`     | `20`     | `35`     |  `28`    | 70        |
 
 Szeged, `2023-10-09`.
