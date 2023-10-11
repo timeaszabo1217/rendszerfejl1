@@ -8,7 +8,7 @@ ___
 Vállalásaim a mérföldkőben:
 
 
-- 8.1.1. Projektterv kitöltése
+1. 8.1.1. Projektterv kitöltése
 
 ##### A feladathoz tartozó issue(k):
 
@@ -41,7 +41,7 @@ ___
 Vállalásaim a mérföldkőben:
 
 
-- 8.1.1. Projektterv kitöltése
+1. 8.1.1. Projektterv kitöltése
 
 ##### A feladathoz tartozó issue(k):
 
@@ -73,7 +73,7 @@ ___
 Vállalásaim a mérföldkőben:
 
 
-- 8.1.1. Projektterv kitöltése
+1. 8.1.1. Projektterv kitöltése
 
 ##### A feladathoz tartozó issue(k):
 
@@ -100,7 +100,7 @@ ___
 Vállalásaim a mérföldkőben:
 
 
-- 8.1.1. Projektterv kitöltése
+1. 8.1.1. Projektterv kitöltése
 
 ##### A feladathoz tartozó issue(k):
 
@@ -126,7 +126,7 @@ ___
 Vállalásaim a mérföldkőben:
 
     
-- 8.1.1. Projektterv kitöltése
+1. 8.1.1. Projektterv kitöltése
 
 ##### A feladathoz tartozó issue(k):
 
@@ -144,7 +144,7 @@ Vállalásaim a mérföldkőben:
 - ab76a605a474318262d3460ccfc586b1868bc7fd
 
 
-- 8.1.2. Bemutató elkészitése
+1. 8.1.2. Bemutató elkészitése
 
 ##### A feladathoz tartozó issue(k):
 
