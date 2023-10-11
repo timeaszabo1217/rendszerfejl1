@@ -46,7 +46,6 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Szabó Tímea (<1 év tapasztalat)`
  - `Nagy Péter  (<1 év tapasztalat)`
  - `Durucz Ádám  (<1 év tapasztalat)`
- - `Veszeli Karina (<1 év tapasztalat)`
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
@@ -61,7 +60,6 @@ A projekt a következő emberekből áll:
 | `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
-|`Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
@@ -212,9 +210,9 @@ Erőforrásigény:  `2 személynap/fő`
 
 Felelős: `Urbán Judit`
 
-Tartam:  `2 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  `1 személynap`
 
 ```
 A mérföldkőhöz tartozó feladatok bemutatása PPT keretében, pl. téma, tervezett funkciók, tagok, Gantt diagram.`
@@ -236,11 +234,11 @@ Erőforrásigény:  `3 személynap`
 
 #### 8.2.2. Class diagram
 
-Felelős: `Lev Elek`
+Felelős: `Urbán Judit`
 
-Tartam:  `4 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.3. Sequence diagram
 
@@ -252,9 +250,9 @@ Erőforrásigény:  `2 személynap`
 
 #### 8.2.4. Egyed-kapcsolat diagram adatbázishoz
 
-Felelős: `Veszeli Karina`
+Felelős: `Remek Elek`
 
-Tartam:  `7 nap`
+Tartam:  `4 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -276,11 +274,11 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.7. Bemutató elkészítése
 
-Felelős: `Lev Elek`
+Felelős: `Urbán Judit`
 
-Tartam:  `1 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  `1 személynap`
 
 ```
 A mérföldkőhöz tartozó feladatok bemutatása PPT keretében (elkészült diagramok és képernyőtervek)`
@@ -342,11 +340,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.7. Teszt oldal kivitelezése`
 
-Felelős: `Veszeli Karina `
+Felelős: `Remek Elek `
 
-Tartam:  `6 nap`
+Tartam:  `4 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### `8.3.8. Bemutatkozó oldal`
 
@@ -358,11 +356,11 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.9. Páciensek lecke oldala`
 
-Felelős: `Veszeli Karina`
+Felelős: `Lev Elek`
 
-Tartam:  `11 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `5 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### `8.3.10. Email-es kiértesítés új időpontfoglalás esetén `
 
@@ -412,9 +410,9 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Urbán Judit`
 
-Tartam:  `2 nap`
+Tartam:  `5 nap`
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  `1 személynap`
 
 ```
 A feladatokat a 2.2-es és a 2.3-as pont alapján kell meghatározni és lehető legrészletesebben definiálni.
@@ -454,11 +452,11 @@ Erőforrásigény:  `1.5 személynap`
 
 #### `8.4.4. Felhasználói munkamenet tesztelése (TR)`
 
-Felelős: `Veszeli Karina`
+Felelős: `Teszt Elek`
 
-Tartam:  `7 nap`
+Tartam:  `1 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### `8.4.5. Cikkek kezelésének tesztelése (TR)`
 
@@ -510,9 +508,9 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.4.11. Bemutató elkészítése
 
-Felelős: `Lev Elek`
+Felelős: `Urbán Judit`
 
-Tartam:  `1 nap`
+Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
@@ -542,9 +540,10 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
-| `Nagy Péter` | `2` | `3` | `11` | `3`   | `19`     |
-| `Szabó Tímea` | `2`   | `4`   | `20` | `3.5`   | `29.5`     |
-| `Durucz Ádám`   | `2`   | `10` | `10` | `10` | `32`     |
+| `Nagy Péter` | `2`   | `3` | `11` | `3`   | `19`     |
+| `Szabó Tímea`| `2`   | `4`   | `20` | `3.5`   | `29.5`     |
+| `Durucz Ádám`| `2`   | `10` | `10` | `10` | `32`     |
+| `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
 
 
 ### 10.2. Részletes feladatszámok
@@ -554,7 +553,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Nagy Péter` | `2`   | `2`   | `7`  | `4`  | `15`     |
 | `Szabó Tímea` | `2`   | `1`   | `2`  | `1`  | `6`     |
 | `Durucz Ádám`   | `2`   | `2`   | `2`  | `2`  | `8`     |
-| `Veszeli Karina`   | `2`   | `1`   | `2`  | `1`  | `6`     |
+| `Urbán Judit` | `2`   | `2`   | `1`  | `1`  | `6`     |
 
 ### 10.3. Részletes költségvetés
 
@@ -564,5 +563,6 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Nagy Péter`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
 | `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
+| `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
 
 Szeged, `2023-10-09`.
