@@ -566,6 +566,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Veszeli Karina`| `2`   | `5` | `20` | `4` | `31`     |
 | `Juhász Ferenc`| `2`   | `3` | `16` | `9` | `30`     |
 | `Kiss Csaba`| `2`   | `3` | `17` | `9` | `31`     |
+| `Masa Roland`| `2`   | `3` | `17` | `8` | `30`     |
 
 
 
@@ -580,6 +581,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Veszeli Karina`   | `1`   | `1`   | `2`  | `1`  | `5`   |
 | `Juhász Ferenc`   | `1`   | `1`   | `2`  | `2`  | `6`   |
 | `Kiss Csaba`   | `1`   | `1`   | `2`  | `2`  | `6`   |
+| `Masa Roland`   | `1`   | `1`   | `3`  | `1`  | `6`   |
 
 ### 10.3. Részletes költségvetés
 
@@ -593,5 +595,6 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
 | `Juhász Ferenc`                        | `5`     | `10`     | `27`     |  `28`    | 70        |
 | `Kiss Csaba`                        | `5`     | `10`     | `31`     |  `24`    | 70        |
+| `Masa Roland`                        | `5`     | `10`     | `35`     |  `20`    | 70        |
 
 Szeged, `2023-10-09`.
