@@ -109,6 +109,27 @@ Vállalásaim a mérföldkőben:
      - fbb859bbc0374570cc2c4d8e16b50134f6a751ba
      - 389d12026c3f6e4523917d4d0bd069e2fe7ee48f
 
+### Projekt tag: `Juhász Ferenc`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+
+- 8.1.1. Projektterv kitöltése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #8
+     - #10
+     - #11
+
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - dc972f8e9123ca2058024945ada826c8d20123c2
+     - 6c323650cb89609db974aac8cb4c25b3bb1b0ba9
+
 
 
 ### Projektmenedzser: `Urbán Judit`
