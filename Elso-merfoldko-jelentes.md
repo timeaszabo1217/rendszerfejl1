@@ -205,6 +205,9 @@ Vállalásaim a mérföldkőben:
 
     ##### A feladathoz tartozó issue(k):
 
+     - #8
+     - #10
+     - #11
      - #16
 
 
