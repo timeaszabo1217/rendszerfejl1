@@ -13,6 +13,10 @@
 
     #10
 
+    #11
+
+    #12
+
 
     A feladat elvégzését alátámasztó commit(ok):
 
