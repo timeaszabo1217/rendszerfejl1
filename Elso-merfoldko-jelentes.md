@@ -89,8 +89,11 @@
 - Projektmanager:Urbán Judit
 
     Vállalásaim a mérföldkőben:
+
+    
     - 8.1.1. Projektterv kitöltése
     - 8.1.2. Bemutató elkészitése
+
     A feladathoz tartozó issue(k):
 
     #8
