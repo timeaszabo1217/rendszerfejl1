@@ -46,6 +46,7 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Szabó Tímea (<1 év tapasztalat)`
  - `Nagy Péter  (<1 év tapasztalat)`
  - `Durucz Ádám  (<1 év tapasztalat)`
+ - `Veszeli Karina (<1 év tapasztalat)`
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
 ```
@@ -60,6 +61,7 @@ A projekt a következő emberekből áll:
 | `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
 | `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
 | `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
+| `VeszeliKarina| Projekt tag      | `h166120@stud.u-szeged.hu`    |
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
 ```
