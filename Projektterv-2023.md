@@ -263,7 +263,7 @@ Erőforrásigény:  `0.5 személynap`
 
 Felelős: `Durucz Ádám`
 
-Tartam:  `3 nap`
+Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -279,7 +279,7 @@ Erőforrásigény:  `3 személynap`
 
 Felelős: `Durucz Ádám`
 
-Tartam:  `3 nap`
+Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
@@ -319,9 +319,9 @@ Erőforrásigény:  `2 személynap`
 
 #### `8.3.2. Felhasználók kezelése (admin, felhasználó) (UD)`
 
-Felelős: `Remek Elek`
+Felelős: `Durucz Ádám`
 
-Tartam:  `4 nap`
+Tartam:  `6 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -495,9 +495,9 @@ Erőforrásigény:  `3 személynap`
 
 #### `8.4.7. Leckék kezelésének tesztelése (TR)`
 
-Felelős: `Remek Elek`
+Felelős: `Durucz Ádám`
 
-Tartam:  `1 nap`
+Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
@@ -511,9 +511,9 @@ Erőforrásigény:  `0.5 személynap`
 
 #### `8.4.9. Biztonsági mentés tesztelése (TR)`
 
-Felelős: `Lev Elek`
+Felelős: `Durucz Ádám`
 
-Tartam:  `1 nap`
+Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
