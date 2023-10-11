@@ -168,7 +168,11 @@ Vállalásaim a mérföldkőben:
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
+
+### Projekt tag: `Kiss Csaba`
+
 ___
+    
 
 Vállalásaim a mérföldkőben:
 
@@ -188,7 +192,4 @@ Vállalásaim a mérföldkőben:
      - 303f4fab55c296455eec625d59f1327b4c549ca7
      - 9b736a21a9be3128ad8bfde96acc9cfeae195b36
 
-### Projekt tag: `Kiss Csaba`
 
-___
-    
