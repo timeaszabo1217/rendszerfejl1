@@ -86,7 +86,7 @@
     389d12026c3f6e4523917d4d0bd069e2fe7ee48f
 
 
-- Projektmanager:Urbán Judit
+- Projektmenedzser: Urbán Judit
 
     Vállalásaim a mérföldkőben:
 
