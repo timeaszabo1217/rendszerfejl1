@@ -1,24 +1,6 @@
 **Összefoglaló az 1. mérföldkőben végzett munkáról**
 
-### Projekt tag: `Márkus András`
 
-___
-
-#### Vállalásaim a mérföldkőben: 
-
- - 8.1.1. Projektterv kitöltése
-
-    ##### A feladathoz tartozó issue(k):
-
-     - https://git-okt.sed.inf.szte.hu/markusa/rf1-pelda/-/issues/2
-
-    ##### A feladat elvégzését alátámasztó commit(ok):
-
-     - https://git-okt.sed.inf.szte.hu/markusa/rf1-pelda/-/commit/34ee7d4bab619213852604ab424d1f1cc8a8fc9b
-
-     - https://git-okt.sed.inf.szte.hu/markusa/rf1-pelda/-/commit/09d3fc44bd6aa9c24ce1d27afaa385b618a3486d
-
-___
 
 ### Projekt tag: `Szabó Tímea`
 
@@ -29,27 +11,27 @@ Vállalásaim a mérföldkőben:
 
 - 8.1.1. Projektterv kitöltése
 
-##### A feladathoz tartozó issue(k):
+    ##### A feladathoz tartozó issue(k):
 
-    - #8
-    - #10
-    - #11
-    - #12
-    - #13
-    - #14
-
-
+     - #8
+     - #10
+     - #11
+     - #12
+     - #13
+     - #14
 
 
-##### A feladat elvégzését alátámasztó commit(ok):
 
-    - c0f90fc7a623907fba237abeb605235ab7cecf16
-    - 3c9e4889854654d707c92eb618b7d18659b88c6d
-    - 25517468646c760bd142b17b61a15deb7a226a64   
-    - c14bcbb41a6b7d0c9b167f84a389d61492585a64
-    - 1ddcfb01043d9b17d677be6bf48e6b1749bffe55
-    - c2458c1d3875cc58d0d4267ccab1fe2c2d243e32
-    - 83f8825a5f04b5ae7abe3f003e23c5d53710dbda
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - c0f90fc7a623907fba237abeb605235ab7cecf16
+     - 3c9e4889854654d707c92eb618b7d18659b88c6d
+     - 25517468646c760bd142b17b61a15deb7a226a64   
+     - c14bcbb41a6b7d0c9b167f84a389d61492585a64
+     - 1ddcfb01043d9b17d677be6bf48e6b1749bffe55
+     - c2458c1d3875cc58d0d4267ccab1fe2c2d243e32
+     - 83f8825a5f04b5ae7abe3f003e23c5d53710dbda
 
 
 
