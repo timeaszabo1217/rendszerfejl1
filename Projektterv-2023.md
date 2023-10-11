@@ -544,7 +544,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
 |--------------|-------|-------|------|-------|----------|
-| `Nagy Péter` | `2`   | `3` | `11` | `3`   | `19`     |
+| `Nagy Péter` | `3`   | `5` | `20` | `4`   | `32`     |
 | `Szabó Tímea`| `2`   | `4`   | `20` | `3.5`   | `29.5`     |
 | `Durucz Ádám`| `2`   | `10` | `10` | `10` | `32`     |
 | `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
@@ -555,7 +555,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név          |   M1  |   M2  |   M3 |   M4 | Összesen |
 |--------------|-------|-------|------|------|----------|
-| `Nagy Péter` | `2`   | `2`   | `7`  | `4`  | `15`     |
+| `Nagy Péter` | `2`   | `1`   | `2`  | `1`  | `6`     |
 | `Szabó Tímea` | `2`   | `1`   | `2`  | `1`  | `6`     |
 | `Durucz Ádám`   | `2`   | `2`   | `2`  | `2`  | `8`     |
 | `Urbán Judit` | `2`   | `2`   | `1`  | `1`  | `6`     |
@@ -566,7 +566,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név                                 | M1      | M2       | M3       | M4       | Összesen  |
 |-------------------------------------|---------|----------|----------|----------|-----------|
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
-| `Nagy Péter`                        | `7`     | `10`     | `28`     |  `25`    | 70        |
+| `Nagy Péter`                        | `6`     | `16`     | `30`     |  `18`    | 70        |
 | `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
 | `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
 | `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
