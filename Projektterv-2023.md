@@ -45,14 +45,14 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 ## 4. Szervezeti felépítés és felelősségmegosztás
 
 A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található többé és kevésbé tapasztalt webprogramozó is.`
- - `Urbán Judit (<1 év tapasztalat)`
- - `Szabó Tímea (<1 év tapasztalat)`
- - `Nagy Péter  (<1 év tapasztalat)`
- - `Durucz Ádám  (<1 év tapasztalat)`
+ - `Urbán Judit     (<1 év tapasztalat)`
+ - `Szabó Tímea     (<1 év tapasztalat)`
+ - `Nagy Péter      (<1 év tapasztalat)`
+ - `Durucz Ádám     (<1 év tapasztalat)`
  - `Veszeli Karina  (<1 év tapasztalat)`
- - `Kiss Csaba  (<1 év tapasztalat)`
- - `Masa Roland  (<1 év tapasztalat)`
- - `Juhász Ferenc  (3 év tapasztalat)`
+ - `Kiss Csaba      (<1 év tapasztalat)`
+ - `Masa Roland     (<1 év tapasztalat)`
+ - `Juhász Ferenc   (3 év tapasztalat)`
 
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
