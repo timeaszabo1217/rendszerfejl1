@@ -261,7 +261,7 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.3. Sequence diagram
 
-Felelős: `Durucz Ádám`
+Felelős: `Mindenki`
 
 Tartam:  `5 nap`
 
