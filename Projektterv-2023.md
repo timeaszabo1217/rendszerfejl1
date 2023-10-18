@@ -278,7 +278,15 @@ Tartam:  `6 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### 8.2.5. Package diagram
+#### 8.2.5. Adatbázis megtervezése
+
+Felelős: `Mindenki`
+
+Tartam:  `3 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.2.6. Package diagram
 
 Felelős: `Durucz Ádám`
 
@@ -286,7 +294,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### 8.2.6. Képernyőtervek
+#### 8.2.7. Képernyőtervek
 
 Felelős: `Szabó Tímea`
 
@@ -294,7 +302,7 @@ Tartam:  `8 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### 8.2.7. Bemutató elkészítése
+#### 8.2.8. Bemutató elkészítése
 
 Felelős: `Urbán Judit`
 
