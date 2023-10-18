@@ -2,10 +2,10 @@
 
 ## 1. Összefoglaló 
 
-`A projektünk középpontjában egy pszichológus PHD hallgató honlapjának elkészítése áll, aki pszichológiai ismereteket és leckéket kíván megosztani más pszichológus hallgatókkal, valamint segítséget nyújtani nekik a felzárkózásban és a tanulásban. Az oldal célja, hogy lehetővé tegye a pszichológus hallgatók számára, hogy könnyen hozzáférjenek az oktatási anyagokhoz és szakmai támogatáshoz.
-Az oldalon a pszichológus PHD hallgató bemutatja szakmai hátterét, beleértve a folyamatban lévő PHD tanulmányait, szakmai érdeklődési területeit és kutatási projektjeit. Az oldal segít azon pszichológus hallgatóknak, akik tovább szeretnék fejleszteni pszichológiai tudásukat, és olyan tanulási forrásokhoz jutni, amelyek segítenek nekik a pályájukon való előrelépésben.
+`A projektünk középpontjában egy pszichológus PHD hallgató honlapjának elkészítése áll, aki pszichológiai ismereteket és leckéket kíván megosztani más pszichológus hallgatókkal, valamint segítséget nyújtani nekik a felzárkózásban és a tanulásban. Az oldal célja, hogy lehetővé tegye a hallgatók számára, hogy könnyen hozzáférjenek az oktatási anyagokhoz és szakmai támogatáshoz.
+Az oldalon a pszichológus PHD hallgató bemutatja szakmai hátterét, beleértve a folyamatban lévő PHD tanulmányait, szakmai érdeklődési területeit és kutatási projektjeit. Az oldal segít azon hallgatóknak, akik tovább szeretnék fejleszteni pszichológiai tudásukat, és olyan tanulási forrásokhoz jutni, amelyek segítenek nekik a pályájukon való előrelépésben.
 Az oldal különböző pszichológiai leckéket és tanácsokat kínál, hogy segítse a pszichológus hallgatókat a tudásuk bővítésében és a felkészülésben. Emellett segít a pszichológus hallgatóknak megtalálni a számukra legmegfelelőbb oktatási anyagokat és tanácsokat a pszichológia területén.
-Az oldal design-ja letisztult és egyszerű, hogy könnyen áttekinthető legyen, és könnyen navigálható legyen a látogatók számára. Az oldal elengedhetetlen része egy kapcsolatfelvételi űrlap is, amely lehetővé teszi a látogatók számára, hogy egyszerűen felvegyék a kapcsolatot a pszichológus PHD hallgatóval, kérdéseket tegyenek fel vagy segítséget kérjenek tőle a pszichológiai tanulás területén.`
+Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen navigálható legyen a felhasználók számára. Az oldal elengedhetetlen része egy kapcsolatfelvételi űrlap is, amely lehetővé teszi a felhasználók számára, hogy egyszerűen felvegyék a kapcsolatot a pszichológus PHD hallgatóval, kérdéseket tegyenek fel vagy segítséget kérjenek tőle.`
 
 
 ## 2. A projekt bemutatása
