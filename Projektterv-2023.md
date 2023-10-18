@@ -100,7 +100,7 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
  - `Node.js szerverkörnyezet a webalkalmazás futtatásához`
- - `MongoDB adatbázis adataink tárolásáho`
+ - `MySQL adatbázis adataink tárolásáho`
  - `Express.js webes alkalmazáskeret a szerver oldali fejlesztéshez`
  - `React JavaScript könyvtár a felhasználói felület készítéséhez`
  - `npm szoftvercsomag menedzser a projekt függőségeinek kezeléséhez`
