@@ -20,13 +20,12 @@ A megrendelő, fő igénye az, hogy hatékonyan tudja bemutatni magát és munk�
 
 ### 2.2. Funkcionális követelmények
 
- - Időpont foglaláskor email ki küldés mindkét félnek
- - Felhasználók kezelése (admin, felhasználó) (CRUD)
+ - Időpont foglaláskor email értesítés küldése a felhasználónak és az adminnak
+ - Felhasználók kezelése (felhasználó, admin) (CRUD)
  - Felhasználói munkamenet megvalósítása több jogosultsági szinttel
  - Időpont foglalások kezelése (CRUD)
  - Cikkek kezelése (CRUD)
- - Email-es kiértesítés új idópont foglalás esetén az adott személynek és a pszichológusnak
-
+ - Email-es kiértesítés új időpont foglalás esetén az adott személynek és a pszichológusnak
 
    ##### Látogatói nézet:
    - Bemutatkozó oldal
@@ -35,12 +34,11 @@ A megrendelő, fő igénye az, hogy hatékonyan tudja bemutatni magát és munk�
    - Regisztrációs oldal
    - Bejelentkező oldal
    ##### Regisztrált felhasználói nézet:
-   - Látogatói nézetben felsoroltak
+   - Látogatói nézetben felsoroltak, kivéve Regisztrációs és Bejelentkező oldal
    - Profil oldal
    - Időpont foglalás
    - Leckék oldala
    ##### Admin nézet:
-   - Látogatói és regisztrált felhasználói nézetben felsoroltak
    - Időpontok kezelése
    - Leckék oldala (CRUD)
    - Publikált cikkek szerkesztése
