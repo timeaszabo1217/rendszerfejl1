@@ -20,6 +20,27 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
 
 ### 2.2. Funkcionális követelmények
 
+
+
+ - `Látogatói nézet:
+        - Bemutatkozó oldal
+        - Publikált cikkek oldala
+        - Kutatáshoz szükséges teszt oldala(beágyazott teszt)
+        - Regisztrációs oldal
+        - Bejelentkező oldal`
+ - `Regisztrált nézet:
+        - +
+        - Profil oldal
+        - Időpont foglalás
+        - Leckék oldala`
+ - `Admin nézet:
+        - Időpontok kezelése
+        - Leckék oldala (CRUD)
+        - Publikált cikkek szerkesztése
+        -  Kutatáshoz szükséges teszt oldala(beágyazott teszt) módositása
+
+ - `Időpont foglaláskor email ki küldés mindkét félnek`
+
  - `Felhasználók kezelése (admin, felhasználó) (CRUD)`
  - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
  - `Időpont foglalások kezelése (CRUD)`
