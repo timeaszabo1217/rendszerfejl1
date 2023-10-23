@@ -20,18 +20,18 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
 
 ### 2.2. Funkcionális követelmények
 
- - `Látogatói nézet:
+    ##### `Látogatói nézet:
        - Bemutatkozó oldal
        - Publikált cikkek oldala
        - Kutatáshoz szükséges teszt oldala(beágyazott teszt)
        - Regisztrációs oldal
        - Bejelentkező oldal`
- - `Regisztrált nézet:
+    ##### `Regisztrált nézet:
        - +
        - Profil oldal
        - Időpont foglalás
        - Leckék oldala`
- - `Admin nézet:
+    ##### `Admin nézet:
        - Időpontok kezelése
        - Leckék oldala (CRUD)
        - Publikált cikkek szerkesztése
