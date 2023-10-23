@@ -30,7 +30,7 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
    ##### Látogatói nézet:
    - Bemutatkozó oldal
    - Publikált cikkek oldala
-   - Kutatáshoz szükséges teszt oldala(beágyazott teszt)
+   - Kutatáshoz szükséges teszt oldala (beágyazott teszt)
    - Regisztrációs oldal
    - Bejelentkező oldal
    ##### Regisztrált nézet:
@@ -41,7 +41,7 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
    - Időpontok kezelése
    - Leckék oldala (CRUD)
    - Publikált cikkek szerkesztése
-   -  Kutatáshoz szükséges teszt oldala(beágyazott teszt) módositása
+   -  Kutatáshoz szükséges teszt oldala (beágyazott teszt) módositása
 
 ### 2.3. Nem funkcionális követelmények
 
