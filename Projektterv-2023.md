@@ -20,8 +20,6 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
 
 ### 2.2. Funkcionális követelmények
 
-
-
  - `Látogatói nézet:
         - Bemutatkozó oldal
         - Publikált cikkek oldala
