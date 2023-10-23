@@ -36,6 +36,7 @@ A megrendelő, fő igénye az, hogy hatékonyan tudja bemutatni magát és munk�
    ##### Regisztrált felhasználói nézet:
    - Látogatói nézetben felsoroltak, kivéve Regisztrációs és Bejelentkező oldal
    - Profil oldal
+   - Profil módosítás oldal (személyes adatok, jelszó, profilkép és egyéb adatok módosítása)
    - Időpont foglalás
    - Leckék oldala
    ##### Admin nézet:
