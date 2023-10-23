@@ -2,20 +2,20 @@
 
 ## 1. Összefoglaló 
 
-`A projektünk középpontjában egy pszichológus PHD hallgató honlapjának elkészítése áll, aki pszichológiai ismereteket és leckéket   kíván megosztani más pszichológus hallgatókkal, valamint segítséget nyújtani nekik a felzárkózásban és a tanulásban. Az oldal célja, hogy lehetővé tegye a hallgatók számára, hogy könnyen hozzáférjenek az oktatási anyagokhoz és szakmai támogatáshoz.
+A projektünk középpontjában egy pszichológus PHD hallgató honlapjának elkészítése áll, aki pszichológiai ismereteket és leckéket   kíván megosztani más pszichológus hallgatókkal, valamint segítséget nyújtani nekik a felzárkózásban és a tanulásban. Az oldal célja, hogy lehetővé tegye a hallgatók számára, hogy könnyen hozzáférjenek az oktatási anyagokhoz és szakmai támogatáshoz.
 Az oldalon a pszichológus PHD hallgató bemutatja szakmai hátterét, beleértve a folyamatban lévő PHD tanulmányait, szakmai érdeklődési területeit és kutatási projektjeit. Az oldal segít azon hallgatóknak, akik tovább szeretnék fejleszteni pszichológiai tudásukat, és olyan tanulási forrásokhoz jutni, amelyek segítenek nekik a pályájukon való előrelépésben.
 Az oldal különböző pszichológiai leckéket és tanácsokat kínál, hogy segítse a pszichológus hallgatókat a tudásuk bővítésében és a felkészülésben. Emellett segít a pszichológus hallgatóknak megtalálni a számukra legmegfelelőbb oktatási anyagokat és tanácsokat a pszichológia területén.
-Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen navigálható legyen a felhasználók számára. Az oldal elengedhetetlen része egy kapcsolatfelvételi űrlap is, amely lehetővé teszi a felhasználók számára, hogy egyszerűen felvegyék a kapcsolatot a pszichológus PHD hallgatóval, kérdéseket tegyenek fel vagy segítséget kérjenek tőle.`
+Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen navigálható legyen a felhasználók számára. Az oldal elengedhetetlen része egy kapcsolatfelvételi űrlap is, amely lehetővé teszi a felhasználók számára, hogy egyszerűen felvegyék a kapcsolatot a pszichológus PHD hallgatóval, kérdéseket tegyenek fel vagy segítséget kérjenek tőle.
 
 
 ## 2. A projekt bemutatása
 
-`Ez a projektterv a Pszichológus munkásságát elősegitő projektet mutatja be, amely 2023-09-23-től 2023-11-22-ig tart, azaz összesen 61 napon keresztül fog futni. A projekten nyolc fejlesztő fog dolgozni, az elvégzett feladatokat pedig négy alkalommal fogjuk prezentálni a megrendelőnek, annak érdekében, hogy biztosítsuk a projekt folyamatos előrehaladását.`
+Ez a projektterv a Pszichológus munkásságát elősegitő projektet mutatja be, amely 2023-09-23-től 2023-11-22-ig tart, azaz összesen 61 napon keresztül fog futni. A projekten nyolc fejlesztő fog dolgozni, az elvégzett feladatokat pedig négy alkalommal fogjuk prezentálni a megrendelőnek, annak érdekében, hogy biztosítsuk a projekt folyamatos előrehaladását.
 
 
 ### 2.1. Rendszerspecifikáció
 
-`A megrendelő, fő igénye az, hogy hatékonyan tudja bemutatni magát és munkásságát az online térben, valamint lehetőséget kapjon az időpontok hatékony kezelésére. A felhasználók számára pedig fontos, hogy könnyen megtalálják a pszichológus szolgáltatásait, és egyszerűen tudjanak időpontot foglalni vagy kapcsolatba lépni vele az oldalon keresztül. A rendszer az adminisztratív feladatok egyszerűsítése és a felhasználói élmény javítása mellett segíti a pszichológust abban, hogy sikeresen kommunikáljon az online közönséggel. A projekt fő célja egy olyan weboldal létrehozása, amely lehetővé teszi egy pszichológus számára, hogy hatékonyan mutassa be magát és szolgáltatásait az online térben. A rendszer lehetőséget biztosít a pszichológusnak saját cikkek publikálására, amelyek segítik az információ megosztását és az online jelenlét erősítését. Emellett a felhasználók regisztrálhatnak az oldalon, és a regisztrált felhasználók időpontot is foglalhatnak a pszichológus szolgáltatásaira, így egyszerűsítve az időpontok koordinálását. Az adminisztrátori felület segítségével könnyen kezelheti a megrendelő az oldal tartalmát és az időpontok elérhetőségét.`
+A megrendelő, fő igénye az, hogy hatékonyan tudja bemutatni magát és munkásságát az online térben, valamint lehetőséget kapjon az időpontok hatékony kezelésére. A felhasználók számára pedig fontos, hogy könnyen megtalálják a pszichológus szolgáltatásait, és egyszerűen tudjanak időpontot foglalni vagy kapcsolatba lépni vele az oldalon keresztül. A rendszer az adminisztratív feladatok egyszerűsítése és a felhasználói élmény javítása mellett segíti a pszichológust abban, hogy sikeresen kommunikáljon az online közönséggel. A projekt fő célja egy olyan weboldal létrehozása, amely lehetővé teszi egy pszichológus számára, hogy hatékonyan mutassa be magát és szolgáltatásait az online térben. A rendszer lehetőséget biztosít a pszichológusnak saját cikkek publikálására, amelyek segítik az információ megosztását és az online jelenlét erősítését. Emellett a felhasználók regisztrálhatnak az oldalon, és a regisztrált felhasználók időpontot is foglalhatnak a pszichológus szolgáltatásaira, így egyszerűsítve az időpontok koordinálását. Az adminisztrátori felület segítségével könnyen kezelheti a megrendelő az oldal tartalmát és az időpontok elérhetőségét.
 
 
 ### 2.2. Funkcionális követelmények
@@ -33,22 +33,24 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
    - Kutatáshoz szükséges teszt oldala (beágyazott teszt)
    - Regisztrációs oldal
    - Bejelentkező oldal
-   ##### Regisztrált nézet:
+   ##### Regisztrált felhasználói nézet:
+   - Látogatói nézetben felsoroltak
    - Profil oldal
    - Időpont foglalás
    - Leckék oldala
    ##### Admin nézet:
+   - Látogatói és regisztrált felhasználói nézetben felsoroltak
    - Időpontok kezelése
    - Leckék oldala (CRUD)
    - Publikált cikkek szerkesztése
-   -  Kutatáshoz szükséges teszt oldala (beágyazott teszt) módositása
+   - Kutatáshoz szükséges teszt oldala (beágyazott teszt) módositása
 
 ### 2.3. Nem funkcionális követelmények
 
- - `A kliens oldal böngészőfüggetlen legyen`
- - `Reszponzív megjelenés`
- - `Az érzékeny adatokat biztonságosan tároljuk`
- - `A legfrissebb technológiákat használja a rendszer`
+ - A kliens oldal böngészőfüggetlen legyen
+ - Reszponzív megjelenés
+ - Az érzékeny adatokat biztonságosan tároljuk
+ - A legfrissebb technológiákat használja a rendszer
 
 
 ## 3. Költség- és erőforrás-szükségletek
@@ -60,7 +62,7 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 
 ## 4. Szervezeti felépítés és felelősségmegosztás
 
-A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely `jelenleg nyolc fejlesztőből áll. A csapatban található többé és kevésbé tapasztalt webprogramozó is.`
+A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely jelenleg nyolc fejlesztőből áll. A csapatban található többé és kevésbé tapasztalt webprogramozó is.
  - `Urbán Judit     (<1 év tapasztalat)`
  - `Szabó Tímea     (<1 év tapasztalat)`
  - `Nagy Péter      (<1 év tapasztalat)`
@@ -68,7 +70,7 @@ A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` p
  - `Veszeli Karina  (<1 év tapasztalat)`
  - `Kiss Csaba      (<1 év tapasztalat)`
  - `Masa Roland     (<1 év tapasztalat)`
- - `Juhász Ferenc   (3 év tapasztalat)`
+ - `Juhász Ferenc   (3 év tapasztalat) `
 
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
@@ -97,7 +99,7 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 
 ### 5.1. Munkakörnyezet
 
- - `Munkaállomások: 8 db, Windows 10-es operációs rendszerrel`
+ - Munkaállomások: 8 db, Windows 10-es operációs rendszerrel
 
  - `Acer laptop (CPU:  i3-1115G4 , RAM: 4GB, GPU: )`
 
@@ -118,13 +120,13 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
- - `Node.js szerverkörnyezet a webalkalmazás futtatásához`
- - `MySQL adatbázis adataink tárolásáho`
- - `Express.js webes alkalmazáskeret a szerver oldali fejlesztéshez`
- - `React JavaScript könyvtár a felhasználói felület készítéséhez`
- - `npm szoftvercsomag menedzser a projekt függőségeinek kezeléséhez`
- - `Visual Studio Code IDE fejlesztőkörnyezet`
- - `Git verziókövető rendszer (GitLab)`
+ - Node.js szerverkörnyezet a webalkalmazás futtatásához
+ - MySQL adatbázis adataink tárolásához
+ - Express.js webes alkalmazáskeret a szerver oldali fejlesztéshez
+ - React JavaScript könyvtár a felhasználói felület készítéséhez
+ - npm szoftvercsomag menedzser a projekt függőségeinek kezeléséhez
+ - Visual Studio Code IDE fejlesztőkörnyezet
+ - Git verziókövető rendszer (GitLab)
  
 ```
 Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejlesztenek, milyen szoftverkörnyezetben, stb.
@@ -134,10 +136,10 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 
 | Kockázat                                    | Leírás                                                                                                                                                                                     | Valószínűség | Hatás  |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| `Betegség`                                  | `Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása`        | `nagy`       | `erős` |
-| `Kommunikációs fennakadás a csapattagokkal` | `A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések` | `kis`        | `erős` |
-| `ZH időszak` | `A csapattagok közül egy vagy több embernek is húzos hete van, amikor nem tud olyan szinten részt venni a projektben, mint egyébként. Megoldás: ha pár órát is, de igyekszünk foglalkozni a feladattal` | `nagy`        | `közepes` |
-| `Internet kimaradás` | `A csapaton belül lehetnek olyanok, akiknél gyakoribb az internet kimaradása. Megoldás: nagyobb kimaradás esetén publikus internettel rendelkező helyen dolgozunk` | `kis`        | `elhanyagolható` |
+| `Betegség`                                  | Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása        | `nagy`       | `erős` |
+| `Kommunikációs fennakadás a csapattagokkal` | A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések | `kis`        | `erős` |
+| `ZH időszak` | A csapattagok közül egy vagy több embernek is húzos hete van, amikor nem tud olyan szinten részt venni a projektben, mint egyébként. Megoldás: ha pár órát is, de igyekszünk foglalkozni a feladattal | `nagy`        | `közepes` |
+| `Internet kimaradás` | A csapaton belül lehetnek olyanok, akiknél gyakoribb az internet kimaradása. Megoldás: nagyobb kimaradás esetén publikus internettel rendelkező helyen dolgozunk | `kis`        | `elhanyagolható` |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
@@ -151,7 +153,7 @@ Pl.: betegség, szoftver-hardver probléma, tag kiesése, extrém ZH időszak, p
 ## 6. Jelentések
 
 ### 6.1. Munka menedzsment
-A munkát `Urbán Judit` koordinálja. `Fő feladata, hogy folyamatosan egyeztessen a csapattagokkal az előrehaladásról és a fellépő problémákról. További feladata a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről messenger csoportban diskurál a projektcsapat.`
+A munkát `Urbán Judit` koordinálja. Fő feladata, hogy folyamatosan egyeztessen a csapattagokkal az előrehaladásról és a fellépő problémákról. További feladata a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről messenger csoportban diskurál a projektcsapat.
 
 ```
 Írd le, hogy ki menedzseli a munkát (tipikusan a projekt menedzser), mik a feladatai, és azokat hogyan hajtja végre.
@@ -159,14 +161,14 @@ A munkát `Urbán Judit` koordinálja. `Fő feladata, hogy folyamatosan egyeztes
 
 ### 6.2. Csoportgyűlések
 
-`A csapat rendszeresen összeül, hogy elősegítse a projekt haladását és biztosítsa a gördülékeny kommunikációt. Az üléseken áttekintik az elmúlt hét kihívásait és megtervezik a következő heti feladatokat, melyről minden alkalommal készül egy rövid memó.`
+A csapat rendszeresen összeül, hogy elősegítse a projekt haladását és biztosítsa a gördülékeny kommunikációt. Az üléseken áttekintik az elmúlt hét kihívásait és megtervezik a következő heti feladatokat, melyről minden alkalommal készül egy rövid memó.
 
 `1. megbeszélés:`
- - `Időpont: 2021.10.05.`
- - `Hely: Nyugi Kert - Szeged, Vitéz u. 28.`
- - `Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland`
- - `Érintett témák: Ismerkedés, projekttéma kiválasztása, főbb feladatok meghatározása`
- - `Tartalma: A megbeszélés elején lehetőséget biztosítottunk minden résztvevő számára, hogy bemutatkozzon és ismertesse saját háttértudását, mely a projekt során hasznosítható. Ezt követően konszenzus alapján meghatároztuk a megvalósítandó programot, valamint nagyvonalakban körvonalaztuk annak specifikációját és a követelményeket. Ezenfelül rögzítettük a projekt során elvégzendő főbb feladatokat, és tisztáztuk, kik vesznek részt az egyes fázisokban.`
+ - Időpont: 2021.10.05.
+ - Hely: Nyugi Kert - Szeged, Vitéz u. 28.
+ - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland
+ - Érintett témák: Ismerkedés, projekttéma kiválasztása, főbb feladatok meghatározása
+ - Tartalma: A megbeszélés elején lehetőséget biztosítottunk minden résztvevő számára, hogy bemutatkozzon és ismertesse saját háttértudását, mely a projekt során hasznosítható. Ezt követően konszenzus alapján meghatároztuk a megvalósítandó programot, valamint nagyvonalakban körvonalaztuk annak specifikációját és a követelményeket. Ezenfelül rögzítettük a projekt során elvégzendő főbb feladatokat, és tisztáztuk, kik vesznek részt az egyes fázisokban.
 
 
 ### 6.3. Minőségbiztosítás
@@ -191,13 +193,13 @@ Minden mérföldkő leadásnál a projekten dolgozók jelentést tesznek a mérf
 
 ### 7.1. Tervezett szoftverfolyamat modell és architektúra
 
-`A pszichológus weboldal fejlesztése során az "agilis fejlesztési modellt" választottuk, mivel ennek a módszertannak előnyei segítenek a folyamatos fejlesztésben és az ügyfél igényeinek való megfelelésben. Az agilis megközelítés lehetővé teszi a projekt rugalmas módosítását és a gyors reagálást az új elvárásokra. Az agilis módszerrel rendszeresen kommunikálunk az ügyféllel, hogy biztosítsuk az igényeik megértését és a folyamatos visszajelzések beépítését a fejlesztésbe.`
+A pszichológus weboldal fejlesztése során az "agilis fejlesztési modellt" választottuk, mivel ennek a módszertannak előnyei segítenek a folyamatos fejlesztésben és az ügyfél igényeinek való megfelelésben. Az agilis megközelítés lehetővé teszi a projekt rugalmas módosítását és a gyors reagálást az új elvárásokra. Az agilis módszerrel rendszeresen kommunikálunk az ügyféllel, hogy biztosítsuk az igényeik megértését és a folyamatos visszajelzések beépítését a fejlesztésbe.
 
-`A webalkalmazás elkészítéséhez a "Model-View-Controller (MVC)" architektúrát alkalmazzuk. Ebben az architektúrában a szerver- és kliensoldal függetlenek egymástól, és csak API végpontok segítségével kommunikálnak egymással. Ez a megközelítés lehetővé teszi a funkcionalitás jól elkülönített és moduláris felépítését, amely segít a fejlesztőknek hatékonyan dolgozni a projekt különböző részein.`
+A webalkalmazás elkészítéséhez a "Model-View-Controller (MVC)" architektúrát alkalmazzuk. Ebben az architektúrában a szerver- és kliensoldal függetlenek egymástól, és csak API végpontok segítségével kommunikálnak egymással. Ez a megközelítés lehetővé teszi a funkcionalitás jól elkülönített és moduláris felépítését, amely segít a fejlesztőknek hatékonyan dolgozni a projekt különböző részein.
 
-`Az MVC struktúrában a "Model" rész tartalmazza az alkalmazás üzleti logikáját és az adatkezelést. A "View" rész felelős a felhasználói felület megjelenítéséért, míg a "Controller" rész irányítja a kérések feldolgozását és az adatok továbbítását a megfelelő helyre.`
+Az MVC struktúrában a "Model" rész tartalmazza az alkalmazás üzleti logikáját és az adatkezelést. A "View" rész felelős a felhasználói felület megjelenítéséért, míg a "Controller" rész irányítja a kérések feldolgozását és az adatok továbbítását a megfelelő helyre.
 
-`Ezenkívül a rugalmas specifikációk és az agilis fejlesztési megközelítés segít abban, hogy könnyen alkalmazkodjunk az új elvárásokhoz és a vevői visszajelzésekhez a pszichológus weboldal projektjének keretében.`
+Ezenkívül a rugalmas specifikációk és az agilis fejlesztési megközelítés segít abban, hogy könnyen alkalmazkodjunk az új elvárásokhoz és a vevői visszajelzésekhez a pszichológus weboldal projektjének keretében.
 
 ```
 Milyen szoftverfolyamat modellt követve állítja elő a csapat a specifikációnak megfelelő prototípusokat? Miért ezt választja? 
@@ -211,8 +213,8 @@ A főbb átadandók és határidők a projekt időtartama alatt a következők:
 
 | Szállítandó |                 Neve                                                        |   Határideje  |
 |:-----------:|:---------------------------------------------------------------------------:|:-------------:|
-|      D1     |      Projektterv és Gantt diagram, prezentáció, egyéni jelentés               | `2023-10-11`  |
-|    P1+D2    |      UML, adatbázis- és képernyőtervek, prezentáció, egyéni jelentés        | `2023-10-25`  |
+|      D1     |      Projektterv és Gantt diagram, prezentáció, egyéni jelentés             | `2023-10-11`  |
+|      D2     |      UML, adatbázis- és képernyőtervek, prezentáció, egyéni jelentés        | `2023-10-25`  |
 |    P1+D3    |      Prototípus I. és tesztelési dokumentáció, egyéni jelentés              | `2023-11-15`  |
 |    P2+D4    |      Prototípus II. és frissített tesztelési dokumentáció, egyéni jelentés  | `2023-12-06`  |
 
@@ -223,11 +225,6 @@ D - dokumentáció, P - prototípus
 ## 8. Feladatlista
 
 A következőkben a tervezett feladatok részletes összefoglalása található.
-
-```
-Alapvetően egy feladatnak 1 felelőse lehet, de kivételt képez pl. a 9.1.1. részfeladat, mivel az első mérföldkőben
-2 kötelező feladat van, ezt nem bontjuk részfeladatokra.
-```
 
 ### 8.1. Projektterv (1. mérföldkő)
 
