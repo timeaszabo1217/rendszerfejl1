@@ -37,7 +37,7 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
         - Időpontok kezelése
         - Leckék oldala (CRUD)
         - Publikált cikkek szerkesztése
-        -  Kutatáshoz szükséges teszt oldala(beágyazott teszt) módositása
+        -  Kutatáshoz szükséges teszt oldala(beágyazott teszt) módositása`
 
  - `Időpont foglaláskor email ki küldés mindkét félnek`
 
