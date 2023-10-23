@@ -79,16 +79,16 @@ Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releván
 
 A projekt a következő emberekből áll:
 
-| Név          | Pozíció          |   E-mail cím (stud-os)        |
-|--------------|------------------|-------------------------------|
-| `Urbán Judit` | Projektmenedzser | `h165835@stud.u-szeged.hu`    |
-| `Szabó Tímea` | Projekt tag      | `h164242@stud.u-szeged.hu`    |
-| `Nagy Péter`  | Projekt tag      | `h879771@stud.u-szeged.hu`    |
-| `Durucz Ádám` | Projekt tag      | `h155067@stud.u-szeged.hu`    |
-|`Veszeli Karina`| Projekt tag      | `h166120@stud.u-szeged.hu`    |
-|`Kiss Csaba` | Projekt tag      | `h264781@stud.u-szeged.hu`    |
-|`Masa Roland` | Projekt tag      | `h267480@stud.u-szeged.hu`    |
-|`Juhász Ferenc` | Projekt tag      | `h983413@stud.u-szeged.hu`    |
+| Név           | Pozíció          |   E-mail cím (stud-os)        |
+|---------------|------------------|-------------------------------|
+| Urbán Judit   | Projektmenedzser | h165835@stud.u-szeged.hu      |
+| Szabó Tímea   | Projekt tag      | h164242@stud.u-szeged.hu      |
+| Nagy Péter    | Projekt tag      | h879771@stud.u-szeged.hu      |
+| Durucz Ádám   | Projekt tag      | h155067@stud.u-szeged.hu      |
+| Veszeli Karina| Projekt tag      | h166120@stud.u-szeged.hu      |
+| Kiss Csaba    | Projekt tag      | h264781@stud.u-szeged.hu      |
+| Masa Roland   | Projekt tag      | h267480@stud.u-szeged.hu      |
+| Juhász Ferenc | Projekt tag      | h983413@stud.u-szeged.hu      |
 
 ```
 Betölthető pozíciók: projektmenedzser, projekt tag.
@@ -332,7 +332,7 @@ Ennek a feladatnak az a célja, hogy `egy működő prototípust hozzunk létre,
 
 Részfeladatai a következők:
 
-#### `8.3.1. Felhasználók kezelése (admin, felhasználó) (CR)`
+#### 8.3.1. Felhasználók kezelése (admin, felhasználó) (CR)
 
 Felelős: `Masa Roland`
 
@@ -340,7 +340,7 @@ Tartam:  `6 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.2. Felhasználók kezelése (admin, felhasználó) (UD)`
+#### 8.3.2. Felhasználók kezelése (admin, felhasználó) (UD)
 
 Felelős: `Durucz Ádám`
 
@@ -348,7 +348,7 @@ Tartam:  `6 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban`
+#### 8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban
 
 Felelős: `Juhász Ferenc`
 
@@ -356,7 +356,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2.5 személynap`
 
-#### `8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel`
+#### 8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel
 
 Felelős: `Masa Roland `
 
@@ -364,7 +364,7 @@ Tartam:  `10 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### `8.3.5. Cikkek kezelése (CRUD)`
+#### 8.3.5. Cikkek kezelése (CRUD)
 
 Felelős: `Kiss Csaba`
 
@@ -372,7 +372,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### `8.3.6. Cikk kezeléshez szükséges adatok létrehozása az adatbázisban`
+#### 8.3.6. Cikk kezeléshez szükséges adatok létrehozása az adatbázisban
 
 Felelős: `Juhász Ferenc`
 
@@ -380,7 +380,7 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.7. Teszt oldal kivitelezése`
+#### 8.3.7. Teszt oldal kivitelezése
 
 Felelős: `Veszeli Karina `
 
@@ -388,7 +388,7 @@ Tartam:  `6 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### `8.3.8. Bemutatkozó oldal`
+#### 8.3.8. Bemutatkozó oldal
 
 Felelős: `Szabó Tímea`
 
@@ -396,7 +396,7 @@ Tartam:  `10 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.9. Páciensek lecke oldala`
+#### 8.3.9. Páciensek lecke oldala
 
 Felelős: `Veszeli Karina`
 
@@ -404,7 +404,7 @@ Tartam:  `11 nap`
 
 Erőforrásigény:  `5 személynap`
 
-#### `8.3.10. Email-es kiértesítés új időpontfoglalás esetén `
+#### 8.3.10. Email-es kiértesítés új időpontfoglalás esetén
 
 Felelős: `Nagy Péter`
 
@@ -412,7 +412,7 @@ Tartam:  `11 nap`
 
 Erőforrásigény:  `5 személynap`
 
-#### `8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt`
+#### 8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
 
 Felelős: `Szabó Tímea`
 
@@ -420,7 +420,7 @@ Tartam:  `10 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.3.12. Biztonsági mentés automatikus létrehozása`
+#### 8.3.12. Biztonsági mentés automatikus létrehozása
 
 Felelős: `Nagy Péter`
 
@@ -440,7 +440,7 @@ Erőforrásigény:  `1 személynap/fő`
 Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként, azonban ezt a feladatot is részfeladatokra kell bontani.
 ```
 
-#### `8.3.14. A prototípus kitelepítése éles környezetbe` 
+#### 8.3.14. A prototípus kitelepítése éles környezetbe
 
 Felelős: `Kiss Csaba`
 
@@ -492,7 +492,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### `8.4.4. Felhasználói munkamenet tesztelése (TR)`
+#### 8.4.4. Felhasználói munkamenet tesztelése (TR)
 
 Felelős: `Veszeli Karina`
 
@@ -500,7 +500,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### `8.4.5. Cikkek kezelésének tesztelése (TR)`
+#### 8.4.5. Cikkek kezelésének tesztelése (TR)
 
 Felelős: `Nagy Péter`
 
@@ -508,7 +508,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### `8.4.6. Tesztek elérése és kezelésének tesztelése (TR)`
+#### 8.4.6. Tesztek elérése és kezelésének tesztelése (TR)
 
 Felelős: `Masa Roland`
 
@@ -516,7 +516,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### `8.4.7. Leckék kezelésének tesztelése (TR)`
+#### 8.4.7. Leckék kezelésének tesztelése (TR)
 
 Felelős: `Durucz Ádám`
 
@@ -524,7 +524,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.8. Email-es funkciók tesztelése (TR)`
+#### 8.4.8. Email-es funkciók tesztelése (TR)
 
 Felelős: `Szabó Tímea`
 
@@ -532,7 +532,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.9. Biztonsági mentés tesztelése (TR)`
+#### 8.4.9. Biztonsági mentés tesztelése (TR)
 
 Felelős: `Durucz Ádám`
 
@@ -540,7 +540,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### `8.4.10. A prototípus kitelepítésének frissítése`
+#### 8.4.10. A prototípus kitelepítésének frissítése
 
 Felelős: `Kiss Csaba`
 
@@ -580,44 +580,44 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 ### 10.1. Részletes erőforrásigény (személynap)
 
 
-| Név          |   M1  |   M2  |   M3 |   M4  | Összesen |
-|--------------|-------|-------|------|-------|----------|
-| `Nagy Péter` | `3`   | `6` | `16` | `5`   | `30`     |
-| `Szabó Tímea`| `4`   | `6`   | `16` | `5`   | `31`     |
-| `Durucz Ádám`| `2`   | `10` | `10` | `10` | `32`     |
-| `Urbán Judit`| `7`   | `6` | `9` | `10` | `32`     |
-| `Veszeli Karina`| `2`   | `5` | `20` | `4` | `31`     |
-| `Juhász Ferenc`| `2`   | `3` | `16` | `9` | `30`     |
-| `Kiss Csaba`| `2`   | `3` | `17` | `9` | `31`     |
-| `Masa Roland`| `2`   | `3` | `17` | `8` | `30`     |
+| Név           |   M1  |   M2  |   M3 |   M4  | Összesen |
+|---------------|-------|-------|------|-------|----------|
+| Nagy Péter    | `3`   | `6`   | `16` | `5`   | `30`     |
+| Szabó Tímea   | `4`   | `6`   | `16` | `5`   | `31`     |
+| Durucz Ádám   | `2`   | `10`  | `10` | `10`  | `32`     |
+| Urbán Judit   | `7`   | `6`   | `9`  | `10`  | `32`     |
+| Veszeli Karina| `2`   | `5`   | `20` | `4`   | `31`     |
+| Juhász Ferenc | `2`   | `3`   | `16` | `9`   | `30`     |
+| Kiss Csaba    | `2`   | `3`   | `17` | `9`   | `31`     |
+| Masa Roland   | `2`   | `3`   | `17` | `8`   | `30`     |
 
 
 
 ### 10.2. Részletes feladatszámok
 
-| Név          |   M1  |   M2  |   M3 |   M4 | Összesen |
-|--------------|-------|-------|------|------|----------|
-| `Nagy Péter` | `1`   | `1`   | `2`  | `1`  | `5`     |
-| `Szabó Tímea` | `1`   | `2`   | `2`  | `1`  | `6`     |
-| `Durucz Ádám`   | `1`   | `2`   | `2`  | `2`  | `7`     |
-| `Urbán Judit` | `2`   | `2`   | `1`  | `1`  | `6`     |
-| `Veszeli Karina`   | `1`   | `1`   | `2`  | `1`  | `5`   |
-| `Juhász Ferenc`   | `1`   | `1`   | `2`  | `2`  | `6`   |
-| `Kiss Csaba`   | `1`   | `1`   | `2`  | `2`  | `6`   |
-| `Masa Roland`   | `1`   | `1`   | `3`  | `1`  | `6`   |
+| Név           |   M1  |   M2  |   M3 |   M4 | Összesen |
+|---------------|-------|-------|------|------|----------|
+| Nagy Péter    | `1`   | `1`   | `2`  | `1`  | `5`      |
+| Szabó Tímea   | `1`   | `2`   | `2`  | `1`  | `6`      |
+| Durucz Ádám   | `1`   | `2`   | `2`  | `2`  | `7`      |
+| Urbán Judit   | `2`   | `2`   | `1`  | `1`  | `6`      |
+| Veszeli Karina| `1`   | `1`   | `2`  | `1`  | `5`      |
+| Juhász Ferenc | `1`   | `1`   | `2`  | `2`  | `6`      |
+| Kiss Csaba    | `1`   | `1`   | `2`  | `2`  | `6`      |
+| Masa Roland   | `1`   | `1`   | `3`  | `1`  | `6`      |
 
 ### 10.3. Részletes költségvetés
 
 | Név                                 | M1      | M2       | M3       | M4       | Összesen  |
 |-------------------------------------|---------|----------|----------|----------|-----------|
 | Maximálisan megszerezhető pontszám  |  (7)    | (20)     | (35)     |  (28)    | 100% (70) |
-| `Nagy Péter`                        | `6`     | `16`     | `30`     |  `18`    | 70        |
-| `Szabó Tímea`                        | `6`     | `15`     | `35`     |  `14`    | 70        |
-| `Durucz Ádám`                          | `6`     | `20`     | `24`     |  `20`    | 70        |
-| `Urbán Judit`                        | `7`     | `16`     | `27`     |  `20`    | 70        |
-| `Veszeli Karina`                        | `6`     | `13`     | `35`     |  `16`    | 70        |
-| `Juhász Ferenc`                        | `5`     | `10`     | `27`     |  `28`    | 70        |
-| `Kiss Csaba`                        | `5`     | `10`     | `31`     |  `24`    | 70        |
-| `Masa Roland`                        | `5`     | `10`     | `35`     |  `20`    | 70        |
+| Nagy Péter                          | `6`     | `16`     | `30`     |  `18`    | 70        |
+| Szabó Tímea                         | `6`     | `15`     | `35`     |  `14`    | 70        |
+| Durucz Ádám                         | `6`     | `20`     | `24`     |  `20`    | 70        |
+| Urbán Judit                         | `7`     | `16`     | `27`     |  `20`    | 70        |
+| Veszeli Karina                      | `6`     | `13`     | `35`     |  `16`    | 70        |
+| Juhász Ferenc                       | `5`     | `10`     | `27`     |  `28`    | 70        |
+| Kiss Csaba                          | `5`     | `10`     | `31`     |  `24`    | 70        |
+| Masa Roland                         | `5`     | `10`     | `35`     |  `20`    | 70        |
 
 Szeged, `2023-10-09`.
