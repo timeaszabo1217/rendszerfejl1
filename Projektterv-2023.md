@@ -63,14 +63,14 @@ A rendelkezésünkre áll összesen `8 * 70 = 560` pont.
 ## 4. Szervezeti felépítés és felelősségmegosztás
 
 A projekt megrendelője `Urbán Csilla PHD hallgató`. A `Pszichológus oldal` projektet a projektcsapat fogja végrehajtani, amely jelenleg nyolc fejlesztőből áll. A csapatban található többé és kevésbé tapasztalt webprogramozó is.
- - `Urbán Judit     (<1 év tapasztalat)`
- - `Szabó Tímea     (<1 év tapasztalat)`
- - `Nagy Péter      (<1 év tapasztalat)`
- - `Durucz Ádám     (<1 év tapasztalat)`
- - `Veszeli Karina  (<1 év tapasztalat)`
- - `Kiss Csaba      (<1 év tapasztalat)`
- - `Masa Roland     (<1 év tapasztalat)`
- - `Juhász Ferenc   (3 év tapasztalat) `
+ - Urbán Judit      `<1 év tapasztalat`
+ - Szabó Tímea      `<1 év tapasztalat`
+ - Nagy Péter       `<1 év tapasztalat`
+ - Durucz Ádám      `<1 év tapasztalat`
+ - Veszeli Karina   `<1 év tapasztalat`
+ - Kiss Csaba       `<1 év tapasztalat`
+ - Masa Roland      `<1 év tapasztalat`
+ - Juhász Ferenc    `3 év tapasztalat `
 
 ```
 Itt lehet részletezni pl. a tagok szakmai tapasztalatait, vagy akár a releváns gyakorlati helyeket, munkahelyeket megemlíteni.
@@ -101,21 +101,14 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 
 Munkaállomások: 8 db, Windows 10-es operációs rendszerrel
 
- - `Acer laptop (CPU:  i3-1115G4 , RAM: 4GB, GPU: )`
-
- - `HP EliteBook (CPU: i7-3740QM, RAM: 14 GB, GPU: NVIDIA Quadro)`
-
- - `Asus Zenbook 14x OLED (CPU: AMD Ryzen 5 5600H, RAM: 16 GB, GPU: AMD Radeon Graphics)`
-
- - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
-
- - `Asus ViVoBook 15 (CPU: Intel(R) Core(TM) i7-1165G7 , RAM: 8 GB, GPU:Intel Iris Xe Graphics)`
- 
- - `MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)`
-
- - `Asztali gép (CPU: Ryzen 5 5600, RAM: 16 GB, GPU: GTX 1650 Super)`
- 
- - `Asus TUF Gaming FX505 (CPU: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx 2.30 GHz , RAM: 8 GB, GPU: GTX 1660 TI)`
+ - Acer laptop (CPU:  i3-1115G4 , RAM: 4GB, GPU: )
+ - HP EliteBook (CPU: i7-3740QM, RAM: 14 GB, GPU: NVIDIA Quadro)
+ - Asus Zenbook 14x OLED (CPU: AMD Ryzen 5 5600H, RAM: 16 GB, GPU: AMD Radeon Graphics)
+ - MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)
+ - Asus ViVoBook 15 (CPU: Intel(R) Core(TM) i7-1165G7 , RAM: 8 GB, GPU:Intel Iris Xe Graphics)
+ - MacBook Pro (CPU: Apple M1, RAM: 16 GB, GPU: Apple M1 integrált grafikus processzor)
+ - Asztali gép (CPU: Ryzen 5 5600, RAM: 16 GB, GPU: GTX 1650 Super)
+ - Asus TUF Gaming FX505 (CPU: AMD Ryzen 7 3750H with Radeon Vega Mobile Gfx 2.30 GHz , RAM: 8 GB, GPU: GTX 1660 TI)
  
 
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
@@ -136,10 +129,10 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 
 | Kockázat                                    | Leírás                                                                                                                                                                                     | Valószínűség | Hatás  |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| `Betegség`                                  | Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása        | `nagy`       | `erős` |
-| `Kommunikációs fennakadás a csapattagokkal` | A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések | `kis`        | `erős` |
-| `ZH időszak` | A csapattagok közül egy vagy több embernek is húzos hete van, amikor nem tud olyan szinten részt venni a projektben, mint egyébként. Megoldás: ha pár órát is, de igyekszünk foglalkozni a feladattal | `nagy`        | `közepes` |
-| `Internet kimaradás` | A csapaton belül lehetnek olyanok, akiknél gyakoribb az internet kimaradása. Megoldás: nagyobb kimaradás esetén publikus internettel rendelkező helyen dolgozunk | `kis`        | `elhanyagolható` |
+| Betegség                                  | Súlyosságtól függően hátráltatja vagy bizonyos esetekben teljes mértékben korlátozza a munkavégzőt, így az egész projektre kihatással van. Megoldás: a feladatok átcsoportosítása                         | nagy       | erős |
+| Kommunikációs fennakadás a csapattagokkal | A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések                 | kis        | erős |
+| ZH időszak                                | A csapattagok közül egy vagy több embernek is húzos hete van, amikor nem tud olyan szinten részt venni a projektben, mint egyébként. Megoldás: ha pár órát is, de igyekszünk foglalkozni a feladattal | nagy        | közepes |
+| Internet kimaradás                        | A csapaton belül lehetnek olyanok, akiknél gyakoribb az internet kimaradása. Megoldás: nagyobb kimaradás esetén publikus internettel rendelkező helyen dolgozunk                                          | kis        | elhanyagolható |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
@@ -163,7 +156,7 @@ A munkát `Urbán Judit` koordinálja. Fő feladata, hogy folyamatosan egyeztess
 
 A csapat rendszeresen összeül, hogy elősegítse a projekt haladását és biztosítsa a gördülékeny kommunikációt. Az üléseken áttekintik az elmúlt hét kihívásait és megtervezik a következő heti feladatokat, melyről minden alkalommal készül egy rövid memó.
 
-`1. megbeszélés:`
+##### 1. megbeszélés:
  - Időpont: 2021.10.05.
  - Hely: Nyugi Kert - Szeged, Vitéz u. 28.
  - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland
