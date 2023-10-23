@@ -20,28 +20,28 @@ Az oldal design-ja letisztult és egyszerű, hogy áttekinthető és könnyen na
 
 ### 2.2. Funkcionális követelmények
 
- - `Időpont foglaláskor email ki küldés mindkét félnek`
- - `Felhasználók kezelése (admin, felhasználó) (CRUD)`
- - `Felhasználói munkamenet megvalósítása több jogosultsági szinttel `
- - `Időpont foglalások kezelése (CRUD)`
- - `Cikkek kezelése (CRUD)`
- - `Email-es kiértesítés új idópont foglalás esetén az adott személynek és a pszichológusnak`
+ - Időpont foglaláskor email ki küldés mindkét félnek
+ - Felhasználók kezelése (admin, felhasználó) (CRUD)
+ - Felhasználói munkamenet megvalósítása több jogosultsági szinttel
+ - Időpont foglalások kezelése (CRUD)
+ - Cikkek kezelése (CRUD)
+ - Email-es kiértesítés új idópont foglalás esetén az adott személynek és a pszichológusnak
 
-   ##### `Látogatói nézet:
+   ##### Látogatói nézet:
    - Bemutatkozó oldal
    - Publikált cikkek oldala
    - Kutatáshoz szükséges teszt oldala(beágyazott teszt)
    - Regisztrációs oldal
-   - Bejelentkező oldal`
-   ##### `Regisztrált nézet:
+   - Bejelentkező oldal
+   ##### Regisztrált nézet:
    - Profil oldal
    - Időpont foglalás
-   - Leckék oldala`
-   ##### `Admin nézet:
+   - Leckék oldala
+   ##### Admin nézet:
    - Időpontok kezelése
    - Leckék oldala (CRUD)
    - Publikált cikkek szerkesztése
-   -  Kutatáshoz szükséges teszt oldala(beágyazott teszt) módositása`
+   -  Kutatáshoz szükséges teszt oldala(beágyazott teszt) módositása
 
 ### 2.3. Nem funkcionális követelmények
 
