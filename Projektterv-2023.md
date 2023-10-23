@@ -27,6 +27,7 @@ A megrendelő, fő igénye az, hogy hatékonyan tudja bemutatni magát és munk�
  - Cikkek kezelése (CRUD)
  - Email-es kiértesítés új idópont foglalás esetén az adott személynek és a pszichológusnak
 
+
    ##### Látogatói nézet:
    - Bemutatkozó oldal
    - Publikált cikkek oldala
@@ -99,7 +100,7 @@ Betölthető pozíciók: projektmenedzser, projekt tag.
 
 ### 5.1. Munkakörnyezet
 
- - Munkaállomások: 8 db, Windows 10-es operációs rendszerrel
+Munkaállomások: 8 db, Windows 10-es operációs rendszerrel
 
  - `Acer laptop (CPU:  i3-1115G4 , RAM: 4GB, GPU: )`
 
