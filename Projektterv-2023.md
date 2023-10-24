@@ -137,7 +137,7 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | Eltérés a terv és az elvégzett munka között                       | Ha valaki előre dolgozik, és időközben megváltozik a projektterv valamely részlete, a végzett munkája fölöslegessé válhat. Megoldás: Folyamatos kommunikáció, illetve a projektterv folyamatos követése, az előredolgozás. elkerülése                                      | kicsi        | közepes |
 | Utazás/Távollét                     | Ha valaki elutazik és nem tartózkodik a számítógépe közelében, elképzelhető, hogy egy mérföldkő határidejéig nem ér vissza, hogy elvégezze a munkáját. Megoldás: Előre tisztázni a tervezett távollétek időpontját, hogy a csapattagok ideiglenesen átvehessék az illető.feladatait.                                      | kicsi        | kicsi |
 | Hardvercsere                  | Abban az esetben, ha valaki a projektmunka ideje alatt cserél készüléket, lelassulhat a fejlesztés. Megoldás: Csere előtt ismertetni a szándékot, hogy a csapattagok ennek tudatában oszthassák be idejüket.                                      | kicsi        | kicsi |
-| Karantén                  | Nem lehetséges a személyes kommunikáció Megoldás: Telefon- illetve videóhívásokon keresztüli csoportgyűlések.                                 | kicsi        | erős |
+| Karantén                  | Nem lehetséges a személyes kommunikáció. Megoldás: Telefon- illetve videóhívásokon keresztüli csoportgyűlések.                                 | kicsi        | erős |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
