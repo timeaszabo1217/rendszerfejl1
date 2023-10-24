@@ -133,6 +133,7 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | Kommunikációs fennakadás a csapattagokkal | A csapattagok között nem elégséges az információ áramlás, nem pontosan, esetleg késve vagy nem egyértelműen tájékoztatjuk egymást. Megoldás: még gyakoribb megbeszélések és ellenőrzések                 | kis        | erős |
 | ZH időszak                                | A csapattagok közül egy vagy több embernek is húzos hete van, amikor nem tud olyan szinten részt venni a projektben, mint egyébként. Megoldás: ha pár órát is, de igyekszünk foglalkozni a feladattal | nagy        | közepes |
 | Internet kimaradás                        | A csapaton belül lehetnek olyanok, akiknél gyakoribb az internet kimaradása. Megoldás: nagyobb kimaradás esetén publikus internettel rendelkező helyen dolgozunk                                          | kis        | elhanyagolható |
+| Egymás munkájának felülírása                        | A csapaton belül ha egyeztetés nélkül commitol egyszerre két ember például a projekttervbe, valamelyikőjük munkája elveszhet. Megoldás: kommunikációs felületen egyeztetés                                         | nagy        | közepes |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
