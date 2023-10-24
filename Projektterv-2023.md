@@ -134,6 +134,7 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | ZH időszak                                | A csapattagok közül egy vagy több embernek is húzos hete van, amikor nem tud olyan szinten részt venni a projektben, mint egyébként. Megoldás: ha pár órát is, de igyekszünk foglalkozni a feladattal | nagy        | közepes |
 | Internet kimaradás                        | A csapaton belül lehetnek olyanok, akiknél gyakoribb az internet kimaradása. Megoldás: nagyobb kimaradás esetén publikus internettel rendelkező helyen dolgozunk                                          | kis        | elhanyagolható |
 | Egymás munkájának felülírása                        | A csapaton belül ha egyeztetés nélkül commitol egyszerre két ember például a projekttervbe, valamelyikőjük munkája elveszhet. Megoldás: kommunikációs felületen egyeztetés                                         | nagy        | közepes |
+| Eltérés a terv és az elvégzett munka között                       | Ha valaki előre dolgozik, és időközben megváltozik a projektterv valamely részlete, a végzett munkája fölöslegessé válhat. Megoldás: Folyamatos kommunikáció, illetve a projektterv folyamatos követése, az előredolgozás elkerülése                                      | kicsi        | közepes |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
