@@ -170,6 +170,17 @@ A csapat rendszeresen összeül, hogy elősegítse a projekt haladását és biz
  - Érintett témák: Ismerkedés, projekttéma kiválasztása, főbb feladatok meghatározása
  - Tartalma: A megbeszélés elején lehetőséget biztosítottunk minden résztvevő számára, hogy bemutatkozzon és ismertesse saját háttértudását, mely a projekt során hasznosítható. Ezt követően konszenzus alapján meghatároztuk a megvalósítandó programot, valamint nagyvonalakban körvonalaztuk annak specifikációját és a követelményeket. Ezenfelül rögzítettük a projekt során elvégzendő főbb feladatokat, és tisztáztuk, kik vesznek részt az egyes fázisokban.
 
+ - Időpont: 2021.10.12.
+ - Hely: Nyugi Kert - Szeged, Vitéz u. 28.
+ - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland, Megrendelő
+ - Érintett témák: A program követelményeinek egyeztetése és az ügyfél elvárásainak mélyebb megismerése.
+ - Tartalma: Az ügyfelet, akinek a szoftvert fejlesztjük, meghívtuk a megbeszélésre, hogy tisztázzuk elvárásait és igényeit. Az egyeztetés során körvonalaztuk a program kulcsfontosságú funkcióit, mint az adminisztrációs felület, a tananyagokkal rendelkező oldal és a "Rólunk" szekció. A tárgyalás végén közös megállapodásra jutottunk a megrendelővel, hogy a szoftver megfeleljen a kurzus előírásainak is.
+
+- Időpont: 2021.10.19.
+ - Hely: Nyugi Kert - Szeged, Vitéz u. 28.
+ - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland
+ - Érintett témák: A projektterv átnézése
+ - Tartalma: A projekttervet áttekintettük és megvitattuk, hogy hogyan prezentáljuk majd az órán.
 
 ### 6.3. Minőségbiztosítás
 
