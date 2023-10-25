@@ -184,4 +184,52 @@ Vállalásaim a mérföldkőben:
 
      - 820456e3bd4c7af3bada3d2afde765dec7c54570
 
+### Projekt tag: `Durucz Ádám`
 
+___
+
+Vállalásaim a mérföldkőben:
+
+- 5.2. Rizikómenedzsment
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #20
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - ccebaf7ed14250dbfb5e032813cb08b9a5618346
+     - 7e2ea2cdace50f3e72cbb2d44d0278900a87e3c8
+
+- 6.2. Csoportgyűlések
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #23
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - bb39c36f66dbbf20df79d03bb0c56eb0a36efbf2
+     - 7b0c367f8476fc96051044244536a784beb4ba4d
+
+
+- 8.2.3. Sequence diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #34
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 81bfda1dbdbc7cc4da1db9e52be262c14d355d05
+
+- 8.2.6. Package diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #33
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 1968cd577255257a5b3720ffd7f7562d3650a986
+     - c030c35a95460b529d866f2e4177fa5068520c10
