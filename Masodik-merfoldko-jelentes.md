@@ -121,7 +121,6 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
      - #24
-     - #27
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
@@ -129,6 +128,20 @@ Vállalásaim a mérföldkőben:
     - d3b567a8ca2d4d598816cc3fccbf8a22523ff99d
     - b18c0370c7780b2681b402171afbd40d367aa26e
     - 6b0b308761f17f296a0336f45f910a32b80beb41
+
+
+- 8.2.3. Sequence diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #27
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 3c3c02e2206188d9ddbc339ef82f4753d8dd3d7f
+     - e9955c6761f4965fd145aa3169342e5591c98058
+
+
 
 ### Projekt tag: `Masa Roland`
 
