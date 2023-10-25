@@ -92,7 +92,7 @@ Vállalásaim a mérföldkőben:
      - 99611964f512fa35b01cf756a5958a4dc03002e0
 
 
-     ### Projekt tag: `Juhász Ferenc`
+### Projekt tag: `Juhász Ferenc`
 
 ___
 
@@ -110,7 +110,7 @@ Vállalásaim a mérföldkőben:
      - 35732ca9be55735af1ff79f91eae3ed2911c98e6
 
 
-     ### Projekt tag: `Urbán Judit`
+### Projekt tag: `Urbán Judit`
 
 ___
 
