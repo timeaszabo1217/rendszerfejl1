@@ -109,6 +109,16 @@ Vállalásaim a mérföldkőben:
      - 20d5e9f00ee1510d52c5b958cd5badf216c00a28
      - 35732ca9be55735af1ff79f91eae3ed2911c98e6
 
+- 8.2.5. Adatbázis megtervezése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #35
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 1704b33df8c8901352f034dbb821b3b3b647184b
+
 
 ### Projekt tag: `Urbán Judit`
 
