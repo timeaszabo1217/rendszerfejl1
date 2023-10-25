@@ -28,3 +28,23 @@ Vállalásaim a mérföldkőben:
      - 7fef7e87d5bab51c1bc1dd937af465aa8377c08d
      - 05d1b1f8ddbd959378ab63f6fd49292e46af40d8
 
+
+
+### Projekt tag: `Nagy Péter`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.2.7. Képernyőtervek
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #21
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - d020088503f93ae4db98dc2e6ee3e1a2774dcbd6
+     - 1e67a47f12faadd253eaba0c2e13d5e7be58064b
+     - bfabb1eb0582f14390005476db9d96c408a4520d
+
