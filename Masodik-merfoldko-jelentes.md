@@ -36,7 +36,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.2.7. Képernyőtervek
+- 8.2.1. Use Case diagram
 
     ##### A feladathoz tartozó issue(k):
 
