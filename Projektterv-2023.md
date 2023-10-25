@@ -306,7 +306,7 @@ Erőforrásigény:  `3 személynap`
 
 #### 8.2.5. Adatbázis megtervezése
 
-Felelős: `Mindenki`
+Felelős: `Juhász Ferenc`
 
 Tartam:  `3 nap`
 
