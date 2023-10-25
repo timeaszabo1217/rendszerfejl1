@@ -58,6 +58,16 @@ Vállalásaim a mérföldkőben:
      - 1e67a47f12faadd253eaba0c2e13d5e7be58064b
      - bfabb1eb0582f14390005476db9d96c408a4520d
 
+- 8.2.3. Sequence diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #30
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 2bb1aa9f3fe4b89909fb9bba36c60a98d853e25a
+
 
 
 ### Projekt tag: `Veszeli Karina`
