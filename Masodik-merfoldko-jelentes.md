@@ -130,5 +130,20 @@ Vállalásaim a mérföldkőben:
     - b18c0370c7780b2681b402171afbd40d367aa26e
     - 6b0b308761f17f296a0336f45f910a32b80beb41
 
+### Projekt tag: `Masa Roland`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.2.3. Sequence diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #32
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     b65c0b2ba32cf3edc0ec536746ea8f2fec06d00d
 
 
