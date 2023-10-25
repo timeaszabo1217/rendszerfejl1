@@ -28,7 +28,7 @@ Vállalásaim a mérföldkőben:
      - 7fef7e87d5bab51c1bc1dd937af465aa8377c08d
      - 05d1b1f8ddbd959378ab63f6fd49292e46af40d8
 
-- 8.2.7. Képernyőtervek
+- 8.2.3. Sequence diagram
 
     ##### A feladathoz tartozó issue(k):
 
