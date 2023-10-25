@@ -87,3 +87,25 @@ Vállalásaim a mérföldkőben:
      - 20d5e9f00ee1510d52c5b958cd5badf216c00a28
      - 35732ca9be55735af1ff79f91eae3ed2911c98e6
 
+
+     ### Projekt tag: `Urbán Judit`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.2.4. Class diagram adatbázishoz
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #24
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - d0f09b0796af321403fba705585325881a0631e0
+    - d3b567a8ca2d4d598816cc3fccbf8a22523ff99d
+    - b18c0370c7780b2681b402171afbd40d367aa26e
+    - 6b0b308761f17f296a0336f45f910a32b80beb41
+
+
+
