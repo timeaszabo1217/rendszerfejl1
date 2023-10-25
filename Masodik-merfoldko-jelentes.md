@@ -146,4 +146,36 @@ Vállalásaim a mérföldkőben:
 
      b65c0b2ba32cf3edc0ec536746ea8f2fec06d00d
 
+### Projekt tag: `Kiss Csaba`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 5.2. Rizikómenedzsment
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #19
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 4680d11e9844d6dff0fffd920bc357f060bfdea2
+     - 9cc693fe6036a97a335dca4f2614005c256b248b
+     - 49f5fbc6204d06943315c1fa7b90d1feec311f9f
+     - a099201635eaab848b72cf265a1f15bb50f066ac
+     - e0f853ea4711a0516df0e1270d978e5431040dd5
+     - e87e148ad5ebb57cbd7cc0d6fe4be64d72571581
+     - 36c8a306fe97cb790ac4ace88493f871b0f2633a
+
+- 8.2.3. Sequence diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #31
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 820456e3bd4c7af3bada3d2afde765dec7c54570
+
 
