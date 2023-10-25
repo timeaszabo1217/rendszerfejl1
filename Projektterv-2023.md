@@ -140,6 +140,7 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | Karantén                  | Nem lehetséges a személyes kommunikáció. Megoldás: Telefon- illetve videóhívásokon keresztüli csoportgyűlések.                                 | kicsi        | erős |
 | Fejlesztői környezet problémái                  | A fejlesztői eszközök vagy környezet hibái miatt a fejlesztés leállhat. Megoldás: Alternatív fejlesztői környezetek kialakítása.                                 | kicsi        | kicsi |
 | Licencproblémák                 | Egyes használt szoftverek vagy kódok licencelési problémákat okozhatnak. Megoldás: Alapos áttekintés és az összeférhetetlen licencű szoftverek kizárása.                                 | kicsi        | kicsi |
+| Időegyeztetési problémák| Egyes tagoknak összeegyeztethetelen a naptára a többi csoporttag időbeosztásával. Megoldás: Szöveges formájú vagy online kommunikáció, jegyzetek készítése.   | közepes | kicsi |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
