@@ -48,3 +48,23 @@ Vállalásaim a mérföldkőben:
      - 1e67a47f12faadd253eaba0c2e13d5e7be58064b
      - bfabb1eb0582f14390005476db9d96c408a4520d
 
+
+
+### Projekt tag: `Veszeli Karina`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.2.4. Egyed-kapcsolat diagram adatbázishoz
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #25
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - c21ba58d0afa8569d32f0aaffc463698a9be9298
+     - b41047382e94a09adb93f819a3f42528cc50abde
+     - 3bc5cc1d262243b013ae77751088a5a500ec2b11
+     - a18ed001af2298b551c681b5af1eb6d0a32c71fd
