@@ -138,6 +138,8 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | Utazás/Távollét                     | Ha valaki elutazik és nem tartózkodik a számítógépe közelében, elképzelhető, hogy egy mérföldkő határidejéig nem ér vissza, hogy elvégezze a munkáját. Megoldás: Előre tisztázni a tervezett távollétek időpontját, hogy a csapattagok ideiglenesen átvehessék az illető.feladatait.                                      | kicsi        | kicsi |
 | Hardvercsere                  | Abban az esetben, ha valaki a projektmunka ideje alatt cserél készüléket, lelassulhat a fejlesztés. Megoldás: Csere előtt ismertetni a szándékot, hogy a csapattagok ennek tudatában oszthassák be idejüket.                                      | kicsi        | kicsi |
 | Karantén                  | Nem lehetséges a személyes kommunikáció. Megoldás: Telefon- illetve videóhívásokon keresztüli csoportgyűlések.                                 | kicsi        | erős |
+| Fejlesztői környezet problémái                  | A fejlesztői eszközök vagy környezet hibái miatt a fejlesztés leállhat. Megoldás: Alternatív fejlesztői környezetek kialakítása.                                 | kicsi        | erős |
+| Licencproblémák                 | Egyes használt szoftverek vagy kódok licencelési problémákat okozhatnak. Megoldás: Alapos áttekintés és az összeférhetetlen licencű szoftverek kizárása.                                 | kicsi        | erős |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
