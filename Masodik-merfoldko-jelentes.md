@@ -36,7 +36,7 @@ Vállalásaim a mérföldkőben:
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
-     - 0fd7e1fc17166828dd0e7e0eabff681d80d8f525
+     - 3fcb976a5f6dffc6e42059ca958a8ce471e2edce
 
 
 
