@@ -633,7 +633,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Nagy Péter    | `1`   | `1`   | `2`  | `1`  | `5`      |
 | Szabó Tímea   | `1`   | `2`   | `2`  | `1`  | `6`      |
 | Durucz Ádám   | `1`   | `2`   | `2`  | `2`  | `7`      |
-| Urbán Judit   | `2`   | `2`   | `1`  | `1`  | `6`      |
+| Urbán Judit   | `2`   | `2`   | `3`  | `1`  | `6`      |
 | Veszeli Karina| `1`   | `1`   | `2`  | `1`  | `5`      |
 | Juhász Ferenc | `1`   | `1`   | `2`  | `2`  | `6`      |
 | Kiss Csaba    | `1`   | `1`   | `2`  | `2`  | `6`      |
