@@ -347,6 +347,14 @@ Ennek a feladatnak az a célja, hogy `egy működő prototípust hozzunk létre,
 
 Részfeladatai a következők:
 
+#### 8.3.0. Táblákat létre hozó SQL kódok létrehozása DB-hez
+
+Felelős: `Urbán Judit`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
 #### 8.3.1. Felhasználók kezelése (admin, felhasználó) (CR)
 
 Felelős: `Masa Roland`
@@ -468,6 +476,16 @@ Erőforrásigény:  `2 személynap`
 Felelős: `Urbán Judit`
 
 Tartam:  `5 nap`
+
+Erőforrásigény:  `1 személynap`
+
+
+
+#### 8.3.23. Bejelentkező oldal
+
+Felelős: `Urbán Judit`
+
+Tartam:  `7 nap`
 
 Erőforrásigény:  `1 személynap`
 
