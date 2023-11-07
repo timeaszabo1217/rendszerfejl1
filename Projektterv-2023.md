@@ -114,7 +114,7 @@ Munkaállomások: 8 db, Windows 10-es operációs rendszerrel
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
  - Node.js szerverkörnyezet a webalkalmazás futtatásához
- - MySQL adatbázis adataink tárolásához
+ - PostgreSQL adatbázis adataink tárolásához
  - Express.js webes alkalmazáskeret a szerver oldali fejlesztéshez
  - React JavaScript könyvtár a felhasználói felület készítéséhez
  - npm szoftvercsomag menedzser a projekt függőségeinek kezeléséhez
@@ -141,6 +141,8 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | Fejlesztői környezet problémái                  | A fejlesztői eszközök vagy környezet hibái miatt a fejlesztés leállhat. Megoldás: Alternatív fejlesztői környezetek kialakítása.                                 | kicsi        | kicsi |
 | Licencproblémák                 | Egyes használt szoftverek vagy kódok licencelési problémákat okozhatnak. Megoldás: Alapos áttekintés és az összeférhetetlen licencű szoftverek kizárása.                                 | kicsi        | kicsi |
 | Időegyeztetési problémák| Egyes tagoknak összeegyeztethetelen a naptára a többi csoporttag időbeosztásával. Megoldás: Szöveges formájú vagy online kommunikáció, jegyzetek készítése.   | közepes | kicsi |
+| Csapattagok elhagyása| Egyes csapattagok esetleg kiesnek a projektből az egyetemi kötelezettségeik vagy más okok miatt. Megoldás: Rugalmas tervezés, az elfoglalt diákok beosztásának figyelembevétele.   | kicsi | erős |
+| Félresikerült meeting alkoholfogyasztás miatt| Egy meeting alkalmával a csapattagok túlzottan alkoholt fogyasztanak, ami negatívan befolyásolja a munka hatékonyságát és a csapatmunkát. Megoldás: Szigorúan meghatározott viselkedési szabályok, alkoholfogyasztás tilalma a hivatalos megbeszéléseken, és alternatív találkozóhelyek kiválasztása.   | kicsi | közepes |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
@@ -246,16 +248,56 @@ Ennek a feladatnak az a célja, hogy `megvalósításhoz szükséges lépéseket
 
 Részfeladatai a következők:
 
-#### 8.1.1. Projektterv kitöltése
+#### 8.1.1. Összefoglaló
 
-Felelős: `Mindenki`
+Felelős: `Urbán Judit`
 
-Tartam:  `5 nap`
+Tartam:  `2 nap`
 
-Erőforrásigény:  `2 személynap/fő`
+Erőforrásigény:  `1 személynap`
 
+#### 8.1.2. A projekt bemutatása
 
-#### 8.1.2. Bemutató elkészítése
+#### 8.1.3. Költség- és erőforrás-szükségletek
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.1.4. Szervezeti felépítés és felelősségmegosztás
+
+#### 8.1.5. A munka feltételei
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
+#### 8.1.6. Jelentések
+#### 8.1.7. A munka tartalma
+#### 8.1.8. Feladatlista
+
+Felelős: `Nagy Péter`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.1.9. Részletes időbeosztás
+#### 8.1.10. Projekt költségvetés
+
+#### 8.1.11. Projektterv kitöltése
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `7 nap`
+
+Erőforrásigény:  `2 személynap`
+
+#### 8.1.12. Bemutató elkészítése
 
 Felelős: `Urbán Judit`
 
@@ -264,7 +306,7 @@ Tartam:  `5 nap`
 Erőforrásigény:  `1 személynap`
 
 ```
-A mérföldkőhöz tartozó feladatok bemutatása PPT keretében, pl. téma, tervezett funkciók, tagok, Gantt diagram.`
+A mérföldkőhöz tartozó feladatok bemutatása, pl. téma, tervezett funkciók, tagok, Gantt diagram.`
 ```
 
 ### 8.2. UML és adatbázis- és képernyőtervek (2. mérföldkő)
@@ -277,9 +319,9 @@ Részfeladatai a következők:
 
 Felelős: `Nagy Péter`
 
-Tartam:  `8 nap`
+Tartam:  `6 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### 8.2.2. Class diagram
 
@@ -291,9 +333,9 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.2.3. Sequence diagram
 
-Felelős: `Mindenki`
+Felelős: `Kiss Csaba`
 
-Tartam:  `5 nap`
+Tartam:  `8 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -303,7 +345,7 @@ Felelős: `Veszeli Karina`
 
 Tartam:  `6 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### 8.2.5. Adatbázis megtervezése
 
@@ -327,7 +369,7 @@ Felelős: `Szabó Tímea`
 
 Tartam:  `8 nap`
 
-Erőforrásigény:  `0.5 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### 8.2.8. Bemutató elkészítése
 
@@ -347,7 +389,7 @@ Ennek a feladatnak az a célja, hogy `egy működő prototípust hozzunk létre,
 
 Részfeladatai a következők:
 
-#### 8.3.0. Táblákat létre hozó SQL kódok létrehozása DB-hez
+#### 8.3.1. Táblákat létre hozó SQL kódok létrehozása DB-hez
 
 Felelős: `Urbán Judit`
 
@@ -355,7 +397,15 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.3.1. Felhasználók kezelése (admin, felhasználó) (CR)
+#### 8.3.2. Moodboard összeállítása, alap dizájn összerakása
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.3.3. Felhasználók kezelése (admin, felhasználó) (CR)
 
 Felelős: `Masa Roland`
 
@@ -363,7 +413,7 @@ Tartam:  `6 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.3.2. Felhasználók kezelése (admin, felhasználó) (UD)
+#### 8.3.4. Felhasználók kezelése (admin, felhasználó) (UD)
 
 Felelős: `Durucz Ádám`
 
@@ -371,7 +421,7 @@ Tartam:  `6 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.3.3. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban
+#### 8.3.5. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban
 
 Felelős: `Juhász Ferenc`
 
@@ -379,7 +429,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2.5 személynap`
 
-#### 8.3.4. Felhasználói munkamenet megvalósítása több jogosultsági szinttel
+#### 8.3.6. Felhasználói munkamenet megvalósítása több jogosultsági szinttel
 
 Felelős: `Masa Roland `
 
@@ -387,83 +437,43 @@ Tartam:  `10 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### 8.3.5. Cikkek kezelése (CRUD)
-
-Felelős: `Kiss Csaba`
-
-Tartam:  `7 nap`
-
-Erőforrásigény:  `3 személynap`
-
-#### 8.3.6. Cikk kezeléshez szükséges adatok létrehozása az adatbázisban
-
-Felelős: `Juhász Ferenc`
-
-Tartam:  `4 nap`
-
-Erőforrásigény:  `2 személynap`
-
-#### 8.3.7. Teszt oldal kivitelezése
-
-Felelős: `Veszeli Karina `
-
-Tartam:  `6 nap`
-
-Erőforrásigény:  `3 személynap`
-
-#### 8.3.8. Bemutatkozó oldal
+#### 8.3.7. Bemutatkozó oldal kivitelezése
 
 Felelős: `Szabó Tímea`
 
 Tartam:  `10 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `0.5 személynap`
 
-#### 8.3.9. Páciensek lecke oldala
+#### 8.3.8. Regisztráltak lecke oldal kivitelezése
 
-Felelős: `Veszeli Karina`
-
-Tartam:  `11 nap`
-
-Erőforrásigény:  `5 személynap`
-
-#### 8.3.10. Email-es kiértesítés új időpontfoglalás esetén
+#### 8.3.9. Email-es kiértesítés új időpontfoglalás esetén
 
 Felelős: `Nagy Péter`
-
-Tartam:  `11 nap`
-
-Erőforrásigény:  `5 személynap`
-
-#### 8.3.11. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
-
-Felelős: `Szabó Tímea`
 
 Tartam:  `10 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `3 személynap`
 
-#### 8.3.12. Biztonsági mentés automatikus létrehozása
+#### 8.3.10. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
+
+#### 8.3.11. Biztonsági mentés automatikus létrehozása
 
 Felelős: `Nagy Péter`
 
-Tartam:  `11 nap`
+Tartam:  `10 nap`
 
-Erőforrásigény:  `5 személynap`
+Erőforrásigény:  `3 személynap`
 
-#### 8.3.13. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
+#### 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
 
-Felelős: `Mindenki`
+Felelős: `Durucz Ádám`
 
 Tartam:  `7 nap`
 
 Erőforrásigény:  `1 személynap/fő`
 
-```
-Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként, azonban ezt a feladatot is részfeladatokra kell bontani.
-```
-
-#### 8.3.14. A prototípus kitelepítése éles környezetbe
+#### 8.3.13. A prototípus kitelepítése éles környezetbe
 
 Felelős: `Kiss Csaba`
 
@@ -471,7 +481,39 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.3.15. Bemutató elkészítése
+#### 8.3.14. Felmérések oldal kivitelezése
+
+#### 8.3.15. Bejelentkező oldal
+
+Felelős: `Urbán Judit`
+
+Tartam:  `7 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.3.16. Regisztrációs oldal kivitelezése
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `6 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.3.17. Admin oldal kivitelezése
+#### 8.3.18. Profil oldal kivitelezése
+
+#### 8.3.19. Időpont foglaló oldal kivitelezése
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `2 személynap`
+
+#### 8.3.20. Felpakolás Ocean-re
+#### 8.3.21. Adatbázis feltöltése (min. pár adat a táblákba)
+
+#### 8.3.22. Bemutató elkészítése
 
 Felelős: `Urbán Judit`
 
@@ -479,15 +521,9 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `1 személynap`
 
-
-
-#### 8.3.23. Bejelentkező oldal
-
-Felelős: `Urbán Judit`
-
-Tartam:  `7 nap`
-
-Erőforrásigény:  `1 személynap`
+```
+Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként, azonban ezt a feladatot is részfeladatokra kell bontani.
+```
 
 ```
 A feladatokat a 2.2-es és a 2.3-as pont alapján kell meghatározni és lehető legrészletesebben definiálni.
@@ -533,15 +569,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### 8.4.5. Cikkek kezelésének tesztelése (TR)
-
-Felelős: `Nagy Péter`
-
-Tartam:  `7 nap`
-
-Erőforrásigény:  `3 személynap`
-
-#### 8.4.6. Tesztek elérése és kezelésének tesztelése (TR)
+#### 8.4.5. Felmérések elérése és kezelésének tesztelése (TR)
 
 Felelős: `Masa Roland`
 
@@ -549,13 +577,21 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### 8.4.7. Leckék kezelésének tesztelése (TR)
+#### 8.4.6. Leckék kezelésének tesztelése (TR)
 
 Felelős: `Durucz Ádám`
 
 Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
+
+#### 8.4.7. Időpont foglalás kezelésének tesztelése (TR)
+
+Felelős: `Nagy Péter`
+
+Tartam:  `5 nap`
+
+Erőforrásigény:  `2 személynap`
 
 #### 8.4.8. Email-es funkciók tesztelése (TR)
 
