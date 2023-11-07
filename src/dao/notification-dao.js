@@ -17,7 +17,7 @@ class NotificationDAO {
     await db
       .query(
         "INSERT INTO emailnotifications (recipient_id, message, mail_date) VALUES ($1, $2, $3)",
-        [recipient_id, message, mail_date]
+        [recipient_id, message, new Date(mail_date)]
       )
       .catch(console.log);
     return;
@@ -27,7 +27,7 @@ class NotificationDAO {
     await db
       .query(
         `UPDATE emailnotifications SET recipient_id = $1, message = $2, mail_date = $3 WHERE mail_id = $4`,
-        [mail_id, recipient_id, message, mail_date]
+        [mail_id, recipient_id, message, new Date(mail_date)]
       )
       .catch(console.log);
 

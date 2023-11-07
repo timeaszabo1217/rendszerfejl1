@@ -13,28 +13,28 @@ class BookingDAO {
     return result.rows[0];
   }
 
-  async createArticle(user_id, booking_date, booked) {
+  async createBooking(user_id, booking_date, booked) {
     await db
       .query(
         "INSERT INTO appointmentbookings (user_id, booking_date, booked) VALUES ($1, $2, $3)",
-        [user_id, booking_date, booked]
+        [user_id, new Date(booking_date), booked]
       )
       .catch(console.log);
     return;
   }
 
-  async updateArticle(appointment_id, user_id, booking_date, booked) {
+  async updateBooking(appointment_id, user_id, booking_date, booked) {
     await db
       .query(
         `UPDATE appointmentbookings SET user_id = $1, booking_date = $2, booked = $3 WHERE appointment_id = $4`,
-        [appointment_id, user_id, booking_date, booked]
+        [appointment_id, user_id, new Date(booking_date), booked]
       )
       .catch(console.log);
 
     return;
   }
 
-  async deleteArticle(appointment_id) {
+  async deleteBooking(appointment_id) {
     await db
       .query(`DELETE FROM appointmentbookings WHERE appointment_id=$1`, [parseInt(appointment_id)])
       .catch(console.log);
