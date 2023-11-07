@@ -114,7 +114,7 @@ Munkaállomások: 8 db, Windows 10-es operációs rendszerrel
 A projekt a következő technológiákat/szoftvereket fogja használni a munka során: 
 
  - Node.js szerverkörnyezet a webalkalmazás futtatásához
- - MySQL adatbázis adataink tárolásához
+ - PostgreSQL adatbázis adataink tárolásához
  - Express.js webes alkalmazáskeret a szerver oldali fejlesztéshez
  - React JavaScript könyvtár a felhasználói felület készítéséhez
  - npm szoftvercsomag menedzser a projekt függőségeinek kezeléséhez
