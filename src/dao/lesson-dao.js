@@ -2,41 +2,41 @@ const db = require("../config/db");
 
 class LessonDAO {
   async getLessons() {
-    let results = await db.query(`SELECT * FROM leckek`).catch(console.log);
+    let results = await db.query(`SELECT * FROM lessons`).catch(console.log);
     return results.rows;
   }
 
-  async getOneLesson(lecke_id) {
+  async getOneLesson(lesson_id) {
     let result = await db
-      .query("SELECT * FROM leckek WHERE lecke_id = $1", [lecke_id])
+      .query("SELECT * FROM lessons WHERE lesson_id = $1", [lesson_id])
       .catch(console.log);
     return result.rows[0];
   }
 
-  async createLesson(lecke_neve, lecke_tartalma) {
+  async createLesson(lesson_name, lesson_content) {
     await db
       .query(
-        "INSERT INTO leckek (lecke_neve, Lecke_tartalma) VALUES ($1, $2)",
-        [lecke_neve, lecke_tartalma]
+        "INSERT INTO lessons (lesson_name, lesson_content) VALUES ($1, $2)",
+        [lesson_name, lesson_content]
       )
       .catch(console.log);
     return;
   }
 
-  async updateLesson(lecke_id, lecke_neve, lecke_tartalma) {
+  async updateLesson(lesson_id, lesson_name, lesson_content) {
     await db
       .query(
-        `UPDATE leckek SET lecke_neve = $1, lecke_tartalma = $2 WHERE lecke_id = $3`,
-        [lecke_id, lecke_neve, lecke_tartalma]
+        `UPDATE lessons SET lesson_name = $1, lesson_content = $2 WHERE lesson_id = $3`,
+        [lesson_id, lesson_name, lesson_content]
       )
       .catch(console.log);
 
     return;
   }
 
-  async deleteDog(lecke_id) {
+  async deleteDog(lesson_id) {
     await db
-      .query(`DELETE FROM leckek WHERE lecke_id=$1`, [parseInt(lecke_id)])
+      .query(`DELETE FROM lessons WHERE lesson_id=$1`, [parseInt(lesson_id)])
       .catch(console.log);
 
     return;

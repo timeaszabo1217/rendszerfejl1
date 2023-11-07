@@ -38,22 +38,6 @@
    </header>
    <body>
       
-      <div>
-         <% if (current_role ) { %>
-         <h2>Add A Dog</h2>
-         <form action="/add" method="post">
-            <div class="form-horizontal">
-               <label>Name:
-               <input type="text" name="name" id="name"></input>
-               </label>
-               <label>Age:
-               <input type="text" name="age" id="age"></input>
-               </label>
-               <input type="submit" value="Submit" class="btn-sm btn-dark details"></input>
-            </div>
-         </form>
-         <% } %>
-      </div>
       <% if (current_role === 'ROLE_ADMIN') { %>
       <div></div>
       This content is only shown to administrators.

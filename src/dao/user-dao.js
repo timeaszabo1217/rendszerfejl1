@@ -2,13 +2,13 @@ const db = require("../config/db");
 
 class UserDAO {
   async getUsers() {
-    let results = await db.query(`SELECT * FROM user_id`).catch(console.log);
+    let results = await db.query(`SELECT * FROM users`).catch(console.log);
     return results.rows;
   }
 
   async getUserByEmail(user_email) {
     let result = await db
-      .query("SELECT * FROM felhasznalo WHERE user_email = $1", [user_email])
+      .query("SELECT * FROM users WHERE user_email = $1", [user_email])
       .catch(console.log);
     return result.rows[0];
   }
@@ -16,7 +16,7 @@ class UserDAO {
   async createUser(user_username, user_email, user_passw, user_role) {
     await db
       .query(
-        "INSERT INTO felhasznalo (user_username, user_email, user_passw, user_role) VALUES ($1, $2, $3, $4)",
+        "INSERT INTO users (user_username, user_email, user_passw, user_role) VALUES ($1, $2, $3, $4)",
         [user_username, user_email, user_passw, user_role]
       )
       .catch(console.log);
@@ -26,7 +26,7 @@ class UserDAO {
   async updateUser(user_id, user_email, user_passw) {
     await db
       .query(
-        `UPDATE felhasznalo SET user_id = $1, user_email = $2 WHERE user_passw = $3 `,
+        `UPDATE users SET user_id = $1, user_email = $2 WHERE user_passw = $3 `,
         [parseInt(user_id), user_email, user_passw]
       )
       .catch(console.log);
@@ -35,7 +35,7 @@ class UserDAO {
 
   async deleteUser(user_id) {
     await db
-      .query(`DELETE FROM felhasznalo WHERE user_id=$1`, [parseInt(user_id)])
+      .query(`DELETE FROM users WHERE user_id=$1`, [parseInt(user_id)])
       .catch(console.log);
     return;
   }

@@ -1,8 +1,8 @@
--- Elosz�r ellenorizze, hogy l�tezik-e a "Felhasznalo" t�bla
-DROP TABLE IF EXISTS Felhasznalo;
+-- First, check if the "Users" table exists
+DROP TABLE IF EXISTS Users;
 
--- Most hozza l�tre a "Felhasznalo" t�bl�t �jra
-CREATE TABLE Felhasznalo (
+-- Now, create the "Users" table again
+CREATE TABLE Users (
   user_id serial PRIMARY KEY,
   user_username VARCHAR(255) NOT NULL,
   user_email VARCHAR(255) NOT NULL,
@@ -10,63 +10,59 @@ CREATE TABLE Felhasznalo (
   user_role VARCHAR(255) NOT NULL
 );
 
--- Elosz�r ellenorizze, hogy l�tezik-e a "Cikkek" t�bla
-DROP TABLE IF EXISTS Cikkek;
+-- First, check if the "Articles" table exists
+DROP TABLE IF EXISTS Articles;
 
--- Most hozza l�tre a "Cikkek" t�bl�t �jra
-CREATE TABLE Cikkek (
-  cikk_id serial PRIMARY KEY,
-  cikkek_neve VARCHAR(255) NOT NULL,
-  cikkek_tartalma TEXT NOT NULL,
-  cikk_datum TIMESTAMP NOT NULL
+-- Now, create the "Articles" table again
+CREATE TABLE Articles (
+  article_id serial PRIMARY KEY,
+  article_name VARCHAR(255) NOT NULL,
+  article_content TEXT NOT NULL,
+  article_date TIMESTAMP NOT NULL
 );
 
+-- First, check if the "Lessons" table exists
+DROP TABLE IF EXISTS Lessons;
 
--- Elosz�r ellenorizze, hogy l�tezik-e a "Leckek" t�bla
-DROP TABLE IF EXISTS Leckek;
-
--- Most hozza l�tre a "Leckek" t�bl�t �jra
-CREATE TABLE Leckek (
-  lecke_id serial PRIMARY KEY,
-  lecke_neve VARCHAR(255) NOT NULL,
-  lecke_tartalma TEXT NOT NULL
+-- Now, create the "Lessons" table again
+CREATE TABLE Lessons (
+  lesson_id serial PRIMARY KEY,
+  lesson_name VARCHAR(255) NOT NULL,
+  lesson_content TEXT NOT NULL
 );
 
+-- First, check if the "UserLessons" table exists
+DROP TABLE IF EXISTS UserLessons;
 
--- Elosz�r ellenorizze, hogy l�tezik-e a "FelhasznaloLeckei" t�bla
-DROP TABLE IF EXISTS FelhasznaloLeckei;
-
--- Most hozza l�tre a "FelhasznaloLeckei" t�bl�t �jra
-CREATE TABLE FelhasznaloLeckei (
-  leckek_id INT,
-  felhasznalo_id INT,
-  PRIMARY KEY (leckek_id, felhasznalo_id),
-  FOREIGN KEY (leckek_id) REFERENCES Leckek (lecke_id),
-  FOREIGN KEY (felhasznalo_id) REFERENCES Felhasznalo (user_id)
+-- Now, create the "UserLessons" table again
+CREATE TABLE UserLessons (
+  lesson_id INT,
+  user_id INT,
+  PRIMARY KEY (lesson_id, user_id),
+  FOREIGN KEY (lesson_id) REFERENCES Lessons (lesson_id),
+  FOREIGN KEY (user_id) REFERENCES Users (user_id)
 );
 
+-- First, check if the "EmailNotifications" table exists
+DROP TABLE IF EXISTS EmailNotifications;
 
--- Elosz�r ellenorizze, hogy l�tezik-e az "EmailErtesitesek" t�bla
-DROP TABLE IF EXISTS EmailErtesitesek;
-
--- Most hozza l�tre az "EmailErtesitesek" t�bl�t �jra
-CREATE TABLE EmailErtesitesek (
+-- Now, create the "EmailNotifications" table again
+CREATE TABLE EmailNotifications (
   mail_id serial PRIMARY KEY,
-  cimzett_id INT,
-  uzenet TEXT NOT NULL,
-  mail_datum TIMESTAMP NOT NULL,
-  FOREIGN KEY (cimzett_id) REFERENCES Felhasznalo(user_id)
+  recipient_id INT,
+  message TEXT NOT NULL,
+  mail_date TIMESTAMP NOT NULL,
+  FOREIGN KEY (recipient_id) REFERENCES Users(user_id)
 );
 
+-- First, check if the "AppointmentBookings" table exists
+DROP TABLE IF EXISTS AppointmentBookings;
 
--- Elosz�r ellenorizze, hogy l�tezik-e az "IdopontFoglalas" t�bla
-DROP TABLE IF EXISTS IdopontFoglalas;
-
--- Most hozza l�tre az "IdopontFoglalas" t�bl�t �jra
-CREATE TABLE IdopontFoglalas (
-  idopont_id serial PRIMARY KEY,
-  felhasznalo_id INT,
-  foglal_datum TIMESTAMP NOT NULL,
-  FOREIGN KEY (felhasznalo_id) REFERENCES Felhasznalo(user_id)
+-- Now, create the "AppointmentBookings" table again
+CREATE TABLE AppointmentBookings (
+  appointment_id serial PRIMARY KEY,
+  user_id INT,
+  booking_date TIMESTAMP NOT NULL,
+  booked BOOLEAN,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
-
