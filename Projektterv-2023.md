@@ -255,15 +255,38 @@ Tartam:  `2 nap`
 Erőforrásigény:  `1 személynap`
 
 #### 8.1.2. A projekt bemutatása
+
 #### 8.1.3. Költség- és erőforrás-szükségletek
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
 #### 8.1.4. Szervezeti felépítés és felelősségmegosztás
+
 #### 8.1.5. A munka feltételei
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 #### 8.1.6. Jelentések
 #### 8.1.7. A munka tartalma
 #### 8.1.8. Feladatlista
 #### 8.1.9. Részletes időbeosztás
 #### 8.1.10. Projekt költségvetés
+
 #### 8.1.11. Projektterv kitöltése
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `7 nap`
+
+Erőforrásigény:  `2 személynap`
 
 #### 8.1.12. Bemutató elkészítése
 
@@ -460,9 +483,24 @@ Tartam:  `7 nap`
 Erőforrásigény:  `1 személynap`
 
 #### 8.3.16. Regisztrációs oldal kivitelezése
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `6 nap`
+
+Erőforrásigény:  `1 személynap`
+
 #### 8.3.17. Admin oldal kivitelezése
 #### 8.3.18. Profil oldal kivitelezése
+
 #### 8.3.19. Időpont foglaló oldal kivitelezése
+
+Felelős: `Szabó Tímea`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `2 személynap`
+
 #### 8.3.20. Felpakolás Ocean-re
 #### 8.3.21. Adatbázis feltöltése (min. pár adat a táblákba)
 
