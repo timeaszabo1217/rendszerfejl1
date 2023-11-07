@@ -19,7 +19,11 @@ router.post("/add", async (req, res) => {
 
   //   let user = await new UserDAO().getUserByEmail(email);
   //    await new DogDAO().createDog(name, age, user.id);
-  await new ArticleDAO().createArticle(article_name, article_content, article_date);
+  await new ArticleDAO().createArticle(
+    article_name,
+    article_content,
+    article_date
+  );
   return res.redirect("/");
 });
 
@@ -49,14 +53,19 @@ router.post("/update/:id", async (req, res) => {
   let { article_date } = req.body;
 
   //    await new DogDAO().updateDog(id, name, age);
-  await new ArticleDAO().updateArticle(id, article_name, article_content, article_date);
+  await new ArticleDAO().updateArticle(
+    id,
+    article_name,
+    article_content,
+    article_date
+  );
 
   res.redirect("/");
 });
 
 router.post("/delete/:id", async (req, res) => {
   let id = req.params.id;
-  await new LessonDAO().deleteLesson(id);
+  await new ArticleDAO().deleteArticle(id);
   res.redirect("/");
 });
 

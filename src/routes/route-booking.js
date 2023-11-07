@@ -49,7 +49,7 @@ router.post("/update/:id", async (req, res) => {
   let { booked } = req.body;
 
   //    await new DogDAO().updateDog(id, name, age);
-  await new ArticleDAO().updateArticle(id, user_id, booking_date, booked);
+  await new BookingDAO().updateBooking(id, user_id, booking_date, booked);
 
   res.redirect("/");
 });
