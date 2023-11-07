@@ -141,6 +141,8 @@ Milyen gépet használnak a projekttagok, milyen operációs rendszeren fejleszt
 | Fejlesztői környezet problémái                  | A fejlesztői eszközök vagy környezet hibái miatt a fejlesztés leállhat. Megoldás: Alternatív fejlesztői környezetek kialakítása.                                 | kicsi        | kicsi |
 | Licencproblémák                 | Egyes használt szoftverek vagy kódok licencelési problémákat okozhatnak. Megoldás: Alapos áttekintés és az összeférhetetlen licencű szoftverek kizárása.                                 | kicsi        | kicsi |
 | Időegyeztetési problémák| Egyes tagoknak összeegyeztethetelen a naptára a többi csoporttag időbeosztásával. Megoldás: Szöveges formájú vagy online kommunikáció, jegyzetek készítése.   | közepes | kicsi |
+| Csapattagok elhagyása| Egyes csapattagok esetleg kiesnek a projektből az egyetemi kötelezettségeik vagy más okok miatt. Megoldás: Rugalmas tervezés, az elfoglalt diákok beosztásának figyelembevétele.   | kicsi | erős |
+| Félresikerült meeting alkoholfogyasztás miatt| Egy meeting alkalmával a csapattagok túlzottan alkoholt fogyasztanak, ami negatívan befolyásolja a munka hatékonyságát és a csapatmunkát. Megoldás: Szigorúan meghatározott viselkedési szabályok, alkoholfogyasztás tilalma a hivatalos megbeszéléseken, és alternatív találkozóhelyek kiválasztása.   | kicsi | közepes |
 
 ```
 A rizikótényezők bemutatása, amely hátráltathatja a projekt befejezését. 
