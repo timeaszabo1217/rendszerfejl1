@@ -277,6 +277,13 @@ Erőforrásigény:  `0.5 személynap`
 #### 8.1.6. Jelentések
 #### 8.1.7. A munka tartalma
 #### 8.1.8. Feladatlista
+
+Felelős: `Nagy Péter`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
+
 #### 8.1.9. Részletes időbeosztás
 #### 8.1.10. Projekt költségvetés
 
@@ -310,9 +317,9 @@ Részfeladatai a következők:
 
 Felelős: `Nagy Péter`
 
-Tartam:  `8 nap`
+Tartam:  `6 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `2 személynap`
 
 #### 8.2.2. Class diagram
 
@@ -442,9 +449,9 @@ Erőforrásigény:  `0.5 személynap`
 
 Felelős: `Nagy Péter`
 
-Tartam:  `11 nap`
+Tartam:  `10 nap`
 
-Erőforrásigény:  `5 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### 8.3.10. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
 
@@ -452,9 +459,9 @@ Erőforrásigény:  `5 személynap`
 
 Felelős: `Nagy Péter`
 
-Tartam:  `11 nap`
+Tartam:  `10 nap`
 
-Erőforrásigény:  `5 személynap`
+Erőforrásigény:  `3 személynap`
 
 #### 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
 
@@ -577,6 +584,12 @@ Tartam:  `5 nap`
 Erőforrásigény:  `0.5 személynap`
 
 #### 8.4.7. Időpont foglalás kezelésének tesztelése (TR)
+
+Felelős: `Nagy Péter`
+
+Tartam:  `5 nap`
+
+Erőforrásigény:  `2 személynap`
 
 #### 8.4.8. Email-es funkciók tesztelése (TR)
 
