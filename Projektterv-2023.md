@@ -457,6 +457,12 @@ Erőforrásigény:  `3 személynap`
 
 #### 8.3.10. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
 
+Felelős: `Kiss Csaba`
+
+Tartam:  `10 nap`
+
+Erőforrásigény:  `2 személynap`
+
 #### 8.3.11. Biztonsági mentés automatikus létrehozása
 
 Felelős: `Nagy Péter`
