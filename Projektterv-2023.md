@@ -258,6 +258,13 @@ Erőforrásigény:  `1 személynap`
 
 #### 8.1.2. A projekt bemutatása
 
+Felelős: `Urbán Judit`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
+
 #### 8.1.3. Költség- és erőforrás-szükségletek
 
 Felelős: `Szabó Tímea`
@@ -673,9 +680,9 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Név           |   M1  |   M2  |   M3 |   M4 | Összesen |
 |---------------|-------|-------|------|------|----------|
 | Nagy Péter    | `1`   | `1`   | `2`  | `1`  | `5`      |
-| Szabó Tímea   | `1`   | `2`   | `2`  | `1`  | `6`      |
+| Szabó Tímea   | `3`   | `2`   | `4`  | `1`  | `6`      |
 | Durucz Ádám   | `1`   | `2`   | `2`  | `2`  | `7`      |
-| Urbán Judit   | `2`   | `2`   | `3`  | `1`  | `6`      |
+| Urbán Judit   | `3`   | `2`   | `3`  | `1`  | `6`      |
 | Veszeli Karina| `1`   | `1`   | `2`  | `1`  | `5`      |
 | Juhász Ferenc | `1`   | `1`   | `2`  | `2`  | `6`      |
 | Kiss Csaba    | `1`   | `1`   | `2`  | `2`  | `6`      |
