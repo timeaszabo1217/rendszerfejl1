@@ -3,41 +3,60 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Node.js example</title>
+      <title>Urbán Csilla - Főoldal</title>
+      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
       <link href="/css/style.css" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>   
-   </head>
-   <header>
-      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-         <div class="container">
-            <div class="navbar-collapse collapse">
-               <ul class="navbar-nav">
-                  <li class="nav-item">
-                     <a class="nav-link text-dark" href="/">Home</a>
-                  </li>
-                  <% if (!current_role ) { %>
-                  <li class="nav-item">
-                     <a class="nav-link text-dark" href="/login">Login</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link text-dark" href="/register">Register</a>
-                  </li>
-                  <% } %>
-                  <% if (current_role ) { %>
-                  <li lass="nav-item">
-                     <a class="nav-link text-dark" href="/logout">Logout</a>
-                  </li>
-                  <% } %>
-               </ul>
-            </div>
+      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <header>
+        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+          <nav class="navbar">
+           <a href = "/" class = "navbar-item active">Főoldal</a>
+           <a href = "/" class = "navbar-item">Felmérések</a>
+           <a href = "/" class = "navbar-item">Leckék</a>
+           <a href = "/" class = "navbar-item">Időpont foglalás</a>
+                 <div class = "navbar-item dropdown profileIcon right-side">
+                    <img class = "right-side" src = "assets/img/profile_icon.png" alt = "Profil ikon">
+                    <div class = "dropdown-content">
+                      <% if (!current_role) { %>
+                          <a href = "/login" class = "navbar-item">Bejelentkezés</a>
+                          <a href = "/register" class = "navbar-item">Regisztráció</a>
+                      <% } %>
+                      <% if (current_role) { %>
+                          <a href = "/logout" class = "navbar-item active">Kijelentkezés</a>
+                      <% } %>
+                    </div>
+                 </div>
+          </nav>
+          <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+      </header>
+      <main>
+      <h1>Szia!</h1>
+      <div id = "introduction">
+         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque dui in metus fringilla varius. Aliquam blandit efficitur convallis. Nullam id odio sit amet nisl lacinia auctor id sed erat. Sed vitae dapibus magna, sed interdum augue. Sed ut luctus quam. Pellentesque non justo id turpis imperdiet vulputate vitae eu orci. Curabitur eget efficitur est, et feugiat ipsum. Mauris tincidunt ipsum at massa venenatis venenatis a sit amet ante. Duis cursus elit sed mi sagittis imperdiet. Cras ac dignissim magna. Phasellus ut lectus placerat, hendrerit eros ut, tempus enim. Nunc quis laoreet nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at magna enim. Mauris ex felis, auctor ac nunc at, hendrerit interdum ligula. Nulla gravida sollicitudin tortor.
+
+Vivamus sollicitudin imperdiet ante, in molestie augue tristique in. Duis sed feugiat purus. Nulla interdum mattis urna sed malesuada. Aenean sed orci placerat, dignissim libero eget, vulputate dolor. Nunc faucibus urna metus, vel lobortis est posuere et. Ut ultrices magna in ex tempor, at pretium sapien tincidunt. Quisque id viverra elit. Nunc accumsan, quam quis consequat congue, lorem tellus condimentum orci, in egestas sem purus a diam. Cras luctus urna eget risus aliquam, at vulputate purus sollicitudin. Cras semper mollis ex. Duis posuere dolor sed felis scelerisque, sit amet placerat massa lobortis. Nulla pulvinar blandit egestas. Integer ut ligula diam.
+      </div>
+      <img id = "Csilla" src = "assets/img/Urbán Csilla.png" alt = "Urbán Csilla">
+      <footer>
+         <div>
+             <h1>Elérhetőségem</h1>
+             <ul>
+                 <li class = "bold">
+                     E-mail:
+                 <li>
+                     csilla@gmail.com
+                 </li>
+                 <li class = "bold">
+                     Személyesen:
+                 <li>
+                     Időpont foglalással tudsz jelentkezni, várlak szeretettel.
+                 </li>
+             </ul>
          </div>
-      </nav>
-   </header>
-   <body>
-      
+     </footer>
+     
       <% if (current_role === 'ROLE_ADMIN') { %>
       <div></div>
       This content is only shown to administrators.
@@ -52,8 +71,9 @@
       <div>     
          This content is only shown to authenticated users.</br>
          Logged in user: <span><%= current_email %></span> |
-         Roles: <span ><%= current_role %></span>            
+         Roles: <span ><%= current_role %></span>          
       </div>
       <% } %>
+   </main>
    </body>
 </html>
