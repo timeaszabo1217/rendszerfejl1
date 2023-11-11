@@ -517,7 +517,7 @@ Erőforrásigény:  `1 személynap`
 
 #### 8.3.19. Időpont foglaló oldal kivitelezése
 
-Felelős: `Szabó Tímea`
+Felelős: `Nagy Péter`
 
 Tartam:  `4 nap`
 
@@ -679,7 +679,7 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név           |   M1  |   M2  |   M3 |   M4 | Összesen |
 |---------------|-------|-------|------|------|----------|
-| Nagy Péter    | `1`   | `1`   | `2`  | `1`  | `5`      |
+| Nagy Péter    | `1`   | `1`   | `3`  | `1`  | `6`      |
 | Szabó Tímea   | `3`   | `2`   | `4`  | `1`  | `6`      |
 | Durucz Ádám   | `1`   | `2`   | `2`  | `2`  | `7`      |
 | Urbán Judit   | `3`   | `2`   | `3`  | `1`  | `6`      |
