@@ -4,6 +4,11 @@ const BookingDAO = require("../dao/booking-dao.js");
 const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
+router.get("/booking", async (req, res) => {
+  let bookings = await new BookingDAO().getBookings();
+  res.render("booking", { bookings: bookings });
+});
+
 router.post("/add", async (req, res) => {
   let { user_id } = req.body;
   let { booking_date } = req.body;
