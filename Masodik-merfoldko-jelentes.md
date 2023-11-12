@@ -81,14 +81,23 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
      - #25
-     - #29
-
+     
     ##### A feladat elvégzését alátámasztó commit(ok):
 
      - c21ba58d0afa8569d32f0aaffc463698a9be9298
      - b41047382e94a09adb93f819a3f42528cc50abde
      - 3bc5cc1d262243b013ae77751088a5a500ec2b11
      - a18ed001af2298b551c681b5af1eb6d0a32c71fd
+     - 99611964f512fa35b01cf756a5958a4dc03002e0
+
+- 8.2.3. Sequence diagram
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #29
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
      - 99611964f512fa35b01cf756a5958a4dc03002e0
 
 
