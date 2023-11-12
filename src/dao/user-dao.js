@@ -20,7 +20,8 @@ class UserDAO {
         [user_username, user_email, user_passw, user_role]
       )
       .catch(console.log);
-    return;
+    const newUser = await this.getUserByEmail(user_email);
+    return newUser;
   }
 
   async updateUser(user_id, user_email, user_passw) {

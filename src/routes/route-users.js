@@ -6,8 +6,7 @@ const jwtSecret = require("./../config/auth.js");
 const router = express.Router();
 
 router.post("/loginuser", async (req, res) => {
-  let { email } = req.body;
-  let { password } = req.body;
+  let { email, password } = req.body;
 
   const user = await new UserDAO().getUserByEmail(email);
 
@@ -67,16 +66,30 @@ router.get("/login", async (req, res) => {
   });
 });
 router.post("/registeruser", async (req, res) => {
-  let { username } = req.body;
-  let { email } = req.body;
-  let { password } = req.body;
-  let { role } = req.body;
+  let { username, email, password, role } = req.body;
 
-  bcrypt.hash(password, 10).then(async (hash) => {
-    await new UserDAO().createUser(username, email, hash, role);
-  });
+  const hashedPassword = await bcrypt.hash(password, 10);
+  const newUser = await new UserDAO().createUser(username, email, hashedPassword, role);
+  if (newUser) {
+    const token = jwt.sign(
+      {
+        id: newUser.user_id,
+        username: newUser.user_username,
+        email: newUser.user_email,
+        role: newUser.user_role,
+      },
+      jwtSecret.jwtSecret
+    );
 
-  return res.redirect("/");
+    res.cookie("jwt", token, {
+      httpOnly: true,
+    });
+    return res.redirect("/");
+  } else {
+    res.status(500).json({
+      message: "Registration failed",
+    });
+  }
 });
 
 router.get("/logout", (req, res) => {
