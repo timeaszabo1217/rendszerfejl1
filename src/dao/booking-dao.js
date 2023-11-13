@@ -27,7 +27,7 @@ class BookingDAO {
     await db
       .query(
         `UPDATE appointmentbookings SET user_id = $1, booking_date = $2, booked = $3 WHERE appointment_id = $4`,
-        [appointment_id, user_id, new Date(booking_date), booked]
+        [user_id, new Date(booking_date), booked, appointment_id]
       )
       .catch(console.log);
 
