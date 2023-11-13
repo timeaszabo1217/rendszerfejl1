@@ -231,29 +231,26 @@ input[type="submit"] {
 /* article */
 
 .article{
-  border: 1px solid #ccc;
+  border: 2px solid var(--gold);
   padding: 20px;
   margin: 20px auto; 
   max-width: 70%;
   box-sizing: border-box; 
 }
 
-.article-img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
 .article-name {
   font-size: 1.4em;
   font-weight: bold;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
+  font-family: reclinew05-regularregular, sans-serif;
+  font-size: 18px;
 }
 
 .article-content {
   line-height: 1.6;
   margin-bottom: 15px; 
+  font-family: reclinew05-regularregular, sans-serif;
+  font-size: 16px;
 }
 
 .article-date {
@@ -267,9 +264,17 @@ input[type="submit"] {
 /*lesson*/
 
 .sidebar {
+  position: relative;
+  display: flex;
   width: 20%;
   background-color: #7ba893;
-  padding: 20px;
+  padding-left: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  left: 0;
+  text-align: center;
+  justify-content: center;
   box-sizing: border-box;
   overflow-y: auto;
   color: #fff; 
@@ -302,20 +307,20 @@ input[type="submit"] {
   display: block;
   border-radius: 3px;
   transition: background-color 0.3s ease;
-
 }
 
 .lesson-content {
+  position: relative;
+  display: block;
   box-sizing: border-box;
+  padding-left: 30px;
   flex: 1;
-  padding: 20px;
-
 }
+
 .lesson-content hr{
   height: 3px; 
-  background-color:rgba(105, 90, 14, 0.416);
+  background-color: var(--gold);
 }
-
 
 .lesson-container{
   display: flex;
