@@ -19,7 +19,7 @@
             <%= 'Leckék' %>
             </a>
             <a href="<%= current_role ? '/booking' : '/register?returnTo=/booking' %>" class="navbar-item">
-            <%= 'Időpontfoglalás' %>
+            <%= 'Időpont foglalás' %>
             </a>
                  <div class = "navbar-item dropdown profileIcon right-side">
                     <img class = "right-side" src = "assets/img/profile_icon.png" alt = "Profil ikon">
@@ -39,6 +39,14 @@
       <main>
       <h1>Időpont foglalás</h1>
       <div id = "booking">
+
+        <form id="booking-form">
+          <h3>Elérhető időpontok</h3>
+          <label for="appointment_id">Válassz egy időpontot:</label>
+          <select id="appointment_id" name="appointment_id" required></select>
+      
+          <input type="submit" value="Foglalás"></button>
+        </form>
     </div>
     </main>
    </body>
