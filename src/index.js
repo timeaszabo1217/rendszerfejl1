@@ -2,9 +2,10 @@ const express = require("express");
 const path = require("path");
 const { Pool } = require("pg");
 const app = express();
+const { userAuth } = require("./config/auth.js");
 const routeLesson = require('./routes/route-lessons');
 const routeUser = require('./routes/route-users');
-//const routeArticle= require('./routes/route-article');
+const routeArticle= require('./routes/route-article');
 const routeBooking = require('./routes/route-booking');
 //const routeNotification = require('./routes/route-notification');
 const PORT  = process.env.PORT || 8080;
@@ -16,8 +17,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
 app.use(routeLesson);
 app.use(routeUser);
-//app.use(routeArticle);
 app.use(routeBooking);
+app.use(routeArticle);
 //app.use(routeNotification);
 
 
