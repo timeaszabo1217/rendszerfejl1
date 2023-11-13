@@ -26,8 +26,8 @@ class ArticleDAO {
   async updateArticle(article_id, article_name, article_content, article_date) {
     await db
       .query(
-        `UPDATE articles SET article_name = $1, lesson_content = $2, article_date = $3 WHERE article_id = $4`,
-        [article_id, article_name, article_content, new Date(article_date)]
+        `UPDATE articles SET article_name = $1, article_content = $2, article_date = $3 WHERE article_id = $4`,
+        [article_name, article_content, new Date(article_date), article_id]
       )
       .catch(console.log);
 
