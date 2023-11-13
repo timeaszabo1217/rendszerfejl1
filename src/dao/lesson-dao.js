@@ -27,7 +27,7 @@ class LessonDAO {
     await db
       .query(
         `UPDATE lessons SET lesson_name = $1, lesson_content = $2 WHERE lesson_id = $3`,
-        [lesson_id, lesson_name, lesson_content]
+        [lesson_name, lesson_content, lesson_id]
       )
       .catch(console.log);
 
