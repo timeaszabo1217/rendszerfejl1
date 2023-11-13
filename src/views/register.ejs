@@ -15,8 +15,12 @@
         <nav class="navbar">
          <a href = "/" class = "navbar-item">Főoldal</a>
          <a href = "/" class = "navbar-item">Felmérések</a>
-         <a href = "/" class = "navbar-item">Leckék</a>
-         <a href = "/" class = "navbar-item">Időpont foglalás</a>
+         <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item">
+            <%= 'Leckék' %>
+            </a>
+            <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item">
+            <%= 'Időpontfoglalás' %>
+            </a>
                <div class = "navbar-item dropdown profileIcon right-side">
                   <img class = "right-side active" src = "assets/img/profile_icon.png" alt = "Profil ikon">
                   <div class = "dropdown-content">
