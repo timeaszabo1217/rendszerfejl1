@@ -27,7 +27,7 @@ class NotificationDAO {
     await db
       .query(
         `UPDATE emailnotifications SET recipient_id = $1, message = $2, mail_date = $3 WHERE mail_id = $4`,
-        [mail_id, recipient_id, message, new Date(mail_date)]
+        [recipient_id, message, new Date(mail_date), mail_id]
       )
       .catch(console.log);
 
