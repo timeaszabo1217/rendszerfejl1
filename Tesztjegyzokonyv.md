@@ -1,25 +1,24 @@
-# Tesztjegyzőkönyv-`Alapműveletek`
+# Tesztjegyzőkönyv
 
-Az alábbi tesztdokumentum a `MINTA` projekthez tartozó `9.4.5. Alapműveletek` funkcióihoz készült. Felelőse: `Teszt Elek` 
+Az alábbi tesztdokumentum a `2023_IB153I-12_A` projekt alap funkcióihoz készült. Felelőse: `Durucz Ádám` 
 
 ``` 
-A tesztelési dokumentáció áttekinthetőségének érdekében egy jegyzőkönyv egy adott témához tartozó funkciókat tartalmazza 
-(pl. vektorműveletek) és ne az adott projekttaghoz tartozó összes funkció tesztelését belesűrítve egy fájlba.
+A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben meghatározott főbb funkciók tesztelési procedúráját, beleértve a specifikus teszteseteket és azok eredményeit. 
 ``` 
 
 ## 1. Teszteljárások (TP)
 
-### 1.1. Összeadás funkció tesztelése 
-- Azonosító: TP-01
-- Tesztesetek: TC-01, TC-02
-- Leírás: összeadás funkció tesztelése
-    0. lépés: Nyissuk meg az alkalmazást, és indítsuk el az összeadás funkciót
-    1. lépés: Az `INPUT1` szövegbeviteli mezőbe írjunk be a `NUMBER1` számot
-    2. lépés: Az `INPUT2` szövegbeviteli mezőbe írjunk be a `NUMBER2` számot
-    3. lépés: Nyomjuk meg az `OSSZEAD` gombot 
-    4. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: `NUMBER3`
+### 1.1. Regisztráció
+- **Azonosító:** TP-01
+- **Tesztesetek:** TC-01, TC-02, TC-03, TC-04, TC-5
+- **Leírás:** A regisztrációs folyamat tesztelése során gondosan ellenőrizzük a felhasználói adatok helyes rögzítését és a felhasználói fiókok sikeres létrehozását. A teszt magában foglalja az űrlapmezők érvényességének ellenőrzését, valamint a visszajelzések és hibauzenetek helyes megjelenítését.
+    0. lépés:Indítsuk el az alkalmazást egy tetszőleges webböngészőben.
+    1. lépés: Mozgassuk az egeret a jobb felső sarokban található felhasználói ikonra, és válasszuk ki a megjelenő menüből a `Regisztráció` opciót.
+    2. lépés: A form kitöltésekor három kötelező mezőt kell kitölteni: a `Név`, az `Email` és a `Jelszó` mezőket. Ezenkívül egy legördülő menü segítségével ki kell választani a `Jogosultság` szintet. Az email cím formátumát csak a kliensoldalon ellenőrizzük, tehát a megadott email címnek meg kell felelnie a szabványos formátumnak. A jelszó esetében nincsenek különleges követelmények vagy megszorítások.
+    3. lépés: Miután kitöltöttük az összes mezőt, kattintsunk a `Regisztráció` gombra.
+    4. lépés: Sikeres regisztráció után automatikusan a főoldalra irányít minket az alkalmazás. Ha hiba történik, az alkalmazás jelzi, hogy melyik mezőt töltöttük ki helytelenül. _Elvárt eredmény:_ A főoldalra irányít minket az alkalmazás.
 
-### 1.2. Négyzetre emelés funkció tesztelése
+### 1.2. Bejelentkezés
 - Azonosító: TP-02
 - Tesztesetek: TC-01
 - Leírás: négyzetre emelés funkció tesztelése
@@ -27,6 +26,16 @@ A tesztelési dokumentáció áttekinthetőségének érdekében egy jegyzőkön
     1. lépés: Az `INPUT` szövegbeviteli mezőbe írjunk be a `NUMBER1` számot
     2. lépés: Nyomjuk meg az `NEGYZETREEMEL` gombot 
     3. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: `NUMBER2`
+
+### 1.3. Kijelentkezés
+- Azonosító: TP-02
+- Tesztesetek: TC-01
+- Leírás: négyzetre emelés funkció tesztelése
+    0. lépés: Nyissuk meg az alkalmazást, és indítsuk el a négyzetre emelés funkciót
+    1. lépés: Az `INPUT` szövegbeviteli mezőbe írjunk be a `NUMBER1` számot
+    2. lépés: Nyomjuk meg az `NEGYZETREEMEL` gombot 
+    3. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: `NUMBER2`
+
 
 ## 2. Teszesetek (TC)
 
