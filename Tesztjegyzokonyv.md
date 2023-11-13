@@ -8,7 +8,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ## 1. Teszteljárások (TP)
 
-### 1.1. Összeadás funkció tesztelése 
+### 1.1. Regisztáció
 - Azonosító: TP-01
 - Tesztesetek: TC-01, TC-02
 - Leírás: összeadás funkció tesztelése
@@ -18,7 +18,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: Nyomjuk meg az `OSSZEAD` gombot 
     4. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: `NUMBER3`
 
-### 1.2. Négyzetre emelés funkció tesztelése
+### 1.2. Bejelentkezés
 - Azonosító: TP-02
 - Tesztesetek: TC-01
 - Leírás: négyzetre emelés funkció tesztelése
@@ -26,6 +26,16 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     1. lépés: Az `INPUT` szövegbeviteli mezőbe írjunk be a `NUMBER1` számot
     2. lépés: Nyomjuk meg az `NEGYZETREEMEL` gombot 
     3. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: `NUMBER2`
+
+### 1.3. Kijelentkezés
+- Azonosító: TP-02
+- Tesztesetek: TC-01
+- Leírás: négyzetre emelés funkció tesztelése
+    0. lépés: Nyissuk meg az alkalmazást, és indítsuk el a négyzetre emelés funkciót
+    1. lépés: Az `INPUT` szövegbeviteli mezőbe írjunk be a `NUMBER1` számot
+    2. lépés: Nyomjuk meg az `NEGYZETREEMEL` gombot 
+    3. lépés: Ellenőrizzük az eredményt. Elvárt eredmény: `NUMBER2`
+
 
 ## 2. Teszesetek (TC)
 
