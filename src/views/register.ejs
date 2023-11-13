@@ -39,14 +39,14 @@
     <main>
         <h1>Regisztráció</h1>
         <form action="/registeruser" method="post" onsubmit="return validateRegistrationForm()">
-            <label for="username">Név:</label>
-            <input type="text" name="username" id="username">
+            <label for="username">Név: <b>*</b></label>
+            <input type="text" name="username" id="username" required>
             
             <label for="email">E-Mail: <b>*</b></label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" required>
             
             <label for="password">Jelszó: <b>*</b></label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password" id="password" required>
             
             <label for="role">Jogosultság:</label>
             <select name="role" id="role">
