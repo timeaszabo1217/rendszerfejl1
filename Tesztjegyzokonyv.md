@@ -8,7 +8,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ## 1. Teszteljárások (TP)
 
-### 1.1. Regisztáció
+### 1.1. Regisztráció
 - Azonosító: TP-01
 - Tesztesetek: TC-01, TC-02
 - Leírás: összeadás funkció tesztelése
