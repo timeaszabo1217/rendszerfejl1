@@ -6,7 +6,7 @@ const jwtSecret = require("./../config/auth.js");
 const router = express.Router();
 
 router.post("/loginuser", async (req, res) => {
-  let { email, password } = req.body;
+  let { email, password, returnTo } = req.body;
 
   const user = await new UserDAO().getUserByEmail(email);
 
@@ -29,7 +29,7 @@ router.post("/loginuser", async (req, res) => {
         res.cookie("jwt", token, {
           httpOnly: true,
         });
-        return res.redirect("/");
+        return res.redirect(returnTo || '/');
       } else {
         res.status(400).json({
           message: "Login not succesful",
@@ -38,6 +38,7 @@ router.post("/loginuser", async (req, res) => {
     });
   }
 });
+
 router.get("/register", async (req, res) => {
   const token = req.cookies.jwt;
   var current_role;
@@ -53,6 +54,7 @@ router.get("/register", async (req, res) => {
 });
 
 router.get("/login", async (req, res) => {
+  const returnTo = req.query.returnTo || '/';
   const token = req.cookies.jwt;
   var current_role;
 
@@ -63,8 +65,10 @@ router.get("/login", async (req, res) => {
   }
   return res.render("login", {
     current_role: current_role,
+    returnTo: returnTo
   });
 });
+
 router.post("/registeruser", async (req, res) => {
   let { username, email, password, role } = req.body;
 
