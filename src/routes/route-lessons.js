@@ -6,11 +6,19 @@ const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
 router.get("/lessons",userAuth, async (req, res) => {
+<<<<<<< HEAD
   let bookings = await new LessonDAO().getLessons();
   res.render("lesson", { lessons: lessons });
 
 
 /*router.get("/", async (req, res) => {
+=======
+  let lessons = await new LessonDAO().getLessons();
+  res.render("lessons", { lessons: lessons });
+});
+
+router.get("/", async (req, res) => {
+>>>>>>> 088deb60e7303b9fd7cfba9325078add6c77e809
   let lessons = await new LessonDAO().getLessons();
   var user_mails = [];
   const token = req.cookies.jwt;
