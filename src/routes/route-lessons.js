@@ -5,6 +5,11 @@ const UserDAO = require("../dao/user-dao.js");
 const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
+router.get("/lessons",userAuth, async (req, res) => {
+  let lessons = await new LessonDAO().getLessons();
+  res.render("lessons", { lessons: lessons });
+});
+
 router.get("/", async (req, res) => {
   let lessons = await new LessonDAO().getLessons();
   var user_mails = [];

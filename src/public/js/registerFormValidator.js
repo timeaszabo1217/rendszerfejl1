@@ -4,7 +4,7 @@ function validateRegistrationForm() {
     var password = document.getElementById('password').value;
 
     if (username == "") {
-        alert("Felhasználónév megadása kötelező!");
+        alert("Név megadása kötelező!");
         return false;
     }else if(email == ""){
         alert("Email megadása kötelező!");
