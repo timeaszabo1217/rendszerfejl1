@@ -1,0 +1,103 @@
+<% const current_role = userAuth; %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Főoldal</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+        <nav class="navbar">
+            <a href="/" class="navbar-item">Főoldal</a>
+            <a href="/article" class="navbar-item">Felmérések</a>
+            <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item">
+                <%= 'Leckék' %>
+                </a>
+                <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item active">
+                <%= 'Időpont foglalás' %>
+            <div class="navbar-item dropdown profileIcon right-side">
+                <img class="right-side" src="assets/img/profile_icon.png" alt="Profil ikon">
+                <div class="dropdown-content">
+                    <% if (!current_role) { %>
+                        <a href="/login" class="navbar-item">Bejelentkezés</a>
+                        <a href="/register" class="navbar-item">Regisztráció</a>
+                        <% } %>
+                        <% if (current_role === 'ROLE_USER') { %>
+                            <a href = "/profile" class = "navbar-item">Profil</a>
+                            <a href = "/logout" class = "navbar-item">Kijelentkezés</a>
+                          <% } %>
+                          <% if (current_role === 'ROLE_ADMIN') { %>
+                            <a href = "/profile" class = "navbar-item">Admin</a>
+                            <a href = "/logout" class = "navbar-item">Kijelentkezés</a>
+                          <% } %>
+                </div>
+            </div>
+        </nav>
+        <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+    </header>
+    <main>
+            <div class="profile-container">
+
+                <div class="profile-info">
+                        <h3>Saját adataim</h3>
+                        <p><strong>Név:</strong> JohnDoe</p>
+                        <p><strong>Email-cím:</strong> johndoe@example.com</p>
+                        <button id="delete-account">Fiók törlése</button>
+                </div>
+
+                <div class="profile-edit">
+                    <h3>Adatok Változtatása</h3>
+                    <form action="/" method="post">
+                        <label for="username">Név:</label>
+                        <input type="text" id="username" name="username" placeholder="Név">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Email-cím">
+                        <button id="profilebutton" type="submit">Mentés</button>
+                    </form>
+                    <h3>Jelszó változtatás</h3>
+                    <form id="password-form" action="/" method="post">
+                        <label for="current-password">Jelenlegi jelszó:</label>
+                        <input type="password" id="current-password" name="current-password" required>
+
+                        <label for="new-password">Új jelszó:</label>
+                        <input type="password" id="new-password" name="new-password" required>
+
+                        <label for="confirm-password">Jelszó megerősítése:</label>
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+
+                        <button type="submit">Jelszó változtatása</button>
+                    </form>
+
+                </div>
+            </div>
+
+        <footer>
+            <div>
+                <h1>Elérhetőségem</h1>
+                <ul>
+                    <li class="bold">
+                        E-mail:
+                    <li>
+                        csilla@gmail.com
+                    </li>
+                    <li class="bold">
+                        Személyesen:
+                    <li>
+                        Időpont foglalással tudsz jelentkezni, várlak szeretettel.
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+       
+    </main>
+</body>
+
+</html>
