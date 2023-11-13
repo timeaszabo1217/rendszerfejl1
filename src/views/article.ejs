@@ -1,0 +1,68 @@
+<% const current_role = userAuth; %>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Urbán Csilla - Főoldal</title>
+      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
+      <link href="/css/style.css" rel="stylesheet" type="text/css">
+      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <header>
+        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+          <nav class="navbar">
+           <a href = "/" class = "navbar-item">Főoldal</a>
+           <a href = "/" class = "navbar-item active">Felmérések</a>
+           <a href = "/" class = "navbar-item">Leckék</a>
+           <a href = "/" class = "navbar-item">Időpont foglalás</a>
+                 <div class = "navbar-item dropdown profileIcon right-side">
+                    <img class = "right-side" src = "assets/img/profile_icon.png" alt = "Profil ikon">
+                    <div class = "dropdown-content">
+                      <% if (!current_role) { %>
+                          <a href = "/login" class = "navbar-item">Bejelentkezés</a>
+                          <a href = "/register" class = "navbar-item">Regisztráció</a>
+                      <% } %>
+                      <% if (current_role) { %>
+                          <a href = "/logout" class = "navbar-item">Kijelentkezés</a>
+                      <% } %>
+                    </div>
+                 </div>
+          </nav>
+          <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+      </header>
+      <main>
+            <div class="article">
+              <img src="" alt="Kép" class="article-img"/>
+              <div class="article-name">Egy újabb teszt </div>
+              <div class="article-content">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+                 in voluptate velit esse cillum dolore eu fu</div>
+              <div class="article-date">2003.04.05.</div>
+            </div>
+    
+      <footer>
+         <div>
+             <h1>Elérhetőségem</h1>
+             <ul>
+                 <li class = "bold">
+                     E-mail:
+                 <li>
+                     csilla@gmail.com
+                 </li>
+                 <li class = "bold">
+                     Személyesen:
+                 <li>
+                     Időpont foglalással tudsz jelentkezni, várlak szeretettel.
+                 </li>
+             </ul>
+         </div>
+     </footer>
+     
+      
+   </main>
+   </body>
+</html>

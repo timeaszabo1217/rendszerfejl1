@@ -227,3 +227,152 @@ input[type="submit"] {
     font-family: reclinew05-regularregular, sans-serif;
     font-size: 16px;
 }
+/* article */
+
+.article{
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto; 
+  max-width: 70%;
+  box-sizing: border-box; 
+}
+
+.article-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.article-name {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 10px; 
+}
+
+.article-content {
+  line-height: 1.6;
+  margin-bottom: 15px; 
+}
+
+.article-date {
+  color: #777;
+  font-size: 1.1em;
+  float: right;
+  margin-right: 5%;
+}
+
+
+/*lesson*/
+
+.sidebar {
+  width: 20%;
+  background-color: #7ba893;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  color: #fff; 
+}
+
+.lessons-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lessons-list p {
+  color: #fff; 
+  text-align: center; 
+  font-size: 25px; 
+  margin-bottom: 15px; 
+}
+
+.lesson-item{
+  margin-left: 0;
+}
+
+.lesson-item a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Balenciaga, sans-serif;
+  display: block;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+
+}
+
+.lesson-content {
+  box-sizing: border-box;
+  flex: 1;
+  padding: 20px;
+
+}
+.lesson-content hr{
+  height: 3px; 
+  background-color:rgba(105, 90, 14, 0.416);
+}
+
+
+.lesson-container{
+  display: flex;
+  padding: 20px;
+  margin: auto; 
+  max-width: 85%
+}
+
+
+
+
+
+/*profil*/
+
+
+.profile-container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  height: 100vh;
+  max-width: 1200px;
+
+}
+
+.profile-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.profile-info h3 {
+  font-size: 36px; 
+}
+
+.profile-edit {
+  width: 60%;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.profile-edit h3 {
+  font-size: 24px; 
+  text-align: center;
+}
+
+button {
+  background-color: #63552d;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 5%;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #63552d98;
+}

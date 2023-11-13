@@ -5,12 +5,17 @@ const UserDAO = require("../dao/user-dao.js");
 const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
-router.get("/", async (req, res) => {
+router.get("/lessons",userAuth, async (req, res) => {
+  let bookings = await new LessonDAO().getLessons();
+  res.render("lesson", { lessons: lessons });
+
+
+/*router.get("/", async (req, res) => {
   let lessons = await new LessonDAO().getLessons();
   var user_mails = [];
   const token = req.cookies.jwt;
   var current_email;
-  var current_role;
+  var current_role;*/
 
   if (token) {
     jwt.verify(token, jwtSecret, (err, decodedToken) => {
