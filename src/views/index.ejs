@@ -14,10 +14,10 @@
           <nav class="navbar">
             <a href = "/" class = "navbar-item active">Főoldal</a>
             <a href = "/article" class = "navbar-item">Felmérések</a>
-            <a href="<%= current_role ? '/lessons' : '/register?returnTo=/lessons' %>" class="navbar-item">
+            <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item">
                 <%= 'Leckék' %>
                 </a>
-                <a href="<%= current_role ? '/booking' : '/register?returnTo=/booking' %>" class="navbar-item">
+                <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item">
                 <%= 'Időpontfoglalás' %>
                 </a>
             <div class = "navbar-item dropdown profileIcon right-side">
