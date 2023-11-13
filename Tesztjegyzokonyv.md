@@ -1,10 +1,9 @@
-# Tesztjegyzőkönyv-`Alapműveletek`
+# Tesztjegyzőkönyv
 
-Az alábbi tesztdokumentum a `MINTA` projekthez tartozó `9.4.5. Alapműveletek` funkcióihoz készült. Felelőse: `Teszt Elek` 
+Az alábbi tesztdokumentum a `2023_IB153I-12_A` projekt alap funkcióihoz készült. Felelőse: `Durucz Ádám` 
 
 ``` 
-A tesztelési dokumentáció áttekinthetőségének érdekében egy jegyzőkönyv egy adott témához tartozó funkciókat tartalmazza 
-(pl. vektorműveletek) és ne az adott projekttaghoz tartozó összes funkció tesztelését belesűrítve egy fájlba.
+A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben meghatározott főbb funkciók tesztelési procedúráját, beleértve a specifikus teszteseteket és azok eredményeit. 
 ``` 
 
 ## 1. Teszteljárások (TP)
