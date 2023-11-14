@@ -82,7 +82,7 @@ router.post("/registeruser", async (req, res) => {
 
     if (existingUser) {
       return res.render("error", {
-        message: "Ez az email már cím foglalt."
+        message: "Ez az email cím már foglalt."
       });
     }
 
