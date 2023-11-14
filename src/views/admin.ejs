@@ -1,0 +1,23 @@
+<% const current_role = userAuth; %>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Urbán Csilla - Admin</title>
+      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
+      <link href="/css/style.css" rel="stylesheet" type="text/css">
+      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <header>
+        <%- include('header', { current_page: 'admin', current_role: current_role }) %>
+      </header>
+      <main>
+      
+    </main>
+    <footer>
+      <%- include('footer'); %>
+   </footer>
+   </body>
+</html>
