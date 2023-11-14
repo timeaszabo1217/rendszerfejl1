@@ -251,6 +251,33 @@ input[type="submit"].red {
   border-color: #c87878;
 }
 
+#error-message {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+#error {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+#back {
+  color: var(--gold) ;
+  text-decoration: none;
+  font-family: reclinew05-regularregular, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
 /* article */
 
 .article {

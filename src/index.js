@@ -18,6 +18,10 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
+app.get('/error', (req, res) => {
+  const errorMessage = req.query.message || 'Ismeretlen hiba történt.';
+  res.render('error', { message: errorMessage });
+});
 app.use(routeArticle);
 app.use(routeLesson);
 app.use(routeBooking);
