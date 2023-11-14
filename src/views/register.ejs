@@ -10,36 +10,8 @@
     <script src="/js/registerFormValidator.js"></script>
 </head>
 <body>
-    <header>
-      <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
-        <nav class="navbar">
-         <a href = "/" class = "navbar-item">Főoldal</a>
-         <a href = "/article" class = "navbar-item">Felmérések</a>
-         <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item">
-            <%= 'Leckék' %>
-            </a>
-            <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item">
-            <%= 'Időpontfoglalás' %>
-            </a>
-               <div class = "navbar-item dropdown profileIcon right-side">
-                  <img class = "right-side active" src = "assets/img/profile_icon.png" alt = "Profil ikon">
-                  <div class = "dropdown-content">
-                    <% if (!current_role) { %>
-                        <a href="/login" class="navbar-item">Bejelentkezés</a>
-                        <a href="/register" class="navbar-item active">Regisztráció</a>
-                      <% } else if (current_role === 'ROLE_USER') { %>
-                        <a href="/" class="navbar-item">Profil</a>
-                      <% } else if (current_role === 'ROLE_ADMIN') { %>
-                        <a href="/admin" class="navbar-item">Admin</a>
-                      <% } %>
-                      <% if (current_role) { %>
-                        <a href="/logout" class="navbar-item">Kijelentkezés</a>
-                      <% } %>
-                  </div>
-               </div>
-        </nav>
-        <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
-    </header>
+  <header>
+    <%- include('header', { current_page: 'register', current_role: current_role }) %>
     <main>
         <h1>Regisztráció</h1>
         <form action="/registeruser" method="post" onsubmit="return validateRegistrationForm()">
@@ -61,5 +33,8 @@
             <input type="submit" value="Regisztráció" class="btn-primary">
         </form>
     </main>
+       <footer>
+      <%- include('footer'); %>
+   </footer>
 </body>
 </html>
