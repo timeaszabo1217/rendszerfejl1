@@ -24,10 +24,6 @@ router.get("/", async (req, res) => {
     });
   }
 
-  for (const lesson of lessons) {
-    let user = await new UserDAO().getUserById();
-    user_mails.push(user.email);
-  }
 
   return res.render("index", {
     lessons: lessons,
