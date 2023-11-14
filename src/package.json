@@ -13,7 +13,9 @@
     "express": "^4.17.1",
     "express-session": "^1.17.3",
     "jsonwebtoken": "^9.0.2",
+    "node-schedule": "^2.1.1",
     "pg": "^8.5.1",
+    "pg-promise": "^11.5.4",
     "react-navigation": "^5.0.0"
   },
   "devDependencies": {
