@@ -31,7 +31,8 @@ class UserDAO {
         [user_email, user_username, user_passw, parseInt(user_id)]
       )
       .catch(console.log);
-    return;
+      const updatedUser = await this.getUserByEmail(user_email);
+    return updatedUser;
   }
 
   async deleteUser(user_id) {
