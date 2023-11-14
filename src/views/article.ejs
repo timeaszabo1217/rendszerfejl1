@@ -1,3 +1,4 @@
+<% let current_page = 'article'; %>
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -9,36 +10,36 @@
       <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-      <header>
-        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
-        <nav class="navbar">
-            <a href = "/" class = "navbar-item">Főoldal</a>
-            <a href = "/article" class = "navbar-item active">Felmérések</a>
-            <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item">
-            <%= 'Leckék' %>
-            </a>
-            <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item">
-            <%= 'Időpontfoglalás' %>
-            </a>
-                 <div class = "navbar-item dropdown profileIcon right-side">
-                    <img class = "right-side" src = "assets/img/profile_icon.png" alt = "Profil ikon">
-                    <div class = "dropdown-content">
-                        <% if (!current_role) { %>
-                            <a href="/login" class="navbar-item">Bejelentkezés</a>
-                            <a href="/register" class="navbar-item">Regisztráció</a>
-                          <% } else if (current_role === 'ROLE_USER') { %>
-                            <a href="/" class="navbar-item">Profil</a>
-                          <% } else if (current_role === 'ROLE_ADMIN') { %>
-                            <a href="/admin" class="navbar-item">Admin</a>
-                          <% } %>
-                          <% if (current_role) { %>
-                            <a href="/logout" class="navbar-item">Kijelentkezés</a>
-                          <% } %>
-                    </div>
-                 </div>
-          </nav>        
-          <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
-      </header>
+    <header>
+      <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+      <nav class="navbar">
+        <a href = "/" class = "navbar-item">Főoldal</a>
+        <a href = "/article" class = "navbar-item active">Felmérések</a>
+        <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item">
+        <%= 'Leckék' %>
+        </a>
+        <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item">
+        <%= 'Időpontfoglalás' %>
+        </a>
+             <div class = "navbar-item dropdown profileIcon right-side">
+                <img class = "right-side" src = "assets/img/profile_icon.png" alt = "Profil ikon">
+                <div class = "dropdown-content">
+                  <% if (!current_role) { %>
+                    <a href="/login" class="navbar-item">Bejelentkezés</a>
+                    <a href="/register" class="navbar-item">Regisztráció</a>
+                  <% } else if (current_role === 'ROLE_USER') { %>
+                    <a href="/" class="navbar-item">Profil</a>
+                  <% } else if (current_role === 'ROLE_ADMIN') { %>
+                    <a href="/admin" class="navbar-item">Admin</a>
+                  <% } %>
+                  <% if (current_role) { %>
+                    <a href="/logout" class="navbar-item">Kijelentkezés</a>
+                  <% } %>
+                </div>
+             </div>
+      </nav>
+      <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+    </header>
       <main>
         <h1>Felmérések</h1>
             <div class="article">
@@ -50,23 +51,6 @@
                  in voluptate velit esse cillum dolore eu fu</div>
               <div class="article-date">2003.04.05.</div>
             </div>
-      <footer>
-         <div>
-             <h1>Elérhetőségem</h1>
-             <ul>
-                 <li class = "bold">
-                     E-mail:
-                 <li>
-                     csilla@gmail.com
-                 </li>
-                 <li class = "bold">
-                     Személyesen:
-                 <li>
-                     Időpont foglalással tudsz jelentkezni, várlak szeretettel.
-                 </li>
-             </ul>
-         </div>
-     </footer>
    </main>
    </body>
 </html>

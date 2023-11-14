@@ -1,0 +1,31 @@
+<header> 
+    <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+    <nav class="navbar">
+      <a href="/" class="navbar-item <%= current_page === 'index' ? 'active' : '' %>">Főoldal</a>
+      <a href="/article" class="navbar-item <%= current_page === 'article' ? 'active' : '' %>">Felmérések</a>
+      <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item <%= current_page === 'lessons' ? 'active' : '' %>">
+        <%= 'Leckék' %>
+      </a>
+      <a href="<%= current_role ? '/booking' : '/register' %>" class="navbar-item <%= current_page === 'booking' ? 'active' : '' %>">
+        <%= 'Időpontfoglalás' %>
+      </a>
+      <div class="navbar-item dropdown profileIcon right-side">
+        <img class="right-side" src="assets/img/profile_icon.png" alt="Profil ikon">
+        <div class="dropdown-content">
+          <% if (!current_role) { %>
+            <a href="/login" class="navbar-item">Bejelentkezés</a>
+            <a href="/register" class="navbar-item">Regisztráció</a>
+          <% } else if (current_role === 'ROLE_USER') { %>
+            <a href="/" class="navbar-item">Profil</a>
+          <% } else if (current_role === 'ROLE_ADMIN') { %>
+            <a href="/admin" class="navbar-item">Admin</a>
+          <% } %>
+          <% if (current_role) { %>
+            <a href="/logout" class="navbar-item">Kijelentkezés</a>
+          <% } %>
+        </div>
+      </div>
+    </nav>
+    <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+</header>
+  
