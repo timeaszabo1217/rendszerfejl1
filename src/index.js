@@ -7,7 +7,7 @@ const routeLesson = require('./routes/route-lessons');
 const routeUser = require('./routes/route-users');
 const routeArticle= require('./routes/route-article');
 const routeBooking = require('./routes/route-booking');
-//const routeNotification = require('./routes/route-notification');
+const routeNotification = require('./routes/route-notification');
 const PORT  = process.env.PORT || 8080;
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
@@ -15,11 +15,13 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
-app.use(routeLesson);
-app.use(routeUser);
-app.use(routeBooking);
 app.use(routeArticle);
-//app.use(routeNotification);
+app.use(routeLesson);
+app.use(routeBooking);
+app.use(routeUser);
+app.use(routeNotification);
+
+
 
 
 

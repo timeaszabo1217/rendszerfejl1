@@ -16,6 +16,8 @@ userAuth = (req, res, next) => {
                         message: "Not authorized"
                     })
                 } else {
+                    req.userAuth = decodedToken.role;
+                    res.locals.userAuth = decodedToken.role;
                     next()
                 }
             }

@@ -25,11 +25,15 @@
                     <img class = "right-side" src = "assets/img/profile_icon.png" alt = "Profil ikon">
                     <div class = "dropdown-content">
                       <% if (!current_role) { %>
-                          <a href = "/login" class = "navbar-item">Bejelentkezés</a>
-                          <a href = "/register" class = "navbar-item">Regisztráció</a>
+                        <a href="/login" class="navbar-item">Bejelentkezés</a>
+                        <a href="/register" class="navbar-item">Regisztráció</a>
+                      <% } else if (current_role === 'ROLE_USER') { %>
+                        <a href="/" class="navbar-item">Profil</a>
+                      <% } else if (current_role === 'ROLE_ADMIN') { %>
+                        <a href="/admin" class="navbar-item">Admin</a>
                       <% } %>
                       <% if (current_role) { %>
-                          <a href = "/logout" class = "navbar-item">Kijelentkezés</a>
+                        <a href="/logout" class="navbar-item">Kijelentkezés</a>
                       <% } %>
                     </div>
                  </div>
