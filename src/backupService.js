@@ -1,12 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const pgp = require('pg-promise')();
+const fs = require("fs");
+const path = require("path");
+const pgp = require("pg-promise")();
 
 // Kapcsolódás az adatbázishoz
-const db = pgp('postgres://postgres:1234@localhost:5432/postgres');
+const db = pgp("postgres://postgres:1234@localhost:5432/postgres");
 
 // Mentési könyvtár elérési útja
-const backupDir = path.join(__dirname, 'backup');
+const backupDir = path.join(__dirname, "backup");
 
 // Ellenőrizze, hogy létezik-e a mentési könyvtár, ha nem, hozza létre
 if (!fs.existsSync(backupDir)) {
@@ -15,7 +15,7 @@ if (!fs.existsSync(backupDir)) {
 
 // Mentés létrehozása az adatbázisból
 async function createBackup() {
-  const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
+  const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
   const backupFile = path.join(backupDir, `backup-${timestamp}.json`);
 
   try {
@@ -40,9 +40,9 @@ async function createBackup() {
     const backupContent = JSON.stringify(backupData, null, 2);
     fs.writeFileSync(backupFile, backupContent);
 
-    console.log('Backup created successfully:', backupFile);
+    console.log("Backup created successfully:", backupFile);
   } catch (error) {
-    console.error('Error creating backup:', error);
+    console.error("Error creating backup:", error);
   }
 }
 
