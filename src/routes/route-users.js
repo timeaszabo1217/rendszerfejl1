@@ -72,26 +72,39 @@ router.get("/login", async (req, res) => {
 router.post("/registeruser", async (req, res) => {
   let { username, email, password, role } = req.body;
 
-  const hashedPassword = await bcrypt.hash(password, 10);
-  const newUser = await new UserDAO().createUser(username, email, hashedPassword, role);
-  if (newUser) {
-    const token = jwt.sign(
-      {
-        id: newUser.user_id,
-        username: newUser.user_username,
-        email: newUser.user_email,
-        role: newUser.user_role,
-      },
-      jwtSecret.jwtSecret
-    );
+  try {
+    const existingUser = await new UserDAO().getUserByEmail(email);
 
-    res.cookie("jwt", token, {
-      httpOnly: true,
-    });
-    return res.redirect("/");
-  } else {
-    res.status(500).json({
-      message: "Registration failed",
+    if (existingUser) {
+      return res.status(400).json({
+        message: "A felhasználó már regisztrált ezzel az e-mail címmel.",
+      });
+    }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+    const newUser = await new UserDAO().createUser(username, email, hashedPassword, role);
+
+    if (newUser) {
+      const token = jwt.sign(
+        {
+          id: newUser.user_id,
+          username: newUser.user_username,
+          email: newUser.user_email,
+          role: newUser.user_role,
+        },
+        jwtSecret.jwtSecret
+      );
+
+      res.cookie("jwt", token, {
+        httpOnly: true,
+      });
+      return res.redirect("/");
+    } else {
+      throw new Error("A regisztráció sikertelen.");
+    }
+  } catch (error) {
+    return res.status(500).json({
+      message: error.message || "Valami hiba történt a regisztráció közben.",
     });
   }
 });
