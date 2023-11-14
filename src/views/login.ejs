@@ -12,8 +12,8 @@
    <header>
       <%- include('header', { current_page: 'login', current_role: current_role }) %>
     </header>
-   <div>
-      <h2>Login</h2>
+   <div class="login-container">
+      <h1>Login</h1>
       <form action="/loginuser" method="post" onsubmit="return validateLoginForm()">
          <label>E-Mail:
          <input type="email" name="email" id="email" required></input>
@@ -21,7 +21,7 @@
          <label>Password:
          <input type="password" name="password" id="password" required></input>
          </label>  
-         <input type="submit" value="Submit" class="btn-sm btn-dark details"></input>
+         <input type="submit" class= "loginbutton" value="Bejelentkezés" class="btn-sm btn-dark details"></input>
       </form>
    </div>
    <footer>

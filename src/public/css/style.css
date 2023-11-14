@@ -404,4 +404,15 @@ input[type="submit"].red {
   h1 {
     margin-bottom: 0;
   }
+
+  .loginbutton {
+    background-color: #6f8b78;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
 }
+
+  
+}
+
