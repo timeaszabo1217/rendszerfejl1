@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <title>Hiba történt</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico?" />
+  <link href="/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="/css/menu.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <h1>Hiba történt</h1>
+  <div id="error-message">
+    <p>
+        <%= message %>
+    </p>
+    <a href="/" id ="back">↩ Vissza az oldalra</a>
+  </div>
+  <div class="image-container">
+    <img id="error" src="assets/img/error.png" alt="Error">
+  </div>
+  <script>
+    const errorMessageDiv = document.getElementById('error-message');
+    const params = new URLSearchParams(window.location.search);
+    const errorMessage = params.getS('message');
+    errorMessageDiv.textContent = errorMessage;
+  </script>
+</body>
+</html>

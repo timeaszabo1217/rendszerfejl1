@@ -5,14 +5,19 @@ const jwt = require("jsonwebtoken");
 const jwtSecret = require("./../config/auth.js");
 const router = express.Router();
 
+router.get('/error', (req, res) => {
+  const errorMessage = req.query.message;
+  res.render('error', { message: errorMessage });
+});
+
 router.post("/loginuser", async (req, res) => {
   let { email, password, returnTo } = req.body;
 
   const user = await new UserDAO().getUserByEmail(email);
 
   if (!user) {
-    res.status(400).json({
-      message: "Login not successful",
+    return res.render("error", {
+      message: "Sikertelen belépés, próbáld újra."
     });
   } else {
     bcrypt.compare(password, user.user_passw).then(function (result) {
@@ -31,8 +36,8 @@ router.post("/loginuser", async (req, res) => {
         });
         return res.redirect(returnTo || '/');
       } else {
-        res.status(400).json({
-          message: "Login not succesful",
+        return res.render("error", {
+          message: "Sikertelen belépés, próbáld újra."
         });
       }
     });
@@ -76,8 +81,8 @@ router.post("/registeruser", async (req, res) => {
     const existingUser = await new UserDAO().getUserByEmail(email);
 
     if (existingUser) {
-      return res.status(400).json({
-        message: "A felhasználó már regisztrált ezzel az e-mail címmel.",
+      return res.render("error", {
+        message: "Ez az email cím már foglalt."
       });
     }
 
@@ -100,11 +105,11 @@ router.post("/registeruser", async (req, res) => {
       });
       return res.redirect("/");
     } else {
-      throw new Error("A regisztráció sikertelen.");
+      throw new Error("A regisztráció sikertelen, próbáld újra.");
     }
   } catch (error) {
-    return res.status(500).json({
-      message: error.message || "Valami hiba történt a regisztráció közben.",
+    return res.render("error", {
+      message: error.message || "Valami hiba történt a regisztráció közben."
     });
   }
 });
