@@ -2,7 +2,9 @@ const db = require("../config/db");
 
 class NotificationDAO {
   async getNotifications() {
-    let results = await db.query(`SELECT * FROM emailnotifications`).catch(console.log);
+    let results = await db
+      .query(`SELECT * FROM emailnotifications`)
+      .catch(console.log);
     return results.rows;
   }
 
@@ -36,7 +38,9 @@ class NotificationDAO {
 
   async deleteNotification(mail_id) {
     await db
-      .query(`DELETE FROM emailnotifications WHERE mail_id=$1`, [parseInt(mail_id)])
+      .query(`DELETE FROM emailnotifications WHERE mail_id=$1`, [
+        parseInt(mail_id),
+      ])
       .catch(console.log);
 
     return;
