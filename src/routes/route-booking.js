@@ -1,10 +1,10 @@
 const express = require("express");
 const BookingDAO = require("../dao/booking-dao");
 const jwt = require("jsonwebtoken");
-const jwtSecret = require("./../config/auth.js");
+const { userAuth, jwtSecret } = require("../config/auth.js");
 const router = express.Router();
 
-router.get("/booking",userAuth, async (req, res) => {
+router.get("/booking", userAuth, async (req, res) => {
   let bookings = await new BookingDAO().getBookings();
   res.render("booking", { bookings: bookings });
 });

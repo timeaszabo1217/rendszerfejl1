@@ -5,7 +5,13 @@ const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
 router.get("/article", (req, res) => {
-  const current_role = req.user ? req.user.role : null;
+  const token = req.cookies.jwt;
+  var current_role;
+  if (token) {
+    jwt.verify(token, jwtSecret, (err, decodedToken) => {
+      current_role = decodedToken.role;
+    });
+  }
   res.render("article", { current_role });
 });
 

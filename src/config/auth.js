@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken")
 const jwtSecret = "eecd871acfc314925bfe02afe03209aa7540d1f867f61a71d61942aa9270e286b84c04";
 
-userAuth = (req, res, next) => {
+const userAuth = (req, res, next) => {
     const token = req.cookies.jwt
 
     if (token) {
