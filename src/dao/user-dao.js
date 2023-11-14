@@ -24,11 +24,11 @@ class UserDAO {
     return newUser;
   }
 
-  async updateUser(user_id, user_email, user_passw) {
+  async updateUser(user_id, user_username ,user_email, user_passw) {
     await db
       .query(
-        `UPDATE users SET user_email = $1, user_passw = $2 WHERE user_id = $3`,
-        [user_email, user_passw, parseInt(user_id)]
+        `UPDATE users SET user_email = $1, user_username = $2, user_passw = $3 WHERE user_id = $4`,
+        [user_email, user_username, user_passw, parseInt(user_id)]
       )
       .catch(console.log);
     return;
