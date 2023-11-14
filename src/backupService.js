@@ -20,17 +20,15 @@ async function createBackup() {
 
   try {
     // Adatok lekérése az adatbázisból
-    const adminData = await db.any('SELECT * FROM Admin');
-    const userData = await db.any('SELECT * FROM Felhasznalo');
-    const articleData = await db.any('SELECT * FROM Cikkek');
-    const lessonData = await db.any('SELECT * FROM Leckek');
-    const userLessonData = await db.any('SELECT * FROM FelhasznaloLeckei');
-    const emailNotificationData = await db.any('SELECT * FROM EmailErtesitesek');
-    const appointmentData = await db.any('SELECT * FROM IdopontFoglalas');
+    const userData = await db.any('SELECT * FROM Users');
+    const articleData = await db.any('SELECT * FROM Articles');
+    const lessonData = await db.any('SELECT * FROM Lessons');
+    const userLessonData = await db.any('SELECT * FROM UserLessons');
+    const emailNotificationData = await db.any('SELECT * FROM EmailNotifications');
+    const appointmentData = await db.any('SELECT * FROM AppointmentBookings');
 
     // Fájlba írás
     const backupData = {
-      adminData,
       userData,
       articleData,
       lessonData,
