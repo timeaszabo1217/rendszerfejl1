@@ -18,7 +18,6 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.urlencoded({ extended: false }));
 app.use(routeArticle);
-app.use(userAuth);
 app.use(routeLesson);
 app.use(routeBooking);
 app.use(routeUser);
