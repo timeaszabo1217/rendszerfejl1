@@ -1,19 +1,22 @@
 <% const current_role = userAuth; %>
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Urbán Csilla - Leckék</title>
-      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
-      <link href="/css/style.css" rel="stylesheet" type="text/css">
-      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Urbán Csilla - Leckék</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-      <header>
-        <%- include('header', { current_page: 'lesson', current_role: current_role }) %>
-      </header>
-      <main>
+    <header>
+      <%- include('header', { current_page: 'lesson', current_role: current_role}) %>
+    </header>
+    <main>
       <h1>Leckék</h1>
       <div class="lesson-container">
         <div class="sidebar">
@@ -30,19 +33,18 @@
           </ul>
         </div>
         <div class="lesson-content">
-        <h3>Lecke Címe</h3>
-        <hr>
-        <p>Lecke tartalma: "Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          in voluptate velit esse cillum dolore eu fu
-        </p>
+          <h3>Lecke Címe</h3>
+          <hr />
+          <p>
+            Lecke tartalma: "Lorem ipsum dolor sit amet, consectetur adipiscing
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fu
+          </p>
+        </div>
       </div>
-    </div>
     </main>
-    <footer>
-      <%- include('footer'); %>
-   </footer>
-   </body>
+    <footer><%- include('footer'); %></footer>
+  </body>
 </html>
