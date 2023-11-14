@@ -10,6 +10,7 @@ const routeBooking = require("./routes/route-booking");
 const schedule = require("node-schedule");
 const backupService = require("./backupService");
 const routeNotification = require("./routes/route-notification");
+const routeProfile = require("./routes/route-profile");
 const PORT = process.env.PORT || 8080;
 const cookieParser = require("cookie-parser");
 app.use(cookieParser());
@@ -22,7 +23,7 @@ app.use(routeLesson);
 app.use(routeBooking);
 app.use(routeUser);
 app.use(routeNotification);
-
+app.use(routeProfile);
 
 
 app.listen(PORT, () => {
