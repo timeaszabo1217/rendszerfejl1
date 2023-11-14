@@ -23,7 +23,7 @@
         </div>
         <div class="profile-edit">
           <h3>Adatok Változtatása</h3>
-          <form action="/" method="post">
+          <form action="/profile/edit/data" method="post">
             <label for="username">Név:</label>
             <input type="text" id="username" name="username" placeholder="Név"/>
             <label for="email">Email:</label>
@@ -31,7 +31,7 @@
             <input type="submit" value="Mentés" class="btn-primary">
           </form>
           <h3>Jelszó változtatás</h3>
-          <form id="password-form" action="/" method="post">
+          <form id="password-form" action="/profile/edit/password" method="post">
             <label for="current-password">Jelenlegi jelszó:</label>
             <input type="password" id="current-password" name="current-password" required/>
             <label for="new-password">Új jelszó:</label>
