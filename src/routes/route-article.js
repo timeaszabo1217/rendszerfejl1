@@ -4,12 +4,12 @@ const ArticleDAO = require("../dao/article-dao.js");
 const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
-router.get("/article", async (req, res) => {
-  let articles = await new ArticleDAO().getArticles();
-  res.render("article", { articles: articles });
+router.get("/article", (req, res) => {
+  const current_role = req.user ? req.user.role : null;
+  res.render("article", { current_role });
 });
 
-router.post("/add", async (req, res) => {
+router.post("/add", userAuth, async (req, res) => {
   let { article_name } = req.body;
   let { article_content } = req.body;
   let { article_date } = req.body;

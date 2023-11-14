@@ -1,15 +1,15 @@
 const express = require("express");
-const router = express.Router();
-const BookingDAO = require("../dao/booking-dao.js");
-const { userAuth, jwtSecret } = require("../config/auth.js");
+const BookingDAO = require("../dao/booking-dao");
 const jwt = require("jsonwebtoken");
+const jwtSecret = require("./../config/auth.js");
+const router = express.Router();
 
 router.get("/booking",userAuth, async (req, res) => {
   let bookings = await new BookingDAO().getBookings();
   res.render("booking", { bookings: bookings });
 });
 
-router.post("/add", async (req, res) => {
+router.post("/add", userAuth, async (req, res) => {
   let { user_id } = req.body;
   let { booking_date } = req.body;
   let { booked } = req.body;
