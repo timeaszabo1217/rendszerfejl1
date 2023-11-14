@@ -1,7 +1,5 @@
--- First, check if the "Users" table exists
 DROP TABLE IF EXISTS Users;
 
--- Now, create the "Users" table again
 CREATE TABLE Users (
   user_id serial PRIMARY KEY,
   user_username VARCHAR(255) NOT NULL,
@@ -10,10 +8,8 @@ CREATE TABLE Users (
   user_role VARCHAR(255) NOT NULL
 );
 
--- First, check if the "Articles" table exists
 DROP TABLE IF EXISTS Articles;
 
--- Now, create the "Articles" table again
 CREATE TABLE Articles (
   article_id serial PRIMARY KEY,
   article_name VARCHAR(255) NOT NULL,
@@ -21,20 +17,16 @@ CREATE TABLE Articles (
   article_date TIMESTAMP NOT NULL
 );
 
--- First, check if the "Lessons" table exists
 DROP TABLE IF EXISTS Lessons;
 
--- Now, create the "Lessons" table again
 CREATE TABLE Lessons (
   lesson_id serial PRIMARY KEY,
   lesson_name VARCHAR(255) NOT NULL,
   lesson_content TEXT NOT NULL
 );
 
--- First, check if the "UserLessons" table exists
 DROP TABLE IF EXISTS UserLessons;
 
--- Now, create the "UserLessons" table again
 CREATE TABLE UserLessons (
   lesson_id INT,
   user_id INT,
@@ -43,10 +35,8 @@ CREATE TABLE UserLessons (
   FOREIGN KEY (user_id) REFERENCES Users (user_id)
 );
 
--- First, check if the "EmailNotifications" table exists
 DROP TABLE IF EXISTS EmailNotifications;
 
--- Now, create the "EmailNotifications" table again
 CREATE TABLE EmailNotifications (
   mail_id serial PRIMARY KEY,
   recipient_id INT,
@@ -55,10 +45,8 @@ CREATE TABLE EmailNotifications (
   FOREIGN KEY (recipient_id) REFERENCES Users(user_id)
 );
 
--- First, check if the "AppointmentBookings" table exists
 DROP TABLE IF EXISTS AppointmentBookings;
 
--- Now, create the "AppointmentBookings" table again
 CREATE TABLE AppointmentBookings (
   appointment_id serial PRIMARY KEY,
   user_id INT,
@@ -118,7 +106,6 @@ VALUES
     (8, 5);
 
 
--- Correction for EmailNotifications
 INSERT INTO EmailNotifications (recipient_id, message, mail_date)
 VALUES
     (2, 'Köszönjük, hogy csatlakoztál hozzánk! Reméljük, hogy élvezni fogod a tartalmakat és tanfolyamainkat.', '2023-01-15'),
@@ -129,7 +116,6 @@ VALUES
     (7, 'Közlemény a fejlesztőinktől: Frissítettük a platformot. Ismerd meg az újdonságokat és észrevételeidet várjuk!', '2023-06-12'),
     (8, 'Kiemelt esemény: Csatlakozz a következő élő online eseményünkhöz. Regisztrálj most és ne maradj le!', '2023-07-18');
 
--- Correction for AppointmentBookings
 INSERT INTO AppointmentBookings (user_id, booking_date, booked)
 VALUES
     (2, '2023-01-04', TRUE),
