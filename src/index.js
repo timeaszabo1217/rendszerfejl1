@@ -3,6 +3,7 @@ const path = require("path");
 const { Pool } = require("pg");
 const app = express();
 const { userAuth } = require("./config/auth.js");
+const routeProfile = require('./routes/route-profile');
 const routeLesson = require('./routes/route-lessons');
 const routeUser = require('./routes/route-users');
 const routeArticle= require('./routes/route-article');
@@ -22,6 +23,7 @@ app.use(routeLesson);
 app.use(routeBooking);
 app.use(routeUser);
 app.use(routeNotification);
+app.use(routeProfile);
 
 
 

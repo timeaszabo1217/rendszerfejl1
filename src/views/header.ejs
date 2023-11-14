@@ -20,7 +20,7 @@
         <a href="/login" class="navbar-item <%= current_page === 'login' ? 'active' : '' %>">Bejelentkezés</a>
         <a href="/register" class="navbar-item <%= current_page === 'register' ? 'active' : '' %>">Regisztráció</a>
       <% } else if (current_role === 'ROLE_USER') { %>
-        <a href="/" class="navbar-item <%= current_page === 'profile' ? 'active' : '' %>">Profil</a>
+        <a href="/profile" class="navbar-item <%= current_page === 'profile' ? 'active' : '' %>">Profil</a>
       <% } else if (current_role === 'ROLE_ADMIN') { %>
         <a href="/admin" class="navbar-item <%= current_page === 'admin' ? 'active' : '' %>">Admin</a>
       <% } %>
