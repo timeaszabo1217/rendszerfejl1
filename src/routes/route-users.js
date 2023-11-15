@@ -121,17 +121,5 @@ router.get("/logout", (req, res) => {
   res.redirect("/");
 });
 
-router.get("/admin_users", async (req, res) => {
-  let users = await new UserDAO().getUsers();
-  const token = req.cookies.jwt;
-  var current_role;
-  if (token) {
-    jwt.verify(token, jwtSecret, (err, decodedToken) => {
-      current_role = decodedToken.role;
-    });
-  }
-  return res.render("admin_users", { users: users });
-});
-
 
 module.exports = router;

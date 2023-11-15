@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const BookingDAO = require("../dao/booking-dao.js");
+const UserDAO = require("../dao/user-dao.js");
 const { userAuth, jwtSecret } = require("../config/auth.js");
 const jwt = require("jsonwebtoken");
 
@@ -55,7 +56,10 @@ router.post("/admin/appointments", userAuth, async (req, res) => {
 });
 
 router.get("/admin/users", userAuth, async (req, res) => {
+
+    let users = await new UserDAO().getUsers();
     const token = req.cookies.jwt;
+    
   
     var current_role;
 
@@ -69,7 +73,7 @@ router.get("/admin/users", userAuth, async (req, res) => {
         res.send("You're not an admin!")
     }else{
         res.render("admin_users", {
-            current_role: current_role,
+            current_role: current_role, users: users
           });
     }
 });
