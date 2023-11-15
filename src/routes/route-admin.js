@@ -55,6 +55,28 @@ router.post("/admin/appointments", userAuth, async (req, res) => {
   res.redirect("/admin/appointments");
 });
 
+router.get("/admin/users/delete/:id", userAuth, async (req, res) => {
+
+  let users = await new UserDAO().getUsers();
+  const id = req.params.id;
+  // res.send(id);
+  const token = req.cookies.jwt;
+  var current_role;
+
+  if (token) {
+    jwt.verify(token, jwtSecret, (err, decodedToken) => {
+      current_role = decodedToken.role;
+    });
+  }
+
+  if(current_role !== 'ROLE_ADMIN'){
+      res.send("You're not an admin!")
+  }else{
+    await new UserDAO().deleteUser(id);
+    res.redirect("/admin/users");
+  }
+});
+
 router.get("/admin/users", userAuth, async (req, res) => {
 
     let users = await new UserDAO().getUsers();

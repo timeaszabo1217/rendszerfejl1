@@ -14,31 +14,51 @@
       <%- include('header', { current_page: 'admin', current_role: current_role }) %>
     </header>
       <main>
+         <h1>Admin oldal</h1>
+        <div class="lesson-container">
+          <div class="sidebar">
+            <ul class="lessons-list">
+              <li class="lesson-item">
+                <a href="/admin/appointments">Időpontok</a>
+              </li>
+              <li class="lesson-item">
+                <a href="/admin/users">Felhasználók</a>
+              </li>
+              <li class="lesson-item">
+                <a href="/admin/lessons">Leckék</a>
+              </li>
+            </ul>
+          </div>
                 <div>
-                  <h2>Felhasználók</h2>
-                  <table>
-                     <thead>
-                        <tr>
-                           <th>ID</th>
-                           <th>Név</th>
-                           <th>Email</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                          <% for (var i=0; i < users.length; i++) { %>
-                            <td><%= users[i].user_id %></td>
-                            <td><%= users[i].user_username %></td>
-                            <td><%= users[i].user_email %></td>
-                            <td>
-                               <button class="btn">Töröl
-                                  <span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="Sent to Trash Box"></span>
-                               </button>
-                            </td>
-                        </tr>
-                        <% } %>
-                     </tbody>
-                  </table>
+                  <h3>Felhasználók</h3>
+                  <hr />
+
+                  <div class="profile-container">
+                     <table>
+                        <thead>
+                           <tr>
+                              <th>ID</th>
+                              <th>Név</th>
+                              <th>Email</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                             <% for (var i=0; i < users.length; i++) { %>
+                               <td><%= users[i].user_id %></td>
+                               <td><%= users[i].user_username %></td>
+                               <td><%= users[i].user_email %></td>
+                               <td>
+                                  <button class="btn" onclick="window.location.href='/admin/users/delete/<%= users[i].user_id %>'">Töröl
+                                     <span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="Sent to Trash Box"></span>
+                                  </button>
+                               </td>
+                           </tr>
+                           <% } %>
+                        </tbody>
+                     </table>
+
+                 </div>
                </div>
          
             </div>
