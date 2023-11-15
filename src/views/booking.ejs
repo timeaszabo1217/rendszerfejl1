@@ -1,31 +1,44 @@
-<% const current_role = userAuth; %>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Urbán Csilla - Időpontfoglalás</title>
-      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
-      <link href="/css/style.css" rel="stylesheet" type="text/css">
-      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+<% const current_role=userAuth; %>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Időpontfoglalás</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
-      <header>
-        <%- include('header', { current_page: 'booking', current_role: current_role }) %>
-      </header>
-      <main>
+    <header>
+      <%- include('header', { current_page: 'booking' , current_role: current_role }) %>
+    </header>
+    <main>
       <h1>Időpontfoglalás</h1>
+<<<<<<< HEAD
       <div id = "booking">
+=======
+      <div id="booking">
+>>>>>>> 9cf932f417384a31e8d1b87cdb562efb067081ba
         <form id="booking-form">
           <h3>Elérhető időpontok</h3>
           <label for="appointment_id">Válassz egy időpontot:</label>
-          <select id="appointment_id" name="appointment_id" required></select>
-          <input type="submit" value="Foglalás"></button>
-        </form>
-    </div>
+          <select id="appointment_id" name="appointment_id" required>
+            <% for (var i = 0; i < bookings.length; i++) { %>
+              <% var date = new Date(bookings[i].booking_date); %>
+              <% var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2); %>
+              <option value="<%= bookings[i].booking_date %>"><%= formattedDate %></option>
+            <% } %>
+          </select>
+          <input type="submit" value="Foglalás">
+        </form>             
+      </div>
     </main>
-       <footer>
+    <footer>
       <%- include('footer'); %>
-   </footer>
-   </body>
-</html>
+    </footer>
+  </body>
+
+  </html>

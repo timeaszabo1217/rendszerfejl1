@@ -1,0 +1,74 @@
+<% const current_role = userAuth; %>
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <title>Urbán Csilla - Admin</title>
+      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
+      <link href="/css/style.css" rel="stylesheet" type="text/css">
+      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      <header>
+        <%- include('header', { current_page: 'idopontok', current_role: current_role }) %>
+      </header>
+      <main>
+        <h1>Admin oldal</h1>
+        <div class="lesson-container">
+          <div class="sidebar">
+            <ul class="lessons-list">
+              <li class="lesson-item">
+                <a href="/admin/appointments">Időpontok</a>
+              </li>
+              <li class="lesson-item">
+                <a href="/admin/users">Felhasználók</a>
+              </li>
+              <li class="lesson-item">
+                <a href="/admin/lessons">Leckék</a>
+              </li>
+            </ul>
+          </div>
+          <div class="lesson-content">
+            <h3>Időpontok</h3>
+            <hr />
+            
+            <div class="profile-container">
+
+                <div class="profile-edit">
+                    <h3>Időpont Hozzáadása</h3>
+                    <form action="/admin/appointments" method="post">
+                        <label for="booking_date">Hozzáadandó Dátum:</label>
+                        <input type="date" id="booking_date" name="booking_date" required>
+                        <input type="submit" value="Időpont Hozzáadása"></input>
+                    </form>
+
+                    <h3>Időpont módosítása</h3>
+                    <form id="appointment_change" action="/" method="post">
+                        <label for="old_date">Változtatnivaló időpont</label>
+                        <select name="old_date", id="old_date", form="appointment_change">
+                        <input type="date" id="new_date" name="new_date" required>
+                        <input type="submit"value="Időpont Módosítása"></input>
+                    </form>
+
+                    <h3>Időpont Törlése</h3>
+                    <form id="appointment_delete" action="/" method="post">
+                        <label for="current-password">Törlendő Időpont:</label>
+                        <select name="date_delete", id="date_delete", form="appointment_delete">
+                        <input type="submit", value="Időpont Törlése"></input>
+                    </form>
+
+                </div>
+            </div>
+
+            </form>
+          </div>
+        </div>
+
+        
+    </main>
+    <footer>
+      <%- include('footer'); %>
+   </footer>
+   </body>
+</html>

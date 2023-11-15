@@ -2,17 +2,13 @@ const db = require("../config/db");
 
 class BookingDAO {
   async getBookings() {
-    let results = await db
-      .query(`SELECT * FROM appointmentbookings`)
-      .catch(console.log);
+    let results = await db.query(`SELECT * FROM appointmentbookings`).catch(console.log);
     return results.rows;
   }
 
   async getOneBooking(appointment_id) {
     let result = await db
-      .query("SELECT * FROM appointmentbookings WHERE appointment_id = $1", [
-        appointment_id,
-      ])
+      .query("SELECT * FROM appointmentbookings WHERE appointment_id = $1", [appointment_id])
       .catch(console.log);
     return result.rows[0];
   }
@@ -20,8 +16,8 @@ class BookingDAO {
   async createBooking(user_id, booking_date, booked) {
     await db
       .query(
-        "INSERT INTO appointmentbookings (user_id, booking_date, booked) VALUES ($1, $2, $3)",
-        [user_id, new Date(booking_date), booked]
+        "INSERT INTO appointmentbookings (user_id, booking_date, booked) VALUES ($1, $2::DATE, $3)",
+        [user_id, booking_date, booked]
       )
       .catch(console.log);
     return;
@@ -40,9 +36,7 @@ class BookingDAO {
 
   async deleteBooking(appointment_id) {
     await db
-      .query(`DELETE FROM appointmentbookings WHERE appointment_id=$1`, [
-        parseInt(appointment_id),
-      ])
+      .query(`DELETE FROM appointmentbookings WHERE appointment_id=$1`, [parseInt(appointment_id)])
       .catch(console.log);
 
     return;
