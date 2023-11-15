@@ -336,4 +336,30 @@ Vállalásaim a mérföldkőben:
     - a82c10ba44653eb9bbd7ac835e934cee5fb8d021
     - b81defb100f7571f29d054d93ec2b504d4d5848f
 
+### Projekt tag: `Masa ROland`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+8.3.17. Admin oldal kivitelezése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #66
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - af6e347f6a71887f1c03f1940f673a6a2511577d
+     - d093bde73576cc52a4aa97adbd48fac75d6b7612
+     - c972a00d2a80c5659bbcfce676885c25472e0185
+     - 3db53dd980c0c18cd0d17355c3bb2f87ac4e2866
+     - c3321469427dcb2c80614af5341c779f88b71f7f
+     - 04d28e3d392005d730aba27b20f7e1bea16f7073
+
+Adatbázis minta tesztelése:
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #37
 
