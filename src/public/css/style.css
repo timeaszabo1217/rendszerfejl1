@@ -210,7 +210,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="role"],
-input[type="submit"] {
+input[type="submit"],
+select {
   font-family: "quicksand", sans-serif;
   width: 100%;
   padding: 5px;
@@ -351,6 +352,9 @@ input[type="submit"].red {
   box-sizing: border-box;
   padding-left: 30px;
   flex: 1;
+  font-size: 20px;
+  color: var(--color);
+  font-family: "quicksand", sans-serif;
 }
 
 .lesson-content hr {

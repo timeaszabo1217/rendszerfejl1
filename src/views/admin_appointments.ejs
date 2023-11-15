@@ -32,7 +32,7 @@
           </ul>
         </div>
         <div class="lesson-content">
-          <h3>Időpontok</h3>
+          <h2>Időpontok</h2>
           <hr />
 
           <div class="profile-container">
@@ -42,7 +42,7 @@
               <form action="/admin/appointments" method="post">
                 <label for="booking_date">Hozzáadandó Dátum:</label>
                 <input type="datetime-local" id="booking_date" name="booking_date" required>
-                <input type="submit" value="Időpont Hozzáadása"></input>
+                <input type="submit" class="btn-primary" value="Időpont Hozzáadása"></input>
               </form>
 
               <h3>Időpont módosítása</h3>
@@ -60,7 +60,7 @@
                         <% } %>
                 </select>
                 <input type="datetime-local" id="new_date" name="new_date" required>
-                <input type="submit" value="Időpont Módosítása"></input>
+                <input type="submit" class="btn-primary" value="Időpont Módosítása"></input>
               </form>
 
               <h3>Időpont Törlése</h3>
@@ -77,7 +77,7 @@
                         </option>
                         <% } %>
                 </select>
-                <input type="submit" value="Időpont Törlése">
+                <input type="submit" class="btn-primary" value="Időpont Törlése">
               </form>
 
             </div>
@@ -90,7 +90,6 @@
 
     </main>
     <footer>
-      <%- include('footer'); %>
     </footer>
   </body>
 
