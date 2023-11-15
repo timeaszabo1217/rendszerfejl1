@@ -125,10 +125,7 @@ router.post("/profile/edit/delete", async (req, res) => {
       });
     } else {
             await new UserDAO().deleteUser(user.user_id);
-            res.cookie("jwt", "", {
-                maxAge: "1",
-              });
-            res.redirect("/");
+            res.redirect("/logout");
         }
     }
 );
