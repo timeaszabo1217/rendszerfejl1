@@ -106,7 +106,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.3.2. Egséges megjelenés tervezése, készítése
+- 8.3.2. Egységes megjelenés tervezése, készítése
 
     ##### A feladathoz tartozó issue(k):
 
@@ -256,4 +256,45 @@ Vállalásaim a mérföldkőben:
      - 9c6f9e3b0e8a0459cbdb1ba1a18bbef41e1d25c2
      - bdc86dc6b21f1ad5ca3bb8c5d77efc5449a43a67
      - 3d285c080a4c8d73b96a08ef0c15694dcf8a7f7a
+
+### Projekt tag: `Kiss Csaba`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.3.18. Profil oldal kivitelezése
+
+    ##### A feladathoz tartozó issue(k):
+
+    - #61
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 2151fdd7f3d95b220ef775aaefc4b72ebcde263e
+    - 96518361a39585a9dd027448197a91b78a533e94
+    - 2efa03a1aaec085f0eb65c6f6cca67b8e4fa5866
+    - 2c2c48ba2e7a3ffa6b0870856970ccfd812e5baf
+    - 08622c6866f45bdabcef378d1a4b306d05d3a607
+    - 7ec237b417ebd1cd5e3a6b9c23a0298745c70adb
+
+- 8.3.17. Admin oldal kivitelezése
+
+    ##### A feladathoz tartozó issue(k):
+
+    - #78
+    - #79
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 4d8d717b459cf34aa3b986a206ebb9573437a8cd
+    - 96518361a39585a9dd027448197a91b78a533e94
+    - 114c7798037650601294603bbc7258b0e2b802d6
+    - d87cd7edadca7a05a32a23d324ef4c940650b850
+    - af6bc0f0601ee4001895b16bce83ca4ed65d2a6f
+    - d1a6140414cc467c0ebce46d51013b77ddbd47dd
+    - a6276aa0fc9eb256655e565762cd91c204701878
+    - 2bd3ada9c3d34ec4364f3e34454546f89059bb13
+
+
 
