@@ -159,3 +159,54 @@ Vállalásaim a mérföldkőben:
      - 0e151216c5a8f8a28fc18de05beb4887d4a26e6c 
      - 087012c3ab83cca791d71f541fc9ccd5084e085f
 
+
+
+### Projekt tag: `Urbán Judit`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.3.1. Táblákat létre hozó SQL kód
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #42
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - d167d48e3dfe4d912d11d4c5da58d7d937c6fc28
+
+-  Login oldal szerkesztése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #70
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 05fdb9786a341cda042d9232bd70619647d831a9
+    - 32c7821c4f1cbbe8b8f7ea1f94ce89386959e993
+
+
+-  Felhasználó módositó oldal szerkesztése
+
+    ##### A feladathoz tartozó issue(k):
+
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 7350204dbf72808efc7484e4f8a44d25b34bfec1
+    - 98ecb4e1495823a1eb2a7ca3dbca433194f675c0
+
+- 8.3.20. Deploy
+
+    ##### A feladathoz tartozó issue(k):
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+- 8.3.22. Bemutatás
+
+    ##### A feladathoz tartozó issue(k):
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
