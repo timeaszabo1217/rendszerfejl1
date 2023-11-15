@@ -22,19 +22,6 @@
   background: #555;
 }
 
-::placeholder {
-  font-family: "reclinew05-regularregular", sans-serif;
-}
-
-@font-face {
-  font-family: "reclinew05-regularregular";
-  src: url("../assets/fonts/Recline/recline-regular-webfont.woff2")
-      format("woff2"),
-    url("../assets/fonts/Recline/recline-regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 @font-face {
   font-family: "Balenciaga";
   src: url("../assets/fonts/Balenciaga/Belanciaga.woff2") format("woff2"),
@@ -93,16 +80,16 @@ h2 {
 h3 {
   font-size: 20px;
   color: var(--color);
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
 }
 
 p {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
 }
 
 b {
   color: var(--gold);
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
 }
 
 #graphic {
@@ -181,7 +168,7 @@ footer h1 {
 }
 
 footer ul {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
   padding-left: 180px;
   text-decoration: none;
   width: 300px;
@@ -189,14 +176,14 @@ footer ul {
 }
 
 li {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
   list-style-type: none;
   text-align: left;
   padding-top: 10px;
 }
 
 #introduction {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
   font-size: large;
   color: var(--color);
   float: left;
@@ -207,7 +194,7 @@ li {
 }
 
 form {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
   display: flex;
   flex-direction: column;
   max-width: 200px;
@@ -215,7 +202,7 @@ form {
 }
 
 label {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
   margin-bottom: 8px;
 }
 
@@ -224,7 +211,7 @@ input[type="email"],
 input[type="password"],
 input[type="role"],
 input[type="submit"] {
-  font-family: "reclinew05-regularregular", sans-serif;
+  font-family: "quicksand", sans-serif;
   width: 100%;
   padding: 5px;
   height: 30px;
@@ -242,7 +229,7 @@ input[type="submit"] {
   height: 32px;
   width: 150px;
   text-shadow: 1px 1px whitesmoke;
-  font-family: reclinew05-regularregular, sans-serif;
+  font-family: "quicksand", sans-serif;
   font-size: 16px;
 }
 
@@ -273,7 +260,7 @@ input[type="submit"].red {
 #back {
   color: var(--gold) ;
   text-decoration: none;
-  font-family: reclinew05-regularregular, sans-serif;
+  font-family: "quicksand", sans-serif;
   font-size: 16px;
   font-weight: bolder;
 }
@@ -292,14 +279,14 @@ input[type="submit"].red {
   font-size: 1.4em;
   font-weight: bold;
   margin-bottom: 20px;
-  font-family: reclinew05-regularregular, sans-serif;
+  font-family: "quicksand", sans-serif;
   font-size: 18px;
 }
 
 .article-content {
   line-height: 1.6;
   margin-bottom: 15px;
-  font-family: reclinew05-regularregular, sans-serif;
+  font-family: "quicksand", sans-serif;
   font-size: 16px;
 }
 
