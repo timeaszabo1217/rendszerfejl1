@@ -1,80 +1,97 @@
-<% const current_role = userAuth; %>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Urbán Csilla - Admin</title>
-      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
-      <link href="/css/style.css" rel="stylesheet" type="text/css">
-      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+<% const current_role=userAuth; %>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Admin</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
-      <header>
-        <%- include('header', { current_page: 'admin/appointments', current_role: current_role }) %>
-      </header>
-      <main>
-        <h1>Időpontok módosítása</h1>
-        <div class="lesson-container">
-          <div class="sidebar">
-            <ul class="lessons-list">
-              <li class="lesson-item">
-                <a href="/admin/appointments">Időpontok</a>
-              </li>
-              <li class="lesson-item">
-                <a href="/admin/users">Felhasználók</a>
-              </li>
-              <li class="lesson-item">
-                <a href="/admin/lessons">Leckék</a>
-              </li>
-            </ul>
-          </div>
-          <div class="lesson-content">
-            <h3>Időpontok</h3>
-            <hr />
-            
-            <div class="profile-container">
-
-                <div class="profile-edit">
-                    <h3>Időpont Hozzáadása</h3>
-                    <form action="/admin/appointments" method="post">
-                        <label for="booking_date">Hozzáadandó Dátum:</label>
-                        <input type="datetime-local" id="booking_date" name="booking_date" required>
-                        <input type="submit" value="Időpont Hozzáadása"></input>
-                    </form>
-
-                    <h3>Időpont módosítása</h3>
-                    <form action="/admin/appointments/update" method="post">
-                        <label for="old_date">Változtatnivaló időpont</label>
-                        <select id="appointment_id" name="appointment_id" required>
-                          <% for (var i = 0; i < bookings.length; i++) { %>
-                            <% var date = new Date(bookings[i].booking_date); %>
-                            <% var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2); %>
-                            <option value="<%= bookings[i].booking_date %>"><%= formattedDate %></option>
-                          <% } %>
-                        </select>
-                        <input type="datetime-local" id="new_date" name="new_date" required>
-                        <input type="submit"value="Időpont Módosítása"></input>
-                    </form>
-
-                    <h3>Időpont Törlése</h3>
-                    <form id="appointment_delete" action="/" method="post">
-                        <label for="current-password">Törlendő Időpont:</label>
-                        <select name="date_delete", id="date_delete", form="appointment_delete">
-                        <input type="submit", value="Időpont Törlése"></input>
-                    </form>
-
-                </div>
-            </div>
-
-            </form>
-          </div>
+    <header>
+      <%- include('header', { current_page: 'admin/appointments' , current_role: current_role }) %>
+    </header>
+    <main>
+      <h1>Időpontok módosítása</h1>
+      <div class="lesson-container">
+        <div class="sidebar">
+          <ul class="lessons-list">
+            <li class="lesson-item">
+              <a href="/admin/appointments">Időpontok</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/users">Felhasználók</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/lessons">Leckék</a>
+            </li>
+          </ul>
         </div>
+        <div class="lesson-content">
+          <h3>Időpontok</h3>
+          <hr />
 
-        
+          <div class="profile-container">
+
+            <div class="profile-edit">
+              <h3>Időpont Hozzáadása</h3>
+              <form action="/admin/appointments" method="post">
+                <label for="booking_date">Hozzáadandó Dátum:</label>
+                <input type="datetime-local" id="booking_date" name="booking_date" required>
+                <input type="submit" value="Időpont Hozzáadása"></input>
+              </form>
+
+              <h3>Időpont módosítása</h3>
+              <form action="/admin/appointments/update" method="post">
+                <label for="old_date">Változtatnivaló időpont</label>
+                <select id="appointment_id" name="appointment_id" required>
+                  <% for (var i=0; i < bookings.length; i++) { %>
+                    <% var date=new Date(bookings[i].booking_date); %>
+                      <% var formattedDate=date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' +
+                        ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' +
+                        date.getMinutes()).slice(-2); %>
+                        <option value="<%= bookings[i].booking_date %>">
+                          <%= formattedDate %>
+                        </option>
+                        <% } %>
+                </select>
+                <input type="datetime-local" id="new_date" name="new_date" required>
+                <input type="submit" value="Időpont Módosítása"></input>
+              </form>
+
+              <h3>Időpont Törlése</h3>
+              <form action="/admin/appointments/delete" method="post">
+                <label for="appointment_id_delete">Törlendő Időpont:</label>
+                <select name="appointment_id_delete" id="appointment_id_delete" required>
+                  <% for (var i=0; i < bookings.length; i++) { %>
+                    <% var date=new Date(bookings[i].booking_date); %>
+                      <% var formattedDate=date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' +
+                        ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' +
+                        date.getMinutes()).slice(-2); %>
+                        <option value="<%= bookings[i].appointment_id %>">
+                          <%= formattedDate %>
+                        </option>
+                        <% } %>
+                </select>
+                <input type="submit" value="Időpont Törlése">
+              </form>
+
+            </div>
+          </div>
+
+          </form>
+        </div>
+      </div>
+
+
     </main>
     <footer>
       <%- include('footer'); %>
-   </footer>
-   </body>
-</html>
+    </footer>
+  </body>
+
+  </html>

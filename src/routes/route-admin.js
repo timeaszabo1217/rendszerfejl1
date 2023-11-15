@@ -57,6 +57,12 @@ router.post("/admin/appointments", userAuth, async (req, res) => {
   res.redirect("/admin/appointments");
 });
 
+router.post("/admin/appointments/delete", async (req, res) => {
+  let appointment_id = req.body.appointment_id_delete;
+  await new BookingDAO().deleteBooking(appointment_id);
+  res.redirect("/");
+});
+
 router.get("/admin/users/delete/:id", userAuth, async (req, res) => {
 
   let users = await new UserDAO().getUsers();
