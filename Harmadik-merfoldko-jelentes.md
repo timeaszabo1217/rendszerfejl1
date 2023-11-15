@@ -263,7 +263,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-8.3.18. Profil oldal kivitelezése
+- 8.3.18. Profil oldal kivitelezése
 
     ##### A feladathoz tartozó issue(k):
 
@@ -278,7 +278,7 @@ Vállalásaim a mérföldkőben:
         - 08622c6866f45bdabcef378d1a4b306d05d3a607
         - 7ec237b417ebd1cd5e3a6b9c23a0298745c70adb
 
-8.3.17. Admin oldal kivitelezése
+- 8.3.17. Admin oldal kivitelezése
 
     ##### A feladathoz tartozó issue(k):
 
