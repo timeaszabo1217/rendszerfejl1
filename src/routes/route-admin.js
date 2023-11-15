@@ -46,19 +46,12 @@ router.get("/admin/appointments", userAuth, async (req, res) => {
   }
 });
 
-router.post("/admin/appointments/update", userAuth, async (req, res) => {
-  const { appointment_id, new_date } = req.body;
-  const formattedNewDate = new Date(new_date).toISOString().split('T')[0];
-
-  // Ellenőrizd, hogy az appointment_id létezik
-  const existingBooking = await new BookingDAO().getOneBooking(appointment_id);
-
-  if (!existingBooking) {
-    return res.status(404).send("Az időpont nem található");
-  }
-
-  // Végrehajtsd az időpont módosítást
-  await new BookingDAO().updateBooking(appointment_id, existingBooking.user_id, formattedNewDate, existingBooking.booked);
+router.post("/admin/appointments", userAuth, async (req, res) => {
+  const { user_id, booking_date } = req.body;
+  const formattedDate = booking_date ? new Date(booking_date).toISOString().split('T')[0] : null;
+  const booked = false;
+  
+  await new BookingDAO().createBooking(user_id, formattedDate, booked);
 
   res.redirect("/admin/appointments");
 });
