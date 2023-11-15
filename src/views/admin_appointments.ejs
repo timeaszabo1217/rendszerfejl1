@@ -32,9 +32,36 @@
           <div class="lesson-content">
             <h3>Időpontok</h3>
             <hr />
-            <p>
-              
-            </p>
+            
+            <div class="profile-container">
+
+                <div class="profile-edit">
+                    <h3>Időpont Hozzáadása</h3>
+                    <form action="/" method="post">
+                        <label for="appointment_date">Hozzáadandó Dátum:</label>
+                        <input type="date" id="appointment_date" name="appointment_date" required>
+                        <input type="submit", value="Időpont Hozzáadása"></input>
+                    </form>
+
+                    <h3>Időpont módosítása</h3>
+                    <form id="appointment_change" action="/" method="post">
+                        <label for="old_date">Változtatnivaló időpont</label>
+                        <select name="old_date", id="old_date", form="appointment_change">
+                        <input type="date" id="new_date" name="new_date" required>
+                        <input type="submit"value="Időpont Módosítása"></input>
+                    </form>
+
+                    <h3>Időpont Törlése</h3>
+                    <form id="appointment_delete" action="/" method="post">
+                        <label for="current-password">Törlendő Időpont:</label>
+                        <select name="date_delete", id="date_delete", form="appointment_delete">
+                        <input type="submit", value="Időpont Törlése"></input>
+                    </form>
+
+                </div>
+            </div>
+
+            </form>
           </div>
         </div>
 
