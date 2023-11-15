@@ -136,6 +136,7 @@ Vállalásaim a mérföldkőben:
     - 35289bac3787a5b202e48d3a5185ffee1c5fd46d
     - 087012c3ab83cca791d71f541fc9ccd5084e085f
     - e2e044a207b1fab6675d92e511cf9c50113f9c5d
+    - e2e044a207b1fab6675d92e511cf9c50113f9c5d
 
 - 8.3.7. Bemutatkozó oldal kivitelezése
 
@@ -146,6 +147,7 @@ Vállalásaim a mérföldkőben:
     ##### A feladat elvégzését alátámasztó commit(ok):
 
     - cfe56858f5dc521e954b3ca5d92020dd0393eda4
+    - e18f0cb7a57a2030ac6ddce8e35f7d9a3be4fdb3
 
 - 8.3.16. Regisztrációs oldal kivitelezése
 
