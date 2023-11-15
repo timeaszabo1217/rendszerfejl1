@@ -57,7 +57,6 @@ async function createBackup() {
   }
 }
 
-createBackup();
 module.exports = {
   createBackup,
 };
