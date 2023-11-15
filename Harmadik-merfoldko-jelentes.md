@@ -51,3 +51,51 @@ Vállalásaim a mérföldkőben:
     - d7214e4570020c81b9bdd15afa2204073cade623
     - 68869ad816e53e0880b3a04f68e1445ca345d253
     - 3c80ead8602ff8b79f1b16ea2ec41a312f8153ac
+
+
+### Projekt tag: `Juhász Ferenc`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.3.5. Felhasználók kezeléséhez szükséges adatok létrehozása az adatbázisban
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #57
+     - #59
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - d07a70e3866fd60a8dd659ce8723f6b11695a336
+    - b29ade74c788aeb8205ca03cd5140c8d54e2a378
+
+
+- 8.3.21. Adatbázis feltöltése (min. pár adat a táblákba)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #60
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 6bc197fe8f31bace8b20e922b63164bb78d81401
+    - 57febde1aee7e79015ee39adab301c93a32c0ebd
+
+- Egyéb elátott issuek
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #58
+     - #56
+     - #45
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - d07a70e3866fd60a8dd659ce8723f6b11695a336
+    - f8ebbdeb18d88cafe09c087d2a92239a4fc28323
+    - f037db4f19d6695175074862132c44c3c0015b9d
+    - 8b773f84c0216432a3bf0bf45a4dece0ee72779b
+    - d8a95a88020c2da763875415c22ae92e194af815
+
