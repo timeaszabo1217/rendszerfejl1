@@ -297,4 +297,43 @@ Vállalásaim a mérföldkőben:
     - 2bd3ada9c3d34ec4364f3e34454546f89059bb13
 
 
+### Projekt tag: `Nagy Péter`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.3.9. Email-es kiértesítés új időpontfoglalás esetén
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #39
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+- 8.3.11. Biztonsági mentés automatikus létrehozása
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #40
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 489fa029483d39103fe4754dd607e5b36829bfcf
+
+- 8.3.19. Időpont foglaló oldal kivitelezése
+    
+    ##### A feladathoz tartozó issue(k):
+
+     - #41
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 3f814e7a114486f5aac4769c6812eac93cc8d92b
+    - 77c2ea12cb7950d5869838602954272a52a3ec4a
+    - 3560654ccbb9b61ea382841b1a36264193881d51
+    - e3c2a666bc28ce0743de21a33879a913b0851e6b
+    - a82c10ba44653eb9bbd7ac835e934cee5fb8d021
+    - b81defb100f7571f29d054d93ec2b504d4d5848f
+
 
