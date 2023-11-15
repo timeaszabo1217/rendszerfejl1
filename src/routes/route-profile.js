@@ -95,7 +95,7 @@ router.post("/profile/edit/password", async (req, res) => {
         message: "No such user",
       });
     } else {
-        if(bcrypt.compare(current_password, user.user_passw) && new_password === confirm_password){
+        if(await bcrypt.compare(current_password, user.user_passw) && new_password === confirm_password){
             const hashedPassword = await bcrypt.hash(new_password, 10);
             await new UserDAO().updateUser(user.user_id, user.user_username, user.user_email, hashedPassword);
             res.redirect("/profile");
@@ -103,24 +103,34 @@ router.post("/profile/edit/password", async (req, res) => {
     }
 });
 
-router.get("/admin", userAuth, async (req, res) => {
+router.post("/profile/edit/delete", async (req, res) => {
+    // res.send(req.body);
+
     const token = req.cookies.jwt;
-  
-    var current_role;
+
+    var current_email;
 
     if (token) {
-      jwt.verify(token, jwtSecret, (err, decodedToken) => {
-        current_role = decodedToken.role;
+        jwt.verify(token, jwtSecret, (err, decodedToken) => {
+        // res.send(decodedToken);
+        current_email = decodedToken.email;
+        });
+    };
+  
+    const user = await new UserDAO().getUserByEmail(current_email);
+  
+    if (!user) {
+      res.status(400).json({
+        message: "No such user",
       });
+    } else {
+            await new UserDAO().deleteUser(user.user_id);
+            res.cookie("jwt", "", {
+                maxAge: "1",
+              });
+            res.redirect("/");
+        }
     }
-
-    if(current_role !== 'ROLE_ADMIN'){
-        res.send("You're not an admin!")
-    }else{
-        res.render("admin", {
-            current_role: current_role,
-          });
-    }
-});
+);
 
 module.exports = router;

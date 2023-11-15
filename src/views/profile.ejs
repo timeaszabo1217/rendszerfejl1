@@ -15,12 +15,14 @@
     </header>
     <main>
       <div class="profile-container">
-        <div class="profile-info">
-          <h3>Saját adataim</h3>
-          <p><strong>Név:</strong> <%=current_username %></p>
-          <p><strong>Email-cím:</strong> <%=current_email %></p>
-          <input type="submit" value="Fiók törlése" class="btn-primary red">
-        </div>
+        <form action="/profile/edit/delete" method="post">
+            <div class="profile-info">
+            <h3>Saját adataim</h3>
+            <p><strong>Név:</strong> <%=current_username %></p>
+            <p><strong>Email-cím:</strong> <%=current_email %></p>
+            <input type="submit" value="Fiók törlése" class="btn-primary red">
+            </div>
+        </form>
         <div class="profile-edit">
           <h3>Adatok Változtatása</h3>
           <form action="/profile/edit/data" method="post">
@@ -33,11 +35,11 @@
           <h3>Jelszó változtatás</h3>
           <form id="password-form" action="/profile/edit/password" method="post">
             <label for="current-password">Jelenlegi jelszó:</label>
-            <input type="password" id="current-password" name="current-password" required/>
+            <input type="password" id="current-password" name="current_password" required/>
             <label for="new-password">Új jelszó:</label>
-            <input type="password" id="new-password" name="new-password" required/>
+            <input type="password" id="new-password" name="new_password" required/>
             <label for="confirm-password">Jelszó megerősítése:</label>
-            <input type="password" id="confirm-password" name="confirm-password" required/>
+            <input type="password" id="confirm-password" name="confirm_password" required/>
             <input type="submit" value="Jelszó változtatása" class="btn-primary">
           </form>
         </div>
