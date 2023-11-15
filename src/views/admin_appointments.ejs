@@ -39,15 +39,21 @@
                     <h3>Időpont Hozzáadása</h3>
                     <form action="/admin/appointments" method="post">
                         <label for="booking_date">Hozzáadandó Dátum:</label>
-                        <input type="date" id="booking_date" name="booking_date" required>
+                        <input type="datetime-local" id="booking_date" name="booking_date" required>
                         <input type="submit" value="Időpont Hozzáadása"></input>
                     </form>
 
                     <h3>Időpont módosítása</h3>
-                    <form id="appointment_change" action="/" method="post">
+                    <form action="/admin/appointments/update" method="post">
                         <label for="old_date">Változtatnivaló időpont</label>
-                        <select name="old_date", id="old_date", form="appointment_change">
-                        <input type="date" id="new_date" name="new_date" required>
+                        <select id="appointment_id" name="appointment_id" required>
+                          <% for (var i = 0; i < bookings.length; i++) { %>
+                            <% var date = new Date(bookings[i].booking_date); %>
+                            <% var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2); %>
+                            <option value="<%= bookings[i].booking_date %>"><%= formattedDate %></option>
+                          <% } %>
+                        </select>
+                        <input type="datetime-local" id="new_date" name="new_date" required>
                         <input type="submit"value="Időpont Módosítása"></input>
                     </form>
 
