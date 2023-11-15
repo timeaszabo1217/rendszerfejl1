@@ -1,54 +1,46 @@
-<% const current_role = userAuth; %>
+<% const current_role=userAuth; %>
 <!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Urbán Csilla - Főoldal</title>
+      <title>Urbán Csilla - Admin</title>
       <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
       <link href="/css/style.css" rel="stylesheet" type="text/css">
       <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <header>
-      <%- include('header', { current_page: 'moduser', current_role: current_role }) %>
+      <%- include('header', { current_page: 'admin', current_role: current_role }) %>
     </header>
       <main>
-      <div class="profile-container">
-
-                <div class="profile-edit">
-                    <h3>Felhasználó Adatainak Változtatása</h3>
-                    <form action="/" method="post">
-                      <label for="current-password">Felhasználó ID:</label>
-                        <input type="id" id="user-id" name="user-id" required>
-                        <label for="username">Név:</label>
-                        <input type="text" id="username" name="username" placeholder="Név">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Email-cím">
-                        <button id="profilebutton" type="submit">Mentés</button>
-                    </form>
-                    <h3>Felhasználó Jelszavának Változtatása</h3>
-                    <form id="password-form" action="/" method="post">
-                      <label for="current-password">Felhasználó ID:</label>
-                        <input type="id" id="user-id" name="user-id" required>
-
-                        <label for="new-password">Új jelszó:</label>
-                        <input type="password" id="new-password" name="new-password" required>
-
-                        <label for="confirm-password">Jelszó megerősítése:</label>
-                        <input type="password" id="confirm-password" name="confirm-password" required>
-
-                        <button type="submit">Jelszó változtatása</button>
-
-                        <h3>Felhasználó Törlése</h3>
-                    <form id="password-form" action="/" method="post">
-                      <label for="current-password">Felhasználó ID:</label>
-                        <input type="id" id="user-id" name="user-id" required>
-
-                        <button type="submit">Felhasználó Törlése</button>
-                    </form>
-
-                </div>
+                <div>
+                  <h2>Felhasználók</h2>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th>ID</th>
+                           <th>Név</th>
+                           <th>Email</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                          <% for (var i=0; i < users.length; i++) { %>
+                            <td><%= users[i].user_id %></td>
+                            <td><%= users[i].user_username %></td>
+                            <td><%= users[i].user_email %></td>
+                            <td>
+                               <button class="btn">Töröl
+                                  <span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="Sent to Trash Box"></span>
+                               </button>
+                            </td>
+                        </tr>
+                        <% } %>
+                     </tbody>
+                  </table>
+               </div>
+         
             </div>
     </main>
       <footer>
