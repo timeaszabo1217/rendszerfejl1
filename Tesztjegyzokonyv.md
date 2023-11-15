@@ -49,21 +49,21 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 ### 2.1. Regisztráció
 
 #### 2.1.1. TC-01
-- **TP: ** TP-01
+- **TP:** TP-01
 - **Leírás:** Megfelelő és helyes adatokat adunk meg minden mezőben. A folyamat sikerességét az jelzi, ha a kezdőoldalon találjuk magunkat, ahol a munkamenet elindul.
 - **Bemenet:** `Név` = Tetszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 1-et. ; `E-mail` = Olyan karaktersorozat, amely megfelel az email cím formátumnak. `Jelszó` = Tetszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 3-at. `Jogosultság` = Tetszőlegesen választható 'Admin' vagy 'Felhasználó' szerepkör.
 - **Művelet:** A `Regisztráció` gomb megnyomásával küldhető el a form.
 - **Elvárt kimenet:** Az alkalmazás a kezdőlapra navigál, ahol a munkamenet megkezdődik.
 
 #### 2.1.2. TC-02
-- **TP: ** TP-01
+- **TP:** TP-01
 - **Leírás:** Ebben a tesztesetben az input mezőket üresen hagyjuk, és megfigyeljük, hogy a rendszer hogyan reagál erre az esetre.
 - **Bemenet:** `Név` = Üresen hagyjuk. ; `E-mail` = Üresen hagyjuk. `Jelszó` = Üresen hagyjuk. `Jogosultság` = Tetszőlegesen választható 'Admin' vagy 'Felhasználó' szerepkör.
 - **Művelet:** A `Regisztráció` gomb megnyomásával küldhető el a form.
 - **Elvárt kimenet:** A rendszer figyelmeztetést küld arról, hogy minden mező kitöltése kötelező.
 
 #### 2.1.3. TC-03
-- **TP: ** TP-01
+- **TP:** TP-01
 - **Leírás:** Olyan email címet adunk meg, amely már szerepel az adatbázisban, így azt már használatban van.
 - **Bemenet:** `Név` = Tetszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 1-et. ; `E-mail` = Olyan email cím, amellyel már korábban történt regisztráció. `Jelszó` = etszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 3-at. `Jogosultság` = Tetszőlegesen választható 'Admin' vagy 'Felhasználó' szerepkör.
 - **Művelet:** A `Regisztráció` gomb megnyomásával küldhető el a form.
@@ -72,21 +72,21 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 ### 2.2. Bejelentkezés
 
 #### 2.2.1. TC-04
-- **TP: ** TP-02
+- **TP:** TP-02
 - **Leírás:** Azt teszteljük, hogy amennyiben helyes adatokat adunk meg, azaz olyanokat, amelyekkel korábban sikeres volt a regisztráció, a rendszer engedélyezi-e a belépést.
 - **Bemenet:** `E-mail` = Egy olyan email cím, amely korábban már regisztrálva volt a rendszerben. `Jelszó` = A megadott email címhez kapcsolódó jelszó.
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával küldhető el a form.
 - **Elvárt kimenet:** Az alkalmazás a kezdőlapra navigál, ahol a munkamenet megkezdődik.
 
 #### 2.2.2. TC-05
-- **TP: ** TP-02
+- **TP:** TP-02
 - **Leírás:** Egy már regisztrált email címhez helytelen jelszót adunk meg, és megfigyeljük, hogy az alkalmazás hogyan kezeli ezt a helyzetet.
 - **Bemenet:** `E-mail` = Egy olyan email cím, amely korábban már regisztrálva volt a rendszerben. `Jelszó` = Tetszőleges bemenet, amely nem egyezik meg az adott email címhez tartozó jelszóval.
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával küldhető el a form.
 - **Elvárt kimenet:** Az alkalmazás hibaüzenetet jelenít meg, jelezve, hogy a belépés sikertelen, és nem engedi a felhasználót bejelentkezni.
 
 #### 2.2.2. TC-06
-- **TP: ** TP-02
+- **TP:** TP-02
 - **Leírás:** Egy olyan email címet adunk meg, amellyel nem volt korábban regisztrálva.
 - **Bemenet:** `E-mail` = Egy olyan email cím, amellyel korábban nem volt regisztrálva. `Jelszó` = Tetszőleges bemenet.
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával küldhető el a form.
@@ -95,7 +95,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 ### 2.3. Kijelentkezés
 
 #### 2.3.1. TC-07
-- **TP: ** TP-03
+- **TP:** TP-03
 - **Leírás:** A kijelentkezési folyamat tesztelése során azt ellenőrizzük, hogy megfelelően lezárul-e a munkamenet, a releváns sütik törlésre kerülnek-e, és az alkalmazás a kijelentkezés utáni megfelelő oldalra irányítja-e át a felhasználót.
 - **Bemenet:** ` Nincs bemenet.
 - **Művelet:** Mozgassuk az egeret a jobb felső sarokban található felhasználói ikonra, és válasszuk ki a megjelenő menüből a `Kijelentkezés` opciót.
@@ -104,14 +104,14 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 ### 2.4. Biztonsági mentés készítése
 
 #### 2.4.1. TC-08
-- **TP: ** TP-04
+- **TP:** TP-04
 - **Leírás:** A kijelentkezési folyamat tesztelése során azt ellenőrizzük, hogy megfelelően lezárul-e a munkamenet, a releváns sütik törlésre kerülnek-e, és az alkalmazás a kijelentkezés utáni megfelelő oldalra irányítja-e át a felhasználót.
 - **Bemenet:** ` Nincs bemenet.
 - **Művelet:** Mozgassuk az egeret a jobb felső sarokban található felhasználói ikonra, és válasszuk ki a megjelenő menüből a `Kijelentkezés` opciót.
 - **Elvárt kimenet:** Az alkalmazás a főoldalra navigál minket, ahol a bejelentkezéshez kötött funkciók már nem hozzáférhetőek.
 
 #### 2.4.2. TC-09
-- **TP: ** TP-04
+- **TP:** TP-04
 - **Leírás:** Ellenőrizzük, hogy a biztonsági mentési folyamat megfelelően működik-e, azaz minden nap 3:10-kor menti-e le az összes adatot JSON formátumban.
 - **Bemenet:** ` Nincs bemenet.
 - **Művelet:** Automatikusan beállított folyamat, amely minden nap hajnali 3:10-kor aktiválódik és végrehajtja a funkciót.
