@@ -215,6 +215,11 @@ Vállalásaim a mérföldkőben:
     ##### A feladat elvégzését alátámasztó commit(ok):
 
      - 820456e3bd4c7af3bada3d2afde765dec7c54570
+     - d99e76173900c3203c0c75a87e378f4ea748436d
+     - b4a2da9fc1c44b4d8e7c296e2189985eb92239cc
+     - 2c974e62e23b82e46b3231d465f4b87fbf9f0f5b
+     - 1a8347711ab02585ee9d28780641faff58e1bdb3
+     - 
 
 ### Projekt tag: `Durucz Ádám`
 
