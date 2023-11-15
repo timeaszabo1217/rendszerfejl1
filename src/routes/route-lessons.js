@@ -10,6 +10,7 @@ router.get("/lessons", userAuth, async (req, res) => {
   res.render("lessons", { lessons: lessons });
 });
 
+
 router.get("/", async (req, res) => {
   let lessons = await new LessonDAO().getLessons();
   var user_mails = [];

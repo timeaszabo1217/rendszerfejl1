@@ -50,7 +50,7 @@ DROP TABLE IF EXISTS AppointmentBookings;
 CREATE TABLE AppointmentBookings (
   appointment_id serial PRIMARY KEY,
   user_id INT,
-  booking_date TIMESTAMP NOT NULL,
+  booking_date DATE NOT NULL,
   booked BOOLEAN,
   FOREIGN KEY (user_id) REFERENCES Users(user_id)
 );
