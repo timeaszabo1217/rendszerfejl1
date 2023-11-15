@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
+
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <title>Urbán Csilla - Felmérések</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico?" />
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/menu.css" rel="stylesheet" type="text/css" />
   </head>
+
   <body>
     <header>
       <%- include('header', { current_page: 'article' }) %>
     </header>
     <main>
       <h1>Felmérések</h1>
-      <div class="article">
-        <div class="article-name">
-          <h3>Lecke címe</h3>
+      <% for (var i=0; i < articles.length; i++) { %>
+        <div class="article">
+          <div class="article-name">
+            <h3>
+              <%= articles[i].article_name %>
+            </h3>
+          </div>
+          <div class="article-content">
+            <p>
+              <%= articles[i].article_content %>
+            </p>
+          </div>
+          <div class="article-date">
+            <% 
+            const date = new Date(articles[i].article_date);
+            const formattedDate = `${date.getFullYear()}.${(date.getMonth() + 1).toString().padStart(2, '0')}.${date.getDate().toString().padStart(2, '0')}.`;
+          %>
+          <%= formattedDate %>
+          </div>
         </div>
-        <div class="article-content">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fu
-          </p>
-        </div>
-        <div class="article-date">2003.04.05.</div>
-      </div>
+        <% } %>
     </main>
     <footer>
       <%- include('footer'); %>
     </footer>
   </body>
-</html>
+
+  </html>
