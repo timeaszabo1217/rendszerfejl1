@@ -1,4 +1,5 @@
-2023_ib153i-12_a/src/views/index.ejs<!DOCTYPE html>
+<% const current_role = userAuth; %>
+<!DOCTYPE html>
 <html lang="en">
    <head>
       <meta charset="utf-8">
@@ -53,22 +54,6 @@
       <footer>
         <%- include('footer'); %>
      </footer>
-      <% if (current_role === 'ROLE_ADMIN') { %>
-      <div></div>
-      This content is only shown to administrators.
-      </div>
-      <% } %>
-      <% if (current_role === 'ROLE_USER') { %>
-      <div>
-         This content is only shown to users.
-      </div>
-      <% } %>
-      <% if (current_role ) { %>
-      <div>     
-         This content is only shown to authenticated users.</br>
-         Logged in user: <span><%= current_email %></span> |
-         Roles: <span ><%= current_role %></span>          
-      </div>
-      <% } %>
+      
    </body>
 </html>
