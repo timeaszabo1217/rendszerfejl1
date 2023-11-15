@@ -210,3 +210,48 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
     ##### A feladat elvégzését alátámasztó commit(ok):
+
+
+### Projekt tag: `Veszeli Karina`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.2.4. Egyed-kapcsolat diagram javítása
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #77
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 801a9a6192401539c615cd65a682217e58b87db6
+    - bb67b85a9da53749a0bc53981afa9a3efb509192
+    - 9ca01ac979d539c6ec378649df929c95bad9ee47
+    
+
+- 8.3.8. Regisztráltak lecke oldal kivitelezése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #76
+     - #52
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - b379422466e1feefd6427865b539dd9dd62de8ee
+
+- 8.3.14. Felmérések oldal kivitelezése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #74
+     - #53
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 9c6f9e3b0e8a0459cbdb1ba1a18bbef41e1d25c2
+     - bdc86dc6b21f1ad5ca3bb8c5d77efc5449a43a67
+     - 3d285c080a4c8d73b96a08ef0c15694dcf8a7f7a
+
