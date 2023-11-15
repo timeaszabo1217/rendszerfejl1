@@ -46,21 +46,28 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ## 2. Teszesetek (TC)
 
-### 2.1. Összeadás funkció tesztesetei
+### 2.1. Regisztráció
 
 #### 2.1.1. TC-01
-- TP: TP-01
-- Leírás: összeadás funkció tesztelése 
-- Bemenet: `NUMBER1` = 0 ; `NUMBER2` = 3 
-- Művelet: nyomjuk meg az `OSSZEAD` gombot 
-- Elvárt kimenet: az eredmény mező tartalma: `NUMBER3` = 3
+- **TP: **TP-01
+- **Leírás:** Megfelelő és helyes adatokat adunk meg minden mezőben. A folyamat sikerességét az jelzi, ha a kezdőoldalon találjuk magunkat, ahol a munkamenet elindul.
+- **Bemenet:** `Név` = Tetszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 1-et. ; `E-mail` = Olyan karaktersorozat, amely megfelel az email cím formátumnak. `Jelszó` = Tetszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 3-at. `Jogosultság` = Tetszőlegesen választható 'Admin' vagy 'Felhasználó' szerepkör.
+- **Művelet:** A `Regisztráció` gomb megnyomásával küldhető el a form.
+- **Elvárt kimenet:** Az alkalmazás a kezdőlapra navigál, ahol a munkamenet megkezdődik.
 
 #### 2.1.2. TC-02
-- TP: TP-01
-- Leírás: összeadás funkció tesztelése 
-- Bemenet: `NUMBER1` = X ; `NUMBER2` = 3 
-- Művelet: nyomjuk meg az `OSSZEAD` gombot 
-- Elvárt kimenet: az eredmény mező tartalma: `NUMBER3`= HIBA (`NUMBER1` értéke nem szám)
+- **TP: **TP-02
+- **Leírás:** Ebben a tesztesetben az input mezőket üresen hagyjuk, és megfigyeljük, hogy a rendszer hogyan reagál erre az esetre.
+- **Bemenet:** `Név` = Üresen hagyjuk. ; `E-mail` = Üresen hagyjuk. `Jelszó` = Üresen hagyjuk. `Jogosultság` = Tetszőlegesen választható 'Admin' vagy 'Felhasználó' szerepkör.
+- **Művelet:** A `Regisztráció` gomb megnyomásával küldhető el a form.
+- **Elvárt kimenet:** A rendszer figyelmeztetést küld arról, hogy minden mező kitöltése kötelező.
+
+#### 2.1.3. TC-03
+- **TP: **TP-03
+- **Leírás:** Olyan email címet adunk meg, amely már szerepel az adatbázisban, így azt már használatban van.
+- **Bemenet:** `Név` = Tetszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 1-et. ; `E-mail` = Olyan email cím, amellyel már korábban történt regisztráció. `Jelszó` = etszőleges karakterekből és számokból álló sorozat, melynek hossza meghaladja az 3-at. `Jogosultság` = Tetszőlegesen választható 'Admin' vagy 'Felhasználó' szerepkör.
+- **Művelet:** A `Regisztráció` gomb megnyomásával küldhető el a form.
+- **Elvárt kimenet:** Az alkalmazás tájékoztat arról, hogy az adott email cím már használatban van.
 
 ### 2.2. Négyzetre emelés funkció tesztesetei
 
