@@ -10,16 +10,27 @@
   </head>
   <body>
     <header>
-      <%- include('header', { current_page: 'index' }) %>
+        <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+        <%- include('header', { current_page: 'index' }) %>
+        <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
     </header>
       <main>
-      <h1>Szia!</h1>
+      <h1>Üdvözlöm!</h1>
       <div id = "introduction">
          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis scelerisque dui in metus fringilla varius. Aliquam blandit efficitur convallis. Nullam id odio sit amet nisl lacinia auctor id sed erat. Sed vitae dapibus magna, sed interdum augue. Sed ut luctus quam. Pellentesque non justo id turpis imperdiet vulputate vitae eu orci. Curabitur eget efficitur est, et feugiat ipsum. Mauris tincidunt ipsum at massa venenatis venenatis a sit amet ante. Duis cursus elit sed mi sagittis imperdiet. Cras ac dignissim magna. Phasellus ut lectus placerat, hendrerit eros ut, tempus enim. Nunc quis laoreet nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus at magna enim. Mauris ex felis, auctor ac nunc at, hendrerit interdum ligula. Nulla gravida sollicitudin tortor.
+            Urbán Csilla vagyok, kognitív és neuropszichológiai szakirányon szereztem mesterdiplomát. 
+            Szakmai tevékenységem középpontjában a statisztikai elemzések és az adatok kezelése áll. 
+            Az SPSS program használatában mélyreható ismeretekkel rendelkezem, és ezt a tudást olyan 
+            tanulóknak igyekszem átadni, akik különböző adatbázisokban szeretnének adatelemzéseket végezni, 
+            legyen szó kutatásokról vagy szakdolgozatokról.
         </p>
         <p>
-            Vivamus sollicitudin imperdiet ante, in molestie augue tristique in. Duis sed feugiat purus. Nulla interdum mattis urna sed malesuada. Aenean sed orci placerat, dignissim libero eget, vulputate dolor. Nunc faucibus urna metus, vel lobortis est posuere et. Ut ultrices magna in ex tempor, at pretium sapien tincidunt. Quisque id viverra elit. Nunc accumsan, quam quis consequat congue, lorem tellus condimentum orci, in egestas sem purus a diam. Cras luctus urna eget risus aliquam, at vulputate purus sollicitudin. Cras semper mollis ex. Duis posuere dolor sed felis scelerisque, sit amet placerat massa lobortis. Nulla pulvinar blandit egestas. Integer ut ligula diam.
+            Kiemelten fontosnak tartom az alapoktól való megértést. Elmagyarázom, hogyan készítsenek 
+            adatbázist, hogyan vegyék fel a kérdőíveket, és hogyan válaszolják meg a kutatási kérdéseket 
+            az SPSS program segítségével. Célom, hogy diákjaim ne csak használják a programot, hanem 
+            meg is értsék annak működését, így magabiztosan és hatékonyan alkalmazhatják a statisztikai 
+            elemzések terén. Ha kérdéseik vannak, bátran forduljanak hozzám, örömmel segítek a tudásuk 
+            elmélyítésében és a sikeres adatelemzések elvégzésében.
         </p>
       </div>
       <img id = "graphic" src = "assets/img/graphic.png" alt = "Illusztráció">
@@ -41,22 +52,5 @@
              </ul>
          </div>
      </footer>
-      <% if (current_role === 'ROLE_ADMIN') { %>
-      <div></div>
-      This content is only shown to administrators.
-      </div>
-      <% } %>
-      <% if (current_role === 'ROLE_USER') { %>
-      <div>
-         This content is only shown to users.
-      </div>
-      <% } %>
-      <% if (current_role ) { %>
-      <div>     
-         This content is only shown to authenticated users.</br>
-         Logged in user: <span><%= current_email %></span> |
-         Roles: <span ><%= current_role %></span>          
-      </div>
-      <% } %>
    </body>
 </html>

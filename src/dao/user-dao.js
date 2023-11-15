@@ -36,9 +36,10 @@ class UserDAO {
   }
 
   async deleteUser(user_id) {
-    await db
-      .query(`DELETE FROM users WHERE user_id=$1`, [parseInt(user_id)])
-      .catch(console.log);
+    await db.query(`DELETE FROM appointmentbookings WHERE user_id=$1;`, [parseInt(user_id)]).catch(console.log);
+    await db.query(`DELETE FROM userlessons WHERE user_id=$1;`, [parseInt(user_id)]).catch(console.log);
+    await db.query(`DELETE FROM emailnotifications WHERE recipient_id=$1`, [parseInt(user_id)]).catch(console.log);
+    await db.query(`DELETE FROM users WHERE user_id=$1;`, [parseInt(user_id)]).catch(console.log);
     return;
   }
 }
