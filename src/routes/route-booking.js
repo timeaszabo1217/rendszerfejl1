@@ -5,8 +5,48 @@ const { userAuth, jwtSecret } = require("../config/auth.js");
 const router = express.Router();
 
 router.get("/booking", userAuth, async (req, res) => {
+
+  let bk = await new BookingDAO().getBookings();
+  let booked = [];
+  let user_id;
+  const token = req.cookies.jwt;
+
+  if (token) {
+    jwt.verify(token, jwtSecret, (err, decodedToken) => {
+      user_id = decodedToken.id;
+    });
+  }
+
+  for (let index = 0; index < bk.length; index++) {
+    if(bk[index].user_id == user_id){
+      booked.push(bk[index]);
+    }
+  }
+
+
   let bookings = await new BookingDAO().getBookings();
-  res.render("booking", { bookings: bookings });
+
+  res.render("booking", { bookings: bookings, booked: booked });
+});
+
+router.post("/submitbooking", async (req, res) => {
+  let { appointment_id } = req.body;
+
+  const token = req.cookies.jwt;
+
+  var user_id;
+
+  if (token) {
+    jwt.verify(token, jwtSecret, (err, decodedToken) => {
+      user_id = decodedToken.id;
+    });
+  }
+
+  let booking = await new BookingDAO().getOneBooking(appointment_id);
+
+  await new BookingDAO().updateBooking(appointment_id, user_id, booking.booking_date, true);
+
+  res.redirect("/booking");
 });
 
 router.post("/add", userAuth, async (req, res) => {

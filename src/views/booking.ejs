@@ -20,19 +20,34 @@
     <main>
       <h1>Időpontfoglalás</h1>
       <div id="booking">
-        <form id="booking-form">
+        <form id="booking-form" action="/submitbooking" method="post">
           <h3>Elérhető időpontok</h3>
           <label for="appointment_id">Válassz egy időpontot:</label>
           <select id="appointment_id" name="appointment_id" required>
             <% for (var i = 0; i < bookings.length; i++) { %>
-              <% var date = new Date(bookings[i].booking_date); %>
-              <% var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2); %>
-              <option value="<%= bookings[i].booking_date %>"><%= formattedDate %></option>
-            <% } %>
+              <% if (!bookings[i].booked) { %>
+                  <% var date = new Date(bookings[i].booking_date); %>
+                  <% var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2); %>
+                  <option value="<%= bookings[i].appointment_id %>"><%= formattedDate %></option>
+              <% } %>
+          <% } %>
           </select>
           <input type="submit" value="Foglalás">
         </form>             
       </div>
+      <h1>Lefoglalt időpontok</h1>
+      <% if (booked && booked.length > 0) { %>
+        <table class="center-table">
+          <tr>
+            <th>Időpontok</th>
+          </tr>
+        <% for(var i = 0; i < booked.length; i++) { %>
+          <tr><td><%= new Date(booked[i].booking_date).toLocaleString() %></td></tr>
+        <% } %>
+    </table>
+    <% } else { %>
+        <h3 class="center-text">Még nincs foglalásod.</h3>
+    <% } %>
     </main>
     <footer>
       <%- include('footer'); %>
