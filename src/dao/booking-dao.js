@@ -16,7 +16,7 @@ class BookingDAO {
   async createBooking(user_id, booking_date, booked) {
     await db
       .query(
-        "INSERT INTO appointmentbookings (user_id, booking_date, booked) VALUES ($1, $2::DATE, $3)",
+        "INSERT INTO appointmentbookings (user_id, booking_date, booked) VALUES ($1, $2, $3)",
         [user_id, booking_date, booked]
       )
       .catch(console.log);

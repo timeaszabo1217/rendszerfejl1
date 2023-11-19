@@ -47,11 +47,25 @@ router.get("/admin/appointments", userAuth, async (req, res) => {
   }
 });
 
+const formatDateForPostgres = (dateString) => {
+  if (!dateString) return null;
+
+  const date = new Date(dateString);
+  const year = date.getFullYear();
+  const month = (date.getMonth() + 1).toString().padStart(2, '0');
+  const day = date.getDate().toString().padStart(2, '0');
+  const hours = date.getHours().toString().padStart(2, '0');
+  const minutes = date.getMinutes().toString().padStart(2, '0');
+  const seconds = date.getSeconds().toString().padStart(2, '0');
+  const milliseconds = date.getMilliseconds().toString().padStart(3, '0');
+
+  return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}.${milliseconds}`;
+};
+
 router.post("/admin/appointments", userAuth, async (req, res) => {
   const { user_id, booking_date } = req.body;
-  const formattedDate = booking_date ? new Date(booking_date).toISOString().split('T')[0] : null;
+  const formattedDate = formatDateForPostgres(booking_date);
   const booked = false;
-  
   await new BookingDAO().createBooking(user_id, formattedDate, booked);
 
   res.redirect("/admin/appointments");
