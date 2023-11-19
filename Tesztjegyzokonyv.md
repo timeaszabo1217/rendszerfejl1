@@ -78,7 +78,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: Válasszuk ki a kívánt dátumot az alatta lévő beviteli mezőben.
     4. lépés: Kattintsunk az `Időpont Módosítása` gombra, így módosítva az időpontot. _Elvárt eredmény:_ Az időpont sikeresen módosul.
 
-### 1.7. Időpont törlése (Admin oldal)
+### 1.8. Időpont törlése (Admin oldal)
 - **Azonosító:** TP-05
 - **Tesztesetek:** TC-11
 - **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont törlésekor minden megfelelően működik-e.
@@ -87,6 +87,45 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     1. lépés: Navigáljunk az `Admin` oldalra, és ott válasszuk ki a `Időpontok` menüpontot.
     2. lépés: Válasszuk ki a törlendő időpontot a `Törlendő Időpont` legördülő menüből.
     3. lépés: Kattintsunk az `Időpont Törlése` gombra, így törölve az időpontot. _Elvárt eredmény:_ Az időpont sikeresen törlődik.
+
+### 1.9. Időpontfoglalás
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** A tesztfolyamat során gondosan ellenőrizzük az időpontfoglalási rendszer működését, hogy megbizonyosodjunk arról, hogy minden része hibátlanul működik.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
+    1. lépés: Navigáljunk az `Időpontfoglalás` oldalra.
+    2. lépés: Válasszuk ki egy időpontot a `Elérhető időpontok` legördülő menüből.
+    3. lépés: Kattintsunk a `Foglalás` gombra, így elfoglalva az időpontot. _Elvárt eredmény:_ A `Lefoglalt időpontok` résznél a táblázatban láthatóvá válik az újonnan foglalt időpont.
+
+### 1.10. Fiók törlése
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** Ellenőrizzük, hogy a felhasználók képesek-e magukat törölni a rendszerből.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
+    1. lépés: Navigáljunk az `Profil` oldalra.
+    3. lépés: Kattintsunk a `Fiók törlése` gombra, így törövel magunkat a rendszerből. _Elvárt eredmény:_ A fiók törlődik és azt követően az oldal a főoldalra irányít át.
+
+### 1.11. Név és email-cím módosítás
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** Teszteljük, hogy ha a felhasználó megváltoztatja a nevét és az email-címét, akkor azok a változások helyesen módosulnak-e a rendszerben.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
+    1. lépés: Navigáljunk az `Profil` oldalra.
+    1. lépés: Írjuk be a kívánt új értékeket a `Név` és `Email` mezőkbe.
+    3. lépés: Kattintsunk a `Mentés` gombra, így módosítva az adatokat. _Elvárt eredmény:_ A felhasználó adatai sikeresen frissülnek a módosítások után.
+
+### 1.12. Jelszó módosítás
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** Teszteljük, hogy ha a felhasználó megváltoztatja a jelszavát, akkor a változások helyesen módosulnak-e a rendszerben.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
+    1. lépés: Navigáljunk az `Profil` oldalra.
+    1. lépés: Írjuk be a megfelelő adatokat a `Jelenlegi jelszó`, `Új jelszó`, és `Jelszó megerősítése` mezőkben.
+    3. lépés: Kattintsunk a `Jelszó változtatása` gombra, így módosítva a jelszót. _Elvárt eredmény:_ A felhasználó csak az új jelszóval tud bejelentkezni.
 
 
 ## 2. Teszesetek (TC)
