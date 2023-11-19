@@ -31,6 +31,17 @@ Vállalásaim a mérföldkőben:
     - f757edc725b19e9732988c0fe3f3fd2e415fcf40
     - 39b972abcf64c3d22c5a153c192b62f7e4109e95
 
+- 8.3.10. Foglalt időpontok megjelenítése
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #80
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 65c0da6005797abe6a623a50aaf23a2477adef70
+    - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
+
 - 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
 
     ##### A feladathoz tartozó issue(k):
@@ -51,6 +62,7 @@ Vállalásaim a mérföldkőben:
     - d7214e4570020c81b9bdd15afa2204073cade623
     - 68869ad816e53e0880b3a04f68e1445ca345d253
     - 3c80ead8602ff8b79f1b16ea2ec41a312f8153ac
+    - 7f88af87320916ecdeac1730db3397aef7f6cec7
 
 
 ### Projekt tag: `Juhász Ferenc`
