@@ -12,17 +12,19 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Azonosító:** TP-01
 - **Tesztesetek:** TC-01, TC-02, TC-03
 - **Leírás:** A regisztrációs folyamat tesztelése során gondosan ellenőrizzük a felhasználói adatok helyes rögzítését és a felhasználói fiókok sikeres létrehozását. A teszt magában foglalja az űrlapmezők érvényességének ellenőrzését, valamint a visszajelzések és hibauzenetek helyes megjelenítését.
-    0. lépés: Indítsuk el az alkalmazást egy tetszőleges webböngészőben.
+
+    0. lépés: Nyissuk meg a weboldalt.
     1. lépés: Mozgassuk az egeret a jobb felső sarokban található felhasználói ikonra, és válasszuk ki a megjelenő menüből a `Regisztráció` opciót.
-    2. lépés: A form kitöltésekor három kötelező mezőt kell kitölteni: a `Név`, az `Email` és a `Jelszó` mezőket. Ezenkívül egy legördülő menü segítségével ki kell választani a `Jogosultság` szintet. Az email cím formátumát csak a kliensoldalon ellenőrizzük, tehát a megadott email címnek meg kell felelnie a szabványos formátumnak. A jelszó esetében nincsenek különleges követelmények vagy megszorítások.
+    2. lépés: A form kitöltésekor három kötelező mezőt kell kitölteni: a `Név`, az `Email` és a `Jelszó` mezőket. Ezenkívül egy legördülő menü segítségével ki kell választani a `Jogosultság` szintet. Az email-címnek a szabványos formátumnak kell megfelelnie. A jelszónak legalább négy karakterből kell állnia.
     3. lépés: Miután kitöltöttük az összes mezőt, kattintsunk a `Regisztráció` gombra.
     4. lépés: Sikeres regisztráció után automatikusan a főoldalra irányít minket az alkalmazás. Ha hiba történik, az alkalmazás jelzi, hogy melyik mezőt töltöttük ki helytelenül. _Elvárt eredmény:_ A főoldalra irányít minket az alkalmazás.
 
 ### 1.2. Bejelentkezés
 - **Azonosító:** TP-02
 - **Tesztesetek:** TC-04, TC-05, TC-06
-- **Leírás:** A bejelentkezési folyamat tesztelése során alaposan megvizsgáljuk a felhasználói hitelesítési folyamatot, biztosítva, hogy a felhasználónév és jelszó kombináció helyes kezelése megtörténik. A teszt magában foglalja a beviteli mezők, mint például a felhasználónév és jelszó mezők érvényességének ellenőrzését. Különös figyelmet fordítunk arra, hogy a rendszer hogyan reagál helytelen bejelentkezési adatok esetén.
-    0. lépés:Indítsuk el az alkalmazást egy tetszőleges webböngészőben.
+- **Leírás:** A bejelentkezési folyamat tesztelésekor részletesen átvizsgáljuk a felhasználói azonosítási eljárásokat. A teszt magában foglalja a beviteli mezők, mint például a felhasználónév és jelszó mezők érvényességének ellenőrzését. Különös figyelmet fordítunk arra, hogy a rendszer hogyan reagál helytelen bejelentkezési adatok esetén.
+
+    0. lépés:Nyissuk meg a weboldalt.
     1. lépés: Mozgassuk az egeret a jobb felső sarokban található felhasználói ikonra, és válasszuk ki a megjelenő menüből a `Bejelentkezés` opciót.
     2. lépés: A bejelentkezési folyamat során két kötelező mezőt kell kitölteni: az `Email` és a `Jelszó` mezőket. A bejelentkezés előtt minden esetben regisztrálni kell.
     3. lépés: Miután kitöltöttük az összes mezőt, kattintsunk a `Bejelentkezés` gombra.
@@ -31,18 +33,61 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 ### 1.3. Kijelentkezés
 - **Azonosító:** TP-03
 - **Tesztesetek:** TC-07, TC-08, TC-09
-- **Leírás:** A kijelentkezési folyamat tesztelése során alaposan megvizsgáljuk, hogy a rendszer hogyan kezeli a felhasználói munkamenetek lezárását. A teszt célja annak ellenőrzése, hogy a kijelentkezési folyamat megfelelően megszakítja-e a felhasználói munkamenetet és törli a felhasználói adatokat a kliens oldalról, biztosítva a biztonságos kijelentkezést. 
-    0. lépés: Indítsuk el az alkalmazást egy tetszőleges webböngészőben, majd jelentkezzünk be.
+- **Leírás:** A kijelentkezési folyamat tesztelése során alaposan megvizsgáljuk, hogy a rendszer hogyan kezeli a felhasználói munkamenetek lezárását. A teszt célja annak ellenőrzése, hogy a kijelentkezési folyamat megfelelően megszakítja-e a felhasználói munkamenetet és törli a felhasználói adatokat a kliens oldalról, biztosítva a biztonságos kijelentkezést.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
     1. lépés: Mozgassuk az egeret a jobb felső sarokban található felhasználói ikonra, és válasszuk ki a megjelenő menüből a `Kijelentkezés` opciót.
-    4. lépés: Miután rákattintunk a gombra, az alkalmazásnak minden esetben meg kell szakítania a munkamenetet, majd a főoldalra kell irányítania. _Elvárt eredmény:_ A főoldalra irányít minket az alkalmazás.
+    4. lépés: Miután rákattintunk a gombra, az alkalmazásnak minden esetben meg kell szakítania a munkamenetet, majd a főoldalra kell irányítania. _Elvárt eredmény:_ A főoldalra irányít az alkalmazás.
 
 ### 1.4. Biztonsági mentés készítése
 - **Azonosító:** TP-04
 - **Tesztesetek:** TC-10
 - **Leírás:** A biztonsági mentés tesztelése során részletesen ellenőrizzük, hogy a rendszer minden lényeges adatot megfelelően ment-e le JSON formátumban.
+
     0. lépés: A mentés csak abban az esetben működik, ha a szerveren fut a webalkalmazás.
     1. lépés: Minden nap automatikusan történik mentés 3:10-kor, emberi beavatkozás nélkül.
-    2. lépés: A program lekérdezi az adatbázisban található összes táblát, majd ezt követően JSON formátumban eltárolja a szerveren. _Elvárt eredmény:_ Az időbélyeggel ellátott JSON fájlban található az összes adat.
+    2. lépés: A program lekérdezi az adatbázisban található összes táblát, majd ezt követően JSON formátumban eltárolja a szerveren. _Elvárt eredmény:_ Az időbélyeggel ellátott JSON fájlban megtalálható az összes adat.
+
+### 1.5. Felhasználó törlése (Admin oldal)
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** A teszt során azt vizsgáljuk, hogy amennyiben egy adminisztrátor töröl egy felhasználót, az adott felhasználó összes adata törlődik-e minden adatbázis táblából és a teljes rendszerből.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
+    1. lépés:Navigáljunk az `Admin` oldalra, és ott válasszuk ki a `Felhasználók` menüpontot.
+    2. lépés: A táblázatban válasszuk ki a törölni kívánt felhasználót, majd kattintsunk a `Törlés` gombra. _Elvárt eredmény:_ A felhasználó eltűnik a táblázatból, és az adatbázisból is törlődik.
+
+### 1.6. Időpont hozzáadás (Admin oldal)
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont hozzáadásakor minden megfelelően működik-e.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
+    1. lépés: Navigáljunk az `Admin` oldalra, és ott válasszuk ki a `Időpontok` menüpontot.
+    3. lépés: Válasszuk ki a hozzáadni kívánt dátumot a `Hozzáadandó Dátum` beviteli mezőben.
+    2. lépés: Kattintsunk az `Időpont Hozzáadása` gombra, hogy hozzáadjuk az időpontot a rendszerhez._Elvárt eredmény:_ A hozzáadott időpont megjelenik az elérhető időpontok között.
+
+### 1.7. Időpont módosítás (Admin oldal)
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont módosításakor minden megfelelően működik-e.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
+    1. lépés: Navigáljunk az `Admin` oldalra, és ott válasszuk ki a `Időpontok` menüpontot.
+    2. lépés: Válasszuk ki a módosítandó időpontot a `Változtatnivaló időpont` legördülő menüből.
+    3. lépés: Válasszuk ki a kívánt dátumot az alatta lévő beviteli mezőben.
+    4. lépés: Kattintsunk az `Időpont Módosítása` gombra, így módosítva az időpontot. _Elvárt eredmény:_ Az időpont sikeresen módosul.
+
+### 1.7. Időpont törlése (Admin oldal)
+- **Azonosító:** TP-05
+- **Tesztesetek:** TC-11
+- **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont törlésekor minden megfelelően működik-e.
+
+    0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
+    1. lépés: Navigáljunk az `Admin` oldalra, és ott válasszuk ki a `Időpontok` menüpontot.
+    2. lépés: Válasszuk ki a törlendő időpontot a `Törlendő Időpont` legördülő menüből.
+    3. lépés: Kattintsunk az `Időpont Törlése` gombra, így törölve az időpontot. _Elvárt eredmény:_ Az időpont sikeresen törlődik.
+
 
 ## 2. Teszesetek (TC)
 
