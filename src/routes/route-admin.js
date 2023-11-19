@@ -77,6 +77,16 @@ router.post("/admin/appointments/delete", async (req, res) => {
   res.redirect("/");
 });
 
+router.post("/admin/appointments/update", userAuth, async (req, res) => {
+  const { appointment_id, user_id, booking_date, booked } = req.body;
+  const formattedDate = formatDateForPostgres(booking_date);
+  console.log(appointment_id, formattedDate);
+
+  await new BookingDAO().updateBooking(appointment_id, user_id, booking_date, booked);
+
+  res.redirect("/admin/appointments");
+});
+
 router.get("/admin/users/delete/:id", userAuth, async (req, res) => {
 
   let users = await new UserDAO().getUsers();
