@@ -1,7 +1,6 @@
 <% const current_role=userAuth; %>
   <!DOCTYPE html>
   <html lang="en">
-
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,7 +9,6 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
-
   <body>
     <header>
       <%- include('header', { current_page: 'admin/appointments' , current_role: current_role }) %>
@@ -33,10 +31,8 @@
         </div>
         <div class="lesson-content">
           <h2>Időpontok</h2>
-          <hr />
-
+          <hr>
           <div class="profile-container">
-
             <div class="profile-edit">
               <h3>Időpont Hozzáadása</h3>
               <form action="/admin/appointments" method="post">
@@ -44,7 +40,6 @@
                 <input type="datetime-local" id="booking_date" name="booking_date" required>
                 <input type="submit" class="btn-primary" value="Időpont Hozzáadása"></input>
               </form>
-
               <h3>Időpont módosítása</h3>
               <form action="/admin/appointments/update" method="post">
                 <label for="appointment_id_update">Változtatnivaló időpont</label>
@@ -62,7 +57,6 @@
                 <input type="datetime-local" id="booking_date" name="booking_date" required>
                 <input type="submit" class="btn-primary" value="Időpont Módosítása"></input>
               </form>
-
               <h3>Időpont Törlése</h3>
               <form action="/admin/appointments/delete" method="post">
                 <label for="appointment_id_delete">Törlendő Időpont:</label>
@@ -79,18 +73,11 @@
                 </select>
                 <input type="submit" class="btn-primary" value="Időpont Törlése">
               </form>
-
             </div>
           </div>
-
           </form>
         </div>
       </div>
-
-
     </main>
-    <footer>
-    </footer>
   </body>
-
   </html>

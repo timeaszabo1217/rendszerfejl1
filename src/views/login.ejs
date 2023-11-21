@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <title>Urbán Csilla - Profil</title>
+    <title>Urbán Csilla - Bejelentkezés</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico?" />
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/menu.css" rel="stylesheet" type="text/css" />
@@ -12,10 +12,10 @@
    <header>
       <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
       <%- include('header', { current_page: 'login', current_role: current_role }) %>
-      <img src="/src/public/assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+      <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
     </header>
    <div>
-      <h1>Login</h1>
+      <h1>Bejelentkezés</h1>
       <form action="/loginuser" method="post" onsubmit="return validateLoginForm()">
          <label>E-Mail:
          <input type="email" name="email" id="email" required></input>

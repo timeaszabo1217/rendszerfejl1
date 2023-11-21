@@ -5,6 +5,10 @@ const UserDAO = require("../dao/user-dao.js");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcryptjs");
 
+router.get('/error', (req, res) => {
+  const errorMessage = req.query.message;
+  res.render('error', { message: errorMessage });
+});
 
 router.get("/profile", userAuth, async (req, res) => {
   const token = req.cookies.jwt;
