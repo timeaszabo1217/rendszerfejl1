@@ -65,6 +65,7 @@ Vállalásaim a mérföldkőben:
     - 7f88af87320916ecdeac1730db3397aef7f6cec7
 
 
+
 ### Projekt tag: `Juhász Ferenc`
 
 ___
@@ -82,7 +83,6 @@ Vállalásaim a mérföldkőben:
 
     - d07a70e3866fd60a8dd659ce8723f6b11695a336
     - b29ade74c788aeb8205ca03cd5140c8d54e2a378
-
 
 - 8.3.21. Adatbázis feltöltése (min. pár adat a táblákba)
 
@@ -110,6 +110,7 @@ Vállalásaim a mérföldkőben:
     - f037db4f19d6695175074862132c44c3c0015b9d
     - 8b773f84c0216432a3bf0bf45a4dece0ee72779b
     - d8a95a88020c2da763875415c22ae92e194af815
+
 
 
 ### Projektmenedzser: `Szabó Tímea`
@@ -161,6 +162,16 @@ Vállalásaim a mérföldkőben:
     - cfe56858f5dc521e954b3ca5d92020dd0393eda4
     - e18f0cb7a57a2030ac6ddce8e35f7d9a3be4fdb3
 
+- 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #81
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 181e52f66e86afcf9e77507802d869a139f959e5
+
 - 8.3.16. Regisztrációs oldal kivitelezése
 
     ##### A feladathoz tartozó issue(k):
@@ -172,16 +183,6 @@ Vállalásaim a mérföldkőben:
      - 77c6cabdd4252c070fdda34ed22f90373611a603
      - 0e151216c5a8f8a28fc18de05beb4887d4a26e6c 
      - 087012c3ab83cca791d71f541fc9ccd5084e085f
-
-    - 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
-
-    ##### A feladathoz tartozó issue(k):
-
-     - #81
-
-    ##### A feladat elvégzését alátámasztó commit(ok):
-
-    - 181e52f66e86afcf9e77507802d869a139f959e5
 
 
 
@@ -201,7 +202,7 @@ Vállalásaim a mérföldkőben:
 
     - d167d48e3dfe4d912d11d4c5da58d7d937c6fc28
 
--  Login oldal szerkesztése
+-  Bejelentkezés oldal szerkesztése
 
     ##### A feladathoz tartozó issue(k):
 
@@ -236,6 +237,7 @@ Vállalásaim a mérföldkőben:
     ##### A feladat elvégzését alátámasztó commit(ok):
 
 
+
 ### Projekt tag: `Veszeli Karina`
 
 ___
@@ -254,7 +256,6 @@ Vállalásaim a mérföldkőben:
     - bb67b85a9da53749a0bc53981afa9a3efb509192
     - 9ca01ac979d539c6ec378649df929c95bad9ee47
     
-
 - 8.3.8. Regisztráltak lecke oldal kivitelezése
 
     ##### A feladathoz tartozó issue(k):
@@ -278,6 +279,8 @@ Vállalásaim a mérföldkőben:
      - 9c6f9e3b0e8a0459cbdb1ba1a18bbef41e1d25c2
      - bdc86dc6b21f1ad5ca3bb8c5d77efc5449a43a67
      - 3d285c080a4c8d73b96a08ef0c15694dcf8a7f7a
+
+
 
 ### Projekt tag: `Kiss Csaba`
 
@@ -319,6 +322,7 @@ Vállalásaim a mérföldkőben:
     - 2bd3ada9c3d34ec4364f3e34454546f89059bb13
 
 
+
 ### Projekt tag: `Nagy Péter`
 
 ___
@@ -358,6 +362,8 @@ Vállalásaim a mérföldkőben:
     - a82c10ba44653eb9bbd7ac835e934cee5fb8d021
     - b81defb100f7571f29d054d93ec2b504d4d5848f
 
+
+
 ### Projekt tag: `Masa Roland`
 
 ___
@@ -384,4 +390,6 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
      - #37
+
+
 
