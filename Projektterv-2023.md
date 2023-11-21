@@ -83,7 +83,7 @@ A projekt a következő emberekből áll:
 | Név           | Pozíció          |   E-mail cím (stud-os)        |
 |---------------|------------------|-------------------------------|
 | Urbán Judit   | Projektmenedzser | h165835@stud.u-szeged.hu      |
-| Szabó Tímea   | Projekt tag      | h164242@stud.u-szeged.hu      |
+| Szabó Tímea   | Projektmenedzser      | h164242@stud.u-szeged.hu      |
 | Nagy Péter    | Projekt tag      | h879771@stud.u-szeged.hu      |
 | Durucz Ádám   | Projekt tag      | h155067@stud.u-szeged.hu      |
 | Veszeli Karina| Projekt tag      | h166120@stud.u-szeged.hu      |
@@ -156,7 +156,7 @@ Pl.: betegség, szoftver-hardver probléma, tag kiesése, extrém ZH időszak, p
 ## 6. Jelentések
 
 ### 6.1. Munka menedzsment
-A munkát `Urbán Judit` koordinálja. Fő feladata, hogy folyamatosan egyeztessen a csapattagokkal az előrehaladásról és a fellépő problémákról. További feladata a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről messenger csoportban diskurál a projektcsapat.
+A munkát `Urbán Judit` és `Szabó Tímea` koordinálja. Fő feladatuk, hogy folyamatosan egyeztessenek a csapattagokkal az előrehaladásról és a fellépő problémákról. További feladatuk a heti szinten tartandó csoportgyűlések időpontjának és helyszínének leszervezése, erről messenger csoportban diskurálnak a projektcsapattal.
 
 ```
 Írd le, hogy ki menedzseli a munkát (tipikusan a projekt menedzser), mik a feladatai, és azokat hogyan hajtja végre.
