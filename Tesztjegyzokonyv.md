@@ -162,7 +162,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 #### 2.12.2. TC-02
 - **TP:** TP-12
 - **Leírás:** Ebben a tesztesetben az input mezőket üresen hagyjuk, és megfigyeljük, hogy a rendszer hogyan reagál erre az esetre.
-- **Bemenet:** `Jelenlegi jelszó` = Üresen hagyjuk. ; `Új jelszól` = Üresen hagyjuk. `Jelszó megerősítése` = Üresen hagyjuk.
+- **Bemenet:** `Jelenlegi jelszó` = Üresen hagyjuk. ; `Új jelszó` = Üresen hagyjuk. `Jelszó megerősítése` = Üresen hagyjuk.
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** A rendszer figyelmeztet, hogy minden mező kitöltése kötelező.
 
