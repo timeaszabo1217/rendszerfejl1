@@ -53,8 +53,8 @@ router.post("/profile/edit/data", async (req, res) => {
     const user = await new UserDAO().getUserByEmail(current_email);
   
     if (!user) {
-      res.status(400).json({
-        message: "No such user",
+      return res.render("error", {
+        message: "Nincs ilyen felhasználó."
       });
     } else {
         var newUsername = (username === '' ? user.user_username : username);
@@ -83,28 +83,29 @@ router.post("/profile/edit/password", async (req, res) => {
 
     const token = req.cookies.jwt;
 
-    var current_email;
-
     if (token) {
-        jwt.verify(token, jwtSecret, (err, decodedToken) => {
+        jwt.verify(token, jwtSecret, async (err, decodedToken) => {
         // res.send(decodedToken);
-        current_email = decodedToken.email;
+        const current_email = decodedToken.email;
+        const user = await new UserDAO().getUserByEmail(current_email);
+  
+        if (!user) {
+          return res.render("error", {
+            message: "Nincs ilyen felhasználó."
+          });
+        } else {
+            if(await bcrypt.compare(current_password, user.user_passw) && new_password === confirm_password){
+                const hashedPassword = await bcrypt.hash(new_password, 10);
+                await new UserDAO().updateUser(user.user_id, user.user_username, user.user_email, hashedPassword);
+                res.redirect("/profile");
+            }else {
+              return res.render("error", {
+                message: "Helytelen jelszót adtál meg, próbáld újra."
+              });
+            }
+        }
         });
     };
-  
-    const user = await new UserDAO().getUserByEmail(current_email);
-  
-    if (!user) {
-      res.status(400).json({
-        message: "No such user",
-      });
-    } else {
-        if(await bcrypt.compare(current_password, user.user_passw) && new_password === confirm_password){
-            const hashedPassword = await bcrypt.hash(new_password, 10);
-            await new UserDAO().updateUser(user.user_id, user.user_username, user.user_email, hashedPassword);
-            res.redirect("/profile");
-        }else res.send("Incorrect passwords!");
-    }
 });
 
 router.post("/profile/edit/delete", async (req, res) => {
@@ -124,8 +125,8 @@ router.post("/profile/edit/delete", async (req, res) => {
     const user = await new UserDAO().getUserByEmail(current_email);
   
     if (!user) {
-      res.status(400).json({
-        message: "No such user",
+      return res.render("error", {
+        message: "Nincs ilyen felhasználó."
       });
     } else {
             await new UserDAO().deleteUser(user.user_id);

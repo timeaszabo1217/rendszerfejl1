@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar user-select-none">
   <a href="/" class="navbar-item <%= current_page === 'index' ? 'active' : '' %>">Főoldal</a>
   <a href="/article" class="navbar-item <%= current_page === 'article' ? 'active' : '' %>">Felmérések</a>
   <a href="<%= current_role ? '/lessons' : '/register' %>" class="navbar-item <%= current_page === 'lesson' ? 'active' : '' %>">

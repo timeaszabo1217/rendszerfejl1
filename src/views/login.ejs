@@ -14,7 +14,7 @@
       <%- include('header', { current_page: 'login', current_role: current_role }) %>
       <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
     </header>
-   <div>
+   <main class="user-select-none">
       <h1>Bejelentkezés</h1>
       <form action="/loginuser" method="post" onsubmit="return validateLoginForm()">
          <label>E-Mail:
@@ -25,7 +25,7 @@
          </label>  
          <input type="submit"  value="Bejelentkezés" class="btn-primary"></input>
       </form>
-   </div>
+   </main>
    <footer>
       <%- include('footer'); %>
    </footer>

@@ -14,7 +14,7 @@
     <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
     <%- include('header', { current_page: 'register', current_role: current_role }) %>
     <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
-    <main>
+    <main class="user-select-none">
         <h1>Regisztráció</h1>
         <form action="/registeruser" method="post" onsubmit="return validateRegistrationForm()">
             <label for="username">Név: <b>*</b></label>
