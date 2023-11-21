@@ -8,7 +8,6 @@ const ArticleDAO = require("./dao/article-dao.js");
 const NotificationDAO = require("./dao/notification-dao.js");
 const BookingDAO = require("./dao/booking-dao");
 
-
 const userDAO = new UserDAO();
 const lessonDAO = new LessonDAO();
 const articleDAO = new ArticleDAO();
