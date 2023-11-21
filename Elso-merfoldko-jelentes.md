@@ -2,7 +2,7 @@
 
 
 
-### Projekt tag: `Szabó Tímea`
+### Projektmenedzser: `Szabó Tímea`
 
 ___
 
