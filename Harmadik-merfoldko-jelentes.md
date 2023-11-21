@@ -112,7 +112,7 @@ Vállalásaim a mérföldkőben:
     - d8a95a88020c2da763875415c22ae92e194af815
 
 
-### Projekt tag: `Szabó Tímea`
+### Projektmenedzser: `Szabó Tímea`
 
 ___
 
@@ -172,6 +172,16 @@ Vállalásaim a mérföldkőben:
      - 77c6cabdd4252c070fdda34ed22f90373611a603
      - 0e151216c5a8f8a28fc18de05beb4887d4a26e6c 
      - 087012c3ab83cca791d71f541fc9ccd5084e085f
+
+    - 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #81
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - 181e52f66e86afcf9e77507802d869a139f959e5
 
 
 
