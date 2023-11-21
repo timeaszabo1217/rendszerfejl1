@@ -132,7 +132,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 #### 2.1.1. TC-01
 - **TP:** TP-01
 - **Leírás:** Helyes adatokat adunk meg minden mezőben. A folyamat sikerességét az jelzi, ha a kezdőoldalon találjuk magunkat, ahol a munkamenet elindul.
-- **Bemenet:** `Név` = Tetszőleges bemenet ; `E-mail` = Tetszőleges bemenet, amely megfelel az email-cím formátumnak. `Jelszó` = A jelszónak legalább négy karakterből kell állnia.. `Jogosultság` = Kiválasztható 'Admin' vagy 'Felhasználó' szerepkör is.
+- **Bemenet:** `Név` = Tetszőleges bemenet ; `E-mail` = Tetszőleges bemenet, amely megfelel az email-cím formátumnak. `Jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jogosultság` = Kiválasztható 'Admin' vagy 'Felhasználó' szerepkör is.
 - **Művelet:** A `Regisztráció` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás a kezdőlapra navigál, ahol a munkamenet elkezdődik.
 
