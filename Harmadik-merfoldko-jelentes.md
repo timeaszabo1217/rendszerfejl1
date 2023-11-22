@@ -229,6 +229,8 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
     ##### A feladat elvégzését alátámasztó commit(ok):
+    
+    - ed2d6241c8814029589dc21b94752bc60db91c0d
 
 - 8.3.22. Bemutatás
 
