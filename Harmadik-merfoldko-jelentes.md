@@ -329,13 +329,15 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.3.9. Email-es kiértesítés új időpontfoglalás esetén
+- 8.3.9. Visszajelzés a felhasználónak új időpontfoglalás esetén
 
     ##### A feladathoz tartozó issue(k):
 
      - #39
 
     ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 3dda12b613d08083d33da3563350e0f73af45500
 
 - 8.3.11. Biztonsági mentés automatikus létrehozása
 
@@ -361,6 +363,8 @@ Vállalásaim a mérföldkőben:
     - e3c2a666bc28ce0743de21a33879a913b0851e6b
     - a82c10ba44653eb9bbd7ac835e934cee5fb8d021
     - b81defb100f7571f29d054d93ec2b504d4d5848f
+    - 3a8099b52fa9b15b44393ee00437b7386bfab312
+    - dc0c24a37ca28becfbb6066d36d44d31d5197f49
 
 
 
