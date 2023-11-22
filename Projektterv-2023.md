@@ -454,13 +454,13 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.3.8. Regisztráltak lecke oldal kivitelezése
 
-#### 8.3.9. Email-es kiértesítés új időpontfoglalás esetén
+#### 8.3.9. Visszajelzés a felhasználónak új időpontfoglalás esetén
 
 Felelős: `Nagy Péter`
 
-Tartam:  `10 nap`
+Tartam:  `4 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### 8.3.10. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
 
