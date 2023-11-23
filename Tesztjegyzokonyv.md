@@ -173,7 +173,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
 
-### 2.2. Név és email-cím módosítás
+### 2.11. Név és email-cím módosítás
 
 #### 2.11.1. TC-01
 - **TP:** TP-11
