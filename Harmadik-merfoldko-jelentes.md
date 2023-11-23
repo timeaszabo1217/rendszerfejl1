@@ -368,6 +368,24 @@ Vállalásaim a mérföldkőben:
     - 3a8099b52fa9b15b44393ee00437b7386bfab312
     - dc0c24a37ca28becfbb6066d36d44d31d5197f49
 
+- 8.3.12. Tesztelési dokumentum az összes funkcióhoz (TP, TC)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #82
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - a1a6fae0f2954455d49c69122d2b7e9f1297966c
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #83
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+    - a8367836a912f9fe5e98cc7dee2aff1bf8e0628d
+
 
 
 ### Projekt tag: `Masa Roland`
