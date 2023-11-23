@@ -150,6 +150,29 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Regisztráció` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy a megadott email-cím már használatban van.
 
+### 2.2. Bejelentkezés
+
+#### 2.2.1. TC-01
+- **TP:** TP-02
+- **Leírás:** Helyes adatokat adunk meg minden mezőben. A folyamat sikerességét az jelzi, ha a főoldalon találjuk magunkat, ahol a munkamenet elindul.
+- **Bemenet:** `E-mail` = Létező regisztrált email-cím. `Jelszó` = A regisztráció során megadott jelszó.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás a főoldalra navigál, ahol a munkamenet elkezdődik.
+
+#### 2.2.1. TC-02
+- **TP:** TP-02
+- **Leírás:** Ebben a tesztesetben mindkét input mezőt üresen hagyjuk, és megfigyeljük, hogy a rendszer hogyan reagál erre az esetre.
+- **Bemenet:** `E-mail` = Üresen hagyjuk. `Jelszó` = Üresen hagyjuk.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmeztet, hogy mindkét mező kitöltése kötelező.
+
+#### 2.2.1. TC-03
+- **TP:** TP-02
+- **Leírás:** Rossz jelszót adunk meg a bejelentkezés során.
+- **Bemenet:** `E-mail` = Létező regisztrált email-cím `Jelszó` = Helytelen jelszó.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
+
 ### 2.12. Jelszó módosítás
 
 #### 2.12.1. TC-01
