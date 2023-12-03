@@ -173,6 +173,30 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
 
+### 2.6. Időpont hozzáadás
+
+#### 2.6.1. TC-01
+- **TP:** TP-06
+- **Leírás:** Ellenőrizzük, hogy az időpont sikeresen hozzáadódik-e az adatbázishoz, és megjelenik-e a módosító legördülő menüben.
+- **Bemenet:** Választott dátum és idő az időpont hozzáadásához.
+- **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az új időpont sikeresen hozzáadódik az adatbázishoz, és az időpont megjelenik a módosító legördülő menüben.
+
+#### 2.6.2. TC-02
+- **TP:** TP-06
+- **Leírás:** Ellenőrizzük, hogy a rendszer figyelmeztet, ha az adott időpont már létezik.
+- **Bemenet:** Már létező dátum és idő az időpont hozzáadásához.
+- **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmeztet, hogy az adott időpont már létezik, és nem kerül hozzáadásra.
+
+#### 2.6.3. TC-03
+- **TP:** TP-06
+- **Leírás:** Ellenőrizzük, hogy az újonnan hozzáadott időpont megjelenik-e a törlés legördülő menüben.
+- **Bemenet:** Választott dátum és idő az időpont hozzáadásához.
+- **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az újonnan hozzáadott időpont megjelenik a törlés legördülő menüben.
+
+
 ### 2.11. Név és email-cím módosítás
 
 #### 2.11.1. TC-01
