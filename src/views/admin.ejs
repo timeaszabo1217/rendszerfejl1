@@ -1,44 +1,47 @@
-<% const current_role = userAuth; %>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Urbán Csilla - Admin</title>
-      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
-      <link href="/css/style.css" rel="stylesheet" type="text/css">
-      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+<% const current_role=userAuth; %>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Admin</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
-      <header>
-        <%- include('header', { current_page: 'admin', current_role: current_role }) %>
-      </header>
-      <main>
-        <h1>Admin oldal</h1>
-        <div class="lesson-container">
-          <div class="sidebar">
-            <ul class="lessons-list">
-              <li class="lesson-item">
-                <a href="/admin/appointments">Időpontok</a>
-              </li>
-              <li class="lesson-item">
-                <a href="/admin/users">Felhasználók</a>
-              </li>
-              <li class="lesson-item">
-                <a href="/admin/lessons">Leckék</a>
-              </li>
-            </ul>
-          </div>
-          <div class="lesson-content">
-            <h3>Admin</h3>
-            <hr />
-            <p>
-              teszt
-            </p>
-          </div>
+    <header>
+      <%- include('header', { current_page: 'admin' , current_role: current_role }) %>
+    </header>
+    <main>
+      <h1>Admin oldal</h1>
+      <div class="lesson-container">
+        <div class="sidebar">
+          <ul class="lessons-list">
+            <li class="lesson-item">
+              <a href="/admin">Lefoglalt időpontok</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/appointments">Időpontok szerkesztése</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/users">Felhasználók</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/profile">Profil</a>
+            </li>
+          </ul>
         </div>
+        <div class="lesson-content">
+          <h3>Lefoglalt időpontok</h3>
+          <hr />
+        </div>
+      </div>
     </main>
     <footer>
-   </footer>
-   </body>
-</html>
+    </footer>
+  </body>
+
+  </html>

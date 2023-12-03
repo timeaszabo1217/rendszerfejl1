@@ -1,6 +1,7 @@
 <% const current_role=userAuth; %>
   <!DOCTYPE html>
   <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -9,9 +10,10 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
     <header>
-      <%- include('header', { current_page: 'admin/appointments' , current_role: current_role }) %>
+      <%- include('header', { current_page: 'admin' , current_role: current_role }) %>
     </header>
     <main>
       <h1>Időpontok módosítása</h1>
@@ -19,18 +21,21 @@
         <div class="sidebar">
           <ul class="lessons-list">
             <li class="lesson-item">
-              <a href="/admin/appointments">Időpontok</a>
+              <a href="/admin">Lefoglalt időpontok</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/appointments">Időpontok szerkesztése</a>
             </li>
             <li class="lesson-item">
               <a href="/admin/users">Felhasználók</a>
             </li>
             <li class="lesson-item">
-              <a href="/admin/lessons">Leckék</a>
+              <a href="/profile">Profil</a>
             </li>
           </ul>
         </div>
         <div class="lesson-content">
-          <h2>Időpontok</h2>
+          <h3>Időpontok</h3>
           <hr>
           <div class="profile-container">
             <div class="profile-edit">
@@ -80,4 +85,5 @@
       </div>
     </main>
   </body>
+
   </html>
