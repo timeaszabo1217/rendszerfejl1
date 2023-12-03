@@ -184,10 +184,10 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 #### 2.6.2. TC-02
 - **TP:** TP-06
-- **Leírás:** Ellenőrizzük, hogy a rendszer figyelmeztet, ha az adott időpont már létezik.
+- **Leírás:** Ellenőrizzük, hogy a felhasználók számára látható-e a felvitt időpont.
 - **Bemenet:** Már létező dátum és idő az időpont hozzáadásához.
-- **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
-- **Elvárt kimenet:** A rendszer figyelmeztet, hogy az adott időpont már létezik, és nem kerül hozzáadásra.
+- **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot. Átjelentkezünk felhasználói fiókba.
+- **Elvárt kimenet:** Az admin által felvitt időpont látható a felhasználók Időpontok menüpontjában.
 
 #### 2.6.3. TC-03
 - **TP:** TP-06
