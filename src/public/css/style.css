@@ -92,6 +92,10 @@ b {
   font-family: "quicksand", sans-serif;
 }
 
+img {
+  user-select: none;
+}
+
 #graphic {
   position: relative;
   margin-bottom: 0;
