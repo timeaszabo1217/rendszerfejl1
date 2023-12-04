@@ -281,3 +281,28 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     2. lépés: Helytelen jelszót adtam meg.
     3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
     4. lépés: Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
+
+### 3.11. Név és email-cím módosítás
+
+#### 3.11.1. TR-01(TC-01)
+- **TP:** TP-11
+    1. lépés: Felhasználó által választott új nevet adtam meg.
+    2. lépés: Felhasználó által választott új email-címet adtam meg.
+    3. lépés: A Mentés gombot egyszer megnyomtam.
+    4. lépés: A rendszer frissítette a felhasználó adatait.
+    5. lépés: Az új név és email-cím megjelent a Profil oldalon.
+
+#### 3.11.2. TR-02(TC-02)
+- **TP:** TP-11
+    1. lépés: Mindkét input mezőt üresen hagytam.
+    2. lépés: A Mentés gombot egyszer megnyomtam.
+    3. lépés: A rendszer figyelmeztetést adott ki a kötelező mezőkről.
+
+#### 3.11.3. TR-03(TC-03)
+- **TP:** TP-11
+    1. lépés: Felhasználó által választott új nevet adtam meg.
+    2. lépés: Már létező másik felhasználó regisztrált email-címét adtam meg.
+    3. lépés: A Mentés gombot egyszer megnyomtam.
+    4. lépés: A rendszer figyelmeztett, hogy a megadott email-cím már használatban van.
+
+    
