@@ -225,21 +225,36 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 #### 2.12.1. TC-01
 - **TP:** TP-12
 - **Leírás:** Helyes adatokat adunk meg minden mezőben. A folyamat sikerességét az jelzi, ha a profil oldalon találjuk magunkat, nem kapunk hibaüzenetet..
-- **Bemenet:** `Jelenlegi jelszó` = Regisztrációkor megadott vagy azóta módosított jelenleg érvényes jelszavunk. ; `Új jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jelszó megerősítése` = A jelszónak legalább négy karakterből kell állnia és egyeznie kell az új jelszóval.
+- **Bemenet:** `Jelenlegi jelszó` = Regisztrációkor megadott vagy azóta módosított jelenleg érvényes jelszavunk. `Új jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jelszó megerősítése` = A jelszónak legalább négy karakterből kell állnia és egyeznie kell az új jelszóval.
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás a profil oldalra navigál.
 
 #### 2.12.2. TC-02
 - **TP:** TP-12
 - **Leírás:** Ebben a tesztesetben az input mezőket üresen hagyjuk, és megfigyeljük, hogy a rendszer hogyan reagál erre az esetre.
-- **Bemenet:** `Jelenlegi jelszó` = Üresen hagyjuk. ; `Új jelszó` = Üresen hagyjuk. `Jelszó megerősítése` = Üresen hagyjuk.
+- **Bemenet:** `Jelenlegi jelszó` = Üresen hagyjuk. `Új jelszó` = Üresen hagyjuk. `Jelszó megerősítése` = Üresen hagyjuk.
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** A rendszer figyelmeztet, hogy minden mező kitöltése kötelező.
 
 #### 2.12.3. TC-03
 - **TP:** TP-12
 - **Leírás:** Olyan jelenlegi jelszót adunk meg, amely nincs használatban.
-- **Bemenet:** `Jelenlegi jelszó` = Tetszőleges bemenet ; `Új jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jelszó megerősítése` = A jelszónak legalább négy karakterből kell állnia és egyeznie kell az új jelszóval.
+- **Bemenet:** `Jelenlegi jelszó` = Tetszőleges bemenet. `Új jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jelszó megerősítése` = A jelszónak legalább négy karakterből kell állnia és egyeznie kell az új jelszóval.
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy a megadott jelszó helytelen.
 
+#### 2.12.4. TC-04
+- **TP:** TP-12
+- **Leírás:** A felhasználó ugyanazt az új jelszót adja meg, amely már a jelenlegi jelszója.
+- **Bemenet:** `Jelenlegi jelszó` = Jelenlegi érvényes jelszó. `Új jelszó` = Jelenlegi érvényes jelszó. `Jelszó megerősítése` = Jelenlegi érvényes jelszó.
+Művelet: A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
+
+Elvárt kimenet: A rendszer figyelmeztet, hogy az új jelszó nem lehet ugyanaz, mint a jelenlegi jelszó.
+
+#### 2.12.5. TC-05
+- **TP:** TP-12
+- **Leírás:** A felhasználó olyan új jelszót ad meg, amely nem felel meg az elvárásoknak.
+- **Bemenet:** `Jelenlegi jelszó` = Jelenlegi érvényes jelszó. `Új jelszó` = Csak három karakter hosszú jelszó. `Jelszó megerősítése` = Csak három karakter hosszú jelszó.
+Művelet: A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
+
+Elvárt kimenet: Az alkalmazás figyelmeztet, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának és nem egyezik meg a megerősítéssel.
