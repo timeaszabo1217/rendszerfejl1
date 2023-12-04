@@ -42,7 +42,7 @@
             <th>Időpontok</th>
           </tr>
         <% for(var i = 0; i < booked.length; i++) { %>
-          <tr><td><%= new Date(booked[i].booking_date).toLocaleString() %></td></tr>
+          <tr><td><%= new Date(booked[i].booking_date).getFullYear() + '-' + ('0' + (new Date(booked[i].booking_date).getMonth() + 1)).slice(-2) + '-' + ('0' + new Date(booked[i].booking_date).getDate()).slice(-2) + ' ' + ('0' + new Date(booked[i].booking_date).getHours()).slice(-2) + ':' + ('0' + new Date(booked[i].booking_date).getMinutes()).slice(-2) %></td></tr>
         <% } %>
     </table>
     <% } else { %>
@@ -52,6 +52,11 @@
     <footer>
       <%- include('footer'); %>
     </footer>
+    <script>
+      document.getElementById('booking-form').addEventListener('submit', function(event) {
+        alert('Sikeres időpontfoglalás!');
+      });
+      </script>
   </body>
 
   </html>

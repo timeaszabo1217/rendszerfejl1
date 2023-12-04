@@ -187,6 +187,27 @@ A csapat rendszeresen összeül, hogy elősegítse a projekt haladását és biz
  - Érintett témák: A projektterv átnézése
  - Tartalma: A projekttervet áttekintettük és megvitattuk, hogy hogyan prezentáljuk majd az órán.
 
+##### 4. megbeszélés:
+- Időpont: 2021.10.26.
+ - Hely: Pivo- Szeged, Vitéz u. 26.
+ - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland
+ - Érintett témák: A projektterv átnézése, következő mérföldkő felmérése
+ - Tartalma: A projekttervet áttekintettük, mivel sikerült elkészülni, mi van még hátra.
+
+##### 5. megbeszélés:
+- Időpont: 2021.11.06.
+ - Hely: Pivo- Szeged, Vitéz u. 26.
+ - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland
+ - Érintett témák: A projektterv átnézése, következő mérföldkő felmérése
+ - Tartalma: A projekttervet áttekintettük, minimumok átnézése leadásig.
+
+##### 6. megbeszélés:
+- Időpont: 2021.11.16.
+ - Hely: Pivo- Szeged, Vitéz u. 26.
+ - Résztvevők: Urbán Judit, Veszeli Karina, Szabó Tímea, Nagy Péter, Durucz Ádám, Juhász Ferenc, Kiss Csaba, Masa Roland
+ - Érintett témák: A projektterv átnézése
+ - Tartalma: Leadott fájlok, esetleges javitás, személyenkénti minimumok.
+
 ### 6.3. Minőségbiztosítás
 
 Az elkészült terveket a terveken nem dolgozó csapattársak közül átnézik, hogy megfelel-e a specifikációnak és az egyes diagramtípusok összhangban vannak-e egymással. A meglévő rendszerünk helyes működését a prototípusok bemutatása előtt a tesztelési dokumentumban leírtak végrehajtása alapján ellenőrizzük és összevetjük a specifikációval, hogy az elvárt eredményt kapjuk-e. További tesztelési lehetőségek: unit tesztek írása az egyes modulokhoz vagy a kód közös átnézése (code review) egy, a vizsgált modul programozásában nem résztvevő csapattaggal. Szoftverünk minőségét a végső leadás előtt javítani kell a rendszerünkre lefuttatott kódelemzés során kapott metrikaértékek és szabálysértések figyelembevételével.
@@ -454,13 +475,13 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.3.8. Regisztráltak lecke oldal kivitelezése
 
-#### 8.3.9. Email-es kiértesítés új időpontfoglalás esetén
+#### 8.3.9. Visszajelzés a felhasználónak új időpontfoglalás esetén
 
 Felelős: `Nagy Péter`
 
-Tartam:  `10 nap`
+Tartam:  `4 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### 8.3.10. Foglalt időpontok megjelenítése, kezdő és a vég időponttal együtt
 

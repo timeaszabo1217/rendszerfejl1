@@ -1,64 +1,78 @@
 <% const current_role=userAuth; %>
-<!DOCTYPE html>
-<html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Urbán Csilla - Admin</title>
-      <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
-      <link href="/css/style.css" rel="stylesheet" type="text/css">
-      <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Admin</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
   </head>
+
   <body>
     <header>
-      <%- include('header', { current_page: 'admin', current_role: current_role }) %>
+      <%- include('header', { current_page: 'admin' , current_role: current_role }) %>
     </header>
-      <main>
-         <h1>Admin oldal</h1>
-        <div class="lesson-container">
-          <div class="sidebar">
-            <ul class="lessons-list">
-              <li class="lesson-item">
-                <a href="/admin/appointments">Időpontok</a>
-              </li>
-              <li class="lesson-item">
-                <a href="/admin/users">Felhasználók</a>
-              </li>
-              <li class="lesson-item">
-                <a href="/admin/lessons">Leckék</a>
-              </li>
-            </ul>
+    <main>
+      <h1>Admin oldal</h1>
+      <div class="lesson-container">
+        <div class="sidebar">
+          <ul class="lessons-list">
+            <li class="lesson-item">
+              <a href="/admin">Lefoglalt időpontok</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/appointments">Időpontok szerkesztése</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/admin/users">Felhasználók</a>
+            </li>
+            <li class="lesson-item">
+              <a href="/profile">Profil</a>
+            </li>
+          </ul>
+        </div>
+        <div class="lesson-content">
+          <h3>Felhasználók</h3>
+          <hr>
+          <div class="profile-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Név</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <% for (var i=0; i < users.length; i++) { %>
+                    <td>
+                      <%= users[i].user_id %>
+                    </td>
+                    <td>
+                      <%= users[i].user_username %>
+                    </td>
+                    <td>
+                      <%= users[i].user_email %>
+                    </td>
+                    <td>
+                      <button class="btn"
+                        onclick="window.location.href='/admin/users/delete/<%= users[i].user_id %>'">Töröl
+                        <span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top"
+                          title="Sent to Trash Box"></span>
+                      </button>
+                    </td>
+                </tr>
+                <% } %>
+              </tbody>
+            </table>
           </div>
-                <div>
-                  <h2>Felhasználók</h2>
-                  <hr>
-                  <div class="profile-container">
-                     <table>
-                        <thead>
-                           <tr>
-                              <th>ID</th>
-                              <th>Név</th>
-                              <th>Email</th>
-                           </tr>
-                        </thead>
-                        <tbody>
-                           <tr>
-                             <% for (var i=0; i < users.length; i++) { %>
-                               <td><%= users[i].user_id %></td>
-                               <td><%= users[i].user_username %></td>
-                               <td><%= users[i].user_email %></td>
-                               <td>
-                                  <button class="btn" onclick="window.location.href='/admin/users/delete/<%= users[i].user_id %>'">Töröl
-                                     <span class="glyphicon glyphicon-trash" data-toggle="tooltip" data-placement="top" title="Sent to Trash Box"></span>
-                                  </button>
-                               </td>
-                           </tr>
-                           <% } %>
-                        </tbody>
-                     </table>
-                 </div>
-               </div>
-            </div>
+        </div>
+      </div>
     </main>
-   </body>
-</html>
+  </body>
+
+  </html>
