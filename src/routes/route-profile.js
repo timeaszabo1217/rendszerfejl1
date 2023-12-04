@@ -99,11 +99,27 @@ router.post("/profile/edit/password", async (req, res) => {
             message: "Nincs ilyen felhasználó."
           });
         } else {
-            if(await bcrypt.compare(current_password, user.user_passw) && new_password === confirm_password){
+            if(await bcrypt.compare(current_password, user.user_passw) && new_password === confirm_password 
+            && new_password !== current_password && new_password.length >= 4){
                 const hashedPassword = await bcrypt.hash(new_password, 10);
                 await new UserDAO().updateUser(user.user_id, user.user_username, user.user_email, hashedPassword);
                 res.redirect("/profile");
             }else {
+              if(new_password !== confirm_password ) {
+                return res.render("error", {
+                  message: "A jelszavad megerősítése nem egyezik az új jelszóban megadottal."
+                });
+              }
+              if(new_password === current_password) {
+                return res.render("error", {
+                  message: "Az új jelszavad nem lehet a jelenlegivel azonos."
+                });
+              }
+              if(new_password.length < 4) {
+                return res.render("error", {
+                  message: "Az új jelszavad legalább 4 karaktert kell tartalmazzon.."
+                });
+              }
               return res.render("error", {
                 message: "Helytelen jelszót adtál meg, próbáld újra."
               });
