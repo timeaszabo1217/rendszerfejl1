@@ -202,16 +202,16 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 #### 2.11.1. TC-01
 - **TP:** TP-11
 - **Leírás:** A felhasználó megváltoztatja a nevét és az email-címét és ellenőrizzük, hogy a rendszer helyesen kezeli-e ezeket a változásokat.
-- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Felhasználó által választott új jelszó
+- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Felhasználó által választott új email.
 - **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
-- **Elvárt kimenet:** A rendszer frissíti a felhasználó adatait, és az új név és email-cím megjelenik a Profil oldalon.
+- **Elvárt kimenet:** A rendszer frissíti a felhasználó adatait abban az esetben, ha a felhasználó által választott új email cím még nincsen használatban. Végül az új név és email-cím megjelenik a Profil oldalon.
 
 #### 2.11.2. TC-02
 - **TP:** TP-11
-- **Leírás:** A felhasználó megváltoztatja a nevét és az email-címét és ellenőrizzük, hogy a rendszer helyesen kezeli-e ezeket a változásokat.
-- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Felhasználó által választott új jelszó
+- **Leírás:** Ebben a tesztesetben az input mezőket üresen hagyjuk, és megfigyeljük, hogy a rendszer hogyan reagál erre az esetre.
+- **Bemenet:** `Név` = Üresen hagyjuk. `E-mail` = Üresen hagyjuk.
 - **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
-- **Elvárt kimenet:** A rendszer frissíti a felhasználó adatait, és az új név és email-cím megjelenik a Profil oldalon.
+- **Elvárt kimenet:** A rendszer figyelmeztet, hogy minden mező kitöltése kötelező.
 
 #### 2.11.3. TC-03
 - **TP:** TP-11
