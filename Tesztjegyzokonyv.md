@@ -247,14 +247,12 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **TP:** TP-12
 - **Leírás:** A felhasználó ugyanazt az új jelszót adja meg, amely már a jelenlegi jelszója.
 - **Bemenet:** `Jelenlegi jelszó` = Jelenlegi érvényes jelszó. `Új jelszó` = Jelenlegi érvényes jelszó. `Jelszó megerősítése` = Jelenlegi érvényes jelszó.
-Művelet: A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
-
-Elvárt kimenet: A rendszer figyelmeztet, hogy az új jelszó nem lehet ugyanaz, mint a jelenlegi jelszó.
+- **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmeztet, hogy az új jelszó nem lehet ugyanaz, mint a jelenlegi jelszó.
 
 #### 2.12.5. TC-05
 - **TP:** TP-12
 - **Leírás:** A felhasználó olyan új jelszót ad meg, amely nem felel meg az elvárásoknak.
 - **Bemenet:** `Jelenlegi jelszó` = Jelenlegi érvényes jelszó. `Új jelszó` = Csak három karakter hosszú jelszó. `Jelszó megerősítése` = Csak három karakter hosszú jelszó.
-Művelet: A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
-
-Elvárt kimenet: Az alkalmazás figyelmeztet, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának és nem egyezik meg a megerősítéssel.
+- **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának és nem egyezik meg a megerősítéssel.
