@@ -37,16 +37,13 @@ router.get("/profile", userAuth, async (req, res) => {
 router.post("/profile/edit/data", async (req, res) => {
     let { email, username } = req.body;
 
-    // res.send(req.body);
-
     const token = req.cookies.jwt;
 
     var current_email;
 
     if (token) {
         jwt.verify(token, jwtSecret, (err, decodedToken) => {
-        // res.send(decodedToken);
-        current_email = decodedToken.email;
+          current_email = decodedToken.email;
         });
     };
   
@@ -59,6 +56,14 @@ router.post("/profile/edit/data", async (req, res) => {
     } else {
         var newUsername = (username === '' ? user.user_username : username);
         var newEmail = (email === '' ? user.user_email : email);
+
+        const existingUser = await new UserDAO().getUserByEmail(newEmail);
+        if (existingUser && existingUser.user_id !== user.user_id) {
+            return res.render("error", {
+                message: "Ez az email-cím már használatban van. Kérlek válassz egy másikat."
+            });
+        }
+
         const updatedUser = await new UserDAO().updateUser(user.user_id, newUsername, newEmail, user.user_passw);
         const token = jwt.sign(
             {
