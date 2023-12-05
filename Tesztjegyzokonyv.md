@@ -173,6 +173,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
 
+#### 2.2.4. TC-04
+- **TP:** TP-02
+- **Leírás:** Ebben a tesztesetben egy érvényes e-mail címet adunk meg, de a jelszót hagyjuk üresen.
+- **Bemenet:** `E-mail` = Létező regisztrált email-cím `Jelszó` = Üresen hagyjuk.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmeztet, hogy a jelszó mező kitöltése kötelező.
+
+#### 2.2.5. TC-05
+- **TP:** TP-02
+- **Leírás:** Megpróbálunk bejelentkezni egy nem regisztrált e-mail címmel és bármilyen jelszóval.
+- **Bemenet:** `E-mail` = Nem regisztrált e-mail-cím. `Jelszó` = Bármilyen jelszó.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
+
 ### 2.6. Időpont hozzáadás
 
 #### 2.6.1. TC-01
@@ -288,6 +302,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     2. lépés: Helytelen jelszót adtam meg.
     3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
     4. lépés: Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
+
+#### 3.2.4. TR-04(TC-04)
+- **TP:** TP-02
+    1. lépés: Létező regisztrált email-címet adtam meg.
+    2. lépés: A jelszó mezőt üresen hagytam.
+    3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
+    4. lépés: A rendszer figyelmeztetést adott ki a kötelező mezőkről.
+
+#### 3.2.5. TR-05(TC-05)
+- **TP:** TP-02
+    1. lépés: Nem regisztrált email-címet adtam meg.
+    2. lépés: Bármilyen jelszót adtam meg.
+    3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
+    4. lépés: Az alkalmazás jelzi, hogy a megadott e-mail cím nem regisztrált.
 
 ### 3.11. Név és email-cím módosítás
 
