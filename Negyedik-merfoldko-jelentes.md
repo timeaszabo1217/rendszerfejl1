@@ -53,6 +53,7 @@ Vállalásaim a mérföldkőben:
      - #95
      - #96
      - #97
+     - #99
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
@@ -60,6 +61,8 @@ Vállalásaim a mérföldkőben:
      - 87b3eb8cd5a8531857136207bbbb2fafda952a60
      - 278e7ff844ffc5f947eb4421e4ab7ce4b43cba5c
      - d109d00e8e1c411f950c5a626ad1fcaecb59109c
+     - ffca8bed3052d6e5b200ce454da889f409e5a83b
+     - bbec3757d3067b36e633d2fdd70ea4e1cfa817d6
 
 - 8.4.2. Bejelentkezés funkciók tesztelése (TR)
 
