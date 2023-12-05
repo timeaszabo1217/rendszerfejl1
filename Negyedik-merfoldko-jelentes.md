@@ -73,6 +73,7 @@ Vállalásaim a mérföldkőben:
     ##### A feladat elvégzését alátámasztó commit(ok):
 
      - 32431acf9aacfeec3724f679308d51740fe3a444
+     - fa5f677076d5152396c16852f8151eb913e515de
     
 - 8.4.11. Név és email-cím módosítás funkciók tesztelése (TR)
 
@@ -83,4 +84,5 @@ Vállalásaim a mérföldkőben:
     ##### A feladat elvégzését alátámasztó commit(ok):
 
      - 1d118c4aa4fe34a5e0dd3a4651856f7819092a6e
+     - e69904d535b2a92b030b3c1465faaaad5daa40ab
     
