@@ -27,7 +27,6 @@ app.use(routeNotification);
 app.use(routeProfile);
 app.use(routeAdmin);
 
-
 app.listen(PORT, () => {
   console.log("App listening at: http://localhost:8080/");
 });
@@ -35,3 +34,5 @@ app.listen(PORT, () => {
 schedule.scheduleJob("10 3 * * *", () => {
   backupService.createBackup();
 });
+
+module.exports = app;

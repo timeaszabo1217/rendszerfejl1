@@ -1,0 +1,559 @@
+{
+  "userData": [
+    {
+      "user_id": 1,
+      "user_username": "",
+      "user_email": "",
+      "user_passw": "$2a$10$81yc3gBHUzgaWZnmIAhJqussBbarh4S7TSnimP3XlWPQnkyxf2hWG",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 3,
+      "user_username": "rockandrollcsiga",
+      "user_email": "atkeltacsigaaztuon@gmail.com",
+      "user_passw": "$2a$10$.iIe2.dCpaDDNoecbnjv8.ulew8nyo5EJEDoYmh0Kgqf7A8G3H4IW",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 43,
+      "user_username": "john_doe",
+      "user_email": "john.doe@example.com",
+      "user_passw": "johns_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 44,
+      "user_username": "alice_smith",
+      "user_email": "alice.smith@example.com",
+      "user_passw": "alices_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 45,
+      "user_username": "bob_jones",
+      "user_email": "bob.jones@example.com",
+      "user_passw": "bobs_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 46,
+      "user_username": "emily_white",
+      "user_email": "emily.white@example.com",
+      "user_passw": "emilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 47,
+      "user_username": "charlie_brown",
+      "user_email": "charlie.brown@example.com",
+      "user_passw": "charlies_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 48,
+      "user_username": "olivia_green",
+      "user_email": "olivia.green@example.com",
+      "user_passw": "olivias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 49,
+      "user_username": "david_martin",
+      "user_email": "david.martin@example.com",
+      "user_passw": "davids_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 50,
+      "user_username": "lily_adams",
+      "user_email": "lily.adams@example.com",
+      "user_passw": "lilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 51,
+      "user_username": "samuel_wilson",
+      "user_email": "samuel.wilson@example.com",
+      "user_passw": "samuels_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 52,
+      "user_username": "sophia_jackson",
+      "user_email": "sophia.jackson@example.com",
+      "user_passw": "sophias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 53,
+      "user_username": "john_doe",
+      "user_email": "john.doe@example.com",
+      "user_passw": "johns_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 54,
+      "user_username": "alice_smith",
+      "user_email": "alice.smith@example.com",
+      "user_passw": "alices_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 55,
+      "user_username": "bob_jones",
+      "user_email": "bob.jones@example.com",
+      "user_passw": "bobs_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 56,
+      "user_username": "emily_white",
+      "user_email": "emily.white@example.com",
+      "user_passw": "emilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 57,
+      "user_username": "charlie_brown",
+      "user_email": "charlie.brown@example.com",
+      "user_passw": "charlies_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 58,
+      "user_username": "olivia_green",
+      "user_email": "olivia.green@example.com",
+      "user_passw": "olivias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 59,
+      "user_username": "david_martin",
+      "user_email": "david.martin@example.com",
+      "user_passw": "davids_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 60,
+      "user_username": "lily_adams",
+      "user_email": "lily.adams@example.com",
+      "user_passw": "lilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 61,
+      "user_username": "samuel_wilson",
+      "user_email": "samuel.wilson@example.com",
+      "user_passw": "samuels_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 62,
+      "user_username": "sophia_jackson",
+      "user_email": "sophia.jackson@example.com",
+      "user_passw": "sophias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 41,
+      "user_username": "timeaszabo1217",
+      "user_email": "timeaszabo1217@gmail.com",
+      "user_passw": "$2a$10$HaPOUegYobI9ghxUYAs9Nu6mGBj8ZQc30iT9A4JETpKN4syhwHDAO",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 63,
+      "user_username": "john_doe",
+      "user_email": "john.doe@example.com",
+      "user_passw": "johns_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 64,
+      "user_username": "alice_smith",
+      "user_email": "alice.smith@example.com",
+      "user_passw": "alices_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 65,
+      "user_username": "bob_jones",
+      "user_email": "bob.jones@example.com",
+      "user_passw": "bobs_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 66,
+      "user_username": "emily_white",
+      "user_email": "emily.white@example.com",
+      "user_passw": "emilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 67,
+      "user_username": "charlie_brown",
+      "user_email": "charlie.brown@example.com",
+      "user_passw": "charlies_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 68,
+      "user_username": "olivia_green",
+      "user_email": "olivia.green@example.com",
+      "user_passw": "olivias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 69,
+      "user_username": "david_martin",
+      "user_email": "david.martin@example.com",
+      "user_passw": "davids_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 70,
+      "user_username": "lily_adams",
+      "user_email": "lily.adams@example.com",
+      "user_passw": "lilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 71,
+      "user_username": "samuel_wilson",
+      "user_email": "samuel.wilson@example.com",
+      "user_passw": "samuels_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 72,
+      "user_username": "sophia_jackson",
+      "user_email": "sophia.jackson@example.com",
+      "user_passw": "sophias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 73,
+      "user_username": "john_doe",
+      "user_email": "john.doe@example.com",
+      "user_passw": "johns_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 74,
+      "user_username": "alice_smith",
+      "user_email": "alice.smith@example.com",
+      "user_passw": "alices_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 75,
+      "user_username": "bob_jones",
+      "user_email": "bob.jones@example.com",
+      "user_passw": "bobs_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 76,
+      "user_username": "emily_white",
+      "user_email": "emily.white@example.com",
+      "user_passw": "emilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 77,
+      "user_username": "charlie_brown",
+      "user_email": "charlie.brown@example.com",
+      "user_passw": "charlies_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 78,
+      "user_username": "olivia_green",
+      "user_email": "olivia.green@example.com",
+      "user_passw": "olivias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 79,
+      "user_username": "david_martin",
+      "user_email": "david.martin@example.com",
+      "user_passw": "davids_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 80,
+      "user_username": "lily_adams",
+      "user_email": "lily.adams@example.com",
+      "user_passw": "lilys_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 81,
+      "user_username": "samuel_wilson",
+      "user_email": "samuel.wilson@example.com",
+      "user_passw": "samuels_password",
+      "user_role": "ROLE_ADMIN"
+    },
+    {
+      "user_id": 82,
+      "user_username": "sophia_jackson",
+      "user_email": "sophia.jackson@example.com",
+      "user_passw": "sophias_password",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 83,
+      "user_username": "cicamica",
+      "user_email": "cicamica@gmail.com",
+      "user_passw": "$2a$10$1UR3es8oa0mSxESt4.L1lOO6CKtwjiqKNHZQwlBR1NfdatAcp3ZRm",
+      "user_role": "ROLE_USER"
+    },
+    {
+      "user_id": 84,
+      "user_username": "Szabó Tímea",
+      "user_email": "nagyonnagycicavagyok@gmail.com",
+      "user_passw": "$2a$10$mP6fqHfK8dpDT7zR4sdQhu1i3cdtOLNt/czDE.538FJuNq1udDK4C",
+      "user_role": "ROLE_ADMIN"
+    }
+  ],
+  "articleData": [
+    {
+      "article_id": 1,
+      "article_name": "Az Élet Szépségei",
+      "article_content": "Fedezd fel az élet szépségeit és élvezd minden pillanat varázsát.",
+      "article_date": "2023-01-14T23:00:00.000Z"
+    },
+    {
+      "article_id": 2,
+      "article_name": "Az Önismeret Útjai",
+      "article_content": "Merülj el az önismeret útvesztőiben és találd meg önmagadat a belső utazás során.",
+      "article_date": "2023-02-19T23:00:00.000Z"
+    },
+    {
+      "article_id": 3,
+      "article_name": "Az Évszakok Varázsa",
+      "article_content": "Érezd meg az évszakok változásainak szépségét és harmóniáját.",
+      "article_date": "2023-03-24T23:00:00.000Z"
+    },
+    {
+      "article_id": 4,
+      "article_name": "A Kreativitás Forrásai",
+      "article_content": "Fedezd fel a kreativitás forrásait és inspirálódj az alkotás öröméből.",
+      "article_date": "2023-04-09T22:00:00.000Z"
+    },
+    {
+      "article_id": 5,
+      "article_name": "A Boldogság Titka",
+      "article_content": "Ismerd meg a boldogság titkait és teremts egy kiegyensúlyozottabb életet.",
+      "article_date": "2023-05-04T22:00:00.000Z"
+    },
+    {
+      "article_id": 6,
+      "article_name": "Az Életrevalóság Bája",
+      "article_content": "Tapasztald meg az életrevalóság báját és hozz létre élményeket, amelyek örökké fennmaradnak.",
+      "article_date": "2023-06-11T22:00:00.000Z"
+    },
+    {
+      "article_id": 7,
+      "article_name": "A Célkitűzések Teljesítése",
+      "article_content": "Tanuld meg a célok kitűzésének és elérésének kulcsait a sikeres életért.",
+      "article_date": "2023-07-17T22:00:00.000Z"
+    },
+    {
+      "article_id": 8,
+      "article_name": "A Harmónia Élvezete",
+      "article_content": "Mélyülj el a belső harmónia megtalálásában és élvezd az egyensúly áldásait.",
+      "article_date": "2023-08-21T22:00:00.000Z"
+    },
+    {
+      "article_id": 9,
+      "article_name": "Az Elfogadás Művészete",
+      "article_content": "Ismerd fel az elfogadás művészetét és építs szorosabb kapcsolatokat az emberekkel.",
+      "article_date": "2023-09-29T22:00:00.000Z"
+    },
+    {
+      "article_id": 10,
+      "article_name": "A Siker Lépései",
+      "article_content": "Ismerd meg a siker lépéseit és hozd ki a legtöbbet az életedből.",
+      "article_date": "2023-10-04T22:00:00.000Z"
+    }
+  ],
+  "lessonData": [
+    {
+      "lesson_id": 1,
+      "lesson_name": "Bevezetés az Informatikába",
+      "lesson_content": "Az informatika alapjai és az informatikai rendszerek működése."
+    },
+    {
+      "lesson_id": 2,
+      "lesson_name": "Matematikai Alapok",
+      "lesson_content": "Alapvető matematikai fogalmak és azok alkalmazása a mindennapi életben."
+    },
+    {
+      "lesson_id": 3,
+      "lesson_name": "Kreatív Írástechnikák",
+      "lesson_content": "Technikák és gyakorlatok a kreatív írás fejlesztéséhez."
+    },
+    {
+      "lesson_id": 4,
+      "lesson_name": "Fotózás Mesterfokon",
+      "lesson_content": "A fotózás mestersége és a fényképezés fortélyai."
+    },
+    {
+      "lesson_id": 5,
+      "lesson_name": "A Tudományos Kutatás Módszertana",
+      "lesson_content": "Hogyan tervezd és végezd el hatékonyan a tudományos kutatást."
+    },
+    {
+      "lesson_id": 6,
+      "lesson_name": "Angol Nyelvtanulás Könnyedén",
+      "lesson_content": "Tippek és trükkök az angol nyelv hatékony tanulásához."
+    },
+    {
+      "lesson_id": 7,
+      "lesson_name": "Az Egészséges Életmód Alapjai",
+      "lesson_content": "Az egészséges táplálkozás, testmozgás és mentális egészség fontossága."
+    },
+    {
+      "lesson_id": 8,
+      "lesson_name": "Webfejlesztés alapjai",
+      "lesson_content": "A webfejlesztés alapelvei és az első lépések a webes alkalmazások készítéséhez."
+    },
+    {
+      "lesson_id": 9,
+      "lesson_name": "Bevezetés az Informatikába",
+      "lesson_content": "Az informatika alapjai és az informatikai rendszerek működése."
+    },
+    {
+      "lesson_id": 10,
+      "lesson_name": "Matematikai Alapok",
+      "lesson_content": "Alapvető matematikai fogalmak és azok alkalmazása a mindennapi életben."
+    },
+    {
+      "lesson_id": 11,
+      "lesson_name": "Kreatív Írástechnikák",
+      "lesson_content": "Technikák és gyakorlatok a kreatív írás fejlesztéséhez."
+    },
+    {
+      "lesson_id": 12,
+      "lesson_name": "Fotózás Mesterfokon",
+      "lesson_content": "A fotózás mestersége és a fényképezés fortélyai."
+    },
+    {
+      "lesson_id": 13,
+      "lesson_name": "A Tudományos Kutatás Módszertana",
+      "lesson_content": "Hogyan tervezd és végezd el hatékonyan a tudományos kutatást."
+    },
+    {
+      "lesson_id": 14,
+      "lesson_name": "Angol Nyelvtanulás Könnyedén",
+      "lesson_content": "Tippek és trükkök az angol nyelv hatékony tanulásához."
+    },
+    {
+      "lesson_id": 15,
+      "lesson_name": "Az Egészséges Életmód Alapjai",
+      "lesson_content": "Az egészséges táplálkozás, testmozgás és mentális egészség fontossága."
+    },
+    {
+      "lesson_id": 16,
+      "lesson_name": "Webfejlesztés alapjai",
+      "lesson_content": "A webfejlesztés alapelvei és az első lépések a webes alkalmazások készítéséhez."
+    },
+    {
+      "lesson_id": 17,
+      "lesson_name": "Bevezetés az Informatikába",
+      "lesson_content": "Az informatika alapjai és az informatikai rendszerek működése."
+    },
+    {
+      "lesson_id": 18,
+      "lesson_name": "Matematikai Alapok",
+      "lesson_content": "Alapvető matematikai fogalmak és azok alkalmazása a mindennapi életben."
+    },
+    {
+      "lesson_id": 19,
+      "lesson_name": "Kreatív Írástechnikák",
+      "lesson_content": "Technikák és gyakorlatok a kreatív írás fejlesztéséhez."
+    },
+    {
+      "lesson_id": 20,
+      "lesson_name": "Fotózás Mesterfokon",
+      "lesson_content": "A fotózás mestersége és a fényképezés fortélyai."
+    },
+    {
+      "lesson_id": 21,
+      "lesson_name": "A Tudományos Kutatás Módszertana",
+      "lesson_content": "Hogyan tervezd és végezd el hatékonyan a tudományos kutatást."
+    },
+    {
+      "lesson_id": 22,
+      "lesson_name": "Angol Nyelvtanulás Könnyedén",
+      "lesson_content": "Tippek és trükkök az angol nyelv hatékony tanulásához."
+    },
+    {
+      "lesson_id": 23,
+      "lesson_name": "Az Egészséges Életmód Alapjai",
+      "lesson_content": "Az egészséges táplálkozás, testmozgás és mentális egészség fontossága."
+    },
+    {
+      "lesson_id": 24,
+      "lesson_name": "Webfejlesztés alapjai",
+      "lesson_content": "A webfejlesztés alapelvei és az első lépések a webes alkalmazások készítéséhez."
+    },
+    {
+      "lesson_id": 25,
+      "lesson_name": "Bevezetés az Informatikába",
+      "lesson_content": "Az informatika alapjai és az informatikai rendszerek működése."
+    },
+    {
+      "lesson_id": 26,
+      "lesson_name": "Matematikai Alapok",
+      "lesson_content": "Alapvető matematikai fogalmak és azok alkalmazása a mindennapi életben."
+    },
+    {
+      "lesson_id": 27,
+      "lesson_name": "Kreatív Írástechnikák",
+      "lesson_content": "Technikák és gyakorlatok a kreatív írás fejlesztéséhez."
+    },
+    {
+      "lesson_id": 28,
+      "lesson_name": "Fotózás Mesterfokon",
+      "lesson_content": "A fotózás mestersége és a fényképezés fortélyai."
+    },
+    {
+      "lesson_id": 29,
+      "lesson_name": "A Tudományos Kutatás Módszertana",
+      "lesson_content": "Hogyan tervezd és végezd el hatékonyan a tudományos kutatást."
+    },
+    {
+      "lesson_id": 30,
+      "lesson_name": "Angol Nyelvtanulás Könnyedén",
+      "lesson_content": "Tippek és trükkök az angol nyelv hatékony tanulásához."
+    },
+    {
+      "lesson_id": 31,
+      "lesson_name": "Az Egészséges Életmód Alapjai",
+      "lesson_content": "Az egészséges táplálkozás, testmozgás és mentális egészség fontossága."
+    },
+    {
+      "lesson_id": 32,
+      "lesson_name": "Webfejlesztés alapjai",
+      "lesson_content": "A webfejlesztés alapelvei és az első lépések a webes alkalmazások készítéséhez."
+    }
+  ],
+  "notificationData": [
+    {
+      "mail_id": 2,
+      "recipient_id": 3,
+      "message": "Fontos tájékoztatás: Készítsd elő magad az előző kurzusok anyagaival, hogy sikeres legyél az elkövetkező tanfolyamon.",
+      "mail_date": "2023-02-19T23:00:00.000Z"
+    }
+  ],
+  "bookingData": [
+    {
+      "appointment_id": 2,
+      "user_id": 3,
+      "booking_date": "2023-01-04T23:00:00.000Z",
+      "booked": false
+    }
+  ]
+}

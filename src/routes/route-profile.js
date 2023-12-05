@@ -7,7 +7,7 @@ const bcrypt = require("bcryptjs");
 
 router.get('/error', (req, res) => {
   const errorMessage = req.query.message;
-  res.render('error', { message: errorMessage });
+  res.status(302).render('error', { message: errorMessage });
 });
 
 router.get("/profile", userAuth, async (req, res) => {
@@ -50,7 +50,7 @@ router.post("/profile/edit/data", async (req, res) => {
     const user = await new UserDAO().getUserByEmail(current_email);
   
     if (!user) {
-      return res.render("error", {
+      return res.status(302).render("error", {
         message: "Nincs ilyen felhasználó."
       });
     } else {
@@ -59,7 +59,7 @@ router.post("/profile/edit/data", async (req, res) => {
 
         const existingUser = await new UserDAO().getUserByEmail(newEmail);
         if (existingUser && existingUser.user_id !== user.user_id) {
-            return res.render("error", {
+            return res.status(302).render("error", {
                 message: "Ez az email-cím már használatban van. Kérlek válassz egy másikat."
             });
         }
@@ -95,7 +95,7 @@ router.post("/profile/edit/password", async (req, res) => {
         const user = await new UserDAO().getUserByEmail(current_email);
   
         if (!user) {
-          return res.render("error", {
+          return res.status(302).render("error", {
             message: "Nincs ilyen felhasználó."
           });
         } else {
@@ -103,24 +103,24 @@ router.post("/profile/edit/password", async (req, res) => {
             && new_password !== current_password && new_password.length >= 4){
                 const hashedPassword = await bcrypt.hash(new_password, 10);
                 await new UserDAO().updateUser(user.user_id, user.user_username, user.user_email, hashedPassword);
-                res.redirect("/profile");
+                res.status(200).redirect("/profile");
             }else {
               if(new_password !== confirm_password ) {
-                return res.render("error", {
+                return res.status(302).render("error", {
                   message: "A jelszavad megerősítése nem egyezik az új jelszóban megadottal."
                 });
               }
               if(new_password === current_password) {
-                return res.render("error", {
+                return res.status(302).render("error", {
                   message: "Az új jelszavad nem lehet a jelenlegivel azonos."
                 });
               }
               if(new_password.length < 4) {
-                return res.render("error", {
+                return res.status(302).render("error", {
                   message: "Az új jelszavad legalább 4 karaktert kell tartalmazzon.."
                 });
               }
-              return res.render("error", {
+              return res.status(302).render("error", {
                 message: "Helytelen jelszót adtál meg, próbáld újra."
               });
             }
@@ -146,7 +146,7 @@ router.post("/profile/edit/delete", async (req, res) => {
     const user = await new UserDAO().getUserByEmail(current_email);
   
     if (!user) {
-      return res.render("error", {
+      return res.status(302).render("error", {
         message: "Nincs ilyen felhasználó."
       });
     } else {
