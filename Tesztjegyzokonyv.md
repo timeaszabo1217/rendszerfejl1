@@ -305,4 +305,10 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: A Mentés gombot egyszer megnyomtam.
     4. lépés: A rendszer figyelmeztett, hogy a megadott email-cím már használatban van.
 
-    
+#### 3.12.1. TR-01 (TC-01)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cicamica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás a profil oldalra navigált.
