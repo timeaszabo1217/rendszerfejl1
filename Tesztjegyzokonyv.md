@@ -578,14 +578,11 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 #### 3.12.2. TR-02 (TC-02)
 - **TP:** TP-13
-    1. lépés: A /admin/appointments oldal elérése, bejelentkezett, "Admin" jogosultságú fiókkal.
-    2. lépés: Az "időpontok szerkesztése" oldal megjelítése.
+    1. lépés: A /booking oldal elérése, bejelentkezett, "Felhasználó" jogosultságú fiókkal.
+    2. lépés: Be vagyunk jelentkezve, van, eleget tesz a jogosultságunk, tehát az "időpont foglalása" oldal megjelítése.
 
 #### 3.12.3. TR-03 (TC-03)
 - **TP:** TP-13
-    1. lépés: 'nemcsigabiga' jelszót adtam meg.
-    2. lépés: 'cicamica' jelszót adtam meg.
-    3. lépés: 'cicamica' jelszót adtam meg.
-    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
-    5. lépés: az alkalmazás figyelmeztet arról, hogy helytelen jelenlegi jelszót adtam meg.
+    1. lépés: A /admin/appointments oldal elérése, bejelentkezett, "Admin" jogosultságú fiókkal.
+    2. lépés: Be vagyunk jelentkezve, van, eleget tesz a jogosultságunk, tehát az "időpontok szerkesztése" oldal megjelítése.
 
