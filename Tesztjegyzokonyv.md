@@ -56,7 +56,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.6. Időpont hozzáadás (Admin oldal)
 - **Azonosító:** TP-06
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC-02, TC-03
 - **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont hozzáadásakor minden megfelelően működik-e.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
@@ -116,7 +116,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.12. Jelszó módosítás
 - **Azonosító:** TP-12
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC-02, TC-03, TC-04, TC-05, TC-06
 - **Leírás:** Teszteljük, hogy ha a felhasználó megváltoztatja a jelszavát, akkor a változások helyesen módosulnak-e a rendszerben.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
