@@ -320,3 +320,11 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: '' jelszót adtam meg.
     4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
     5. lépés: az alkalmazás figyelmeztet arról, hogy minden mező kitöltése kötelező.
+
+#### 3.12.3. TR-03 (TC-03)
+- **TP:** TP-12
+    1. lépés: 'nemcsigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cicamica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy helytelen jelenlegi jelszót adtam meg.
