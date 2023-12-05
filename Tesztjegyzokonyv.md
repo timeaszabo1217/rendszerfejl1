@@ -328,3 +328,11 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: 'cicamica' jelszót adtam meg.
     4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
     5. lépés: az alkalmazás figyelmeztet arról, hogy helytelen jelenlegi jelszót adtam meg.
+
+#### 3.12.2. TR-04 (TC-04)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'csigabiga' jelszót adtam meg.
+    3. lépés: 'csigabiga' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem lehet ugyanaz, mint a jelenlegi.
