@@ -14,6 +14,7 @@ router.get("/admin", userAuth, async (req, res) => {
   const token = req.cookies.jwt;
 
   var current_role;
+  let bookings = await new BookingDAO().getBookings();
 
   if (token) {
     jwt.verify(token, jwtSecret, (err, decodedToken) => {
@@ -26,10 +27,10 @@ router.get("/admin", userAuth, async (req, res) => {
       message: "Ehhez nincs jogosultságod."
     });
   }else{
-      const appointments = BookingDAO.getBookings();
       res.render("admin", {
-          current_role: current_role, appointments
-        });
+          current_role: current_role,
+          bookings: bookings
+      });
   }
 });
 
