@@ -34,5 +34,3 @@ app.listen(PORT, () => {
 schedule.scheduleJob("10 3 * * *", () => {
   backupService.createBackup();
 });
-
-module.exports = app;
