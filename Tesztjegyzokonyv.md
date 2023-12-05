@@ -351,7 +351,10 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Bemenet:** A /admin oldal elérése, bejelentkezett, "felhasználó" jogosultságú fiókkal.
 - **Elvárt kimenet:** Átirányítás a hiba oldalra, "Ehhez nincs jogosultságod" hibaüzenettel.
 
-
+#### 2.13.2. TC-02
+- **TP:** TP-13
+- **Bemenet:** A /booking oldal elérése, bejelentkezett, "felhasználó" jogosultságú fiókkal.
+- **Elvárt kimenet:** Az időpontfoglaló felület megjelenítése.
 
 
 
