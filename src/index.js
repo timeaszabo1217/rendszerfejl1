@@ -26,6 +26,8 @@ app.use(routeUser);
 app.use(routeNotification);
 app.use(routeProfile);
 app.use(routeAdmin);
+app.use('/profile', routeProfile);
+app.use('/profile/edit/password', routeProfile);
 
 app.listen(PORT, () => {
   console.log("App listening at: http://localhost:8080/");

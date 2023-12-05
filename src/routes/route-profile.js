@@ -16,7 +16,6 @@ router.get("/profile", userAuth, async (req, res) => {
   var current_role;
   var current_email;
   var current_username;
-  var current_role;
   var current_userid;
 
   if (token) {
@@ -50,7 +49,7 @@ router.post("/profile/edit/data", async (req, res) => {
     const user = await new UserDAO().getUserByEmail(current_email);
   
     if (!user) {
-      return res.status(302).render("error", {
+      return res.status(401).render("error", {
         message: "Nincs ilyen felhasználó."
       });
     } else {
@@ -95,7 +94,7 @@ router.post("/profile/edit/password", async (req, res) => {
         const user = await new UserDAO().getUserByEmail(current_email);
   
         if (!user) {
-          return res.status(302).render("error", {
+          return res.status(401).render("error", {
             message: "Nincs ilyen felhasználó."
           });
         } else {
@@ -146,7 +145,7 @@ router.post("/profile/edit/delete", async (req, res) => {
     const user = await new UserDAO().getUserByEmail(current_email);
   
     if (!user) {
-      return res.status(302).render("error", {
+      return res.status(401).render("error", {
         message: "Nincs ilyen felhasználó."
       });
     } else {
