@@ -37,6 +37,28 @@
         <div class="lesson-content">
           <h3>Lefoglalt időpontok</h3>
           <hr />
+          <table>
+            <thead>
+              <tr>
+                <th>Időpont</th>
+                <th>Lefoglaló</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <% for (var i=0; i < appointments.length; i++) { %>
+                  <% if(appointments[i].booked){ %>
+                  <td>
+                    <%= appointments[i].booking_date %>
+                  </td>
+                  <td>
+                    <%= appointments[i].user_id %>
+                  </td>
+                  <% }%>
+              </tr>
+              <% } %>
+            </tbody>
+          </table>
         </div>
       </div>
     </main>

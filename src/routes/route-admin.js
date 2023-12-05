@@ -26,8 +26,9 @@ router.get("/admin", userAuth, async (req, res) => {
       message: "Ehhez nincs jogosultságod."
     });
   }else{
+      const appointments = BookingDAO.getBookings();
       res.render("admin", {
-          current_role: current_role,
+          current_role: current_role, appointments
         });
   }
 });
