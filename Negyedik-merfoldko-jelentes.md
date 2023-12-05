@@ -87,3 +87,37 @@ Vállalásaim a mérföldkőben:
      - 1d118c4aa4fe34a5e0dd3a4651856f7819092a6e
      - e69904d535b2a92b030b3c1465faaaad5daa40ab
     
+### Projekt tag: `Durucz Ádám`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.4.2. Javított mínőségű prototípus javított funkciókkal
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #85
+     - #84
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
+     - 65c0da6005797abe6a623a50aaf23a2477adef70
+
+- 8.4.2.  Regisztáció funkciók tesztelése (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #100
+     - #103
+     - #102
+     - #101
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 89f4f60f9077bf6219781fbc918e2328235686b9
+     - 8e652672787d58d55311279486a952f9c3ed8311
+     - b61d777ee3dfc7c43668cca72f593207007f7a29
+     - 
+    
