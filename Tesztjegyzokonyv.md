@@ -312,3 +312,11 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: 'cicamica' jelszót adtam meg.
     4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
     5. lépés: az alkalmazás a profil oldalra navigált.
+
+#### 3.12.2. TR-02 (TC-02)
+- **TP:** TP-12
+    1. lépés: '' jelszót adtam meg.
+    2. lépés: '' jelszót adtam meg.
+    3. lépés: '' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy minden mező kitöltése kötelező.
