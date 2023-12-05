@@ -173,6 +173,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
 
+#### 2.2.4. TC-04
+- **TP:** TP-02
+- **Leírás:** Ebben a tesztesetben egy érvényes e-mail címet adunk meg, de a jelszót hagyjuk üresen.
+- **Bemenet:** `E-mail` = Létező regisztrált email-cím `Jelszó` = Üresen hagyjuk.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmeztet, hogy a jelszó mező kitöltése kötelező.
+
+#### 2.2.5. TC-05
+- **TP:** TP-02
+- **Leírás:** Megpróbálunk bejelentkezni egy nem regisztrált e-mail címmel és bármilyen jelszóval.
+- **Bemenet:** `E-mail` = Nem regisztrált e-mail-cím. `Jelszó` = Bármilyen jelszó.
+- **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
+
 ### 2.6. Időpont hozzáadás
 
 #### 2.6.1. TC-01
@@ -220,6 +234,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** A rendszer figyelmezteti a felhasználót, hogy a megadott email-cím már használatban van.
 
+#### 2.11.4. TC-04
+- **TP:** TP-11
+- **Leírás:** A felhasználó csak a felhasználónevet változtatja meg, az email-címet változatlanul hagyja.
+- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Korábbi regisztrált email-cím.
+- **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer frissíti a felhasználó nevét, az email-címet változatlanul hagyva. Az új név megjelenik a Profil oldalon.
+
+#### 2.11.5. TC-05
+- **TP:** TP-11
+- **Leírás:** A felhasználó az email-címet hagyja üresen, de megpróbálja megváltoztatni a nevét.
+- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Üresen hagyjuk.
+- **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmezteti a felhasználót, hogy a kötelező mezőt (e-mail cím) ki kell tölteni.
+
 ### 2.12. Jelszó módosítás
 
 #### 2.12.1. TC-01
@@ -257,6 +285,13 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának és nem egyezik meg a megerősítéssel.
 
+#### 2.12.6. TC-06
+- **TP:** TP-12
+- **Leírás:** A felhasználó olyan megerősítő jelszót ad meg, amely nem egyezik az újonnan megadottal.
+- **Bemenet:** `Jelenlegi jelszó` = Jelenlegi érvényes jelszó. `Új jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jelszó megerősítése` = Tetszőleges bemenet.
+- **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy az új jelszó és annak megerősítésére szolgáló jelszó nem azonos. 
+
 ## 3. Tesztriportok (TR)
 
 ### 3.2. Bejelentkezés
@@ -282,6 +317,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
     4. lépés: Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
 
+#### 3.2.4. TR-04(TC-04)
+- **TP:** TP-02
+    1. lépés: Létező regisztrált email-címet adtam meg.
+    2. lépés: A jelszó mezőt üresen hagytam.
+    3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
+    4. lépés: A rendszer figyelmeztetést adott ki a kötelező mezőkről.
+
+#### 3.2.5. TR-05(TC-05)
+- **TP:** TP-02
+    1. lépés: Nem regisztrált email-címet adtam meg.
+    2. lépés: Bármilyen jelszót adtam meg.
+    3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
+    4. lépés: Az alkalmazás jelzi, hogy a megadott e-mail cím nem regisztrált.
+
 ### 3.11. Név és email-cím módosítás
 
 #### 3.11.1. TR-01(TC-01)
@@ -305,4 +354,68 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: A Mentés gombot egyszer megnyomtam.
     4. lépés: A rendszer figyelmeztett, hogy a megadott email-cím már használatban van.
 
-    
+#### 3.11.4. TR-04(TC-04)
+- **TP:** TP-11
+    1. lépés: Felhasználó által választott új nevet adtam meg.
+    2. lépés: Az email-címet változatlanul hagytam.
+    3. lépés: A Mentés gombot egyszer megnyomtam.
+    4. lépés: A rendszer frissítette a felhasználó nevét.
+    5. lépés: Az új név megjelent a Profil oldalon.
+
+#### 3.11.5. TR-05(TC-05)
+- **TP:** TP-11
+    1. lépés: Felhasználó által választott új nevet adtam meg.
+    2. lépés: Az email-címet üresen hagytam.
+    3. lépés: A Mentés gombot egyszer megnyomtam.
+    4. lépés: A rendszer figyelmeztetett, hogy a kötelező mezőt ki kell tölteni.
+
+### 3.11. Jelszó módosítás
+
+#### 3.12.1. TR-01 (TC-01)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cicamica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás a profil oldalra navigált.
+
+#### 3.12.2. TR-02 (TC-02)
+- **TP:** TP-12
+    1. lépés: '' jelszót adtam meg.
+    2. lépés: '' jelszót adtam meg.
+    3. lépés: '' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy minden mező kitöltése kötelező.
+
+#### 3.12.3. TR-03 (TC-03)
+- **TP:** TP-12
+    1. lépés: 'nemcsigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cicamica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy helytelen jelenlegi jelszót adtam meg.
+
+#### 3.12.2. TR-04 (TC-04)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'csigabiga' jelszót adtam meg.
+    3. lépés: 'csigabiga' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem lehet ugyanaz, mint a jelenlegi.
+
+#### 3.12.5. TR-05 (TC-05)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'asd' jelszót adtam meg.
+    3. lépés: 'asd' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának.
+
+#### 3.12.5. TR-06 (TC-06)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem egyezik meg a megerősítéssel.
+
