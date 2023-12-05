@@ -351,3 +351,12 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: 'asd' jelszót adtam meg.
     4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
     5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának.
+
+#### 3.12.5. TR-06 (TC-06)
+- **TP:** TP-12
+    1. lépés: 'csigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem egyezik meg a megerősítéssel.
+
