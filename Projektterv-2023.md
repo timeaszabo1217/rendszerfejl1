@@ -627,7 +627,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.4.8. Email-es funkciók tesztelése (TR)
+#### 8.4.8. Profil funkciók tesztelése (TR)
 
 Felelős: `Szabó Tímea`
 
