@@ -121,9 +121,16 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
     1. lépés: Navigáljunk az `Profil` oldalra.
-    1. lépés: Írjuk be a megfelelő adatokat a `Jelenlegi jelszó`, `Új jelszó`, és `Jelszó megerősítése` mezőkben.
+    2. lépés: Írjuk be a megfelelő adatokat a `Jelenlegi jelszó`, `Új jelszó`, és `Jelszó megerősítése` mezőkben.
     3. lépés: Kattintsunk a `Jelszó változtatása` gombra, így módosítva a jelszót. _Elvárt eredmény:_ A felhasználó csak az új jelszóval tud bejelentkezni.
 
+### 1.13. Jogosultságellenőrés
+- **Azonosító:** TP-13
+- **Tesztesetek:**
+- **Leírás:** Teszteljük, hogy a felhasználó csak a saját jogosultságának megfelelő oldalakat érheti el.
+
+    0. lépés: Nyissuk meg a weboldalt, jelentkezzünk be.
+    1. lépés: Navigáljunk bármelyik oldalra, akár URL-en keresztül. _Elvárt eredmény:_ Ha eleget tesz a jogosultságunk az oldal elérési feltételeinek, megjelenik az oldal, ha nem, akkor hibaüzenetet kapunk.
 
 ## 2. Tesztesetek (TC)
 
