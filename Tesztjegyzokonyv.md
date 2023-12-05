@@ -344,6 +344,18 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy az új jelszó és annak megerősítésére szolgáló jelszó nem azonos. 
 
+### 2.13. Jogosultságellenőrés
+
+#### 2.13.1. TC-01
+- **TP:** TP-13
+- **Bemenet:** A /admin oldal elérése, bejelentkezett, "felhasználó" jogosultságú fiókkal.
+- **Elvárt kimenet:** Átirányítás a hiba oldalra, "Ehhez nincs jogosultságod" hibaüzenettel.
+
+
+
+
+
+
 ## 3. Tesztriportok (TR)
 
 ### 3.1. Regisztráció
