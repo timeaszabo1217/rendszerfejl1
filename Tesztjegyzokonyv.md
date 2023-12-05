@@ -125,7 +125,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: Kattintsunk a `Jelszó változtatása` gombra, így módosítva a jelszót. _Elvárt eredmény:_ A felhasználó csak az új jelszóval tud bejelentkezni.
 
 
-## 2. Teszesetek (TC)
+## 2. Tesztesetek (TC)
 
 ### 2.1. Regisztráció
 
@@ -193,6 +193,13 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **TP:** TP-03
 - **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
 - **Bemenet:** Belépünk átlag felhasználói fiókkal.
+- **Művelet:** Főoldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
+- **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
+
+#### 2.3.2. TC-02
+- **TP:** TP-03
+- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
+- **Bemenet:** Belépünk admin fiókkal.
 - **Művelet:** Főoldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
