@@ -126,7 +126,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.13. Jogosultságellenőrés
 - **Azonosító:** TP-13
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC-02, TC-03
 - **Leírás:** Teszteljük, hogy a felhasználó csak a saját jogosultságának megfelelő oldalakat érheti el.
 
     0. lépés: Nyissuk meg a weboldalt, jelentkezzünk be.
@@ -569,4 +569,26 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
     5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem egyezik meg a megerősítéssel.
 
+### 3.13. Jogosultságellenőrzés
+
+#### 3.12.1. TR-01 (TC-01)
+- **TP:** TP-13
+    1. lépés: A /admin oldal elérése, bejelentkezett, "Felhasználó" jogosultságú fiókkal.
+    2. lépés: Hibaoldal megjelenítése "Nincs ehhez jogosultságod" üzenettel.
+
+#### 3.12.2. TR-02 (TC-02)
+- **TP:** TP-13
+    1. lépés: '' jelszót adtam meg.
+    2. lépés: '' jelszót adtam meg.
+    3. lépés: '' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy minden mező kitöltése kötelező.
+
+#### 3.12.3. TR-03 (TC-03)
+- **TP:** TP-13
+    1. lépés: 'nemcsigabiga' jelszót adtam meg.
+    2. lépés: 'cicamica' jelszót adtam meg.
+    3. lépés: 'cicamica' jelszót adtam meg.
+    4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
+    5. lépés: az alkalmazás figyelmeztet arról, hogy helytelen jelenlegi jelszót adtam meg.
 
