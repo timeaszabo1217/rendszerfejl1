@@ -536,6 +536,12 @@ Erőforrásigény:  `1 személynap`
 #### 8.3.17. Admin oldal kivitelezése
 #### 8.3.18. Profil oldal kivitelezése
 
+Felelős: `Kiss Csaba`
+
+Tartam:  `5 nap`
+
+Erőforrásigény:  `2 személynap`
+
 #### 8.3.19. Időpont foglaló oldal kivitelezése
 
 Felelős: `Nagy Péter`

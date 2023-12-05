@@ -122,4 +122,39 @@ Vállalásaim a mérföldkőben:
      - 1a0522330ac695aa63d8310eccabf769bfa583eb
      - 4aeb26dd3c2a4cb65d5a4dd51be98d21e17a68d9
      - 9eecf5ed33d4a5e2d5253700d6ee551c93849960
-    
+
+### Projekt tag: `Kiss Csaba`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.4.2. Javított mínőségű prototípus javított funkciókkal
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #85
+     - #84
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
+     - 65c0da6005797abe6a623a50aaf23a2477adef70
+
+- 8.4.2.  Regisztáció funkciók tesztelése (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #100
+     - #103
+     - #102
+     - #101
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 89f4f60f9077bf6219781fbc918e2328235686b9
+     - 8e652672787d58d55311279486a952f9c3ed8311
+     - b61d777ee3dfc7c43668cca72f593207007f7a29
+     - 1a0522330ac695aa63d8310eccabf769bfa583eb
+     - 4aeb26dd3c2a4cb65d5a4dd51be98d21e17a68d9
+     - 9eecf5ed33d4a5e2d5253700d6ee551c93849960
