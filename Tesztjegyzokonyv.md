@@ -234,6 +234,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** A rendszer figyelmezteti a felhasználót, hogy a megadott email-cím már használatban van.
 
+#### 2.11.4. TC-04
+- **TP:** TP-11
+- **Leírás:** A felhasználó csak a felhasználónevet változtatja meg, az email-címet változatlanul hagyja.
+- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Korábbi regisztrált email-cím.
+- **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer frissíti a felhasználó nevét, az email-címet változatlanul hagyva. Az új név megjelenik a Profil oldalon.
+
+#### 2.11.5. TC-05
+- **TP:** TP-11
+- **Leírás:** A felhasználó az email-címet hagyja üresen, de megpróbálja megváltoztatni a nevét.
+- **Bemenet:** `Név` = Felhasználó által választott új név `E-mail` = Üresen hagyjuk.
+- **Művelet:** A `Mentés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A rendszer figyelmezteti a felhasználót, hogy a kötelező mezőt (e-mail cím) ki kell tölteni.
+
 ### 2.12. Jelszó módosítás
 
 #### 2.12.1. TC-01
@@ -339,6 +353,21 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     2. lépés: Már létező másik felhasználó regisztrált email-címét adtam meg.
     3. lépés: A Mentés gombot egyszer megnyomtam.
     4. lépés: A rendszer figyelmeztett, hogy a megadott email-cím már használatban van.
+
+#### 3.11.4. TR-04(TC-04)
+- **TP:** TP-11
+    1. lépés: Felhasználó által választott új nevet adtam meg.
+    2. lépés: Az email-címet változatlanul hagytam.
+    3. lépés: A Mentés gombot egyszer megnyomtam.
+    4. lépés: A rendszer frissítette a felhasználó nevét.
+    5. lépés: Az új név megjelent a Profil oldalon.
+
+#### 3.11.5. TR-05(TC-05)
+- **TP:** TP-11
+    1. lépés: Felhasználó által választott új nevet adtam meg.
+    2. lépés: Az email-címet üresen hagytam.
+    3. lépés: A Mentés gombot egyszer megnyomtam.
+    4. lépés: A rendszer figyelmeztetett, hogy a kötelező mezőt ki kell tölteni.
 
 ### 3.11. Jelszó módosítás
 
