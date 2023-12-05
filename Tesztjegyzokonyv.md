@@ -257,6 +257,13 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy az új jelszó nem felel meg a minimális karakterhossz elvárásának és nem egyezik meg a megerősítéssel.
 
+#### 2.12.6. TC-06
+- **TP:** TP-12
+- **Leírás:** A felhasználó olyan megerősítő jelszót ad meg, amely nem egyezik az újonnan megadottal.
+- **Bemenet:** `Jelenlegi jelszó` = Jelenlegi érvényes jelszó. `Új jelszó` = A jelszónak legalább négy karakterből kell állnia. `Jelszó megerősítése` = Tetszőleges bemenet.
+- **Művelet:** A `Jelszó változtatása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az alkalmazás figyelmeztet, hogy az új jelszó és annak megerősítésére szolgáló jelszó nem azonos. 
+
 ## 3. Tesztriportok (TR)
 
 ### 3.2. Bejelentkezés
