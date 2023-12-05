@@ -97,7 +97,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.10. Fiók törlése
 - **Azonosító:** TP-10
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC-02, TC-03
 - **Leírás:** Ellenőrizzük, hogy a felhasználók képesek-e magukat törölni a rendszerből.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
@@ -233,6 +233,14 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az újonnan hozzáadott időpont megjelenik a törlés legördülő menüben.
 
+### 2.11. Fiók törlése
+
+#### 2.10.1. TC-01
+- **TP:** TP-10
+- **Leírás:** Felhasználó esetében akarjuk ellenőrízni, hogy tudja-e törölni a fiókját.
+- **Bemenet:** Bejelentkezünk átlag felhasználóval.
+- **Művelet:** Navigálunk a Profil oldalra és a `Törlés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A főoldalra irányít a fiók és törli a felhasználót.
 
 ### 2.11. Név és email-cím módosítás
 
