@@ -129,32 +129,34 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.2. Javított mínőségű prototípus javított funkciókkal
+- 8.4.3. Javított minőségű prototípus a korábbi hiányzó        funkciókkal
 
     ##### A feladathoz tartozó issue(k):
 
-     - #85
-     - #84
+     - #104
+     - #105
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
-     - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
-     - 65c0da6005797abe6a623a50aaf23a2477adef70
+     - 896b3517b66c9768c4b8311110ac850e281aaf37
+     - be7485bcd5cdabea9589e5191b243c23585242f7
+     - 5e9f0012648b7c93ce8c7032da561c6457f17e1c
+     - 34f0a8a985c04a46aa7164020c3a55af039b3330
 
-- 8.4.2.  Regisztáció funkciók tesztelése (TR)
+- 8.4.12. Jogosultságellenőrzés tesztelése
 
     ##### A feladathoz tartozó issue(k):
 
-     - #100
-     - #103
-     - #102
-     - #101
+     - #108
+     - #107
+     - #106
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
-     - 89f4f60f9077bf6219781fbc918e2328235686b9
-     - 8e652672787d58d55311279486a952f9c3ed8311
-     - b61d777ee3dfc7c43668cca72f593207007f7a29
-     - 1a0522330ac695aa63d8310eccabf769bfa583eb
-     - 4aeb26dd3c2a4cb65d5a4dd51be98d21e17a68d9
-     - 9eecf5ed33d4a5e2d5253700d6ee551c93849960
+     - 95af4a80c248d13253fa146ac681663c977b85b8
+     - 91f991b70197cd47ac9d8d2b114d7c8f9efd67e4
+     - f3d85f690378616664f9fdf57afa3f742ce65c0a
+     - 80fd6bdd7aa645fca90158dcd55fc187994634a1
+     - a74d48e7c960dd51a8d111e3486934bd9acfea72
+     - 925535eeb010a99195f17376736830f0b6c150d3
+     - 0ddcf972dac0c5eec3dc8ec90e3445abc3a4b555

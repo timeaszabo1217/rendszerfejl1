@@ -665,6 +665,14 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
+#### 8.4.12. Jogosultságellenőrzés tesztelése
+
+Felelős: `Kiss Csaba`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `2 személynap`
+
 ```
 Működő végleges program, a frissített tesztelési dokumentációval. A 3. mérföldkőhöz képest funkiconálisan többet kell tudnia az oldalnak.
 
