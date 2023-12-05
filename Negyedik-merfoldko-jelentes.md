@@ -18,6 +18,7 @@ Vállalásaim a mérföldkőben:
     ##### A feladat elvégzését alátámasztó commit(ok):
 
      - 8ea1f418ddca37abf954cd10e807d94352e73851
+     - 9d839e875dbac7982251d5b3d7d048ba75b68cf4
      - 67f36dc34f292f7fb44d45d8ddad8e1d145a3fe1
      - b7f96a031f3aa1eb8489eecf9c8fa8d0eade4fa4
 
@@ -26,11 +27,16 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
      - #91
-     - #93
      - #98
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
+     - 903f101d3ce96040008c5861d7dce08e445c27dd
+     - 4805d67c12d9303ecdaeee696b240767bba64a42
+     - d7fc486e636b30f70092dd2dfcd57805eb2d3186
+     - ced0897faa76ec8137fe1f75f5e293e6f7e61826
+     - 33ec911c3f807c32bfeeb34385b80b5a2cd96060
+     - 6c5fccbd82187187b98c34f2b7945a825508c47d
      - 75570dc4b381570c63a0a8bda9aedbba24227d1d
 
 
