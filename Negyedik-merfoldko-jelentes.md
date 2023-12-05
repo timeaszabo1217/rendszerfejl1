@@ -19,6 +19,7 @@ Vállalásaim a mérföldkőben:
 
      - 8ea1f418ddca37abf954cd10e807d94352e73851
      - 67f36dc34f292f7fb44d45d8ddad8e1d145a3fe1
+     - b7f96a031f3aa1eb8489eecf9c8fa8d0eade4fa4
 
 - 8.4.8. Profil funkciók tesztelése (TR)
 
