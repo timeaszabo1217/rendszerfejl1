@@ -355,7 +355,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     2. lépés: A `E-mail` mező bemenet: ''
     3. lépés: 'A `Jelszó` mező bemenet: ''
     4. lépés: A `Regisztráció` gombot megnyomtam.
-    5. lépés: A regisztráció sikertelen, tovább az alkalmazás jelezte, hogy az e-mail megadása kötelező.
+    5. lépés: A regisztráció sikertelen, továbbá az alkalmazás jelezte, hogy az e-mail megadása kötelező.
 
 #### 3.1.3. TR-02 (TC-03)
 - **TP:** TP-2
@@ -363,7 +363,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     2. lépés: A `E-mail` mező bemenet: 'adam@adam.hu'
     3. lépés: 'A `Jelszó` mező bemenet: 'kiscica12'
     4. lépés: A `Regisztráció` gombot megnyomtam.
-    5. lépés: A regisztráció sikertelen, tovább az alkalmazás jelezte, hogy a megadott email-cím már használatban van.
+    5. lépés: A regisztráció sikertelen, továbbá az alkalmazás jelezte, hogy a megadott email-cím már használatban van.
 
 ### 3.2. Bejelentkezés
 
