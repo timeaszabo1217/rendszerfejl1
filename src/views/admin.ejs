@@ -37,6 +37,7 @@
         <div class="lesson-content">
           <h3>Lefoglalt időpontok</h3>
           <hr />
+        <div class="profile-container">
           <table>
             <thead>
               <tr>
@@ -52,13 +53,16 @@
                     <%= bookings[i].booking_date %>
                   </td>
                   <td>
-                    <%= bookings[i].user_id %>
+                    <% users.forEach(user => { %>
+                      <% if(user.user_id == bookings[i].user_id) { %><%= user.user_username %><% } %>
+                    <% }); %>
                   </td>
                   <% }%>
               </tr>
               <% } %>
             </tbody>
           </table>
+        </div>
         </div>
       </div>
     </main>

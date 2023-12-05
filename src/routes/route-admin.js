@@ -15,6 +15,7 @@ router.get("/admin", userAuth, async (req, res) => {
 
   var current_role;
   let bookings = await new BookingDAO().getBookings();
+  const users = await new UserDAO().getUsers();
 
   if (token) {
     jwt.verify(token, jwtSecret, (err, decodedToken) => {
@@ -29,7 +30,8 @@ router.get("/admin", userAuth, async (req, res) => {
   }else{
       res.render("admin", {
           current_role: current_role,
-          bookings: bookings
+          bookings: bookings,
+          users: users
       });
   }
 });
