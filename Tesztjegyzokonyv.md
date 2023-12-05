@@ -339,6 +339,16 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ## 3. Tesztriportok (TR)
 
+### 3.1. Regisztráció
+
+#### 3.1.1. TR-01 (TC-01)
+- **TP:** TP-2
+    1. lépés: A `Név` mező bemenet: 'Adam'
+    2. lépés: A `E-mail` mező bemenet: 'adam@adam.hu'
+    3. lépés: 'A `Jelszó` mező bemenet: 'adam'
+    4. lépés: A `Regisztráció` gombot megnyomtam.
+    5. lépés: Az alkalmazás a kezdőlapra navigált, ahol a munkamenet elkezdődött.
+
 ### 3.2. Bejelentkezés
 
 #### 3.2.1. TR-01(TC-01)
@@ -517,4 +527,5 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: 'cica' jelszót adtam meg.
     4. lépés: a Jelszó módosítása gombot egyszer megnyomtam.
     5. lépés: az alkalmazás figyelmeztet arról, hogy az új jelszó nem egyezik meg a megerősítéssel.
+
 
