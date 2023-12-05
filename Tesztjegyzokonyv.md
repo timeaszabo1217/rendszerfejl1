@@ -349,6 +349,14 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: A `Regisztráció` gombot megnyomtam.
     5. lépés: Az alkalmazás a kezdőlapra navigált, ahol a munkamenet elkezdődött.
 
+#### 3.1.2. TR-02 (TC-02)
+- **TP:** TP-2
+    1. lépés: A `Név` mező bemenet: ''
+    2. lépés: A `E-mail` mező bemenet: ''
+    3. lépés: 'A `Jelszó` mező bemenet: ''
+    4. lépés: A `Regisztráció` gombot megnyomtam.
+    5. lépés: A regisztráció sikertelen, tovább az alkalmazás jelzi, hogy az e-mail megadása kötelező.
+
 ### 3.2. Bejelentkezés
 
 #### 3.2.1. TR-01(TC-01)
