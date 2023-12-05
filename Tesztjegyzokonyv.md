@@ -203,7 +203,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Főoldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
-#### 2.3.3. TC-02
+#### 2.3.3. TC-03
 - **TP:** TP-03
 - **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
 - **Bemenet:** Belépünk admin fiókkal.
@@ -353,6 +353,34 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     2. lépés: Bármilyen jelszót adtam meg.
     3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
     4. lépés: Az alkalmazás jelzi, hogy a megadott e-mail cím nem regisztrált.
+
+### 3.2. Kijelentkezés
+
+#### 3.2.1. TR-01(TC-01)
+- **TP:** TP-02
+    1. lépés: Belépünk átlag felhasználói fiókkal.
+    2. lépés: Rávisszük az egeret a profil fülre.
+    3. lépés: A Kijelentkezés gombot egyszer megnyomtam.
+    4. lépés: Az alkalmazás a főoldalra navigált.
+    5. lépés: A munkamenet sikeresen bezárt.
+
+    #### 3.2.2. TR-02(TC-02)
+- **TP:** TP-02
+    1. lépés: Belépünk admin fiókkal.
+    2. lépés: Rávisszük az egeret a profil fülre.
+    3. lépés: A Kijelentkezés gombot egyszer megnyomtam.
+    4. lépés: Az alkalmazás a főoldalra navigált.
+    5. lépés: A munkamenet sikeresen bezárt.
+
+    #### 3.2.3. TR-03(TC-03)
+- **TP:** TP-02
+    1. lépés: Belépünk admin fiókkal.
+    2. lépés: Rávisszük az egeret a profil fülre.
+    3. lépés: Felmérések oldalra átlépünk.
+    4. lépés: A Kijelentkezés gombot egyszer megnyomtam.
+    5. lépés: Az alkalmazás a főoldalra navigált.
+    6. lépés: A munkamenet sikeresen bezárt.
+
 
 ### 3.11. Név és email-cím módosítás
 
