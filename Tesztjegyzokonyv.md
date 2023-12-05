@@ -376,9 +376,9 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: A Bejelentkezés gombot egyszer megnyomtam.
     4. lépés: Az alkalmazás jelzi, hogy a megadott e-mail cím nem regisztrált.
 
-### 3.2. Kijelentkezés
+### 3.3. Kijelentkezés
 
-#### 3.2.1. TR-01(TC-01)
+#### 3.3.1. TR-01(TC-01)
 - **TP:** TP-02
     1. lépés: Belépünk átlag felhasználói fiókkal.
     2. lépés: Rávisszük az egeret a profil fülre.
@@ -386,7 +386,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: Az alkalmazás a főoldalra navigált.
     5. lépés: A munkamenet sikeresen bezárt.
 
-#### 3.2.2. TR-02(TC-02)
+#### 3.3.2. TR-02(TC-02)
 - **TP:** TP-02
     1. lépés: Belépünk admin fiókkal.
     2. lépés: Rávisszük az egeret a profil fülre.
@@ -394,7 +394,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: Az alkalmazás a főoldalra navigált.
     5. lépés: A munkamenet sikeresen bezárt.
 
-#### 3.2.3. TR-03(TC-03)
+#### 3.3.3. TR-03(TC-03)
 - **TP:** TP-02
     1. lépés: Belépünk admin fiókkal.
     2. lépés: Rávisszük az egeret a profil fülre.
