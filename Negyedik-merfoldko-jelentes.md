@@ -38,6 +38,7 @@ Vállalásaim a mérföldkőben:
      - 33ec911c3f807c32bfeeb34385b80b5a2cd96060
      - 6c5fccbd82187187b98c34f2b7945a825508c47d
      - 75570dc4b381570c63a0a8bda9aedbba24227d1d
+     - bb579c323225450c34918b95c1dd9c7133fe4996
 
 
 ### Projekt tag: `Nagy Péter`
