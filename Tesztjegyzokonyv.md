@@ -519,7 +519,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: A Mentés gombot egyszer megnyomtam.
     4. lépés: A rendszer figyelmeztetett, hogy a kötelező mezőt ki kell tölteni.
 
-### 3.11. Jelszó módosítás
+### 3.12. Jelszó módosítás
 
 #### 3.12.1. TR-01 (TC-01)
 - **TP:** TP-12
@@ -571,17 +571,17 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 3.13. Jogosultságellenőrzés
 
-#### 3.12.1. TR-01 (TC-01)
+#### 3.13.1. TR-01 (TC-01)
 - **TP:** TP-13
     1. lépés: A /admin oldal elérése, bejelentkezett, "Felhasználó" jogosultságú fiókkal.
     2. lépés: Hibaoldal megjelenítése "Nincs ehhez jogosultságod" üzenettel.
 
-#### 3.12.2. TR-02 (TC-02)
+#### 3.13.2. TR-02 (TC-02)
 - **TP:** TP-13
     1. lépés: A /booking oldal elérése, bejelentkezett, "Felhasználó" jogosultságú fiókkal.
     2. lépés: Be vagyunk jelentkezve, van, eleget tesz a jogosultságunk, tehát az "időpont foglalása" oldal megjelítése.
 
-#### 3.12.3. TR-03 (TC-03)
+#### 3.13.3. TR-03 (TC-03)
 - **TP:** TP-13
     1. lépés: A /admin/appointments oldal elérése, bejelentkezett, "Admin" jogosultságú fiókkal.
     2. lépés: Be vagyunk jelentkezve, van, eleget tesz a jogosultságunk, tehát az "időpontok szerkesztése" oldal megjelítése.
