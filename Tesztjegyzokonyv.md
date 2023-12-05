@@ -348,15 +348,18 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 #### 2.13.1. TC-01
 - **TP:** TP-13
-- **Bemenet:** A /admin oldal elérése, bejelentkezett, "felhasználó" jogosultságú fiókkal.
+- **Bemenet:** A /admin oldal elérése, bejelentkezett, "Felhasználó" jogosultságú fiókkal.
 - **Elvárt kimenet:** Átirányítás a hiba oldalra, "Ehhez nincs jogosultságod" hibaüzenettel.
 
 #### 2.13.2. TC-02
 - **TP:** TP-13
-- **Bemenet:** A /booking oldal elérése, bejelentkezett, "felhasználó" jogosultságú fiókkal.
+- **Bemenet:** A /booking oldal elérése, bejelentkezett, "Felhasználó" jogosultságú fiókkal.
 - **Elvárt kimenet:** Az időpontfoglaló felület megjelenítése.
 
-
+#### 2.13.2. TC-03
+- **TP:** TP-13
+- **Bemenet:** A /admin/appointments oldal elérése, bejelentkezett, "Admin" jogosultságú fiókkal.
+- **Elvárt kimenet:** Az adminfelületen belül az időpontok szerkesztésére szolgáló felület megjelenítése.
 
 
 ## 3. Tesztriportok (TR)
