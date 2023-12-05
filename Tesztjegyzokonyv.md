@@ -31,7 +31,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.3. Kijelentkezés
 - **Azonosító:** TP-03
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC02, TC-03
 - **Leírás:** Ellenőrizzük, hogy a kijelentkezési folyamat megfelelően megszakítja-e a munkamenetet és törli a felhasználói adatokat a kliens oldalról, biztosítva a biztonságos kijelentkezést.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be.
@@ -186,6 +186,15 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Bemenet:** `E-mail` = Nem regisztrált e-mail-cím. `Jelszó` = Bármilyen jelszó.
 - **Művelet:** A `Bejelentkezés` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az alkalmazás jelzi, hogy a bejelentkezés sikertelen volt.
+
+### 2.3. Kijelentkezés
+
+#### 2.3.1. TC-01
+- **TP:** TP-03
+- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
+- **Bemenet:** Belépünk átlag felhasználói fiókkal.
+- **Művelet:** Főoldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
+- **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
 ### 2.6. Időpont hozzáadás
 
