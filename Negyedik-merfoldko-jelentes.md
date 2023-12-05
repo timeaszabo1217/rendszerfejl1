@@ -26,10 +26,11 @@ Vállalásaim a mérföldkőben:
 
      - #91
      - #93
+     - #98
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
-     - 
+     - 75570dc4b381570c63a0a8bda9aedbba24227d1d
 
 
 ### Projekt tag: `Nagy Péter`
