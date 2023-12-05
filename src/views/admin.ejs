@@ -54,7 +54,7 @@
                   </td>
                   <td>
                     <% users.forEach(user => { %>
-                      <% if(user.user_id == bookings[i].user_id) { %><%= user.user_username %><% } %>
+                      <% if(user.user_id == bookings[i].user_id) { %><%= user.user_username %> (<%= user.user_email %>)<% } %>
                     <% }); %>
                   </td>
                   <% }%>
