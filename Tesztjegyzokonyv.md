@@ -191,21 +191,21 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 #### 2.3.1. TC-01
 - **TP:** TP-03
-- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
+- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket, ha felhasználói fiókot használunk.
 - **Bemenet:** Belépünk átlag felhasználói fiókkal.
 - **Művelet:** Főoldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
 #### 2.3.2. TC-02
 - **TP:** TP-03
-- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
+- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket, ha admin fiókot használunk.
 - **Bemenet:** Belépünk admin fiókkal.
 - **Művelet:** Főoldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
 #### 2.3.3. TC-03
 - **TP:** TP-03
-- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket.
+- **Leírás:** Ellenőrizzük, hogy valósan kijelentkezik-e a felhasználó és minden esetben a kezdőoldalra dob-e minket, ha admin fiókot használunk, de a Felmérések oldaláról próbálunk kijelentkezni a Főoldal helyett.
 - **Bemenet:** Belépünk admin fiókkal.
 - **Művelet:** Felmérések oldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
@@ -233,14 +233,28 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az újonnan hozzáadott időpont megjelenik a törlés legördülő menüben.
 
-### 2.11. Fiók törlése
+### 2.10. Fiók törlése
 
 #### 2.10.1. TC-01
 - **TP:** TP-10
 - **Leírás:** Felhasználó esetében akarjuk ellenőrízni, hogy tudja-e törölni a fiókját.
 - **Bemenet:** Bejelentkezünk átlag felhasználóval.
 - **Művelet:** Navigálunk a Profil oldalra és a `Törlés` gomb megnyomásával elküldjük a formot.
-- **Elvárt kimenet:** A főoldalra irányít a fiók és törli a felhasználót.
+- **Elvárt kimenet:** A főoldalra irányít és törli a fiókot.
+
+#### 2.10.2. TC-02
+- **TP:** TP-10
+- **Leírás:** Átlag felhasználó esetében akarjuk ellenőrízni, hogy tudja-e törölni a fiókját, de ebben az esetben nem a kezdő oldalról próbáljuk elérni, hanem a Felmérések oldalról.
+- **Bemenet:** Bejelentkezünk átlag felhasználóval.
+- **Művelet:** Átkattintunk a Felmérések oldalra, onnan navigálunk a Profil oldalra és a `Törlés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A főoldalra irányít és törli a fiókot.
+
+#### 2.10.3. TC-03
+- **TP:** TP-10
+- **Leírás:** Felhasználó esetében akarjuk ellenőrízni, hogy tudja-e törölni a fiókját, de ebben az esetben nem a kezdő oldalról próbáljuk elérni, hanem a Leckék oldalról.
+- **Bemenet:** Bejelentkezünk átlag felhasználóval.
+- **Művelet:** Átkattintunk a Leckék oldalra, onnan navigálunk a Profil oldalra és a `Törlés` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** A főoldalra irányít és törli a fiókot.
 
 ### 2.11. Név és email-cím módosítás
 
@@ -372,7 +386,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: Az alkalmazás a főoldalra navigált.
     5. lépés: A munkamenet sikeresen bezárt.
 
-    #### 3.2.2. TR-02(TC-02)
+#### 3.2.2. TR-02(TC-02)
 - **TP:** TP-02
     1. lépés: Belépünk admin fiókkal.
     2. lépés: Rávisszük az egeret a profil fülre.
@@ -380,7 +394,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: Az alkalmazás a főoldalra navigált.
     5. lépés: A munkamenet sikeresen bezárt.
 
-    #### 3.2.3. TR-03(TC-03)
+#### 3.2.3. TR-03(TC-03)
 - **TP:** TP-02
     1. lépés: Belépünk admin fiókkal.
     2. lépés: Rávisszük az egeret a profil fülre.
@@ -389,6 +403,32 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     5. lépés: Az alkalmazás a főoldalra navigált.
     6. lépés: A munkamenet sikeresen bezárt.
 
+### 3.10. Fiók törlése
+
+#### 3.10.1. TR-01(TC-01)
+- **TP:** TP-10
+    1. lépés: Belépünk felhasználói fiókkal.
+    2. lépés: Rámegyünk profil ikon felső Profil nevű fülére.
+    3. lépés: Rákattintunk egyszer a Fiók törlése gombra.
+    4. lépés: Az alkalmazás a főoldalra navigált.
+    5. lépés: A fiók sikeresen törölve.
+
+#### 3.10.2. TR-02(TC-02)
+- **TP:** TP-10
+    1. lépés: Belépünk felhasználói fiókkal.
+    2. lépés: Átkattintunk a Felmérések oldalra.
+    3. lépés: Rámegyünk profil ikon felső Profil nevű fülére.
+    4. lépés: Rákattintunk egyszer a Fiók törlése gombra.
+    5. lépés: Az alkalmazás a főoldalra navigált.
+    6. lépés: A fiók sikeresen törölve.
+#### 3.10.2. TR-02(TC-02)
+- **TP:** TP-10
+    1. lépés: Belépünk felhasználói fiókkal.
+    2. lépés: Átkattintunk a Leckék oldalra.
+    3. lépés: Rámegyünk profil ikon felső Profil nevű fülére.
+    4. lépés: Rákattintunk egyszer a Fiók törlése gombra.
+    5. lépés: Az alkalmazás a főoldalra navigált.
+    6. lépés: A fiók sikeresen törölve.    
 
 ### 3.11. Név és email-cím módosítás
 
