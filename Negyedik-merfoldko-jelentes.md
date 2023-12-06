@@ -200,7 +200,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.13. Időpont Hozzáadása tesztelés (TR)
+- 8.4.9. Időpont Hozzáadása tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -218,7 +218,8 @@ Vállalásaim a mérföldkőben:
      - 3071f2cca3ac9063a8e3a3f7b60bf4e52fa47be5
      - 1fc8b76ea60e5237f777a066e08e109840128037
      - e1bf3f892534be951ffd2de27da8308608178efd
-     
+
+- 8.4.20. A webalkalmazás kitelepítése
 
 
 ### Projekt tag: `Veszeli Karina`
