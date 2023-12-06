@@ -227,7 +227,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.14. Időpont Törlése tesztelés(TR)
+- 8.4.10. Időpont Törlése tesztelés(TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -243,5 +243,16 @@ Vállalásaim a mérföldkőben:
 
 
 
-- 8.4.20. Fiók Törlése(TR)
+- 8.4.16. Fiók Törlése(TR) - Admin oldal
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #111
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+     - 19050ad934380f2a874c39ce36ce7c428d86f25b
+     - 74efff61347cbd854eeb04833e4944fd502a8257
+     - a2dd7cee720235c7bf4439f420790086d49c7157
+     - 6ae8ffbab90840866da22cece3cdb12c44a4fa3a
+
 
