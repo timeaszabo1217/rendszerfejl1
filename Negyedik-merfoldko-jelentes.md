@@ -160,3 +160,35 @@ Vállalásaim a mérföldkőben:
      - a74d48e7c960dd51a8d111e3486934bd9acfea72
      - 925535eeb010a99195f17376736830f0b6c150d3
      - 0ddcf972dac0c5eec3dc8ec90e3445abc3a4b555
+
+### Projekt tag: `Juhász ferenc`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.4.8. Profil funkciók tesztelése(Kijelentkezés)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #89
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 46bbdd098f6611ae716972dc1ab22eec14539eaa
+     - c7a9745e4b1d644506716bc0706333eb88fea112
+     - 50a49907924a97383aee056be8f661ec8ad2a37b
+     - 874b155eedfd85ccac4d1b53e81123deb5c74ebf
+
+- 8.4.4. Felhasználói munkamanet tesztelése(Törlés)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #88
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - bba364f9ad4460f77fab1a2b5eec64fefceee140
+     - 1bad0208f002d28baf95346879c04f18f55f8402
+     - 577f35021744e9cbd037b3b70cc17c370b998cb3
+     - 59d69fd1052538807d55a5851a68305bbc2a7563
