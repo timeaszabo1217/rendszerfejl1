@@ -300,12 +300,26 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Szabó Tímea`
 
-Tartam:  `4 nap`
+Tartam:  ` nap`
 
 Erőforrásigény:  `0.5 személynap`
 
 #### 8.1.6. Jelentések
+
+Felelős: `Juhász Ferenc`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 #### 8.1.7. A munka tartalma
+
+Felelős: `Kiss Csaba`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 #### 8.1.8. Feladatlista
 
 Felelős: `Nagy Péter`
@@ -315,7 +329,20 @@ Tartam:  `4 nap`
 Erőforrásigény:  `1 személynap`
 
 #### 8.1.9. Részletes időbeosztás
+
+Felelős: `Veszeli Karina`
+
+Tartam:  `5 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 #### 8.1.10. Projekt költségvetés
+
+Felelős: `Durucz Ádám`
+
+Tartam:  `3 nap`
+
+Erőforrásigény:  `0.5 személynap`
 
 #### 8.1.11. Projektterv kitöltése
 
@@ -332,10 +359,6 @@ Felelős: `Urbán Judit`
 Tartam:  `5 nap`
 
 Erőforrásigény:  `1 személynap`
-
-```
-A mérföldkőhöz tartozó feladatok bemutatása, pl. téma, tervezett funkciók, tagok, Gantt diagram.`
-```
 
 ### 8.2. UML és adatbázis- és képernyőtervek (2. mérföldkő)
 
@@ -407,9 +430,6 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `1 személynap`
 
-```
-A mérföldkőhöz tartozó feladatok bemutatása PPT keretében (elkészült diagramok és képernyőtervek)`
-```
 
 ### 8.3. Prototípus I. (3. mérföldkő)
 
@@ -546,6 +566,13 @@ Tartam:  `6 nap`
 Erőforrásigény:  `1 személynap`
 
 #### 8.3.17. Admin oldal kivitelezése
+
+Felelős: `Masa Roland`
+
+Tartam:  `14 nap`
+
+Erőforrásigény:  `6 személynap`
+
 #### 8.3.18. Profil oldal kivitelezése
 
 Felelős: `Kiss Csaba`
@@ -562,8 +589,22 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.3.20. Felpakolás Ocean-re
+#### 8.3.20. Deploy
+
+Felelős: `Urbán Judit`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `0.5 személynap`
+
 #### 8.3.21. Adatbázis feltöltése (min. pár adat a táblákba)
+
+Felelős: `Juhász Ferenc`
+
+Tartam:  `6 nap`
+
+Erőforrásigény:  `1 személynap`
+
 
 #### 8.3.22. Bemutató elkészítése
 
@@ -573,15 +614,6 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `1 személynap`
 
-```
-Itt csak a könnyebb áttekinthetőség végett szerepel mindenki felelősként, azonban ezt a feladatot is részfeladatokra kell bontani.
-```
-
-```
-A feladatokat a 2.2-es és a 2.3-as pont alapján kell meghatározni és lehető legrészletesebben definiálni.
-Lehetőség szerint az összetett feladatokat bontsuk fel részfeladatokra. 
-A bemutató során a prototípus aktuális állását kell prezentálni.
-```
 
 ### 8.4. Prototípus II. (4. mérföldkő)
 
@@ -613,6 +645,13 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `2 személynap`
 
+#### 8.4.4. Javított minőségű prototípus a korábbi hiányzó funkciókkal
+
+Felelős: `Juhász Ferenc`
+
+Tartam:  `3 nap`
+
+Erőforrásigény:  `2 személynap`
 
 #### 8.4.5. Felmérések elérése és kezelésének tesztelése (TR)
 
@@ -678,6 +717,14 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `2 személynap`
 
+#### 8.4.13. Időpont Hozzáadása tesztelés (TR)
+
+Felelős: `Urbán Judit`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
 #### 8.4.14. Időpont törlése tesztelés (TR)
 
 Felelős: `Veszeli Karina`
@@ -685,6 +732,71 @@ Felelős: `Veszeli Karina`
 Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
+
+#### 8.4.15. Időpont Módositása tesztelés (TR)
+
+Felelős: `Urbán Judit`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.16. Regisztráció tesztelés (TR)
+
+Felelős: `Durucz Ádám`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.17. Bejelentkezés tesztelés (TR)
+
+Felelős: `Nagy Péter`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.18. Kijelentkezés tesztelés (TR)
+
+Felelős: `Juhász Ferenc`
+
+Tartam:  `3 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.19. Felhasználó törlése (Admin oldal) (TR)
+
+Felelős: `Juhász Ferenc`
+
+Tartam:  `3 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.20. Fiók törlése (TR)
+
+Felelős: `Veszeli Karina`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.21. Név és email-cím módosítás (TR)
+
+Felelős: `Nagy Péter`
+
+Tartam:  `2 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.22. Jelszó módosítás(TR)
+
+Felelős: `Szabó Timea`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
+
 
 
 ```
@@ -728,14 +840,14 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név           |   M1  |   M2  |   M3 |   M4 | Összesen |
 |---------------|-------|-------|------|------|----------|
-| Nagy Péter    | `1`   | `1`   | `3`  | `1`  | `6`      |
-| Szabó Tímea   | `3`   | `1`   | `3`  | `1`  | `8`      |
-| Durucz Ádám   | `1`   | `2`   | `2`  | `2`  | `7`      |
-| Urbán Judit   | `3`   | `2`   | `3`  | `1`  | `6`      |
-| Veszeli Karina| `1`   | `1`   | `2`  | `1`  | `5`      |
+| Nagy Péter    | `1`   | `1`   | `3`  | `3`  | `8`      |
+| Szabó Tímea   | `3`   | `1`   | `3`  | `2`  | `9`      |
+| Durucz Ádám   | `1`   | `1`   | `2`  | `3`  | `7`      |
+| Urbán Judit   | `2`   | `1`   | `3`  | `3`  | `9`      |
+| Veszeli Karina| `1`   | `1`   | `2`  | `2`  | `6`      |
 | Juhász Ferenc | `1`   | `1`   | `2`  | `2`  | `6`      |
-| Kiss Csaba    | `1`   | `1`   | `2`  | `2`  | `6`      |
-| Masa Roland   | `1`   | `1`   | `3`  | `1`  | `6`      |
+| Kiss Csaba    | `1`   | `1`   | `3`  | `3`  | `8`      |
+| Masa Roland   | `1`   | `0`   | `3`  | `1`  | `5`      |
 
 ### 10.3. Részletes költségvetés
 
