@@ -286,20 +286,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Leírás:** Az admin esetében ellenőrizzük, hogy az időpont törlése után változnak-e a módosítható időpontok.
 - **Bemenet:** Már korábban hozzáadott időpont törlése.
 - **Művelet:** Az `Időpont Törlése` gomb megnyomásával elküldjük a formot.
-- **Elvárt kimenet:** Az oldal frissül, és törölt időpont eltűnik a módosítható időpontok közül.
+- **Elvárt kimenet:** Az oldal frissül, és a törölt időpont eltűnik a módosítható időpontok közül.
 
 #### 2.8.2. TC-02
 - **TP:** TP-08
 - **Leírás:** Az admin esetében ellenőrizzük, hogy az időpont törlése után eltűnik-e az időpont a törölhető időpontok közül.
 - **Bemenet:** Már korábban hozzáadott időpont törlése.
 - **Művelet:** Az `Időpont Törlése` gomb megnyomásával elküldjük a formot.
-- **Elvárt kimenet:** Az oldal frissül és az törölt időpont eltűnik a törölhető időpontok közül.
+- **Elvárt kimenet:** Az oldal frissül és a törölt időpont eltűnik a törölhető időpontok közül.
 
 #### 2.8.3. TC-03
 - **TP:** TP-08
 - **Leírás:** Ellenőrizzük, hogy a felhasználók számára eltűnik-e az admin által törölt időpont. 
 - **Bemenet:** Már korábban hozzáadott időpont törlése.
-- **Művelet:** Adminként az `Időpont Törlése` gomb megnyomásával elküldjük a formot.Átjelentkezünk utána felhasználói fiókba.
+- **Művelet:** Adminként az `Időpont Törlése` gomb megnyomásával elküldjük a formot. Átjelentkezünk utána felhasználói fiókba.
 - **Elvárt kimenet:** Az admin által törölt időpont eltűnik a felhasználók Időpontok(Időpontfoglalás) menüpontjából.
 
 ### 2.9. Időpontfoglalás 
@@ -543,10 +543,20 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 #### 3.5.1. TR-01(TC-01)
 - **TP:** TP-05
     1. lépés: Belépünk Admin felhasználói fiókkal.
-    2. lépés: Rámegyünk profil ikon felső Admin nevű fülére, majd az `Felhasználók` gombra.
+    2. lépés: Rámegyünk profil ikon felső Admin nevű fülére, majd a `Felhasználók` gombra.
     3. lépés: A kilistázott felhasználók közül kiválasztunk egyet.
-    4. lépés: Töröljük a Töröl gombbal.
+    4. lépés: Töröljük a `Töröl` gombbal.
     5. lépés: Az oldal frissül, és a felhasználó eltűnik a törölhető felhasználók közül.
+
+#### 3.5.2. TR-02(TC-02)
+- **TP:** TP-05
+    1. lépés: Belépünk Admin felhasználói fiókkal.
+    2. lépés: Rámegyünk profil ikon felső Admin nevű fülére, majd a `Felhasználók` gombra.
+    3. lépés: A kilistázott felhasználók közül kiválasztunk egyet.
+    4. lépés: Töröljük a `Töröl` gombbal.
+    5. lépés: Megpróbálunk bejelentkezni a törölt felhasználó adataival.
+    6. lépés: A bejelentkezés sikertelen. 
+
 
 ### 3.6. Időpont Hozzáadás
 
@@ -630,7 +640,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3.	lépés: Az Időpont Törlése résznél kiválasztunk egy kívánt időpontot.
     4.	lépés: Töröljük.
     5.	lépés: Átjelentkezünk egy Felhasználói fiókba.
-    6.	lépés: Rémegyünk az Időpontfoglalás fülre.
+    6.	lépés: Rémegyünk az `Időpontfoglalás` fülre.
     7.	lépés: A felvitt időpont sikeresen eltűnik a legördülő menüből.
 
 ### 3.9. Időpont Módositó
