@@ -256,7 +256,12 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Az `Időpont Törlése` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az oldal frissül és az törölt időpont eltűnik a törölhető időpontok közül.
 
-
+#### 2.8.3. TC-03
+- **TP:** TP-08
+- **Leírás:** Ellenőrizzük, hogy a felhasználók számára eltűnik-e az admin által törölt időpont. 
+- **Bemenet:** Már korábban hozzáadott időpont törlése.
+- **Művelet:** Adminként az `Időpont Törlése` gomb megnyomásával elküldjük a formot.Átjelentkezünk utána felhasználói fiókba.
+- **Elvárt kimenet:** Az admin által törölt időpont eltűnik a felhasználók Időpontok(Időpontfoglalás) menüpontjából.
 
 
 ### 2.10. Fiók törlése
