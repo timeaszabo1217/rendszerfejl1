@@ -471,8 +471,8 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: Az Időpont Hozzáadása legördülő menüből kiválasztunk egy kivánt időpontot.
     4. lépés: Hozzáadjuk.
     5. lépés: Átjelentkezünk egy Felhasználói fiókra.
-    5. lépés: Rémegyünk az `Időpontfoglalás` fülre.
-    6. lépés: A felvitt időpont sikeresen megjelenik a legördülő menüben.
+    6. lépés: Rémegyünk az `Időpontfoglalás` fülre.
+    7. lépés: A felvitt időpont sikeresen megjelenik a legördülő menüben.
 
 #### 3.6.3. TR-03(TC-03)
 - **TP:** TP-06
