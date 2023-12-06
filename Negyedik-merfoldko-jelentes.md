@@ -180,7 +180,7 @@ Vállalásaim a mérföldkőben:
      - 50a49907924a97383aee056be8f661ec8ad2a37b
      - 874b155eedfd85ccac4d1b53e81123deb5c74ebf
 
-- 8.4.4. Felhasználói munkamanet tesztelése(Törlés)
+- 8.4.4. Felhasználói munkamenet tesztelése(Törlés)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -214,4 +214,29 @@ Vállalásaim a mérföldkőben:
      - 783cc46cba301842f40dc2b018ab4d7945f04728
      - d97bc6ef98495ff86627cd6263acd66025d16644
      - d73b144c9d1dbf43a22e78d180bd7cb6e732ad47
+
+
+### Projekt tag: `Veszeli Karina`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.4.14. Időpont Törlése tesztelés(TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #109
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+     - 3551b7911bda4b5013a6b2e3ba8f94f3c254521e
+     - d46dcc8dcd75e758623c6518cb84fda3fdbf6421
+     - e7031758fd755ac2e5f1349e0090eed5f6cac276
+     - 74d65c612500c6224932d30a51a5ca1f54a4c90e
+     - fa0da74014c4e0983259e36229033a986e0b2ff1
+     - 56cc33448b5b6b38bd8ac263ce08ccafa77db95d
+
+
+
+- 8.4.20. Fiók Törlése(TR)
 
