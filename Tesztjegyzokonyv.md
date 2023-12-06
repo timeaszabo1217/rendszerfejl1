@@ -286,6 +286,28 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Adminként az `Időpont Törlése` gomb megnyomásával elküldjük a formot.Átjelentkezünk utána felhasználói fiókba.
 - **Elvárt kimenet:** Az admin által törölt időpont eltűnik a felhasználók Időpontok(Időpontfoglalás) menüpontjából.
 
+### 2.9. Időpontfoglalás 
+
+#### 2.9.1. TC-01
+- **TP:** TP-09
+- **Leírás:**  Ellenőrizzük, hogy az időpontfoglalás sikeresen megtörténik-e.
+- **Bemenet:** Időpontfoglalás listából kiválasztunk egy dátumot.
+- **Művelet:** Az `Időpontfoglalás` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az oldal kiirja hogy "Sikeres foglalás!" és megjelenik az időpont a foglaltak között.
+
+#### 2.9.2. TC-02
+- **TP:** TP-09
+- **Leírás:**  Ellenőrizzük, hogy az időpont eltűnik-e az opciók közül.
+- **Bemenet:** Időpontfoglalás listából kiválasztunk egy dátumot.
+- **Művelet:** Az `Időpontfoglalás` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az legördülő menüből eltűnik a korábban kiválsztott dátum.
+
+#### 2.9.3. TC-03
+- **TP:** TP-09
+- **Leírás:**  Ellenőrizzük, hogy a lefoglalt időpont megjelenik-e az Adminnak.
+- **Bemenet:** Időpontfoglalás listából kiválasztunk egy dátumot.
+- **Művelet:** Az `Időpontfoglalás` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az Admin oldalán látható lesz az uj foglalás.
 
 ### 2.10. Fiók törlése
 
@@ -585,6 +607,33 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     5.	lépés: Átjelentkezünk egy Felhasználói fiókba.
     6.	lépés: Rémegyünk az Időpontfoglalás fülre.
     7.	lépés: A felvitt időpont sikeresen eltűnik a legördülő menüből.
+
+### 3.9. Időpont Módositó
+
+#### 3.9.1. TR-01(TC-01)
+- **TP:** TP-09
+    1. lépés: Belépünk Felhasználói profillal.
+    2. lépés: Rámegyünk az időpontfoglalás menüpontra.
+    3. lépés: Választunk egy időpontot alistából.
+    4. lépés: Rákattintunk az `Időpont Foglalás` gombra.
+    5. lépés: A időpont sikeresen lefoglalódik és megjelenik a foglaltak között.
+
+#### 3.9.2. TR-02(TC-02)
+- **TP:** TP-09
+    1. lépés: Belépünk Felhasználói profillal.
+    2. lépés: Rámegyünk az időpontfoglalás menüpontra.
+    3. lépés: Választunk egy időpontot alistából.
+    4. lépés: Rákattintunk az `Időpont Foglalás` gombra.
+    5. lépés: Megnézzük eltűnik-e a kiválasztott Időpont a legördülő listából.
+
+#### 3.9.3. TR-03(TC-03)
+- **TP:** TP-09
+    1. lépés: Belépünk Felhasználói profillal.
+    2. lépés: Rámegyünk az időpontfoglalás menüpontra.
+    3. lépés: Választunk egy időpontot alistából.
+    4. lépés: Rákattintunk az `Időpont Foglalás` gombra.
+    5. lépés: Átjelentkezünk az Admin fiókba.
+    6. lépés: Megnézzük megjelenik-e az új foglalás az Admin számára.
 
 ### 3.10. Fiók törlése
 
