@@ -21,7 +21,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.2. Bejelentkezés
 - **Azonosító:** TP-02
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC-02, TC-03, TC-04, TC-05
 - **Leírás:** A bejelentkezési folyamat tesztelésekor részletesen átvizsgáljuk a felhasználói azonosítási eljárásokat. A teszt magában foglalja a beviteli mezők, mint például a felhasználónév és jelszó mezők érvényességének ellenőrzését. Különös figyelmet fordítunk arra, hogy a rendszer hogyan reagál helytelen bejelentkezési adatok esetén.
 
     0. lépés: Nyissuk meg a weboldalt.
