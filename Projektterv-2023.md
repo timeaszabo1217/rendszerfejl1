@@ -645,7 +645,7 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.4.4. Javított minőségű prototípus a korábbi hiányzó funkciókkal
+#### 8.4.4. Felhasználói munkamenet teszteélés
 
 Felelős: `Juhász Ferenc`
 
@@ -653,23 +653,16 @@ Tartam:  `3 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.4.5. Felmérések elérése és kezelésének tesztelése (TR)
+#### 8.4.5. Profil funkciók tesztelése
 
-Felelős: `Masa Roland`
+Felelős: `Szabó Timea`
 
 Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### 8.4.6. Leckék kezelésének tesztelése (TR)
 
-Felelős: `Durucz Ádám`
-
-Tartam:  `5 nap`
-
-Erőforrásigény:  `0.5 személynap`
-
-#### 8.4.7. Időpont foglalás kezelésének tesztelése (TR)
+#### 8.4.6. Időpont foglalás kezelésének tesztelése (TR)
 
 Felelős: `Nagy Péter`
 
@@ -677,15 +670,7 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.4.8. Profil funkciók tesztelése (TR)
-
-Felelős: `Szabó Tímea`
-
-Tartam:  `7 nap`
-
-Erőforrásigény:  `0.5 személynap`
-
-#### 8.4.9. Biztonsági mentés tesztelése (TR)
+#### 8.4.7. Biztonsági mentés tesztelése (TR)
 
 Felelős: `Durucz Ádám`
 
@@ -693,23 +678,8 @@ Tartam:  `5 nap`
 
 Erőforrásigény:  `0.5 személynap`
 
-#### 8.4.10. A prototípus kitelepítésének frissítése
 
-Felelős: `Kiss Csaba`
-
-Tartam:  `6 nap`
-
-Erőforrásigény:  `1.5 személynap`
-
-#### 8.4.11. Bemutató elkészítése
-
-Felelős: `Urbán Judit`
-
-Tartam:  `5 nap`
-
-Erőforrásigény:  `0.5 személynap`
-
-#### 8.4.12. Jogosultságellenőrzés tesztelése
+#### 8.4.8. Jogosultságellenőrzés tesztelése
 
 Felelős: `Kiss Csaba`
 
@@ -717,7 +687,7 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.4.13. Időpont Hozzáadása tesztelés (TR)
+#### 8.4.9. Időpont Hozzáadása tesztelés (TR)
 
 Felelős: `Urbán Judit`
 
@@ -725,7 +695,7 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.14. Időpont törlése tesztelés (TR)
+#### 8.4.10. Időpont törlése tesztelés (TR)
 
 Felelős: `Veszeli Karina`
 
@@ -733,15 +703,23 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `3 személynap`
 
-#### 8.4.15. Időpont Módositása tesztelés (TR)
+#### 8.4.11. Időpont Módositása tesztelés (TR)
 
-Felelős: `Urbán Judit`
+Felelős: `Masa Roland`
 
 Tartam:  `2 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.16. Regisztráció tesztelés (TR)
+#### 8.4.12. Felhasználó törlése (Admin oldal) (TR)
+
+Felelős: `Juhász Ferenc`
+
+Tartam:  `3 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.13. Regisztráció tesztelés (TR)
 
 Felelős: `Durucz Ádám`
 
@@ -749,7 +727,7 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.17. Bejelentkezés tesztelés (TR)
+#### 8.4.14. Bejelentkezés tesztelés (TR)
 
 Felelős: `Nagy Péter`
 
@@ -757,7 +735,7 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.18. Kijelentkezés tesztelés (TR)
+#### 8.4.15. Kijelentkezés tesztelés (TR)
 
 Felelős: `Juhász Ferenc`
 
@@ -765,15 +743,8 @@ Tartam:  `3 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.19. Felhasználó törlése (Admin oldal) (TR)
 
-Felelős: `Juhász Ferenc`
-
-Tartam:  `3 nap`
-
-Erőforrásigény:  `1 személynap`
-
-#### 8.4.20. Fiók törlése (TR)
+#### 8.4.16. Fiók törlése (TR)
 
 Felelős: `Veszeli Karina`
 
@@ -781,7 +752,7 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.21. Név és email-cím módosítás (TR)
+#### 8.4.17. Név és email-cím módosítás (TR)
 
 Felelős: `Nagy Péter`
 
@@ -789,7 +760,7 @@ Tartam:  `2 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.22. Jelszó módosítás(TR)
+#### 8.4.18. Jelszó módosítás(TR)
 
 Felelős: `Szabó Timea`
 
@@ -797,6 +768,21 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
+#### 8.4.19. Prototípus kitelepítésének frissítése
+
+Felelős: `Kiss Csaba`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
+
+#### 8.4.20. A webalkalmazás kitelepítése
+
+Felelős: `Urbán Judit`
+
+Tartam:  `4 nap`
+
+Erőforrásigény:  `1 személynap`
 
 
 ```
@@ -843,11 +829,11 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Nagy Péter    | `1`   | `1`   | `3`  | `3`  | `8`      |
 | Szabó Tímea   | `3`   | `1`   | `3`  | `2`  | `9`      |
 | Durucz Ádám   | `1`   | `1`   | `2`  | `3`  | `7`      |
-| Urbán Judit   | `2`   | `1`   | `3`  | `3`  | `9`      |
+| Urbán Judit   | `2`   | `1`   | `3`  | `2`  | `8`      |
 | Veszeli Karina| `1`   | `1`   | `2`  | `2`  | `6`      |
-| Juhász Ferenc | `1`   | `1`   | `2`  | `2`  | `6`      |
+| Juhász Ferenc | `1`   | `1`   | `2`  | `5`  | `9`      |
 | Kiss Csaba    | `1`   | `1`   | `3`  | `3`  | `8`      |
-| Masa Roland   | `1`   | `0`   | `3`  | `1`  | `5`      |
+| Masa Roland   | `1`   | `0`   | `2`  | `1`  | `4`      |
 
 ### 10.3. Részletes költségvetés
 
