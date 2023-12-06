@@ -240,6 +240,19 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az újonnan hozzáadott időpont megjelenik a törlés legördülő menüben.
 
+### 2.8. Időpont törlése(Admin oldal)
+
+####2.8.1. TC-01
+- **TP:**TP-08
+- **Leírás:** Az admin esetében ellenőrizzük, hogy az időpont törlése után változnak-e a módosítható időpontok.
+- **Bemenet:** Már korábban hozzáadott időpont törlése.
+- **Művelet:** Az `Időpont Törlése` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az oldal frissül, és törölt időpont eltűnik a módosítható időpontok közül.
+
+
+
+
+
 ### 2.10. Fiók törlése
 
 #### 2.10.1. TC-01
