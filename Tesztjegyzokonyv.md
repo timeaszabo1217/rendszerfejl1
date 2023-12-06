@@ -217,6 +217,22 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Felmérések oldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
+###2.5. Fiók törlése
+
+####2.5.1. TC-01
+- **TP:** TP-05
+- **Leírás:** Ellenőrizzük, hogy az admin képes-e törölni egy felhasználót, és eltűnik-e a felhasználó a kilistázott felhasználók közül.
+- **Bemenet:** Felhasználók oldalán egy adott felhasználó törlése.
+- **Művelet:** Navigálunk a Felhasználók oldalra, kiválasztunk egy felhasználót és a `Töröl` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az oldal frissül és az törölt felhasználó eltűnik a kilistázott felhasználók közül.
+
+####2.5.2. TC-02
+- **TP:** TP-05
+- **Leírás:** Ellenőrizzük, hogy az admin által törölt felhasználó, képes-e bejelentkezni. 
+- **Bemenet:** Felhasználók oldalán egy adott felhasználó törlése adminként.
+- **Művelet:** Navigálunk a Felhasználók oldalra, kiválasztunk egy felhasználót és a `Töröl` gomb megnyomásával elküldjük a formot, utána megpróbálunk bejelentkezni a törölt felhasználó adataival.
+- **Elvárt kimenet:** A bejelentkezés sikertelen lesz.
+
 ### 2.6. Időpont hozzáadás (Admin oldal)
 
 #### 2.6.1. TC-01
