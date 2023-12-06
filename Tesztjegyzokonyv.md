@@ -132,6 +132,14 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     0. lépés: Nyissuk meg a weboldalt, jelentkezzünk be.
     1. lépés: Navigáljunk bármelyik oldalra, akár URL-en keresztül. _Elvárt eredmény:_ Ha eleget tesz a jogosultságunk az oldal elérési feltételeinek, megjelenik az oldal, ha nem, akkor hibaüzenetet kapunk.
 
+### 1.14. Munkamenetek
+- **Azonosító:** TP-14
+- **Tesztesetek:** TC-01, TC-02, TC-03
+- **Leírás:** Teszteljük, hogy a felhasználó be és kijelentkezéskor megfelelően átállítódik a süti.
+
+    0. lépés: Nyissuk meg a weboldalt, regisztráljunk/jelentkezzünk be/lépjünk ki.
+    1. lépés: A süti megfelelően beállítódik.
+
 ## 2. Tesztesetek (TC)
 
 ### 2.1. Regisztráció
