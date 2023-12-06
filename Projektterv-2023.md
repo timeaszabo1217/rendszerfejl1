@@ -475,6 +475,12 @@ Erőforrásigény:  `0.5 személynap`
 
 #### 8.3.8. Regisztráltak lecke oldal kivitelezése
 
+Felelős: `Veszeli Karina`
+
+Tartam:  `10 nap`
+
+Erőforrásigény:  `4 személynap`
+
 #### 8.3.9. Visszajelzés a felhasználónak új időpontfoglalás esetén
 
 Felelős: `Nagy Péter`
@@ -516,6 +522,12 @@ Tartam:  `7 nap`
 Erőforrásigény:  `2 személynap`
 
 #### 8.3.14. Felmérések oldal kivitelezése
+
+Felelős: `Veszeli Karina`
+
+Tartam:  `7 nap`
+
+Erőforrásigény:  `3 személynap`
 
 #### 8.3.15. Bejelentkező oldal
 
