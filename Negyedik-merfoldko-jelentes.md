@@ -192,3 +192,26 @@ Vállalásaim a mérföldkőben:
      - 1bad0208f002d28baf95346879c04f18f55f8402
      - 577f35021744e9cbd037b3b70cc17c370b998cb3
      - 59d69fd1052538807d55a5851a68305bbc2a7563
+
+
+### Projektmenedzser: `Urbán Judit`
+
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.4.13. Időpont Hozzáadása tesztelés (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #110
+     - #90
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 478d66a6603b19ba6aa6f0496219c00e3e1dbb07
+     - a06ffa0c5ada11879b3eca5fe78bbc57e3f4e56b
+     - 783cc46cba301842f40dc2b018ab4d7945f04728
+     - d97bc6ef98495ff86627cd6263acd66025d16644
+     - d73b144c9d1dbf43a22e78d180bd7cb6e732ad47
+
