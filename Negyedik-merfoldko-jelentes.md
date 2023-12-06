@@ -215,6 +215,21 @@ Vállalásaim a mérföldkőben:
      - d97bc6ef98495ff86627cd6263acd66025d16644
      - d73b144c9d1dbf43a22e78d180bd7cb6e732ad47
 
+- 8.4.15. Időpont Módositása tesztelés (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #113
+     - #112
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 0fa5e9fff6f08d445ac910abaf04c44659161c9e
+     - 3071f2cca3ac9063a8e3a3f7b60bf4e52fa47be5
+     - 1fc8b76ea60e5237f777a066e08e109840128037
+     - e1bf3f892534be951ffd2de27da8308608178efd
+
+
 
 ### Projekt tag: `Veszeli Karina`
 
