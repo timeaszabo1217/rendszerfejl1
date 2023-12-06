@@ -200,12 +200,24 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.9. Időpont Hozzáadása tesztelés (TR)
+- 8.4.6. Időpontfoglalás kezelésének tesztelése (TR)
 
     ##### A feladathoz tartozó issue(k):
 
      - #110
      - #90
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 9e8d44dc81be0075bf96ae49aba602c9649d44aa
+     - 0fa5e9fff6f08d445ac910abaf04c44659161c9e
+
+- 8.4.9. Időpont Hozzáadása tesztelés (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #116
+     - #117
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
@@ -284,11 +296,7 @@ Vállalásaim a mérföldkőben:
      - 3feb32faef595dcc4654b2f7d71eb77df76c3abc
 
 
-- 8.4.8. Jogosultságellenőrzés tesztelése (TR)
-
-    ##### A feladathoz tartozó issue(k):
-
-     - #114
+8.4.8. Jogosultságellenőrzés tesztelése (TR)
 
     ##### A feladat elvégzését alátámasztó commit(ok):
      - 1281c48cb661f1124829160dd215ca8c8cd81f8a
