@@ -601,13 +601,6 @@ Tartam:  `7 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.4.4. Felhasználói munkamenet tesztelése (TR)
-
-Felelős: `Veszeli Karina`
-
-Tartam:  `7 nap`
-
-Erőforrásigény:  `3 személynap`
 
 #### 8.4.5. Felmérések elérése és kezelésének tesztelése (TR)
 
@@ -672,6 +665,15 @@ Felelős: `Kiss Csaba`
 Tartam:  `2 nap`
 
 Erőforrásigény:  `2 személynap`
+
+#### 8.4.14. Időpont törlése tesztelés (TR)
+
+Felelős: `Veszeli Karina`
+
+Tartam:  `7 nap`
+
+Erőforrásigény:  `3 személynap`
+
 
 ```
 Működő végleges program, a frissített tesztelési dokumentációval. A 3. mérföldkőhöz képest funkiconálisan többet kell tudnia az oldalnak.
