@@ -22,7 +22,7 @@ Vállalásaim a mérföldkőben:
      - 67f36dc34f292f7fb44d45d8ddad8e1d145a3fe1
      - b7f96a031f3aa1eb8489eecf9c8fa8d0eade4fa4
 
-- 8.4.8. Jelszó módosítás tesztelése (TR)
+- 8.4.8. Jelszó módosítás (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -65,7 +65,7 @@ Vállalásaim a mérföldkőben:
      - ffca8bed3052d6e5b200ce454da889f409e5a83b
      - bbec3757d3067b36e633d2fdd70ea4e1cfa817d6
 
-- 8.4.2. Bejelentkezés funkciók tesztelése (TR)
+- 8.4.2. Bejelentkezés tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -105,7 +105,7 @@ Vállalásaim a mérföldkőben:
      - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
      - 65c0da6005797abe6a623a50aaf23a2477adef70
 
-- 8.4.2.  Regisztáció funkciók tesztelése (TR)
+- 8.4.2.  Regisztáció tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -129,7 +129,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.3. Javított minőségű prototípus a korábbi hiányzó        funkciókkal
+- 8.4.3. Javított minőségű prototípus a korábbi hiányzó funkciókkal
 
     ##### A feladathoz tartozó issue(k):
 
@@ -167,7 +167,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.8. Profil funkciók tesztelése(Kijelentkezés)
+- 8.4.8. Kijelentkezés tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -180,7 +180,7 @@ Vállalásaim a mérföldkőben:
      - 50a49907924a97383aee056be8f661ec8ad2a37b
      - 874b155eedfd85ccac4d1b53e81123deb5c74ebf
 
-- 8.4.4. Felhasználói munkamenet tesztelése(Törlés)
+- 8.4.4. Fiók törlése (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -240,7 +240,7 @@ ___
 
 Vállalásaim a mérföldkőben:
 
-- 8.4.10. Időpont Törlése tesztelés(TR)
+- 8.4.10. Időpont Törlése tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -256,7 +256,7 @@ Vállalásaim a mérföldkőben:
 
 
 
-- 8.4.16. Felhasználó Törlése(TR) (Admin oldal)
+- 8.4.16. Felhasználó Törlése (Admin oldal) (TR)
 
     ##### A feladathoz tartozó issue(k):
 
