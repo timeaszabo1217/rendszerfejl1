@@ -66,7 +66,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.7. Időpont módosítás (Admin oldal)
 - **Azonosító:** TP-07
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC02, TC-03
 - **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont módosításakor minden megfelelően működik-e.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
@@ -77,7 +77,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.8. Időpont törlése (Admin oldal)
 - **Azonosító:** TP-08
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC02, TC-03
 - **Leírás:** A tesztelési folyamat során ellenőrizzük, hogy az időpont törlésekor minden megfelelően működik-e.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
@@ -243,7 +243,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 ### 2.7. Időpont Módosítása (Admin oldal)
 
 #### 2.7.1. TC-01
-- **TP:** TP-06
+- **TP:** TP-07
 - **Leírás:**  Ellenőrizzük, hogy az admin által kiválasztott és módosított időpont a látoztatásokkal jelenik-e meg a módosító listában.
 - **Bemenet:** Választott dátum és idő az időpont módosítása.
 - **Művelet:** Az `Időpont Módosítása` gomb megnyomásával elküldjük a formot.
@@ -515,6 +515,17 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     3. lépés: Az Időpont Hozzáadása legördülő menüből kiválasztunk egy kivánt időpontot.
     4. lépés: Rákattintunk az `Időpont hozzáadás` gombra.
     5. lépés: A időpont sikeresen felvive és megjelenik a Törlés listában is.
+
+
+### 3.7. Időpont Módositó
+
+#### 3.7.1. TR-01(TC-01)
+- **TP:** TP-07
+    1. lépés: Belépünk Admin felhasználói fiókkal.
+    2. lépés: Rámegyünk profil ikon felső Profil nevű fülére, majd az `Időpontok szerkesztése` gombra.
+    3. lépés: Az Időpont Módosítása legördülő menüből kiválasztunk egy kivánt időpontot és változtatunk rajta.
+    4. lépés: Rákattintunk az `Időpont Módosítása` gombra.
+    5. lépés: A időpont sikeresen módosítva és megjelenik a Módositó listában is.
 
 ### 3.8. Időpont Törlése(Admin oldal)
 
