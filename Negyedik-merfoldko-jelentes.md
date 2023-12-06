@@ -244,7 +244,7 @@ Vállalásaim a mérföldkőben:
 
 
 
-- 8.4.16. Fiók Törlése(TR) - Admin oldal
+- 8.4.16. Felhasználó Törlése(TR) (Admin oldal)
 
     ##### A feladathoz tartozó issue(k):
 
