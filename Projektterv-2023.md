@@ -664,11 +664,11 @@ Erőforrásigény:  `3 személynap`
 
 #### 8.4.6. Időpont foglalás kezelésének tesztelése (TR)
 
-Felelős: `Nagy Péter`
+Felelős: `Urbán Judit`
 
 Tartam:  `5 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### 8.4.7. Biztonsági mentés tesztelése (TR)
 
@@ -685,7 +685,7 @@ Felelős: `Kiss Csaba`
 
 Tartam:  `2 nap`
 
-Erőforrásigény:  `2 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### 8.4.9. Időpont Hozzáadása tesztelés (TR)
 
@@ -701,7 +701,7 @@ Felelős: `Veszeli Karina`
 
 Tartam:  `7 nap`
 
-Erőforrásigény:  `3 személynap`
+Erőforrásigény:  `1 személynap`
 
 #### 8.4.11. Időpont Módositása tesztelés (TR)
 
@@ -826,10 +826,10 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 
 | Név           |   M1  |   M2  |   M3 |   M4 | Összesen |
 |---------------|-------|-------|------|------|----------|
-| Nagy Péter    | `1`   | `1`   | `3`  | `3`  | `8`      |
+| Nagy Péter    | `1`   | `1`   | `3`  | `2`  | `7`      |
 | Szabó Tímea   | `3`   | `1`   | `3`  | `2`  | `9`      |
 | Durucz Ádám   | `1`   | `1`   | `2`  | `3`  | `7`      |
-| Urbán Judit   | `2`   | `1`   | `3`  | `2`  | `8`      |
+| Urbán Judit   | `2`   | `1`   | `3`  | `3`  | `9`      |
 | Veszeli Karina| `1`   | `1`   | `2`  | `2`  | `6`      |
 | Juhász Ferenc | `1`   | `1`   | `2`  | `5`  | `9`      |
 | Kiss Csaba    | `1`   | `1`   | `3`  | `3`  | `8`      |
