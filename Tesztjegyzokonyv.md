@@ -516,6 +516,14 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: Rákattintunk az `Időpont törlése` gombra.
     5. lépés: Az oldal frissül és az időpont eltűnik a módosítható időpontok közül.
 
+#### 3.8.2. TR-02(TC-02)
+- **TP:** TP-08
+    1. lépés: Belépünk Admin felhasználói fiókkal.
+    2. lépés: Rámegyünk profil ikon felső Profil nevű fülére, majd az `Időpontok szerkesztése` gombra.
+    3. lépés: Az Időpont Törlése résznél  kiválasztunk egy kívánt időpontot.
+    4. lépés: Rákattintunk az `Időpont törlése` gombra.
+    5. lépés: Az oldal frissül és az időpont eltűnik a törölhető időpontok közül.
+
 
 ### 3.10. Fiók törlése
 
