@@ -256,4 +256,36 @@ Vállalásaim a mérföldkőben:
      - a2dd7cee720235c7bf4439f420790086d49c7157
      - 6ae8ffbab90840866da22cece3cdb12c44a4fa3a
 
+### Projekt tag: `Masa Roland`
 
+___
+
+Vállalásaim a mérföldkőben:
+
+- 8.4.11. Felhasználó törlése (Admin oldal) (TR)
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+     - aa03bbd6826db2895d479ff347ec1a39095f835f
+
+
+
+- 8.4.14. Bejelentkezés tesztelés (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #115
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+     - fc6937ea6bdefb49379afe415f1bc4c7a4bdd5de
+
+- 8.4.6. Időpont foglalás kezelésének tesztelése (TR)
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+     - 3feb32faef595dcc4654b2f7d71eb77df76c3abc
+
+
+8.4.8. Jogosultságellenőrzés tesztelése (TR)
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+     - 1281c48cb661f1124829160dd215ca8c8cd81f8a
+     - 6e1a7e867a574b5b2899f260697d74d25c4c1f1e
