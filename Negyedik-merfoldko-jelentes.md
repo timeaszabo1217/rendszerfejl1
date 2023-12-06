@@ -284,7 +284,7 @@ Vállalásaim a mérföldkőben:
      - 3feb32faef595dcc4654b2f7d71eb77df76c3abc
 
 
-8.4.8. Jogosultságellenőrzés tesztelése (TR)
+- 8.4.8. Jogosultságellenőrzés tesztelése (TR)
 
     ##### A feladat elvégzését alátámasztó commit(ok):
      - 1281c48cb661f1124829160dd215ca8c8cd81f8a
