@@ -47,7 +47,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.5. Felhasználó törlése (Admin oldal)
 - **Azonosító:** TP-05
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01, TC-02
 - **Leírás:** A teszt során azt vizsgáljuk, hogy amennyiben egy adminisztrátor töröl egy felhasználót, az adott felhasználó összes adata törlődik-e minden adatbázis táblából és a teljes rendszerből.
 
     0. lépés: Nyissuk meg a weboldalt, és jelentkezzünk be egy adminisztrátori fiókkal.
