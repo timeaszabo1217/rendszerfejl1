@@ -589,7 +589,7 @@ Tartam:  `4 nap`
 
 Erőforrásigény:  `2 személynap`
 
-#### 8.3.20. Deploy
+#### 8.3.20. A webalkalmazás kitelepítése
 
 Felelős: `Urbán Judit`
 
@@ -649,7 +649,7 @@ Erőforrásigény:  `2 személynap`
 
 Felelős: `Juhász Ferenc`
 
-Tartam:  `3 nap`
+Tartam:  `5 nap`
 
 Erőforrásigény:  `2 személynap`
 
@@ -683,7 +683,7 @@ Erőforrásigény:  `0.5 személynap`
 
 Felelős: `Kiss Csaba`
 
-Tartam:  `2 nap`
+Tartam:  `3 nap`
 
 Erőforrásigény:  `1 személynap`
 
@@ -691,7 +691,7 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Urbán Judit`
 
-Tartam:  `2 nap`
+Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
@@ -699,7 +699,7 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Veszeli Karina`
 
-Tartam:  `7 nap`
+Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
@@ -707,7 +707,7 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Masa Roland`
 
-Tartam:  `2 nap`
+Tartam:  `3 nap`
 
 Erőforrásigény:  `1 személynap`
 
@@ -723,7 +723,7 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Durucz Ádám`
 
-Tartam:  `2 nap`
+Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
@@ -731,7 +731,7 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Nagy Péter`
 
-Tartam:  `2 nap`
+Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
@@ -756,11 +756,11 @@ Erőforrásigény:  `1 személynap`
 
 Felelős: `Nagy Péter`
 
-Tartam:  `2 nap`
+Tartam:  `4 nap`
 
 Erőforrásigény:  `1 személynap`
 
-#### 8.4.18. Jelszó módosítás(TR)
+#### 8.4.18. Jelszó módosítás (TR)
 
 Felelős: `Szabó Timea`
 
@@ -849,4 +849,4 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Kiss Csaba                          | `5`     | `10`     | `31`     |  `24`    | 70        |
 | Masa Roland                         | `5`     | `10`     | `35`     |  `20`    | 70        |
 
-Szeged, `2023-10-09`.
+Szeged, `2023-12-06`.
