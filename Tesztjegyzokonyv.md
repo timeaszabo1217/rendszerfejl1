@@ -242,13 +242,19 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 2.8. Időpont törlése(Admin oldal)
 
-####2.8.1. TC-01
-- **TP:**TP-08
+#### 2.8.1. TC-01
+- **TP:** TP-08
 - **Leírás:** Az admin esetében ellenőrizzük, hogy az időpont törlése után változnak-e a módosítható időpontok.
 - **Bemenet:** Már korábban hozzáadott időpont törlése.
 - **Művelet:** Az `Időpont Törlése` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az oldal frissül, és törölt időpont eltűnik a módosítható időpontok közül.
 
+#### 2.8.2. TC-02
+- **TP:** TP-08
+- **Leírás:** Az admin esetében ellenőrizzük, hogy az időpont törlése után eltűnik-e az időpont a törölhető időpontok közül.
+- **Bemenet:** Már korábban hozzáadott időpont törlése.
+- **Művelet:** Az `Időpont Törlése` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az oldal frissül és az törölt időpont eltűnik a törölhető időpontok közül.
 
 
 
