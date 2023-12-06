@@ -286,6 +286,10 @@ Vállalásaim a mérföldkőben:
 
 - 8.4.8. Jogosultságellenőrzés tesztelése (TR)
 
+    ##### A feladathoz tartozó issue(k):
+
+     - #114
+
     ##### A feladat elvégzését alátámasztó commit(ok):
      - 1281c48cb661f1124829160dd215ca8c8cd81f8a
      - 6e1a7e867a574b5b2899f260697d74d25c4c1f1e
