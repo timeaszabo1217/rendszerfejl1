@@ -464,6 +464,15 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: Rákattintunk az `Időpont hozzáadás` gombra.
     5. lépés: A időpont sikeresen felvive.
 
+#### 3.6.2. TR-02(TC-02)
+- **TP:** TP-06
+    1. lépés: Belépünk Admin felhasználói fiókkal.
+    2. lépés: Rámegyünk profil ikon felső Profil nevű fülére, majd az `Időpontok szerkesztése` gombra.
+    3. lépés: Az Időpont módosítása legördülő menüből kiválasztunk egy kivánt időpontot.
+    4. lépés: Módosítjuk.
+    5. lépés: Rákattintunk az `Időpont Módosítása` gombra.
+    6. lépés: A időpont sikeresen módosíva.
+
 
 ### 3.10. Fiók törlése
 
