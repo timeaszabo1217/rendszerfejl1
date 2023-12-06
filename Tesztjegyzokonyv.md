@@ -217,7 +217,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Művelet:** Felmérések oldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
 
-### 2.6. Időpont hozzáadás
+### 2.6. Időpont hozzáadás (Admin oldal)
 
 #### 2.6.1. TC-01
 - **TP:** TP-06
@@ -239,6 +239,16 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Bemenet:** Választott dátum és idő az időpont hozzáadásához.
 - **Művelet:** Az `Időpont Hozzáadása` gomb megnyomásával elküldjük a formot.
 - **Elvárt kimenet:** Az újonnan hozzáadott időpont megjelenik a törlés legördülő menüben.
+
+### 2.7. Időpont Módosítása (Admin oldal)
+
+#### 2.7.1. TC-01
+- **TP:** TP-06
+- **Leírás:**  Ellenőrizzük, hogy az admin által kiválasztott és módosított időpont a látoztatásokkal jelenik-e meg a módosító listában.
+- **Bemenet:** Választott dátum és idő az időpont módosítása.
+- **Művelet:** Az `Időpont Módosítása` gomb megnyomásával elküldjük a formot.
+- **Elvárt kimenet:** Az módisított időpont sikeresen hozzáadódik az adatbázishoz, és az időpont megjelenik a módosító legördülő menüben.
+
 
 ### 2.8. Időpont törlése(Admin oldal)
 
