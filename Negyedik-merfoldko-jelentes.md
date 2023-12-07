@@ -105,7 +105,7 @@ Vállalásaim a mérföldkőben:
      - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
      - 65c0da6005797abe6a623a50aaf23a2477adef70
 
-8.4.13. Regisztráció tesztelés (TR)
+- 8.4.13. Regisztráció tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -123,7 +123,7 @@ Vállalásaim a mérföldkőben:
      - 4aeb26dd3c2a4cb65d5a4dd51be98d21e17a68d9
      - 9eecf5ed33d4a5e2d5253700d6ee551c93849960
 
-8.4.7. Biztonsági mentés tesztelése (TR)
+- 8.4.7. Biztonsági mentés tesztelése (TR)
 
     ##### A feladathoz tartozó issue(k):
 
