@@ -831,9 +831,9 @@ minden módosítható oszlopában legalább 1 pontnak szerepelni kell.
 | Durucz Ádám   | `1`   | `1`   | `2`  | `3`  | `7`      |
 | Urbán Judit   | `2`   | `1`   | `3`  | `3`  | `9`      |
 | Veszeli Karina| `1`   | `1`   | `2`  | `2`  | `6`      |
-| Juhász Ferenc | `1`   | `1`   | `2`  | `5`  | `9`      |
+| Juhász Ferenc | `1`   | `1`   | `2`  | `4`  | `8`      |
 | Kiss Csaba    | `1`   | `1`   | `3`  | `3`  | `8`      |
-| Masa Roland   | `1`   | `0`   | `2`  | `1`  | `4`      |
+| Masa Roland   | `1`   | `0`   | `2`  | `2`  | `5`      |
 
 ### 10.3. Részletes költségvetés
 
