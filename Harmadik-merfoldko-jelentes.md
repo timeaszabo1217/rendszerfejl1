@@ -186,7 +186,7 @@ Vállalásaim a mérföldkőben:
 
 
 
-### Projekt tag: `Urbán Judit`
+### Projektmenedzser: `Urbán Judit`
 
 ___
 
