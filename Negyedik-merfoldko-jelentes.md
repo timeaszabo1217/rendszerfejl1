@@ -27,7 +27,6 @@ Vállalásaim a mérföldkőben:
     ##### A feladathoz tartozó issue(k):
 
      - #91
-     - #98
 
     ##### A feladat elvégzését alátámasztó commit(ok):
 
