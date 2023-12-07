@@ -105,7 +105,7 @@ Vállalásaim a mérföldkőben:
      - 1e71d5829ffc93243f0ad9218cd274b4426f6c67
      - 65c0da6005797abe6a623a50aaf23a2477adef70
 
-- 8.4.2.  Regisztáció tesztelés (TR)
+8.4.13. Regisztráció tesztelés (TR)
 
     ##### A feladathoz tartozó issue(k):
 
@@ -122,6 +122,17 @@ Vállalásaim a mérföldkőben:
      - 1a0522330ac695aa63d8310eccabf769bfa583eb
      - 4aeb26dd3c2a4cb65d5a4dd51be98d21e17a68d9
      - 9eecf5ed33d4a5e2d5253700d6ee551c93849960
+
+8.4.7. Biztonsági mentés tesztelése (TR)
+
+    ##### A feladathoz tartozó issue(k):
+
+     - #119
+     - #118
+
+    ##### A feladat elvégzését alátámasztó commit(ok):
+
+     - 0ce5ecd0cea642afcfcf8ce1c81c3676ee4183cc
 
 ### Projekt tag: `Kiss Csaba`
 
