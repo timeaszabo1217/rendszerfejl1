@@ -39,7 +39,7 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 
 ### 1.4. Biztonsági mentés készítése
 - **Azonosító:** TP-04
-- **Tesztesetek:**
+- **Tesztesetek:** TC-01
 - **Leírás:** A biztonsági mentés tesztelése során alaposan megvizsgáljuk, hogy a rendszer megfelelően rögzíti-e az összes lényeges adatot JSON formátumban.
 
     0. lépés: A mentés csak abban az esetben működik, ha a szerveren fut a webalkalmazás.
@@ -216,6 +216,15 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
 - **Bemenet:** Belépünk admin fiókkal.
 - **Művelet:** Felmérések oldalról megnyitjuk a profil fület, az egér rávitelével és rákattintunk a kijelentkezés gombra
 - **Elvárt kimenet:** Visszadob a főoldalra, csak a profil fülre való egér rávitellel látjuk, hogy a bejelentkezés funkció megjelent, így kijelentkeztetett minket.
+
+### 2.4. Biztonsági mentés készítése
+
+#### 2.4.1. TC-01
+- **TP:** TP-04
+- **Leírás:**  A biztonsági mentés működésének tesztelése annak biztosítása érdekében, hogy megfelelően funkcionál.
+- **Bemenet:** Nincs
+- **Művelet:** Megvárjuk, hogy elérkezzen az automatikus biztonsági mentés ideje, amely 03:10-kor fog megtörténni anélkül, hogy közbe kellene avatkoznunk.
+- **Elvárt kimenet:** Az időbélyeggel ellátott JSON fájlban megtalálható az összes adat.
 
 ### 2.5. Felhasználó törlése (Admin oldal)
 
@@ -537,6 +546,13 @@ A tesztelési dokumentáció részletesen bemutatja és leírja a Projekttervben
     4. lépés: A Kijelentkezés gombot egyszer megnyomtam.
     5. lépés: Az alkalmazás a főoldalra navigált.
     6. lépés: A munkamenet sikeresen bezárt.
+
+### 3.3. Biztonsági mentés készítése
+
+#### 3.3.1. TR-01(TC-01)
+- **TP:** TP-02
+    1. lépés: Megvártuk, hogy elérkezzen az automatikus biztonsági mentés ideje, amely 03:10-kor történt meg.
+    2. lépés: A biztonsági mentési mappában időbélyegzett JSON fájlokban megtalálhatók az összes adat.
 
 ### 3.5. Felhasználó törlése (Admin oldal)
 
