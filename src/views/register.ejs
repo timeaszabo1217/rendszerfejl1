@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Regisztráció</title>
+    <link rel = "icon" type = "image/x-icon" href = "favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
+    <script src="/js/registerFormValidator.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+    <%- include('header', { current_page: 'register', current_role: current_role }) %>
+    <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+    <main class="user-select-none">
+        <h1>Regisztráció</h1>
+        <form action="/registeruser" method="post" onsubmit="return validateRegistrationForm()">
+            <label for="username">Név: <b>*</b></label>
+            <input type="text" name="username" id="username" required>
+            
+            <label for="email">E-Mail: <b>*</b></label>
+            <input type="email" name="email" id="email" required>
+            
+            <label for="password">Jelszó: <b>*</b></label>
+            <input type="password" name="password" id="password" required>
+            
+            <label for="role">Jogosultság:</label>
+            <select name="role" id="role">
+                <option value="ROLE_USER">Felhasználó</option>
+                <option value="ROLE_ADMIN">Admin</option>
+            </select>
+
+            <input type="submit" value="Regisztráció" class="btn-primary">
+        </form>
+    </main>
+       <footer>
+      <%- include('footer'); %>
+   </footer>
+</body>
+</html>

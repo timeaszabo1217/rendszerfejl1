@@ -1,0 +1,16 @@
+{
+  "userData": [
+    {
+      "user_id": 1,
+      "user_username": "valami",
+      "user_email": "valami@valami.com",
+      "user_passw": "$2a$10$r5kfL55nqthyJoepUZ4QJu5.Pgv4ZgE3G52hC2n0BjOEbFXrN2GDS",
+      "user_role": "ROLE_USER"
+    }
+  ],
+  "articleData": [],
+  "lessonData": [],
+  "userLessonData": [],
+  "emailNotificationData": [],
+  "appointmentData": []
+}

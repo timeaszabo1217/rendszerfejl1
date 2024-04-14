@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>Urbán Csilla - Bejelentkezés</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   <header>
+      <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+      <%- include('header', { current_page: 'login', current_role: current_role }) %>
+      <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+    </header>
+   <main class="user-select-none">
+      <h1>Bejelentkezés</h1>
+      <form action="/loginuser" method="post" onsubmit="return validateLoginForm()">
+         <label>E-Mail:
+         <input type="email" name="email" id="email" required></input>
+         </label>
+         <label>Password:
+         <input type="password" name="password" id="password" required></input>
+         </label>  
+         <input type="submit"  value="Bejelentkezés" class="btn-primary"></input>
+      </form>
+   </main>
+   <footer>
+      <%- include('footer'); %>
+   </footer>
+</body>
+</html>

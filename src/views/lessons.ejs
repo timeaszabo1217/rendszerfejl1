@@ -1,0 +1,42 @@
+<% const current_role=userAuth; %>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Urbán Csilla - Leckék</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/menu.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+      <%- include('header', { current_page: 'lesson' , current_role: current_role}) %>
+      <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+    </header>
+    <main class="user-select-none">
+      <h1>Leckék</h1>
+        <div class="lesson-container">
+          <div class="sidebar">
+            <ul class="lessons-list">
+              <% for (var i = 0; i < lessons.length; i++) { %>
+                <li class="lesson-item">
+                  <a href="/lessons"><%= lessons[i].lesson_name %></a>
+                </li>
+              <% } %>
+            </ul>
+          </div>
+          <div class="lesson-content">
+            <h3><%= lessons[0].lesson_name %></h3>
+            <hr />
+            <p><%= lessons[0].lesson_content %></p>
+          </div>
+        </div>
+    </main>
+    <footer><%- include('footer'); %></footer>
+  </body>
+
+  </html>

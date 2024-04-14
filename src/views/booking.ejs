@@ -1,0 +1,62 @@
+<% const current_role=userAuth; %>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Urbán Csilla - Időpontfoglalás</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico?">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/menu.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header>
+      <img src="assets/img/logo.png" alt="Logo" class="navbar-logo user-select-none">
+      <%- include('header', { current_page: 'booking' , current_role: current_role }) %>
+      <img src="assets/img/plant2.png" alt="Hanging plant" class="plant user-select-none">
+    </header>
+    <main class="user-select-none">
+      <h1>Időpontfoglalás</h1>
+      <div id="booking">
+        <form id="booking-form" action="/submitbooking" method="post">
+          <h3>Elérhető időpontok</h3>
+          <label for="appointment_id">Válassz egy időpontot:</label>
+          <select id="appointment_id" name="appointment_id" required>
+            <% for (var i = 0; i < bookings.length; i++) { %>
+              <% if (!bookings[i].booked) { %>
+                  <% var date = new Date(bookings[i].booking_date); %>
+                  <% var formattedDate = date.getFullYear() + '-' + ('0' + (date.getMonth() + 1)).slice(-2) + '-' + ('0' + date.getDate()).slice(-2) + ' ' + ('0' + date.getHours()).slice(-2) + ':' + ('0' + date.getMinutes()).slice(-2); %>
+                  <option value="<%= bookings[i].appointment_id %>"><%= formattedDate %></option>
+              <% } %>
+          <% } %>
+          </select>
+          <input type="submit" value="Foglalás">
+        </form>             
+      </div>
+      <h1>Lefoglalt időpontok</h1>
+      <% if (booked && booked.length > 0) { %>
+        <table class="center-table">
+          <tr>
+            <th>Időpontok</th>
+          </tr>
+        <% for(var i = 0; i < booked.length; i++) { %>
+          <tr><td><%= new Date(booked[i].booking_date).getFullYear() + '-' + ('0' + (new Date(booked[i].booking_date).getMonth() + 1)).slice(-2) + '-' + ('0' + new Date(booked[i].booking_date).getDate()).slice(-2) + ' ' + ('0' + new Date(booked[i].booking_date).getHours()).slice(-2) + ':' + ('0' + new Date(booked[i].booking_date).getMinutes()).slice(-2) %></td></tr>
+        <% } %>
+    </table>
+    <% } else { %>
+        <h3 class="center-text">Még nincs foglalásod.</h3>
+    <% } %>
+    </main>
+    <footer>
+      <%- include('footer'); %>
+    </footer>
+    <script>
+      document.getElementById('booking-form').addEventListener('submit', function(event) {
+        alert('Sikeres időpontfoglalás!');
+      });
+      </script>
+  </body>
+
+  </html>
