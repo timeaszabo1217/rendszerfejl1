@@ -10,7 +10,6 @@ A jelen projekt során a szoftverfejlesztési fázisokat követve alkalmaztuk a 
 - Nagy Péter
 - Durucz Ádám
 - Kiss Csaba
-- Masa Roland
 
 ## Feladat szöveges leírása
 A projekt során egy olyan weboldalt kell fejlesztenünk, amely lehetővé teszi egy pszichológus számára, hogy bemutassa magát és munkásságát, illetve online tanulási anyagokat, leckéket és cikkeket osszon meg pszichológus hallgatókkal. A felhasználók számára az oldal biztosítja a tanulmányokhoz szükséges forrásokat és lehetőséget ad időpontok foglalására, hogy közvetlenül kapcsolatba léphessenek a pszichológussal. Az oldal egyszerűen navigálható és reszponzív kialakítással készül.
