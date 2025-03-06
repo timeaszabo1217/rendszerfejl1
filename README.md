@@ -1,6 +1,6 @@
 # Rendszerfejlesztés 1
 
-A jelen projekt során a szoftverfejlesztési fázisokat követve alkalmaztuk a megfelelő fejlesztési modelleket, mint az iteratív és inkrementális megközelítést, valamint figyelembe vettük a szoftverkövetelmények és formális specifikációk fontosságát. A projektmenedzsment során a konfigurációkezelést, az emberi erőforrás menedzsmentet és a költségbecslést is alkalmaztuk a hatékony munkafolyamat érdekében.
+A projekt során a szoftverfejlesztési fázisokat követve alkalmaztuk a megfelelő fejlesztési modelleket, mint az iteratív és inkrementális megközelítést, valamint figyelembe vettük a szoftverkövetelmények és formális specifikációk fontosságát. A projektmenedzsment során a konfigurációkezelést, az emberi erőforrás menedzsmentet és a költségbecslést is alkalmaztuk a hatékony munkafolyamat érdekében.
 
 ## Csapattagok
 - Szabó Tímea
